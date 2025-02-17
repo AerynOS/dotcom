@@ -1,0 +1,16 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import ColaborateSection from "@components/sections/misc/ColaborateSection.astro";
+import { schema_web_page } from "@schema_org/index";
+---
+
+<MainLayout
+  title=`Colaborate`
+  structuredData={schema_web_page({
+    path: "/colaborate",
+    name: "Colaborate",
+    description: "Colaborate with us",
+  })}
+>
+  <ColaborateSection />
+</MainLayout>
