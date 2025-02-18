@@ -1,11 +1,14 @@
 ---
+import Icon from '../icons/Icon.astro'
+
 // Destructure the properties from Astro.props
-const { title, url } = Astro.props;
+let { title, url, icon } = Astro.props;
 
 // Define TypeScript interface for the properties
 interface Props {
   title?: string;
   url?: string;
+  icon?: string;
 }
 // Define CSS classes for the hyperlink button
 const baseClasses =
@@ -28,4 +31,5 @@ const darkClasses =
   href={url}
 >
   {title}
+  {icon && <Icon name={icon} />}
 </a>

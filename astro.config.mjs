@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config"
 import tailwind from "@astrojs/tailwind"
 import sitemap from "@astrojs/sitemap"
 // import compressor from "astro-compressor"
+import icon from "astro-icon";
 
 import mdx from "@astrojs/mdx"
 
@@ -22,6 +23,7 @@ export default defineConfig({
   },
   prefetch: true,
   integrations: [
+    icon(),
     tailwind(),
 
     sitemap({

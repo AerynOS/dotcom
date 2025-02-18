@@ -1,14 +1,10 @@
 ---
 //Import relevant dependencies
-import ThemeIcon from "@components/ThemeIcon.astro";
-import NavLink from "@components/ui/links/NavLink.astro";
-import enStrings from "@utils/navigation.ts";
-import BrandLogo from "@components/BrandLogo.astro";
+import ThemeIcon from "@/components/ui/ThemeIcon.astro";
+import NavLink from "@/components/ui/links/NavLink.astro";
+import {NAVBAR_LINKS} from "@/data/constants.ts";
+import BrandLogo from "@/components/ui/BrandLogo.astro";
 
-// Select the correct translation based on the page's lang prop:
-// const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
-// const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
-const strings = enStrings;
 const homeUrl = "/";
 ---
 
@@ -85,7 +81,7 @@ const homeUrl = "/";
         class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-7"
       >
         <!-- Navigation links and Authentication component -->
-        {strings.navBarLinks.map((link : any) => (
+        {NAVBAR_LINKS.map((link : any) => (
           <NavLink url={link.url} name={link.name} />
         ))}
 

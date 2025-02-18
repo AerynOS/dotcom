@@ -1,4 +1,4 @@
-import { SITE } from "@/data_files/constants"
+import { SITE } from "@/data/constants"
 
 export function schema_web_page({
   path,

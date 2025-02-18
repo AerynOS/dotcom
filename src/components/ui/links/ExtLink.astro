@@ -1,0 +1,5 @@
+---
+let {target, ...props} = Astro.props;
+if (!target) target = "_blank";
+---
+<a target={target} rel="noopener noreferrer" {...props}><slot/></a>

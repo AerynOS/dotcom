@@ -1,14 +1,12 @@
 ---
 // Import the necessary dependencies
-import FooterSocialLink from "@components/ui/links/FooterSocialLink.astro";
-import EmailFooterInput from "@components/ui/forms/input/EmailFooterInput.astro";
-import enStrings from "@utils/navigation.ts";
-import Icon from "@components/ui/icons/Icon.astro";
-import BrandLogo from "@components/BrandLogo.astro";
-import { SITE } from "@data/constants";
+import FooterSocialLink from "@/components/ui/links/FooterSocialLink.astro";
+import EmailFooterInput from "@/components/ui/forms/input/EmailFooterInput.astro";
+import Icon from "@/components/ui/icons/Icon.astro";
+import BrandLogo from "@/components/ui/BrandLogo.astro";
+import { COMMUNITY, FOOTER_LINKS, SITE } from "@/data/constants";
 
 // Select the correct translation based on the page's lang prop:
-const strings = enStrings;
 const currentYear = new Date().getFullYear().toString();
 ---
 
@@ -23,7 +21,7 @@ const currentYear = new Date().getFullYear().toString();
       </div>
       <!-- An array of links for Product and Company sections -->
       {
-        strings.footerLinks.map((section) => (
+        FOOTER_LINKS.map((section) => (
           <div class="col-span-1">
             <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
               {section.section}
@@ -68,31 +66,24 @@ const currentYear = new Date().getFullYear().toString();
     >
       <div class="flex items-center justify-between">
         <p class="text-sm text-neutral-600 dark:text-neutral-400">
-          © <span id="current-year">{currentYear}</span> {SITE.title}
+          © <span id="current-year">{currentYear}</span>
+          {SITE.title}
         </p>
       </div>
 
       <!-- Social Brands -->
       <div>
-        <!-- <FooterSocialLink url={strings.socialLinks.facebook}
-          ><Icon name="facebookFooter" />
-        </FooterSocialLink> -->
-
-        <FooterSocialLink url={strings.socialLinks.x}
-          ><Icon name="xFooter" /></FooterSocialLink
-        >
-
-        <FooterSocialLink url={strings.socialLinks.github}
-          ><Icon name="githubFooter" />
-        </FooterSocialLink>
-
-        <!-- <FooterSocialLink url={strings.socialLinks.google}
-          ><Icon name="googleFooter" />
-        </FooterSocialLink> -->
-
-        <!-- <FooterSocialLink url={strings.socialLinks.slack}
-          ><Icon name="slackFooter" />
-        </FooterSocialLink> -->
+        {
+          COMMUNITY.map((community) => (
+            <FooterSocialLink url={community.url}>
+              <Icon
+                size="24"
+                className="text-neutral-700 dark:text-neutral-400"
+                name={community.icon}
+              />
+            </FooterSocialLink>
+          ))
+        }
       </div>
     </div>
 

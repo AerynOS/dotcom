@@ -1,5 +1,5 @@
 ---
-import Icon from "@components/ui/icons/Icon.astro";
+import Icon from "@/components/ui/icons/Icon.astro";
 // Destructure the properties from Astro.props
 const {
   pageTitle,
@@ -15,7 +15,7 @@ interface Props {
 type SocialPlatform = {
   name: string;
   url: string;
-  svg: string;
+  icon: string;
 };
 
 const encoded_url = encodeURIComponent(Astro.url.href);
@@ -24,18 +24,14 @@ const socialPlatforms: SocialPlatform[] = [
   {
     name: "Facebook",
     url: `https://www.facebook.com/sharer/sharer.php?u=${encoded_url}`,
-    svg: "facebook",
+    icon: "tabler:brand-facebook",
   },
   {
     name: "X",
     url: `https://twitter.com/intent/tweet?url=${encoded_url}&text=${pageTitle}`,
-    svg: "x",
+    icon: "tabler:brand-x",
   },
-  {
-    name: "LinkedIn",
-    url: `https://www.linkedin.com/sharing/share-offsite/?url=${encoded_url}&title=${pageTitle}`,
-    svg: "linkedIn",
-  },
+ 
 ];
 ---
 
@@ -47,7 +43,7 @@ const socialPlatforms: SocialPlatform[] = [
     type="button"
     class="hs-dropdown-toggle inline-flex items-center gap-x-2 rounded-lg px-4 py-3 text-sm font-medium text-neutral-600 outline-none ring-zinc-500 transition duration-300 hover:bg-neutral-100 hover:text-neutral-700 focus-visible:ring dark:text-neutral-400 dark:ring-zinc-200 dark:hover:bg-neutral-700 dark:hover:text-neutral-300 dark:focus:outline-none"
   >
-    <Icon name="share" />
+    <Icon name="tabler:share-2" />
 
     {title}
   </button>
@@ -66,7 +62,7 @@ const socialPlatforms: SocialPlatform[] = [
             rel="noopener noreferrer"
             aria-label={`Share on ${platform.name}`}
           >
-            <Icon name={platform.svg} />
+            <Icon name={platform.icon} />
             Share on {platform.name}
           </a>
         ))

@@ -1,0 +1,18 @@
+{{ $group := .Get 0 }}
+{{ $yml_file := path.Join "macros" "actions" $group | printf "%s.yaml" }}
+{{ with resources.Get $yml_file }}
+{{ with . | transform.Unmarshal }}
+
+{{ range $action := .actions }}
+{{ range $name, $props := $action }}
+## `%{{ $name }}`
+{{ $props.description }}
+{{ with $props.example }}
+### Example
+{{ transform.Highlight . "shell" }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ end }}
+{{ end }}

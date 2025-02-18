@@ -1,0 +1,24 @@
+---
+import Heading2 from '@/components/Heading2.astro'
+import Heading3 from '@/components/Heading3.astro'
+
+let { icon, title } = Astro.props;
+
+interface Props {
+    icon: string,
+    title: string,
+}
+
+---
+<section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+  <div class="mx-auto max-w-2xl lg:max-w-5xl">
+    <div class="text-center">
+      <Heading2>
+        {title}
+      </Heading2>
+      <div class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
+        <slot/>
+      </div>
+    </div>
+  </div>
+</section>

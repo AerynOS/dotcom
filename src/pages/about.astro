@@ -1,0 +1,130 @@
+---
+import Cover from "@/components/sections/landing/Cover.astro";
+import Lead from "@/components/sections/landing/Lead.astro";
+import Section from "@/components/sections/landing/Section.astro";
+import RowSection from "@/components/sections/landing/RowSection.astro";
+import Feature from "@/components/sections/landing/Feature.astro";
+import Asciinema from "@/components/ui/Asciinema.astro";
+import { Image } from "astro:assets";
+import gnome_prealpha_dark from "@/images/editions/gnome_prealpha_dark.png";
+
+import { Fragment } from "astro/jsx-runtime";
+import { schema_web_page } from "@/schema_org";
+import MainLayout from "@/layouts/MainLayout.astro";
+import Heading2 from "@/components/Heading2.astro";
+import ExtLink from "@/components/ui/links/ExtLink.astro";
+import DocsLink from "@/components/ui/links/DocsLink.astro";
+const title = "About";
+const description = "Learn more about AerynOS";
+---
+
+<MainLayout
+  title={title}
+  structuredData={schema_web_page({
+    path: Astro.url.pathname,
+    name: title,
+    description: description,
+  })}
+>
+  <Cover title="About"> About AerynOS </Cover>
+
+  <Lead>
+    AerynOS is a modern Linux distribution using atomic updates, cutting-edge
+    tooling and rock-solid reliability. Built by industry veterans with decades
+    of experience, it represents the next evolution in Linux distributions -
+    delivering a safe and efficient system 🐍
+  </Lead>
+
+  <Section>
+    <p>
+      Our fully atomic system leverages the <ExtLink href="https://llvm.org/"
+        >LLVM</ExtLink
+      > toolchain and libc++ by default, delivering superior diagnostics and package
+      diversity. We're not afraid to challenge convention - thoughtfully replacing
+      traditional components with modern alternatives that prioritize safety and
+      reliability.
+    </p>
+    <p>
+      We closely follow the work of organizations dedicated to making software
+      safer, including the <ExtLink href="https://www.memorysafety.org/"
+        >Prossimo project</ExtLink
+      > and their Memory Safety initiative, the <ExtLink
+        href="https://tweedegolf.nl/en">Tweede Golf</ExtLink
+      > team, and the <ExtLink href="https://trifectatech.org/"
+        >Trifecta Tech Foundation</ExtLink
+      >. By monitoring and adopting innovations from these pioneers, we can
+      integrate proven solutions like memory-safe replacements for critical
+      system components.
+    </p>
+    <p>
+      As we continuously evaluate and adopt the best solutions, our
+      architectural decisions enable powerful features like atomic updates that
+      can safely transform your entire system, complete with built-in
+      deduplication and instant rollbacks.
+    </p>
+    <p>
+      This is the future of Linux distribution design, built on a foundation of
+      experience and innovation.
+    </p>
+  </Section>
+
+  <Section>
+    <Heading2>Daily Driver</Heading2>
+    <p>
+      Want a rolling release distribution that just works? We're building
+      AerynOS to be the system that gets out of your way and lets you focus on
+      what matters. Our atomic updates mean you can keep rolling forward without
+      the usual headaches - no manual interventions, no update anxiety. When we
+      say rolling release, we mean it should be as simple as running an update
+      and getting back to work. Join us on this journey as we continuously
+      improve and refine the experience.
+    </p>
+    <Image class="w-full rounded-lg" src={gnome_prealpha_dark} alt="gnome_prealpha_dark" />
+  </Section>
+
+  <RowSection>
+    <Feature icon="fa-solid fa-store" title="Flathub Integration">
+      Get access to thousands of applications right out of the box with built-in
+      <ExtLink href="https://flathub.org">Flathub</ExtLink> support. Install your
+      favourite apps with just a few clicks.
+    </Feature>
+
+    <Feature icon="fa-solid fa-desktop" title="Choice of Modern Desktops">
+      Choose between the clean, intuitive <ExtLink href="https://www.gnome.org/"
+        >GNOME</ExtLink
+      >
+      desktop environment or the innovative
+      <ExtLink href="https://cosmic.system76.com/">COSMIC</ExtLink> desktop. Both
+      combine visual appeal with powerful functionality for an efficient workflow.
+    </Feature>
+
+    <Feature icon="fa-solid fa-code" title="Developer Ready">
+      Get productive fast with built-in tools like <ExtLink
+        href="https://zed.dev/">Zed Editor</ExtLink
+      >",
+      <ExtLink href="https://gitlab.gnome.org/chergert/ptyxis">Ptyxis</ExtLink> terminal,
+      and
+      <ExtLink href="https://starship.rs/">Starship</ExtLink> prompt. We've carefully
+      curated and configured a development environment that just works.
+    </Feature>
+  </RowSection>
+
+  <Section>
+    <Heading2>For Contributors</Heading2>
+
+    <p>
+      Want to be part of something amazing? AerynOS is a community-driven
+      project where everyone can make a meaningful impact. Our powerful yet
+      simple boulder recipes make packaging accessible to newcomers, while our
+      clean stateless design and predictable `/usr` layout helps you understand
+      exactly how changes will impact the system. Whether you're interested in
+      packaging, development, documentation, testing, or community support -
+      check out our <DocsLink>docs</DocsLink> to see how easy it is to
+      join our growing community and help shape the future of Linux
+      distributions. 🛠️
+    </p>
+
+    <Asciinema id="674948" />
+    
+  </Section>
+</MainLayout>

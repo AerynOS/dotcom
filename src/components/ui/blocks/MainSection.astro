@@ -1,6 +1,7 @@
 ---
 // Import PrimaryCTA component
-import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import Heading1 from "@/components/Heading1.astro"
+import PrimaryCTA from "@/components/ui/buttons/PrimaryCTA.astro";
 
 // Destructure the props passed to the Astro component
 const { title, subTitle, btnExists, btnTitle, btnURL } = Astro.props;
@@ -20,11 +21,9 @@ interface Props {
 >
   <div class="max-w-screen-md">
     <!-- Section title -->
-    <h1
-      class="mb-4 text-balance text-4xl font-extrabold tracking-tight text-neutral-800 dark:text-neutral-200"
-    >
+    <Heading1>
       {title}
-    </h1>
+    </Heading1>
     <!-- Section subtitle -->
     <p
       class="mb-8 max-w-prose text-pretty font-normal text-neutral-600 dark:text-neutral-400 sm:text-xl"
