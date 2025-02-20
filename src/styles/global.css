@@ -1,0 +1,82 @@
+/*
+
+force the splash screens to be full width without any padding to allow for full width background images/colors
+
+content blocks in splash pages should use 'splash sections' like <BoxSection> or the wrapper <SplashContent>
+*/
+html:not([data-has-sidebar]) {
+  --original-sl-content-width: var(--sl-content-width);
+  --sl-content-width: 100% !important;
+}
+html:not([data-has-sidebar]) .content-panel {
+  padding: 0;
+}
+/* -- */
+
+
+
+
+
+.splash-content {
+  padding: 1rem;
+  margin-inline: auto;
+  max-width: 80rem;
+  width: calc(var(--original-sl-content-width) +(100% - var(--original-sl-content-width) - var(--sl-sidebar-width)) / 2);
+  text-align: center;
+}
+
+
+
+
+.box-section {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem;
+}
+
+.box-section-row {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+@media (min-width: 1024px) {
+  .box-section-row {
+  flex-direction: row;
+  gap: 5rem;
+  }
+}
+
+.box-section-box {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  margin:0!important;
+
+  text-align: center;
+}
+
+.box-section-outro {
+  padding-top: 2rem;
+}
+.box-section-intro {
+  padding-bottom: 2rem;
+}
+
+.box-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0!important;
+
+}
+.box-subtitle {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0!important;
+}

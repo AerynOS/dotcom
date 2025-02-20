@@ -1,6 +1,0 @@
----
-import { Icon as AstroIcon } from 'astro-icon/components'
-let { size, class : className, ...props } = Astro.props
-if (!size) size = 24
----
-<AstroIcon {...props as any} size={size} class={`flex-shrink-0 fill-current ${className}`} />

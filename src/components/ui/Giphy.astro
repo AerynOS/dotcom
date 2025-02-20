@@ -1,0 +1,15 @@
+---
+
+let { id } = Astro.props;
+
+---
+<iframe
+  src={`https://giphy.com/embed/${id}`}
+  width="480"
+  height="254"
+  style=""
+  frame-border="0"
+  class="giphy-embed"
+  allow-full-screen/>
+<p><a href={`https://giphy.com/gifs/${id}`}>via GIPHY</a></p>
+

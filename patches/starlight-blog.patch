@@ -1,0 +1,17 @@
+diff --git a/libs/content.ts b/libs/content.ts
+index 7e9467ebbdae06ffc76220ad4b24f8942142aa48..43bf2c0b0fa8910593efdd01f51bed83d5984d1f 100644
+--- a/libs/content.ts
++++ b/libs/content.ts
+@@ -103,9 +103,9 @@ export function getBlogEntryMetadata(entry: StarlightBlogEntry, locale: Locale):
+ }
+ 
+ export async function getBlogEntries(locale: Locale): Promise<StarlightBlogEntry[]> {
+-  if (blogEntriesPerLocale.has(locale)) {
+-    return blogEntriesPerLocale.get(locale) as StarlightBlogEntry[]
+-  }
++  // if (blogEntriesPerLocale.has(locale)) {
++  //   return blogEntriesPerLocale.get(locale) as StarlightBlogEntry[]
++  // }
+ 
+   const docEntries = await getCollection('docs')
+   const blogEntries: StarlightEntry[] = []

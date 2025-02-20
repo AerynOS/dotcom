@@ -1,21 +1,10 @@
 // https://docs.astro.build/en/guides/content-collections/#defining-collections
 
-import { z, defineCollection } from 'astro:content'
+import { z, defineCollection, type SchemaContext } from 'astro:content'
 import { glob } from 'astro/loaders'
-
-const blogCollection = defineCollection({
-  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/blog" }),
-  schema: ({ image }) => z.object({
-    title: z.string(),
-    description: z.string(),
-    contents: z.array(z.string()),
-    author: z.string(),
-    role: z.string().optional(),
-    pubDate: z.date(),
-    readTime: z.number(),
-    tags: z.array(z.string()).optional(),
-  }),
-})
+import { blogSchema } from 'starlight-blog/schema'
+import { docsLoader } from '@astrojs/starlight/loaders';
+import { docsSchema } from '@astrojs/starlight/schema';
 
 
 const editionCollection = defineCollection({
@@ -32,6 +21,19 @@ const editionCollection = defineCollection({
 
 
 export const collections = {
-  'blog': blogCollection,
-  'edition': editionCollection,
+  // blog: blogCollection,
+  edition: editionCollection,
+  docs: defineCollection({
+    loader: docsLoader(),
+    schema: docsSchema({
+      extend: (context) => extendDocsSchema(context).merge(blogSchema(context))
+    })
+  }),
+
+}
+
+function extendDocsSchema(context: SchemaContext)  {
+  return z.object({
+    hideTitle: z.boolean().optional(),
+  })
 }
