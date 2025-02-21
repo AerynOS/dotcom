@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   starlight-blog:
-    hash: 2db9ac653ad1450eb0660541e95b80c2a560575899e65c7d7a33aa79943e6da8
+    hash: ee078bec1d9b17450b9603829958945c923a7b32bceb609bba7ec0ef6a02ec89
     path: patches/starlight-blog.patch
 
 importers:
@@ -117,7 +117,7 @@ importers:
         version: 0.1.5
       starlight-blog:
         specifier: ^0.17.2
-        version: 0.17.2(patch_hash=2db9ac653ad1450eb0660541e95b80c2a560575899e65c7d7a33aa79943e6da8)(@astrojs/starlight@0.32.1(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)))(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0))
+        version: 0.17.2(patch_hash=ee078bec1d9b17450b9603829958945c923a7b32bceb609bba7ec0ef6a02ec89)(@astrojs/starlight@0.32.1(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)))(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0))
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -6347,7 +6347,7 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.17.2(patch_hash=2db9ac653ad1450eb0660541e95b80c2a560575899e65c7d7a33aa79943e6da8)(@astrojs/starlight@0.32.1(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)))(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)):
+  starlight-blog@0.17.2(patch_hash=ee078bec1d9b17450b9603829958945c923a7b32bceb609bba7ec0ef6a02ec89)(@astrojs/starlight@0.32.1(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)))(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)):
     dependencies:
       '@astrojs/mdx': 4.0.8(astro@5.3.0(@types/node@22.13.4)(jiti@1.21.7)(rollup@4.34.8)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0))
       '@astrojs/rss': 4.0.11
