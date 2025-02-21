@@ -1,0 +1,55 @@
+---
+import { Image } from "astro:assets";
+import { type CollectionEntry, render } from "astro:content";
+
+import LinkButton from '@/components/ui/LinkButton.astro';
+
+export type Props = {
+  edition: CollectionEntry<"edition">;
+};
+
+let { edition } = Astro.props;
+
+let { Content } = await render(edition);
+---
+
+<section
+  class="mx-auto max-w-[85rem] items-center gap-8 px-4 py-10 sm:px-6 sm:py-16 md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 lg:px-8 lg:py-14 xl:gap-16 2xl:max-w-full"
+>
+  <Image
+    class="w-full rounded-lg"
+    src={edition.data.screenshot}
+    alt={edition.data.screenshot_desc}
+    loading={"eager"}
+  />
+
+  <div class="mt-4 md:mt-0">
+    <h2
+      class="mb-4 text-balance text-4xl font-extrabold tracking-tight text-neutral-800 dark:text-neutral-200"
+    >
+      {edition.data.title}
+      <small class="divide-neutral-300 dark:divide-neutral-700"
+        >{edition.data.version}</small
+      >
+    </h2>
+
+    <div
+      class="mb-4 max-w-prose text-pretty font-normal text-neutral-600 dark:text-neutral-400 sm:text-lg"
+    >
+      <Content />
+    </div>
+
+    <div class="p-12">
+      <LinkButton
+        href={edition.data.url}
+        icon="tabler:download"
+      >Download now</LinkButton>
+
+      <LinkButton
+        variant="secondary"
+        href={edition.data.checksum_url}
+        icon="tabler:checks"
+      >Verify checksum</LinkButton>
+    </div>
+  </div>
+</section>
