@@ -4,11 +4,6 @@ date: 2021-11-23T23:45:06Z
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  It all depends.. it really does. On shared libraries.. interpreters.. `pkg-config` providers
-  and packages. It's the same story for all "package managers", how do we ensure that the
-  installed software has everything it needs at runtime?...
-
 ---
 
 It all depends.. it really does. On shared libraries.. interpreters.. `pkg-config` providers

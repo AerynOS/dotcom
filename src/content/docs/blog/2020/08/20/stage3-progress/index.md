@@ -4,9 +4,6 @@ date: 2020-08-20T14:14:49+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well, it's been a few days since we last spoke, so now it's time for a quick
-  roundup. Long story short, we're approaching the end of the stage3 bootstrap...  
 ---
 
 Well, it's been a few days since we last spoke, so now it's time for a quick

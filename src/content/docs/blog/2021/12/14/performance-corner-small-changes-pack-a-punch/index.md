@@ -4,12 +4,6 @@ date: 2021-12-14T18:14:23+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  Here we have another round of changes to make packages smaller and show just how much we care about performance and
-  efficiency! Today we are focusing mainly on `moss-format` changes to reduce the size of its payloads. The purpose of
-  these changes is to reduce the size of packages, DB storage for transactions and memory usage for `moss`. These changes
-  were made just before we moved out of bootstrap, so we wouldn't have to rebuild the world after changing the format.
-  Lets get started!...
 ---
 
 Here we have another round of changes to make packages smaller and show just how much we care about performance and

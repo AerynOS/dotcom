@@ -5,10 +5,6 @@ draft: false
 authors: [ikey]
 tags: [news]
 featuredImage: "/img/blog/results-of-the-experiment/Featured.webp"
-excerpt: |
-  It seems like only yesterday we announced to the world a Great Experiment.
-  It was in fact 2 months ago, and a whole lot of work has happened since that point. A few take-homes are immediately clear, the primary
-  one being the need to be a community-oriented Linux distribution...
 ---
 
 It seems like only yesterday we announced to the world a [Great Experiment](https://serpentos.com/blog/2020/07/01/the-great-experiment/).

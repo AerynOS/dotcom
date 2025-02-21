@@ -4,12 +4,6 @@ date: 2021-11-05T19:23:32+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  `Performance Corner` is a new series where we highlight to you some changes in Serpent OS that may not be obvious, but
-  show a real improvement. Performance is a broad term that also covers efficiency, so things like making files smaller,
-  making things faster or reducing power consumption. In general things that are unquestionably improvements with little
-  or no downside. While the technical details may be of interest to some, the main purpose is to highlight the real
-  benefit to users and/or developers that will make using Serpent OS a more enjoyable experience. Show me the numbers!...
 ---
 
 `Performance Corner` is a new series where we highlight to you some changes in Serpent OS that may not be obvious, but

@@ -5,11 +5,6 @@ draft: false
 authors: [ikey]
 tags: [news]
 featuredImage: "/img/blog/defining-moss/Featured.webp"
-excerpt: |
-  Over the past few weeks, throughout the entire bootstrap process, we've
-  been deliberating on what our package manager is going to look like. We
-  now have a very solid idea on what that'll be, so it's time for a blog
-  post to share with the community...
 ---
 
 Over the past few weeks, throughout the entire bootstrap process, we've

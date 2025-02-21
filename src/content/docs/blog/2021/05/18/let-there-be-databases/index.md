@@ -4,9 +4,6 @@ date: 2021-05-18T10:31:32+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  We haven't been too great on sharing progress lately, so welcome to an overdue update on
-  timelines, progress, and database related shmexiness...
 ---
 
 We haven't been too great on sharing progress lately, so welcome to an overdue update on

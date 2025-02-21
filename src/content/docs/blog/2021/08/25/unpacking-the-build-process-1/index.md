@@ -5,10 +5,6 @@ draft: false
 authors: [sunnyflunk]
 tags: [news]
 featuredImage: "/img/blog/unpacking-the-build-process-1/Featured.webp"
-excerpt: |
-  While the build process (or packaging as it's commonly referred to) is largely hidden to most users, it forms a
-  fundamental and important aspect to the efficiency of development. In Serpent OS this efficiency also extends to
-  users via source based builds for packages you may want to try/use that aren't available as binaries upstream...
 ---
 
 While the build process (or packaging as it's commonly referred to) is largely hidden to most users, it forms a

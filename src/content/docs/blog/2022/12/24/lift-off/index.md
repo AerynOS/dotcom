@@ -4,14 +4,12 @@ date: 2022-12-24T01:32:04Z
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Enough of this "2 years" nonsense. We're finally ready for lift off. It is with *immense pleasure* we can
-  finally announce that Serpent OS has transitioned from a promise to a deliverable. Bye bye, phantomware!...
-
 ---
 
 Enough of this "2 years" nonsense. We're finally ready for lift off. It is with *immense pleasure* we can
 finally announce that Serpent OS has transitioned from a promise to a deliverable. Bye bye, phantomware!
+
+<!--more-->
 
 ![featured image](Featured.webp)
 

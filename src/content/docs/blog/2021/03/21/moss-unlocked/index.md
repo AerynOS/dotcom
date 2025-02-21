@@ -4,10 +4,6 @@ date: 2021-03-20T14:07:30Z
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well, it's not all doom and gloom these days. We've actually made some
-  significant progress in the last few days, so it seems a good time to
-  share a progress update...
 ---
 
 Well, it's not all doom and gloom these days. We've actually made some

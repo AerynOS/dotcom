@@ -4,11 +4,6 @@ date: 2022-02-11T20:45:12+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  In [Optimising Package Distribution](/blog/2021/03/16/optimising-package-distribution) we discussed some early
-  findings for implementing binary deltas in Serpent OS. While discussing the implementation we have found the
-  requirements to be suboptimal for what we were after. We provide a fresh look at the issue and what we can do to make it
-  useful in almost all situations without the drawbacks...
 ---
 
 In [Optimising Package Distribution](/blog/2021/03/16/optimising-package-distribution) we discussed some early

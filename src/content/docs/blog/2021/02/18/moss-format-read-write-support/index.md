@@ -4,10 +4,6 @@ date: 2021-02-17T22:35:11Z
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  It's been 8 days since our last blogpost and a lot of development work has happened
-  in that time. Specifically, we've completely reworked the internals of the `moss-format`
-  module to support read/write operations.. Which means installation is coming soon (TM)...
 ---
 
 It's been 8 days since our last blogpost and a lot of development work has happened

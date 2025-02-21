@@ -4,12 +4,6 @@ date: 2021-08-02T11:28:24+10:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  With further progress on `boulder`, we can now build native stone packages with some easy tweaks such as profile
-  guided optimizations (PGO) and link time optimizations (LTO). That means we can take a first look at what the
-  performance of the first cut of Serpent OS shows for the future. The tests have been conducted using
-  [`benchmarking-tools`](https://github.com/sunnyflunk/benchmarking-tools) with Serpent OS measured in a `chroot` on
-  the same host with the same kernel and config...
 ---
 
 With further progress on `boulder`, we can now build native stone packages with some easy tweaks such as profile

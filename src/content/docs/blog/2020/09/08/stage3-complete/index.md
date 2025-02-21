@@ -4,11 +4,6 @@ date: 2020-09-07T18:39:24+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Another week, another milestone completed. We're pleased to announce that
-  we've completed the initial Stage3 bootstrap. While we have some parallel
-  works to complete for Stage 4, we can now begin to work on the exciting
-  pieces! We're now bootstrapped on ARMv8(-a) and x86_64...
 ---
 
 Another week, another milestone completed. We're pleased to announce that

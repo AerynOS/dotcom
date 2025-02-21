@@ -4,10 +4,6 @@ date: 2020-09-20T13:48:50+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  The core team have been hard at work lately implementing the Moss package manager.
-  We now have an initial version of the binary format that we're happy with, so we thought we'd share a progress update
-  with you...
 ---
 
 The core team have been hard at work lately implementing the [Moss package manager](https://github.com/serpent-linux/moss).

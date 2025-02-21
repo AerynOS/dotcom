@@ -4,13 +4,6 @@ date: 2022-07-10T11:26:05+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Since the last post, I've pivoted to full time work on Serpent OS, which is
-  made all the more possible thanks to everyone supporting us via [OpenCollective](https://opencollective.com/serpent-os) <3.
-
-  We've been working towards establishing an online infrastructure to support the automation of package **builds**, while
-  revisiting some core components...
-
 ---
 
 Since the last post, I've pivoted to full time work on Serpent OS, which is

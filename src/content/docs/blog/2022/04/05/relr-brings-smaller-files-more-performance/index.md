@@ -5,12 +5,6 @@ draft: false
 authors: [sunnyflunk]
 tags: [news]
 featuredImage: "/img/blog/relr-brings-smaller-files-more-performance/Featured.webp"
-excerpt: |
-  `RELR` is an efficient method of storing relative relocations (but is not yet available in `glibc` upstream). This has a
-  significant reduction on file size often in the vicinity of 5% for libraries and even higher for PIE binaries. We also
-  take a look at the performance impact on enabling `RELR` and that looks really good too! Smaller files with more
-  performance - you **can** have your cake and eat it too!...
-
 ---
 
 `RELR` is an efficient method of storing relative relocations (but is not yet available in `glibc` upstream). This has a

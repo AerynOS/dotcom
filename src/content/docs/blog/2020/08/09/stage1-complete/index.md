@@ -4,10 +4,6 @@ date: 2020-08-08T15:15:04+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Short and sweet, stage1 of the bootstrap is complete. As I indicated on the Lispy Snake blog,
-  I'm still in the process of settling into new accommodation. This is going well, but still awaiting proper
-  broadband connectivity. Work has begun, however, and we're now moving onto stage2 of the bootstrap..
 ---
 
 Short and sweet, stage1 of the bootstrap is complete. As I indicated on the [Lispy Snake](https://lispysnake.com/blog/2020/08/03/status-update/) blog,

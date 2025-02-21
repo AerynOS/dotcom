@@ -5,11 +5,6 @@ draft: false
 authors: [sunnyflunk]
 tags: [news]
 featuredImage: "/img/blog/unpacking-the-build-process-2/Featured.webp"
-excerpt: |
-  Part 2 looks at the core of the build process, turning the source into compiled code. In Serpent OS this is handled by
-  our build tool `boulder`. It is usually the part of the build that takes the longest, so where speed ups have the most
-  impact. How long it takes is largely down to the performance of your compiler and what compile flags you are building
-  with...
 ---
 
 Part 2 looks at the core of the build process, turning the source into compiled code. In Serpent OS this is handled by

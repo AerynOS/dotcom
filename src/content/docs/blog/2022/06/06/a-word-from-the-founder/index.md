@@ -4,9 +4,6 @@ date: 2022-06-06T20:36:51+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well well, it's been a long time since I personally wrote a post.. :) So let's keep
-  this short and sweet, shall we? I'm returning to full time work on Serpent OS...
 ---
 
 Well well, it's been a long time since I personally wrote a post.. :) So let's keep

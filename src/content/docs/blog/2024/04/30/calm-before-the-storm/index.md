@@ -4,9 +4,6 @@ date: 2024-04-30T22:46:17+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  It's that time of month again, and we have some details to share with you on boot management, as well as plans for real installs
-  landing in May. Additionally, plans for "deferred updates" via mandatory reboots have been dropped!..
 ---
 
 It's that time of month again, and we have some details to share with you on boot management, as well as plans for real installs

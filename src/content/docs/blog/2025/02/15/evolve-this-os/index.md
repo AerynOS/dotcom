@@ -3,11 +3,10 @@ title: Evolve This OS
 date: 2025-02-14T23:25:37Z
 authors: [ikey]
 tags: [news]
-excerpt: |
-  A long overdue, and highly requested update today. We're finally rebranding the project!..
 ---
 
 A long overdue, and highly requested update today. We're finally rebranding the project!
+
 
 ## 🤔 Why the change?
 
@@ -15,6 +14,8 @@ The "Serpent OS" name was a quickly chosen name that stuck. Unfortunately "serpe
 negative connotations, and we've had a lot of feedback over the years that the name was off-putting. Let's be completely
 honest, it's not the most inviting name for a project. Who wants to trust a serpent? Generally speaking they're considered
 dangerous at best.
+
+<!--more-->
 
 It's fair to say we've spent a long time in prototype and alpha phases. In order to move forward, our identity needs
 to be more befitting of the project we're building. A move into the real world. This isn't a hobby project, it's a full

@@ -4,9 +4,6 @@ date: 2024-03-31T23:56:54+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I'm happily back at the desk to bring you up to date with the
-  latest goings in Serpent OS. TLDR: Loads of awesome, baremetal is enabled, ISO cycle in next couple of weeks...
 ---
 
 Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I'm happily back at the desk to bring you up to date with the

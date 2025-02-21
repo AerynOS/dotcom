@@ -4,10 +4,6 @@ date: 2020-07-06T16:12:07+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Recently we did reveal on Twitter that long time friend and colleague-of-many-projects, Peter O'Connor, has formally joined the core team for
-  Serpent OS. Many of you know him as `sunnyflunk`. He will be working on core toolchain optimisations, benchmarking, and eventually Plasma inclusion...
-
 ---
 
 Recently we did reveal on Twitter that long time friend and colleague-of-many-projects, Peter O'Connor, has formally joined the core team for

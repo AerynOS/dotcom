@@ -4,10 +4,6 @@ date: 2020-07-01T19:39:56+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  So as many have come to realise, we had to rush out a website super quick yesterday as the cat
-  was already out of the bag. One thing that should also be clarified, is our approach to development...
-
 ---
 
 So as many have come to realise, we had to rush out a website super quick yesterday as the cat

@@ -4,10 +4,6 @@ date: 2023-03-18T23:20:55+00:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  After many months and much work, our infrastructure is [finally online](https://dash.serpentos.com).
-  We've had a few restarts, but it's now running fully online with 2 builders, ready to serve builds
-  around the clock...
 ---
 
 After many months and much work, our infrastructure is [finally online](https://dash.serpentos.com).

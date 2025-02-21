@@ -4,10 +4,6 @@ date: 2021-03-16T22:19:12Z
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  Getting updates as fast as possible to users has made deltas a popular and sought after feature for distributing
-  packages. Over the last couple of days, I've been investigating various techniques we can look at to support deltas in
-  `moss`...
 ---
 
 Getting updates as fast as possible to users has made deltas a popular and sought after feature for distributing

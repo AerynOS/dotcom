@@ -5,10 +5,6 @@ draft: false
 authors: [ikey]
 tags: [news]
 featuredImage: "/img/blog/moss-db-progress/Featured.webp"
-excerpt: |
-  I'll try to make this update as brief as I can but it's certainly an important one, so
-  let's dive right into it. The last few weeks have been rough but work on our package manager
-  has still been happening. Today we're happy to reveal another element of the equation: moss-db...
 ---
 
 I'll try to make this update as brief as I can but it's certainly an important one, so

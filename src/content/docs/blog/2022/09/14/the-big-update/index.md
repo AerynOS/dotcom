@@ -4,9 +4,6 @@ date: 2022-09-14T12:55:04+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well - we've got some big news! The past few weeks have been an incredibly busy
-  time for us, and we've hit some major milestones...
 ---
 
 Well - we've got some big news! The past few weeks have been an incredibly busy

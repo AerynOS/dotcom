@@ -4,10 +4,6 @@ date: 2024-02-29T18:32:35+00:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  This update came a little later in the month, as we've got a lot of exciting news to share.
-  Everything from `boulder` in Rust, to the GNOME 45 Desktop complete with `moss triggers` built
-  atop a rebootstrapped toolchain...
 ---
 
 This update came a little later in the month, as we've got a lot of exciting news to share.

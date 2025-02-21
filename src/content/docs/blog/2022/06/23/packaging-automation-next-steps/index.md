@@ -4,12 +4,6 @@ date: 2022-06-22T17:23:14+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Hot damn we've been busy lately. No, [really](https://gitlab.com/groups/serpent-os/-/activity).
-  The latest development cycle saw us focus exclusively on `boulder`, our build tooling. As of
-  today it features a proof of concept `boulder new` subcommand for the automatic generation of
-  packaging templates from an upstream source (i.e. tarball)...
-
 ---
 
 Hot damn we've been busy lately. No, [really](https://gitlab.com/groups/serpent-os/-/activity).

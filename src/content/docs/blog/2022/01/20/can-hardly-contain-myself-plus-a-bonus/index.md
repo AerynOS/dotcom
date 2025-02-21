@@ -4,10 +4,6 @@ date: 2022-01-20T18:08:07+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  One of the core steps for building a package is setting up a minimal environment with only the required (and stated)
-  dependencies. Currently we have been building our stones in an `systemd-nspawn` container, where the root contains every
-  package that's been built so far. This makes the environment extremely difficult to reproduce!...
 ---
 
 One of the core steps for building a package is setting up a minimal environment with only the required (and stated)

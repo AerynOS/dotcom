@@ -5,9 +5,6 @@ draft: false
 authors: [sunnyflunk]
 tags: [news]
 ## featuredImage: "/img/blog/boulder-keeps-on-rolling/Featured.webp"
-excerpt: |
-  Squirrelling away in the background has been some great changes to bring `boulder` closer to its full potential. Here's
-  a quick recap of some of the more important ones...
 ---
 
 Squirrelling away in the background has been some great changes to bring `boulder` closer to its full potential. Here's

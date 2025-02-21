@@ -3,17 +3,6 @@ title: Alpha Refresh Available
 date: 2024-12-29T16:45:48Z
 authors: [ikey]
 tags: [news]
-excerpt: |
-  In response to feedback from the community, we're issuing a refresh of the Alpha 1 release, `0.24.6`. This refresh includes a number of key updates and improvements, including:
-
-  - Now works with etcher
-  - Fractional scaling enabled by default
-  - Prebuild icon theme caches to speed up trigger execution (except for `hicolor`)
-  - Add new `moss boot status` command for introspection into [blsforme](https://github.com/serpent-os/blsforme) functionality
-  - Fix amdgpu initialisation for older devices, previously leading to black screen on boot
-  
-  ...
-
 ---
 
 In response to feedback from the community, we're issuing a refresh of the Alpha 1 release, `0.24.6`. This refresh includes a number of key updates and improvements, including:
@@ -23,6 +12,8 @@ In response to feedback from the community, we're issuing a refresh of the Alpha
  - Prebuild icon theme caches to speed up trigger execution (except for `hicolor`)
  - Add new `moss boot status` command for introspection into [blsforme](https://github.com/serpent-os/blsforme) functionality
  - Fix amdgpu initialisation for older devices, previously leading to black screen on boot
+
+<!--more-->
 
 ![Fractional scaling, much loved](featured-background.png)
 

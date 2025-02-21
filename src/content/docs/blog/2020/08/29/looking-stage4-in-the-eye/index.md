@@ -4,10 +4,6 @@ date: 2020-08-28T21:35:16+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well, we've made an awful lot of progress in these last few days. It wasn't
-  that long ago that we introduced some of the new projects required to get
-  stage3 off the ground...
 ---
 
 Well, we've made an awful lot of progress in these last few days. It wasn't

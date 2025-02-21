@@ -3,15 +3,6 @@ title: Offline Rollbacks Enabled
 date: 2025-01-04T22:19:37Z
 authors: [ikey]
 tags: [news]
-excerpt: |
-  If a picture tells a thousand words... well then this video .. Yknow what, sod it.
-  Here's a video of the offline rollback support in action, as tested in a newly installed
-  VM using `xfs` for the root filesystem. We jokingly refer to this as the "LTT" test due
-  to LinusTechTips' "interesting encounters" with package management systems in the past.
-
-  This has already landed in our volatile repository, so simply `sudo moss sync -u` and grab
-  the latest updates. Any subsequent transactions will automatically generate the boot entries
-  for you, no intervention required. Or mounting. Or anything. Just update and go. Srsly...
 ---
 import YouTube from '@/components/ui/YouTube.astro';
 import Kofi from '@/components/ui/Kofi.astro';
@@ -35,8 +26,7 @@ like removal of the GNOME desktop environment.
 The intent is to ensure a user can quickly revert to the last transaction that worked in the
 instance an update goes awry, without needing to boot into a rescue environment or live CD.
 
-{/* <!--more--> */}
-
+<more></more>
 
 ### Like what we're doing?
 

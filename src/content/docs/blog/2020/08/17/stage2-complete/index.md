@@ -4,10 +4,6 @@ date: 2020-08-16T15:08:08+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Just in case you thought we were sleeping behind the wheel, we've got
-  another blogpost for your viewing pleasure. In a nutshell, we completed
-  stage2 bootstrap...
 ---
 
 Just in case you thought we were sleeping behind the wheel, we've got

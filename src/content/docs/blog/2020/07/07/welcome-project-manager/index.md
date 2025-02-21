@@ -4,15 +4,13 @@ date: 2020-07-07T11:35:50+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  The Serpent OS team wishes to formally welcome Aydemir Ulaş Şahin to the core team in the primary
-  capacity of Project Manager. Aydemir will help us to coordinate and manage the project goals and
-  infrastructure, being responsible for certain "keys to the kingdom"...
 ---
 
 The Serpent OS team wishes to formally welcome Aydemir Ulaş Şahin to the core team in the primary
 capacity of Project Manager. Aydemir will help us to coordinate and manage the project goals and
 infrastructure, being responsible for certain "keys to the kingdom".
+
+<!--more-->
 
 Aydemir has extensive experience with Linux, both as a user and developer, having worked in the
 media industry for many years. Additionally he will be contributing to the core system, code

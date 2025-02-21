@@ -4,10 +4,6 @@ date: 2023-04-21T22:12:56+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  We had intended to get a blog post out a little bit quicker, but the last month has been extremely
-  action packed. However, it has paid off immensely. As our friends at Solus [recently announced](https://getsol.us/2023/04/18/a-new-voyage/)
-  it is time to embark on a new voyage...
 ---
 
 We had intended to get a blog post out a little bit quicker, but the last month has been extremely

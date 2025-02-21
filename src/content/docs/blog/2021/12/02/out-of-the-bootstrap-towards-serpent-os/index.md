@@ -4,11 +4,6 @@ date: 2021-12-02T18:07:12+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  The initial `stone` packages that will seed the first Serpent OS repo have now been finalized! This means that work
-  towards setting up the infrastructure for live package updates begins now. We plan on taking time to streamline the
-  processes with a focus of fixing issues at the source. In this way we can make packaging fast and efficient so we can
-  spend time working on features rather than package updates...
 ---
 
 The initial `stone` packages that will seed the first Serpent OS repo have now been finalized! This means that work

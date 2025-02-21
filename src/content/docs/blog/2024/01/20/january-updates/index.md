@@ -4,14 +4,6 @@ date: 2024-01-19T22:54:07+00:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Precisely one month since our end of year summary, so, what have we been up to?
-  With a new year, a new start was long overdue. We're pleased to announce that we've
-  finally shifted our butts over to our own server (again).
-
-  While this isn't quite as chunky a news update as the last post, we rather hope you appreciate
-  the regularity of the news...
-
 ---
 
 Precisely one month since our end of year summary, so, what have we been up to?

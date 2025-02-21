@@ -4,12 +4,6 @@ date: 2021-10-04T16:49:12+11:00
 draft: false
 authors: [sunnyflunk]
 tags: [news]
-excerpt: |
-  File locality in this post refers to the order of files in our content payload. Yes that's right, we're focused on the
-  small details and incremental improvements that combined add up to significant benefits! All of this came about from
-  testing the efficiency of content payload in `moss-format` and how well it compared against a plain tarball. One day
-  `boulder` was looking extremely inefficient and then retesting the following day was proving to be extremely efficient
-  without any changes made to `boulder` or `moss-format`. What on Earth was going on?...
 ---
 
 File locality in this post refers to the order of files in our content payload. Yes that's right, we're focused on the

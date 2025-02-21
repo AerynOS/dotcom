@@ -4,10 +4,6 @@ date: 2020-09-21T16:09:46+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Following quickly on the heels of yesterday's announcement that the binary format has been defined, we've
-  now implemented the initial version of our source format. The source format provides metadata on a package
-  along with instructions on how to build the package...
 ---
 
 Following quickly on the heels of yesterday's announcement that the binary format has been defined, we've

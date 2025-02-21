@@ -4,14 +4,6 @@ date: 2023-09-06T18:32:47+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Allow me to start this post by stating something very important to me: I absolutely love the
-  D programming language, along with the expressivity and creative freedom it brings. Therefore
-  please do not interpret this post as an assassination piece.
-
-  For a number of months now the Serpent OS project has stood rather still. While this could naively
-  be attributed to our shared plans with [Solus](https://getsol.us) - a deeper, technical issue is
-  to be acredited...
 ---
 
 Allow me to start this post by stating something very important to me: I absolutely love the

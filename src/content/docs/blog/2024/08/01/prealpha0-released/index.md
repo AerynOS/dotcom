@@ -4,8 +4,6 @@ date: 2024-08-01T01:18:07+00:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Well, it didn't take us that long, **really** ... Our technical preview, *prealpha0*, is now available for testing!...
 ---
 
 Well, it didn't take us that long, **really** ... Our technical preview, *prealpha0*, is now available for testing!

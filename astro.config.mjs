@@ -5,6 +5,7 @@ import sitemap from "@astrojs/sitemap"
 import icon from "astro-icon"
 import starlight from '@astrojs/starlight'
 import starlightBlog from 'starlight-blog'
+import markdownIntegration from '@astropub/md'
 
 import mdx from "@astrojs/mdx"
 
@@ -25,6 +26,7 @@ export default defineConfig({
   // },
   prefetch: true,
   integrations: [
+    markdownIntegration(),
     icon(),
     // tailwind(),
     starlight({

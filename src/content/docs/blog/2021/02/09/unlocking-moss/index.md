@@ -5,10 +5,6 @@ draft: false
 authors: [ikey]
 tags: [news]
 featuredImage: "/img/blog/unlocking-moss/Featured.webp"
-excerpt: |
-  Wait, what? Another blog post? In the same WEEK? Yeah totally doing that
-  now. So, this is just another devlog update but there have been some interesting
-  updates that we'd like to share...
 ---
 
 Wait, what? Another blog post? In the same WEEK? Yeah totally doing that

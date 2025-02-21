@@ -3,11 +3,11 @@ title: Investing in the Future
 date: 2024-12-31T14:00:11Z
 authors: [ikey]
 tags: [news]
-excerpt: |
-  Here we are, at the end of 2024, and what a year it's been! We've made significant progress on Serpent OS, and we're excited to share some of the highlights with you...
 ---
 
 Here we are, at the end of 2024, and what a year it's been! We've made significant progress on Serpent OS, and we're excited to share some of the highlights with you.
+
+<!--more-->
 
 ## Attained Alpha
 

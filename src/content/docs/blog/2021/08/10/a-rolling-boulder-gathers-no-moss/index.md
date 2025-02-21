@@ -4,10 +4,6 @@ date: 2021-08-10T12:02:37+01:00
 draft: false
 authors: [ikey]
 tags: [news]
-excerpt: |
-  We actually did it. Super pleased to announce that `moss` is now capable
-  of installing and removing packages. Granted, super rough, but gotta start
-  somewhere right...
 ---
 
 We actually did it. Super pleased to announce that `moss` is now capable
