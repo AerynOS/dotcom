@@ -1,0 +1,15 @@
+---
+const { id } = Astro.props;
+
+// Define TypeScript interface for props
+interface Props {
+  id: string,
+}
+---
+<script async
+  id={`asciicast-${id}`}
+  src={`https://asciinema.org/a/${id}.js`}
+  data-theme="solarized-dark"
+  data-autoplay="1"
+  data-loop="1"
+  data-rows="10"></script>

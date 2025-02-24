@@ -1,0 +1,20 @@
+---
+import type { ImageMetadata } from "astro"
+import { Image } from "astro:assets";
+
+interface Props {
+  image: ImageMetadata;
+  caption: string;
+}
+const { image, caption } = Astro.props;
+---
+
+<figure>
+  <Image 
+    loading={"eager"}
+    src={image}
+    alt={caption}
+    width={1024}
+  />
+  <figcaption>{caption}</figcaption>
+</figure>

@@ -1,0 +1,90 @@
+---
+title: Aeryn OS
+description: Redefining Linux for the modern era
+
+# want to use custom layout for this page
+
+# disable docs sidebar
+template: splash
+
+# disable pagination
+next: false
+prev: false
+
+# hide default h1
+hideTitle: true
+---
+import { Badge } from '@astrojs/starlight/components';
+
+import Asciinema from "@/components/ui/Asciinema.astro";
+import Icon from "@/components/ui/Icon.astro";
+import Card from "@/components/ui/Card.astro";
+import LinkButton from '@/components/ui/LinkButton.astro';
+
+import SplashContent from '@/components/splash/SplashContent.astro';
+import BoxSection from '@/components/splash/BoxSection.astro';
+import BoxSectionBox from '@/components/splash/BoxSectionBox.astro';
+import BoxSectionOutro from '@/components/splash/BoxSectionOutro.astro';
+
+<SplashContent>
+  <h1>AerynOS</h1>
+
+  Redefining Linux for the modern era
+
+  <div class="sl-flex" style="justify-content: center;">
+    <LinkButton href="/about" icon="fa6-solid:circle-arrow-right">About</LinkButton>
+    <LinkButton href="/download" variant="secondary" icon="fa6-solid:download">Download</LinkButton>
+    <LinkButton href="/sponsor" variant="secondary" iconPlacement="end" icon="fa6-solid:heart">Sponsor</LinkButton>
+  </div>
+
+  Status: <Badge text="Alpha 1 (v0.24.6)" /> is now [available](/blog/2024/12/29/alpha-refresh-available/)!
+
+
+  Want to invest in the future of AerynOS? [Find out how](/blog/2024/12/31/investing-in-the-future/)
+
+</SplashContent>
+
+<BoxSection>
+  <BoxSectionBox icon="fa6-solid:bolt" title="Lightning Fast Performance">
+    Built from the ground up with performance in mind, featuring optimized compilation settings and efficient system architecture.
+  </BoxSectionBox>
+  <BoxSectionBox icon="fa6-solid:shield-halved" title="Rock-Solid Stability">
+    Atomic updates and stateless design ensure your system remains reliable and recoverable, even after interrupted updates.
+  </BoxSectionBox>
+  <BoxSectionBox icon="fa6-solid:user-check" title="User-Friendly Experience">
+    Modern desktop experience with sane defaults and thoughtful integration, making Linux accessible without compromising on power.
+  </BoxSectionBox>
+</BoxSection>
+
+
+<SplashContent>
+  ## Changing how we distribute Linux
+
+  Get live atomic updates that let you see changes immediately - our architecture doesn't require reboots
+  just to apply updates. While certain updates like kernels will still need a reboot, we've combined proven 
+  concepts into a cohesive system where updates either fully complete or safely roll back, keeping your 
+  system running reliably.
+
+  <Asciinema id="676811"/>
+
+</SplashContent>
+
+
+<BoxSection>
+  <BoxSectionBox icon="fa6-solid:box-archive" title="moss" subTitle="Package Management">
+    Our [atomic package manager](/tooling/moss) swaps the entire /usr directory during system 
+    updates, ensuring a stateless, bulletproof upgrade process. Updates either succeed completely or not at all.
+  </BoxSectionBox>
+  <BoxSectionBox icon="fa6-solid:trowel" title="boulder" subTitle="Build System">
+    [Lightning-quick package building](/tooling/boulder) with powerful caching and a familiar 
+    YAML-based recipe format. Designed for scalability and consistent distro-wide builds.
+  </BoxSectionBox>
+  <BoxSectionBox icon="fa6-solid:hard-drive" title="blsforme" subTitle="Boot Management">
+    [Automated boot management that just works](https://github.com/AerynOS/blsforme). 
+    Seamlessly handles your EFI System Partition and boot entries without manual intervention.
+  </BoxSectionBox>
+  <BoxSectionOutro slot="outro">
+    These are just some highlights of our tooling. [Discover our full suite of tools](/tooling), 
+    including the Lichen installer and more.
+  </BoxSectionOutro>
+</BoxSection>
