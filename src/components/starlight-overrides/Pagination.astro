@@ -1,0 +1,6 @@
+---
+import Default from '@astrojs/starlight/components/Pagination.astro';
+// the blog has its own pagination built in, so disable the default pagination on blog pages
+let isBlogPage = Astro.url.pathname.startsWith('/blog');
+---
+{!isBlogPage && <Default {...Astro.props}>slot</Default>}

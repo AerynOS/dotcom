@@ -1,0 +1,6 @@
+---
+import { Icon as AstroIcon } from 'astro-icon/components'
+let { size, ...props } = Astro.props
+if (!size) size = 24
+---
+<span style="display: inline-block"><AstroIcon {...props as any} size={size}/></span>

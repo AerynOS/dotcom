@@ -1,0 +1,25 @@
+---
+import Icon from "@/components/ui/Icon.astro"
+
+const { icon, subTitle, title } = Astro.props
+
+interface Props {
+  icon: string
+  title: string
+  subTitle?: string
+}
+---
+<div class="box-section-box">  
+  <div>
+    <Icon name={icon} size="44"/>
+  </div>
+  <div class="box-title">
+    <Fragment set:html={title}/>
+  </div>
+
+  {subTitle && <div class="box-subtitle">
+    <Fragment set:html={subTitle}/>
+  </div>}
+
+  <slot/>
+</div>
