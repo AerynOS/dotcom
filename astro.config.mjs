@@ -37,8 +37,9 @@ export default defineConfig({
     starlight({
       title: "AerynOS",
       logo: {
-        src: '@/images/logo.svg',
-        replacesTitle: false,
+        dark: '@/images/logo.svg',
+        light: '@/images/logo-light-mode.svg',
+        replacesTitle: true,
       },
       sidebar: [
         { slug: '' },
