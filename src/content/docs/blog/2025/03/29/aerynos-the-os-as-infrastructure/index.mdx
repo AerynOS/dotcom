@@ -33,8 +33,10 @@ and others, we set out to build things the hard way, in order to make them easy.
 At the very core, is the decision to not be another GNU/Linux distribution. We default to the LLVM toolchain, using `libc++`
 and `compiler-rt` by default. This isn't just a case of "we like LLVM", but rather a strategic decision to leverage the
 superior diagnostics, and ensure correctness / portability of packages. Whilst in our very early stages a few years ago
-we did *trial* `musl`, we do default to `glibc` for compatibility reasons. We're here to build a working, usable system,
-for a multitude of use cases and verticals.
+we did *trial* `musl`, we do default to `glibc` for compatibility reasons and its superior performance characteristics.
+The performance advantage of glibc over musl is well-documented, particularly for compute-intensive workloads and applications
+requiring optimal threading performance. We're here to build a working, usable system, for a multitude of use cases and verticals,
+and glibc provides the best balance of compatibility and performance.
 
 Note, we do still package `gcc` and it's trivial to enforce its use in a package recipe by setting the `toolchain` field
 in `stone.yaml` to `gnu`.
