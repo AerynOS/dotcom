@@ -76,7 +76,7 @@ join. Thus, using drop-ins in `/usr/lib/userdb`, most accounts are defined and m
 `gdm`, `polkit`, `colord`, and many others.
 
 For the other cases, we utilise `systemd-sysusers` using snippets in `/usr/lib/sysusers.d` to create the necessary system accounts.
-In time, when GNOME and other desktops (as well as shadow et all) are more adapted to `userdb` and `systemd-homed`, we won't need to rely
+In time, when GNOME and other desktops (as well as shadow et al.) are more adapted to `userdb` and `systemd-homed`, we won't need to rely
 so much on `sysusers`. The goal of course is elimination of `/etc/passwd` and `/etc/group` entirely, facilitating quicker recovery,
 provisioning, etc. For now some packages will ship sysusers-based groups, ie `docker` group, etc.
 
@@ -94,7 +94,7 @@ transaction. The tooling will discover the EFI System Partition (ESP), and mount
 the relevant BLS entries, and the kernel/initramfs. Additionally it will automatically garbage collect older entries, currently retaining 5 of the last
 transactions.
 
-Its not just a case of copy/paste and hope for the best. We dynamically produce the root parameters for the kernel command line by directly reading the
+It's not just a case of copy/paste and hope for the best. We dynamically produce the root parameters for the kernel command line by directly reading the
 superblocks (natively, in Rust) of the devices all the way up the chain for the root filesystem. It means there's no configuration file anywhere in AerynOS
 containing your `root=` parameter, and we're even able to read LUKS2 encrypted devices to add the `rd.luks.uuid` parameter.
 
@@ -159,17 +159,17 @@ along with system trigger execution and boot management updates.
 
 ## 🔮 The Future
 
-All of this is just the start. It's taken a few years, and perhaps now its clear **why**. We've not even covered our package build tool, `boulder`,
+All of this is just the start. It's taken a few years, and perhaps now it's clear **why**. We've not even covered our package build tool, `boulder`,
 or indeed our build infrastructure! With that said, lets skip forward a short while and see what's coming down the pipe.
 
 ### 🌍 Beyond the distro model
 
 To reiterate, we **emulate** imperative package management. And to be honest, it's totally pointless. It actually introduces
-more bugs than it solves. Given that we produce a new rootfs every transaction, we could just as easily produce an entirely
+more bugs than it solves. Given that we produce a new rootfs for every transaction, we could just as easily produce an entirely
 new graph each time too.
 
 That's exactly what we're planning to do. In a similar vein to Gentoo or Nix, the intent is a global file to explicitly state
-the *desired* state of the system, whilst the tooling will simplify fulfil it based on the moss plugin cascade. Whilst we have
+the *desired* state of the system, whilst the tooling will simply fulfil it based on the moss plugin cascade. Whilst we have
 no intention of conflating state and configuration, we will in time extend this system model to support **variants** of packages
 in order to provide a kind of "slots" system, and to implement a richer, saner alternative to the infamous `update-alternatives`.
 
@@ -184,7 +184,7 @@ so local changes won't persist and recovery is immediately available. However, w
 
 Having produced a composition-first, developer&user friendly atomic update implementation, we want to take this further in order to also
 support immutability without compromise: no unnecessary reboots. To do so we'll implement something *similar* to [composefs](https://github.com/composefs/composefs),
-without the drawbacks. Using the same tranaction driven approach we have now, we'll simply produce an `erofs` metadata image dynamically instead
+without the drawbacks. Using the same transaction driven approach we have now, we'll simply produce an `erofs` metadata image dynamically instead
 of the exploded filesystem tree. Utilising `trusted.overlay.redirect` xattr, and an `overlayfs` mount, we'll expose our own CAS through the
 layouts in `erofs`, and also support `fsverity` hashes. Icing on the cake? We'll leverage mount stacks to retain our composition-first, no
 unnecessary reboot ethos.
