@@ -4,7 +4,6 @@ date: 2025-06-30T21:37:00Z
 authors: [nomadiccore,ermo]
 tags: [news]
 ---
-import Kofi from "@/components/ui/Kofi.astro";
 
 As we hit the middle of the year, it's time for another update for those of you following along with AerynOS's development.
 
@@ -112,7 +111,7 @@ Once this script has been sufficiently productized, the next time existing users
 
 The exact number will vary from system to system depending on how many other packages are installed from the repository but for context, on a base AerynOS GNOME install, this is around 500 packages.
 
-In the meantime, we have created a manual guide on how to transition existing installs to the new repository in our GitHub Discussions forum [here](https://github.com/orgs/AerynOS/discussions/53). The process is fairly simple, but if you do have any issues transitioning manually, do get in touch via a GitHub Discussions post or via [Matrix](https://matrix.to/#/#aerynos:matrix.org).
+In the meantime, we have created a manual guide on how to transition existing installs to the new repository in our GitHub Discussions forum [here](https://github.com/orgs/AerynOS/discussions/53). The process is fairly simple, but if you do have any issues transitioning manually, do get in touch via a comment under the GitHub Discussions [post](https://github.com/orgs/AerynOS/discussions/53) or via [Matrix](https://matrix.to/#/#aerynos:matrix.org).
 
 ### Content Delivery Network for Packages and ISOs
 
