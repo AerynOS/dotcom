@@ -75,7 +75,7 @@ The full rebuild of the recipes repository has also served to ensure ABI sanity 
 
 A special thanks goes to Reilly Brogan, who worked diligently with ermo to not only drive the rebuild process, but also to ensure that some longstanding repository issues were corrected as part of the rebuild process. 
 
-During this process, we have delivered updates to our os-tools (Boulder and Moss), toolchains and build systems. A selection of the updates and addition include (but is certainly not limited to):
+During this process, we have delivered updates to our os-tools (Boulder and Moss), toolchains and build systems. A selection of the updates and additions include (but is certainly not limited to):
 
 - Linux 6.14.11 (6.15.x on the way)
 - LLVM 20.1.7
