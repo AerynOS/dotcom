@@ -66,15 +66,19 @@ export default defineConfig({
           authors: {
             ikey: {
               name: 'Ikey',
-              title: 'Ikey',
+              title: 'Founder',
             },
             sunnyflunk: {
               name: 'SunnyFlunk',
-              title: 'SunnyFlunk',
+              title: 'Distro Engineer',
             },
             ermo: {
               name: 'Ermo',
-              title: 'Ermo',
+              title: 'Co-founder',
+            },
+            nomadiccore: {
+              name: 'NomadicCore',
+              title: 'Comms',
             },
           },
         }),
