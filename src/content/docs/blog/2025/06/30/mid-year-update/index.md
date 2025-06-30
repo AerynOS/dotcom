@@ -103,7 +103,7 @@ As mentioned earlier, the testing work was [conducted](https://github.com/orgs/A
 
 This was a conscious decision to ensure that the mostly untested packages built during the infrastructure testing process did not reach end users immediately. Even though AerynOS is in Alpha and under continuous development, we still do our best not to break user systems if we can avoid it!
 
-Now that we have a level of testing in place, with this blog post, we are announcing a new rolling `unstable` package repository for users. The old `volatile` package repository has received one final update to Mossthat fixes an important bug when transitioning to the new `unstable` repository.
+Now that we have a level of testing in place, with this blog post, we are announcing a new rolling `unstable` package repository for users. The old `volatile` package repository has received one final update to Moss that fixes an important bug when transitioning to the new `unstable` repository.
 
 To ease the transition to the new repository for existing users, we are working on a script that can automatically modify the active repository on the system.
 
