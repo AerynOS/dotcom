@@ -131,7 +131,7 @@ The next part of this blog post is going to be a brief outline of where we are g
 
 ### Versioned Repositories
 
-With the transition to the new infrastructure and the new `unstable` repository, we have been freed up to begin planning out the necessary steps to be able to deliver versioned repositories and versioned Mossformat upgrades.
+With the transition to the new infrastructure and the new `unstable` repository, we have been freed up to begin planning out the necessary steps to be able to deliver versioned repositories and versioned Moss format upgrades.
 
 These topics have been mentioned in a previous blog [post](https://aerynos.com/blog/2025/02/06/hello-2025/#-versioned-repositories).
 
