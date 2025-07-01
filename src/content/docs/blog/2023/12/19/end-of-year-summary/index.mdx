@@ -172,7 +172,7 @@ to our repository. Our workflow means that maintainers only have to merge a pull
 ### Legacy tooling
 
 Despite having some warts, the build infrastructure is still able to use legacy `moss` and `boulder` to make our new builds available, and we've
-been minimally patching these old tools to support our transition to the Rust based tooling. As of this moment, `moss-rs` officially supercedes
+been minimally patching these old tools to support our transition to the Rust based tooling. As of this moment, `moss-rs` officially supersedes
 the D version, and our new `boulder` is quickly catching up.
 
 Long story short, we're still building on all fronts and aren't blocked anywhere.
@@ -266,7 +266,7 @@ memory safety has become a huge interest and concern for the team. Not only have
 we've started looking at the OS itself.
 
 As an early indication of our intent, our [curl](https://curl.se/) package is now [built with the `rustls` backend](https://github.com/snekpit/main/commit/7bccc31388a68b79ed42962501d27f97187b232c) and *not* OpenSSL. Needless to say, we're very keen to reduce the surface area for attacks by
-adopting alternative, safer implementaions where possible. Other projects we're keeping a very close eye on include:
+adopting alternative, safer implementations where possible. Other projects we're keeping a very close eye on include:
 
  - [:material-github: sudo-rs](https://github.com/memorysafety/sudo-rs)
  - [:material-github: uutils/coreutils](https://github.com/uutils/coreutils)
