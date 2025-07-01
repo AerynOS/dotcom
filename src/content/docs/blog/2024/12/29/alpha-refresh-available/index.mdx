@@ -29,8 +29,8 @@ Frequently in Team Serpent we joke that `moss` is the "systemd of package manage
  - Entirely zero configuration. No `/etc/default/grub`, no remembering your `root={}`, it's determined automatically.
  - Basically does all the work of OS provisioning, barring disk mounting and partitioning. Our installer, lichen, is basically a thin wrapper of moss.
 
-We've had no debugging capabilites around the boot management, so we've landed `moss boot status` command. It's super primitive
-but does offer an insight into the introspection capabilites of blsforme. In this simple screenshot, moss/blsforme are supporting the
+We've had no debugging capabilities around the boot management, so we've landed `moss boot status` command. It's super primitive
+but does offer an insight into the introspection capabilities of blsforme. In this simple screenshot, moss/blsforme are supporting the
 Boot Loader Protocol, querying the `systemd-boot` entries in efivars. When found, `LoaderDevicePartUUID` is used to determine the
 boot ESP, but moss/blsforme will quite happily read the GPT directly (relative to `/` mount) and find the ESP and XBOOTLDR...
 
@@ -59,7 +59,7 @@ VM or hardware is incorrectly configured.
 
 ## Installer notes
 
-Lichen is due to recieve some love in the next few cycles, so please be aware of the following limitations:
+Lichen is due to receive some love in the next few cycles, so please be aware of the following limitations:
 
  - A **pre-configured** GPT disk is required before `lichen` is launched
  - A working internet connection is also required, this is a **network installer**

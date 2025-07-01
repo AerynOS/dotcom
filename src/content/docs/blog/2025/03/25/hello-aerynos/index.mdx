@@ -68,7 +68,7 @@ of `moss` will automatically handle the transition on installs for the sake of c
 ### 📊 Introducing `os-info`
 
 Previously we had `moss` generate the `/usr/lib/os-release` file on demand using compiled in defaults, which was somewhat inflexible.
-Now, we ship a JSON file (`/usr/lib/os-info.json`) containing a description of the OS, the composition of technologies, and the capabilites.
+Now, we ship a JSON file (`/usr/lib/os-info.json`) containing a description of the OS, the composition of technologies, and the capabilities.
 While `os-release` and `lsb_release` exist, they provide very primitive identification and metadata. `os-info` is designed to provide compatibility
 with those formats while being far more expressive. Importantly, it also contains a mechanism for identifying the **former identities** of
 an operating system:

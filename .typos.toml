@@ -1,0 +1,5 @@
+default.extend-ignore-re = [
+    "rela\\.dyn",
+    "\\\"Aer\\\"",
+    "bc1plpg6n9h8jm8t2y44v6p7n64w3zuc8d90an6llngf8lccxa5ful3qtnjyte",
+]
