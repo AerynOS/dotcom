@@ -80,9 +80,9 @@ Consequently, we synced this bug-fix to the Moss version in the old repository t
 
 ### Moss: Add index output directory option
 
-As we were preparing the process for sync'ing the packages in our `volatile` build-server repository to our new downstream rolling `unstable` repository on our public-facing server, we ran into an issue with the existing `moss index` code path.
+As we were preparing the process for syncing the packages in our `volatile` build-server repository to our new downstream rolling `unstable` repository on our public-facing server, we ran into an issue with the existing `moss index` code path.
 
-Before this issue was fixed, the `stone.index` file would be unconditionally written next to the actual package .stone files. This was useful when indexing local repos, but not as useful when indexing actual stone [pool/](https://cdn.aerynos.dev/pool/) directories and sub-directories.
+Before this issue was fixed, the `stone.index` file would be unconditionally written next to the actual package `.stone` files. This was useful when indexing local repos, but not as useful when indexing actual stone [pool/](https://cdn.aerynos.dev/pool/) directories and sub-directories.
 
 In the end, this was another small [feature](https://github.com/AerynOS/os-tools/pull/523) with somewhat large consequences, in that this enabled us to do the actual manual indexing in a way that is identical to how our infrastructure organizes things when indexing.
 
