@@ -145,7 +145,7 @@ Some of the work we have done has been aimed more at how we use our os-tools rat
 
 With our recent transition from SerpentOS to AerynOS, we needed to update our build triple accordingly. This step has been [completed](https://github.com/AerynOS/os-tools/pull/450) in the background whilst allowing for seamless updates from older SerpentOS systems onto AerynOS based systems. This is part of a wider rebranding effort that is still on-going through our documentation site, repo READMEs and anywhere else we have an official presence.
 
-In this same area, whilst AerynOS currently only supports `x86_64` based devices, there is a desire to be able to target other system types longer term. One of our contributors has been experimenting with RISV-V so we have added [preliminary support](https://github.com/AerynOS/os-tools/pull/448) for this to support their testing. Don't expect to see AerynOS on RISC-V any time soon, but it's great to see our distro becoming a sandbox for fun and experimenting on alternative systems.
+In this same area, whilst AerynOS currently only supports `x86_64` based devices, there is a desire to be able to target other system types longer term. One of our contributors has been experimenting with RISV-V so we have added [preliminary support](https://github.com/AerynOS/os-tools/pull/448) for this to aid their testing. Don't expect to see AerynOS on RISC-V any time soon, but it's great to see our distro becoming a sandbox for fun and experimenting on alternative systems.
 
 
 ### Emul32 ELF Machine type migration
