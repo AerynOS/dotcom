@@ -30,7 +30,7 @@ Before going any further, you may have noticed my name as one of the authors of 
 
 I first became aware of SerpentOS about three years ago but only joined the Matrix chat rooms in September 2023. I'm not actually a developer or have any coding experience, however, I am interested in open source projects and Linux distributions that can help me get the most out of my hardware. I liked what I saw with SerpentOS and over the course of 2024, started getting involved, trying to help out where I could.
 
-Earlier this year, I ended up formally joining the team, around the time of the AerynOS rebrand, taking more of a support / communications role and providing feedback from an "average user" perspective of what I think might be important.
+Earlier this year, I ended up formally joining the team, around the time of the AerynOS rebrand, taking more of a support/communications role and providing feedback from an "average user" perspective of what I think might be important.
 
 My focus will mainly be around working on our documentation, writing blog posts and engaging on our various social media platforms and Matrix rooms. I'm looking forward to getting stuck in and helping support a Linux distribution I want to use on my various devices.
 
