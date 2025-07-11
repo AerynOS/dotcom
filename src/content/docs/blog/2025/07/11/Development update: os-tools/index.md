@@ -175,7 +175,7 @@ A special thank you goes to Jonas for the work he has already done in terms of t
 
 ## How to join in the fun
 
-As already covered in this blog, we have been reviewing all open issues and PRs in our os-tools repository on GitHub for prioritisation and to set internal milestones.
+As already covered in this blog, we have been reviewing all open issues and PRs in our os-tools repository on GitHub for prioritization and to set internal milestones.
 
 We are open to and actively looking for contributors who might be interested in looking through our code and providing feedback.
 
