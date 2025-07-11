@@ -1,5 +1,5 @@
 ---
-title: "os-tools development update"
+title: "Development update: os-tools"
 date: 2025-07-11T12:18:00Z
 authors: [nomadiccore,ermo]
 tags: [news]
