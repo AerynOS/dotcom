@@ -7,7 +7,7 @@ TODO: Create main landing site + blog (potentially Astro) for "welcoming site" /
     patch -i ../../patches/starlight-blog.patch -p1
     popd
 
-Example patch ouput:
+Example patch output:
 
     $ patch -i ../../patches/starlight-blog.patch -p1
     patching file components/Preview.astro
