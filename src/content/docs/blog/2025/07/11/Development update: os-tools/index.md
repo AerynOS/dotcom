@@ -150,7 +150,7 @@ In this same area, whilst AerynOS currently only supports `x86_64` based devices
 
 ### Emul32 ELF Machine type migration
 
-During the port of boulder from DLang over to Rust, there was a change in how we expressed the ISA for packages built for the x86 emul32 architecture target. The old DLang version of boulder expressed it as `x86` where the Rust elf crate expresses it as `386` (`EM_386` for those of you familiar with ELF parsing internals).
+During the port of boulder from DLang over to Rust, there was a change in how we expressed the ISA for packages built for the x86 emul32 architecture target. The old DLang version of Boulder expressed it as `x86` where the Rust `elf` crate expresses it as `386` (`EM_386` for those of you familiar with ELF parsing internals).
 
 Reilly took point in [implementing](https://github.com/AerynOS/os-tools/pull/493) a series of changes that retained full compatibility between packages originally built on the old DLang infrastructure, and newer packages built on the Rust infrastructure.
 
