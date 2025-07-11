@@ -99,7 +99,7 @@ This in turns made it possible to make sure that the new rolling `unstable` repo
 
 When Boulder successfully completes a package build, it emits a report detailing how long each phase of the build process took.
 
-ermo noticed that the output was wrong when the time exceeded an hour. For example 76 minutes would be formatted as a rather silly-looking `1h76m` instead of `1h11m`. He fixed this in the following [commit](https://github.com/AerynOS/os-tools/pull/502).
+ermo noticed that the output was wrong when the time exceeded an hour. For example `136m` would be formatted as a rather silly-looking `1h76m` instead of `2h16m`. He fixed this in the following [commit](https://github.com/AerynOS/os-tools/pull/502).
 
 
 ### Boulder: Improve cache hit rates when updating packages
