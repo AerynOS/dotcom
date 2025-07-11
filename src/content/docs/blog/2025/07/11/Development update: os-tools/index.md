@@ -104,7 +104,7 @@ ermo noticed that the output was wrong when the time exceeded an hour. For examp
 
 ### Boulder: Improve cache hit rates when updating packages
 
-Boulder is designed to cache files and hash them as part of its build process. By hashing files, it uniquely identifies each file and stores this for later utilisation. When a package is updated from one version to the next, where the package has files that have not changed, we have the opportunity to reuse the cache from a prior build (as long as the cache has not been purged for space saving).
+Boulder is designed to cache files and hash them as part of its build process. By hashing files, it uniquely identifies each file and stores this for later utilization. When a package is updated from one version to the next, where the package has files that have not changed, we have the opportunity to reuse the cache from a prior build (as long as the cache has not been purged for space saving).
 
 Given the way boulder previously cached files, in named directories based on the package source names, there was a high likelihood that new caches would have to be built because the source file names contain version numbers, which by design will always change.
 
