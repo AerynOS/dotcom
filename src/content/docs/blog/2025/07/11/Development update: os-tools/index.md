@@ -11,7 +11,7 @@ In our recent mid-year blog post, we mentioned that it would be the first in a s
 
 To recap, our os-tools consist of [Moss](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#moss) and [Boulder](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#boulder). Whilst also originally written in DLang, initial ports of these were built in Rust during the latter half of 2023. Though we made the odd improvement here and there during 2024, through Q2 2025 we set out to review the code, develop an improvement plan and then put that into action.
 
-The **TL;DR** is that for:
+The **TL;DR** is:
 
 - **Moss:** Existing PRs reviewed, refined and merged (including a PR enabling faster package installation via parallel blitting). The code received various bug fixes and refactors for correctness and maintainability.
 - **Boulder:** Similarly, existing PRs reviewed, refined and merged including a few smaller features and packaging macros being added. Since Boulder uses the `moss` crate, it now builds packages slightly quicker due to faster buildroot creation. The odd bugfix was also made.
