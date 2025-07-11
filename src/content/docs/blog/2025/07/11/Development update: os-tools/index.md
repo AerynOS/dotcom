@@ -14,7 +14,7 @@ To recap, our os-tools consist of [Moss](https://aerynos.com/blog/2023/12/19/end
 The **TL;DR** is that for:
 
 - **Moss:** Existing PRs reviewed, refined and merged (including a PR enabling faster package installation via parallel blitting). The code received various bug fixes and refactors for correctness and maintainability.
-- **Boulder:** Similarly, existing PRs reviewed, refined and merged including a few smaller features and packaging macros being added. Since Boulder uses the moss crate, it now builds packages slightly quicker due to faster buildroot creation. The odd bugfix was also made.
+- **Boulder:** Similarly, existing PRs reviewed, refined and merged including a few smaller features and packaging macros being added. Since Boulder uses the `moss` crate, it now builds packages slightly quicker due to faster buildroot creation. The odd bugfix was also made.
 - **User Experience:** Improved error reporting features were added to both Moss and Boulder to improve the troubleshooting experience for users and packagers. More to be done on this front.
 
 We will be continuing our os-tools work over the coming months with a specific focus on tidying up the code, improving documentation, and ensuring better error handling and status reporting throughout the codebase. This will come in particularly handy when we do the feature work to make us able to produce JSON output as the final part of the alpha2 os-tools milestone.
