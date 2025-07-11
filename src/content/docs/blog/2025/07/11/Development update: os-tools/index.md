@@ -37,7 +37,7 @@ My focus will mainly be around working on our documentation, writing blog posts 
 
 ## A deeper dive into our os-tools work
 
-Since their port to Rust, our os-tools have been working well enough. However, we are self aware enough to know that our initial porting efforts left room for improvement, both in code quality and in performance.
+Since their port to Rust, our os-tools have been working well enough. However, we are self-aware enough to know that our initial porting efforts left room for improvement, both in code quality and performance.
 
 The following subsections outline some of the os-tools work we have been doing throughout Q2.
 
