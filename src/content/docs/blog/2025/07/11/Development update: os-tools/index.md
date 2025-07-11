@@ -59,7 +59,7 @@ Part of this upgrade work also involved being able to [lock dependencies](https:
 
 ### Moss: Parallel blitting
 
-Long-time contributor Joey Riches identified a parallelisation improvement in moss's [blitting](https://aerynos.com/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/#blitting) process which was merged after several months of local testing.
+Long-time contributor Joey Riches identified a parallelization improvement in Moss's [blitting](https://aerynos.com/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/#blitting) process which was merged after several months of local testing.
 
 In our testing, the code showed significant speedups across all three of our supported file systems (xfs, ext4 and f2fs). The previous single-threaded blitting made using ext4 and f2fs particularly slow, to the point that we did not recommend users use either filesystem as the basis of an AerynOS install.
 
