@@ -154,7 +154,7 @@ During the port of boulder from DLang over to Rust, there was a change in how we
 
 Reilly took point in [implementing](https://github.com/AerynOS/os-tools/pull/493) a series of changes that retained full compatibility between packages originally built on the old DLang infrastructure, and newer packages built on the Rust infrastructure.
 
-The end goal was to flush out the packages containing references to the `x86` Emul32 ISA through the recent rebuild of our whole recipes repository. This was accomplished by first ensuring that all packages exposed _both_ `x86` and `386` provider patterns, and then subsequently dropping the code that wrote the `x86` provider patterns during the 2nd full repo rebuild, ensuring that packages only contained the `386` provider patterns.
+The end goal was to flush out the packages containing references to the `x86` Emul32 ISA through the recent rebuild of our whole recipes repository. This was accomplished by first ensuring that all packages exposed _both_ `x86` and `386` provider patterns, and then subsequently dropping the code that wrote the `x86` provider patterns during the second full repo rebuild, ensuring that packages only contained the `386` provider patterns.
 
 In the end, this worked out nicely for us.
 
