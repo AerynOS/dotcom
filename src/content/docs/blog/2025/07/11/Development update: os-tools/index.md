@@ -161,7 +161,7 @@ In the end, this worked out nicely for us.
 
 ## Current and near-future os-tools focus
 
-We reviewed the open issues in our various Github repositories and the plethora of ideas we have for our tooling, and developed a high level set of milestones for our os-tools. For this milestone (os-tools alpha2), we want to focus on:
+We reviewed the open issues in our various GitHub repositories and the plethora of ideas we have for our tooling, and developed a high level set of milestones for our os-tools. For this milestone (os-tools alpha2), we want to focus on:
 
 - Adding structured logging for better insight and reporting
 - Improving error handling
