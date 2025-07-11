@@ -9,7 +9,7 @@ In our recent mid-year blog post, we mentioned that it would be the first in a s
 
 ## Short overview
 
-To recap, our os-tools consist of [Moss](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#moss) and [Boulder](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#boulder). Whilst also originally written in DLang, initial ports of these were built in Rust during the latter half of 2023. Though we made the odd improvement here and there during 2024, in the course of the Q2 we set out to review the code, develop an improvement plan and then put that into action.
+To recap, our os-tools consist of [Moss](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#moss) and [Boulder](https://aerynos.com/blog/2023/12/19/end-of-year-summary/#boulder). Whilst also originally written in DLang, initial ports of these were built in Rust during the latter half of 2023. Though we made the odd improvement here and there during 2024, during q2 we set out to review the code, develop an improvement plan and then put that into action.
 
 The **TL;DR** is that for:
 
@@ -65,7 +65,7 @@ In our testing, the code showed significant speedups across all three of our sup
 
 However, blitting speeds with the new parallel approach -- particularly with a "cold" kernel vfs cache -- have significantly improved. Whilst ext4 and f2fs are still not as performant as xfs for our use case, they are at least more serviceable as the basis of an AerynOS install than they used to be. By way of an example, I saw a ~2x blitting speed improvement on my Gen4 NVME SSD using xfs with the new parallel blitting code.
 
-It's worth restating that, to our knowledge, the moss approach to [atomic updates](https://aerynos.com/blog/2025/03/29/aerynos-the-os-as-infrastructure/#%EF%B8%8F-atomic-updates), is the only one of its kind (at least in the Linux space) where users do not have to rely on containerisation or A/B system swaps to deliver package updates. Eliminating download speeds as a variable, Moss is capable of atomically installing/updating hundreds of packages on your system in a matter of seconds to tens of seconds on SSD drives, and the installed/upgraded applications are ready to use next time the application is opened. No reboots and no messing with container permissions necessary.
+It's worth restating that, to our knowledge, the moss approach to [atomic updates](https://aerynos.com/blog/2025/03/29/aerynos-the-os-as-infrastructure/#%EF%B8%8F-atomic-updates), is the only one of its kind (at least in the Linux space) where users do not have to rely on containerization or A/B system swaps to deliver package updates. Eliminating download speeds as a variable, Moss is capable of atomically installing/updating hundreds of packages on your system in a matter of seconds to tens of seconds on SSD drives, and the installed/upgraded applications are ready to use next time the application is opened. No reboots and no messing with container permissions necessary.
 
 Given that boulder also needs to blit files when it creates buildroots, the code has also had a positive impact on reducing package build times. This will be more evident on larger package builds and will have a cumulative impact, the more package work you end up doing.
 
@@ -73,9 +73,9 @@ Given that boulder also needs to blit files when it creates buildroots, the code
 
 As we were testing the upgrade path from our old `packages.aerynos.com/volatile` repository to our new, CDN-backed `cdn.aerynos.dev/unstable` repository, we ran into some unexpected small niggles related to how packages are resolved.
 
-While tarkah's [fix](https://github.com/AerynOS/os-tools/pull/514) to Moss was relatively small in terms of code, it served to ensure that updates would install properly on the first go when sync-ing to the new repo.
+While tarkah's [fix](https://github.com/AerynOS/os-tools/pull/514) to Moss was relatively small in terms of code, it served to ensure that updates would install properly on the first go when syncing to the new repo.
 
-Consequently, we sync'd this bug-fix to the Moss version in the old repository to ensure that users will be able to seamlessly upgrade to the new rolling `unstable` repository.
+Consequently, we synced this bug-fix to the Moss version in the old repository to ensure that users will be able to seamlessly upgrade to the new rolling `unstable` repository.
 
 
 ### Moss: Add index output directory option
