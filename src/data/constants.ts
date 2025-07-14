@@ -54,7 +54,7 @@ export const COMMUNITY = [
   {
     title: "X",
     description: "Join our community on X.",
-    url: "https://x.com/AerynOS_Project",
+    url: "https://x.com/AerynOS_Linux",
     icon: "tabler:brand-x",
   },
 ];
