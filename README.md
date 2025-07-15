@@ -1,19 +1,26 @@
-TODO: Create main landing site + blog (potentially Astro) for "welcoming site" / project at AerynOS.com
+## NodeJS install prerequisites
 
-## How to install
+Before attempting to compile and show the website locally, please ensure that:
 
-    npm install astro@5.3.1
-    pushd node_modules/starlight-blog
-    patch -i ../../patches/starlight-blog.patch -p1
-    popd
+- NodeJS is installed on your system
+- `pnpm` is available and in your path
+  - with NodeJS installed, you can run the following from your ${HOME} directory:
+    ```
+    npm install pnpm@latest-10
+    ```
+  - Make sure you add `${HOME}/node_modules/.bin` to your shell ${PATH}
+- With the above prerequisites satisfied, clone the present repo and cd into the root of it.
+- Then run:
+  ``` 
+  pnpm install
+  ```
 
-Example patch output:
+## How to build and show the site locally in your browser
 
-    $ patch -i ../../patches/starlight-blog.patch -p1
-    patching file components/Preview.astro
-    patching file libs/content.ts
-    patching file package.json
+After the above import and install operations have completed successfully on your system, run:
 
-## How to build
+    pnpm run dev
 
-    npm run dev
+... and follow the instructions shown.
+
+At this point, any time you edit a page, the changes should show up live in your browser.
