@@ -33,7 +33,7 @@ In addition, we fixed a subtle issue with our PATH configuration that mostly aff
 
 ### Package sets
 
-AerynOS is transitioning to a package set model for core packages installed on a users system.
+AerynOS is transitioning to a package set model for core packages installed on a user's system.
 
 Package sets are a collection of packages that are related or used together for a specific purpose. In AerynOS, they are used for consolidating our base system packages and for each of our offered Desktop Environments / Window Managers.
 
@@ -43,13 +43,13 @@ The package set model we have implemented is a stepping stone technology, not th
 
 ### Our installation experience with lichen
 
-As detailed above, we have transitioned to a package set model. To fully integrate this within the AerynOS project, we have adapted `lichen` to install Desktop Environments based on the associated package set. The TUI (Text User Interface) prompts guide a user to select which DE they want, and depending on the DE, the version we have curated for the install (recommended for the DE’s, minimal for sway) with `moss` determining what dependencies are required for a successful install based on that package set.
+To fully integrate the new package set model within the AerynOS project, we have adapted `lichen` to install Desktop Environments based on the associated package set. The TUI (Text User Interface) prompts guide a user to select which DE they want, and depending on the DE, the version we have curated for the install (recommended for the DE’s, minimal for sway) with `moss` determining what dependencies are required for a successful install based on that package set.
 
 `Lichen` is a network installer meaning that it downloads the latest set of packages from the AerynOS repository for installation. Tweaks to our package sets don't necessarily require a new ISO. Whilst the "live environment" may not be up to date, the user will get a fully up-to-date installation without requiring a post-install update step.
 
 #### lichen usability updates
 
-In its current state, `lichen` requires a user pre-format their disk prior to attempting to install AerynOS. Given its nature of being a network installer, `lichen` also needs an active internet connection to complete an install. Before, if either of these prerequisites were not met, the installer would output a very unhelpful Rust code error. We have added the appropriate prompts to guide users to ensure they have an active internet connection and to remind them that they need to pre-format their disk.
+In its current state, `lichen` requires that a user pre-format their disk prior to attempting to install AerynOS. Given its nature of being a network installer, `lichen` also needs an active internet connection to complete an install. Before, if either of these prerequisites were not met, the installer would output a very unhelpful Rust code error. We have added the appropriate prompts to guide users to ensure they have an active internet connection and to remind them that they need to pre-format their disk.
 
 Whilst we could fix the pre-format requirement, a conscious decision has been made to keep this "anti-usability" feature as a barrier to entry for "beginner Linux users". This may seem very counter intuitive, however whilst we are in an alpha state, we need to be careful not to position ourselves as a "beginner Linux distro" that could attract many support requests. We need to focus our time on developing our tooling and infrastructure.
 
@@ -83,7 +83,7 @@ In addition, we have created a console only installation option for more advance
 
 ### KDE Plasma
 
-It's fair to say that KDE Plasma has been one of the biggest requests we have received and we are happy to report that it is now available in our repository. Reilly Brogan has done a fantastic job packaging up the latest 6.4.4 version into our repository with both `ssdm` and `plasma-login-manager` offered as login managers.
+It's fair to say that KDE Plasma has been one of the biggest requests we have received and we are happy to report that it is now available in our repository. Reilly Brogan has done a fantastic job packaging up the latest 6.4.4 version into our repository with both `sddm` and `plasma-login-manager` offered as login managers.
 
 A running bug tracker can be found [here](https://github.com/AerynOS/recipes/issues/952) to report any issues. Please do test it out and help us find and resolve any undocumented bugs that remain.
 
