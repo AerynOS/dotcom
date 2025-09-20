@@ -34,13 +34,22 @@ export default defineConfig({
     markdownIntegration(),
     icon(),
     // tailwind(),
-    starlight({
+    starlight({ // Starlight config:
       title: "AerynOS",
       logo: {
         dark: '@/images/logo.svg',
         light: '@/images/logo-light-mode.svg',
         replacesTitle: true,
       },
+      favicon: '/images/favicons/favicon.ico', // Starlight requires favicons from the public/ directory
+      head: [
+        // favicon set
+        { tag: 'link', attrs: { rel: 'icon', href: '/images/favicons/apple-touch-icon.png', sizes: '180x180' } },
+        { tag: 'link', attrs: { rel: 'icon', href: '/images/favicons/android-chrome-192x192.png', sizes: '192x192' } },
+        { tag: 'link', attrs: { rel: 'icon', href: '/images/favicons/android-chrome-512x512.png', sizes: '512x512' } },
+        { tag: 'link', attrs: { rel: 'icon', href: '/images/favicons/favicon-16x16.png', sizes: '16x16' } },
+        { tag: 'link', attrs: { rel: 'icon', href: '/images/favicons/favicon-32x32.png', sizes: '32x32' } },
+      ],
       sidebar: [
         { slug: '' },
         { slug: 'about' },

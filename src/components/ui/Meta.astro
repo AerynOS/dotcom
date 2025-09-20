@@ -59,19 +59,6 @@ const alternateLanguageLinks: string = Object.entries(languages)
     return `<link rel="alternate" hreflang="${lang}" href="${href}" />`;
   })
   .join("\n");
-
-// Generate and optimize the favicon images
-const faviconSvg = await getImage({
-  src: faviconSvgSrc,
-  format: "svg",
-});
-
-const appleTouchIcon = await getImage({
-  src: faviconSrc,
-  width: 180,
-  height: 180,
-  format: "png",
-});
 ---
 
 <!-- Inject structured data into the page if provided. This data is formatted as JSON-LD, a method recommended by Google for structured data pass:
@@ -92,6 +79,7 @@ const appleTouchIcon = await getImage({
   content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
 />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="mobile-web-app-capable" content="yes" />
 <link rel="canonical" href={canonical} />
 <Fragment set:html={alternateLanguageLinks} />
 
@@ -120,11 +108,5 @@ const appleTouchIcon = await getImage({
 <!-- https://docs.astro.build/en/guides/integrations-guide/sitemap/ -->
 <link rel="sitemap" href="/sitemap-index.xml" />
 
-<!-- Links for favicons -->
-<link href="/favicon.ico" rel="icon" sizes="any" type="image/x-icon" />
-<link href={faviconSvg.src} rel="icon" type="image/svg+xml" sizes="any" />
-<meta name="mobile-web-app-capable" content="yes" />
-<link href={appleTouchIcon.src} rel="apple-touch-icon" />
-<link href={appleTouchIcon.src} rel="shortcut icon" />
 <!-- Set theme color -->
 <meta name="theme-color" content="#facc15" />
