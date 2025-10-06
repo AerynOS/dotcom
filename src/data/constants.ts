@@ -57,6 +57,12 @@ export const COMMUNITY = [
     url: "https://x.com/AerynOS_Linux",
     icon: "tabler:brand-x",
   },
+  {
+    title: "Mastodon",
+    description: "Join our community on Mastodon.",
+    url: "https://hachyderm.io/@AerynOS",
+    icon: "tabler:brand-mastodon",
+  },
 ];
 
 // An array of links for navigation bar
