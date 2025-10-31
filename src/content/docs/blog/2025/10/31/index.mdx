@@ -94,7 +94,7 @@ The `moss state verify` command currently does not have any indication of progre
 
 ### Infrastructure Stabilization
 
-As it turned out, the issue we kept seeing (and have kept seeing since May) where build task would hang for no apparent reason, was actually related to the boulder threading code leaving threads running at the point where we called the `clone2` syscall to enter a user-namespace container for build isolation purposes -- fearless concurrency indeed...
+As it turned out, the issue we kept seeing (and have kept seeing since May) where build tasks would hang for no apparent reason, was actually related to the boulder threading code leaving threads running at the point where we called the `clone2` syscall to enter a user-namespace container for build isolation purposes -- fearless concurrency indeed...
 
 However, as these issues only manifested for us when boulder was invoked by the build infrastructure, and even then only rarely, it was not a problem we could trigger on demand.
 
