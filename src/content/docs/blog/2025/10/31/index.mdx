@@ -88,7 +88,7 @@ This is a nice quality of life and user experience feature for our packagers. Th
 
 ### Parallelize the `moss state verify` command
 
-Until recently, when employing the `moss state verify` command to ensure the integrity of all moss states, boulder was limited to running on a single thread. The team updated the `moss state verify` command to run certain tasks in parallel (using `rayon`) which has signifantly reduced the time to complete the verification process.
+Until recently, when employing the `moss state verify` command to ensure the integrity of all moss states, boulder was limited to running on a single thread. The team updated the `moss state verify` command to run certain tasks in parallel (using `rayon`) which has significantly reduced the time to complete the verification process.
 
 The `moss state verify` command currently does not have any indication of progress such as a progress bar. As such, a user may be unsure if their system is frozen. Whilst parallelizing performance-sensitive aspects of this task significantly reduces the time to completion, we have an issue raised to add a progress bar to the command for an improved user experience.
 
