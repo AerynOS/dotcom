@@ -86,6 +86,10 @@ export default defineConfig({
               name: 'NomadicCore',
               title: 'Comms',
             },
+            joebonrichie: {
+              name: 'Joey Riches',
+              title: 'Tooling & Packaging'
+            }
           },
         }),
       ],
