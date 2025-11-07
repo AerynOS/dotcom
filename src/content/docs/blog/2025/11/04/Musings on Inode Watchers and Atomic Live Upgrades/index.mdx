@@ -19,7 +19,7 @@ Although `moss` presents itself as a traditional package manager, under the hood
 
 When you install a package with moss, it actually downloads and extracts the package to a Content Addressable Store (CAS) in `/.moss/assets`. It then constructs a new virtual filesystem in memory comparing the current installed state to the new desired installed state containing the additional package. From the CAS it then constructs a `/usr` tree in `/.moss/root/staging/` containing the additional package using hardlinks into the CAS. Then, using the `renameat2` Linux kernel syscall with the `RENAME_EXCHANGE` flag set, moss atomically promotes the current `/.moss/root/staging` tree to be the new `/usr/` tree, and simultaneously demotes the current `/usr` tree back to being an inactive, numbered filesystem transaction (fstx) tree in `/.moss/root/<fstx>`. Finally, moss then updates the bootloader configuration to reference the five newest numbered filesystem transactions for rollback purposes.
 
-<Aside>This explanation leave out a couple of details such post-install triggers and boot management.</Aside>
+<Aside>This explanation leaves out a couple of details such post-install triggers and boot management.</Aside>
 
 Compared to other atomic distributions on the market, the ability to live-update without needing to reboot is an important usability requirement for us, such that is remains friendly to downstream users.
 
