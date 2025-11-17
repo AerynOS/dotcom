@@ -40,10 +40,10 @@ export const OG = {
 
 export const COMMUNITY = [
   {
-    title: "Matrix",
-    description: "Join our community on Matrix.",
-    url: "https://matrix.to/#/#aerynos:matrix.org",
-    icon: "tabler:brand-matrix",
+    title: "Zulip",
+    description: "Join our community on Zulip.",
+    url: "https://aerynos.zulipchat.com/join/fuqokhsomj5mzqj6akqaiqlr/",
+    icon: "tabler:brand-zulip",
   },
   {
     title: "GitHub Discussions",
