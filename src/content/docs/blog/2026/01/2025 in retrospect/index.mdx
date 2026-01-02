@@ -86,9 +86,9 @@ More broadly speaking, Versioned Repositories will also eventually allow for lay
 
 In a similar vein, this development workstream will eventually enable us to build repositories targeting ARM and RISC-V instruction sets. This will be a ways down the road and the team would need to acquire ARM and RISC-V builders at the appropriate time, but we want to foreshadow this to highlight that our current up front planning of our infrastructure development roadmap will enable very flexible use cases down the road.
 
-### System Model
+### system-model
 
-The system-model approach we are currently developing, is at its heart a declarative definition of the packages comprising a system and where they come from. The team has just landed the first iteration of this to users, and this -- along with Versioned Repositories -- will continue being a development focus into 2026. The System Model approach declares the repositories & packages a user wants to sync their system against. This is currently an opt-in solution with `moss` now automagically generating a system-model.kdl file each time a moss transaction successfully completes.
+The system-model approach we are currently developing, is at its heart a declarative definition of the packages comprising a system and where they come from. The team has just landed the first iteration of this to users, and this -- along with Versioned Repositories -- will continue being a development focus into 2026. The system-model approach declares the repositories & packages a user wants to sync their system against. This is currently an opt-in solution with `moss` now automagically generating a system-model.kdl file each time a moss transaction successfully completes.
 
 The team has multiple future ideas of how this system-model can be used with a few examples including:
 
@@ -98,6 +98,9 @@ The team has multiple future ideas of how this system-model can be used with a f
 - Being able to pin to older Versioned Repositories (for stability's sake) or if issues occur on the latest rolling Versioned Repository until it's fixed
 
 All of these features, particularly where users could potentially face issues with their installs, are complemented by our offline rollback feature, which gives the ability to manually go back to either of 5 earlier states from the bootloader. This will ensure that users have both offline and online protections to help them recover from a misbehaving system.
+
+<iframe title="System-Model Demo" width="560" height="315" src="https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+
 
 ## Team organisation
 
