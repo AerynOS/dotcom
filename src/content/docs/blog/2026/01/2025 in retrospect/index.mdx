@@ -8,9 +8,6 @@ tags: [news]
 import Kofi from "@/components/ui/Kofi.astro";
 import { Aside } from "@astrojs/starlight/components";
 
-
-# End of 2025 Summary
-
 2025 has been a year of significant change for the AerynOS project, not just in terms of development itself but also in name and in the staff working on the project.
 
 We know many people will be following along, waiting for our beta and/or stable releases but for now we want to take a look back at 2025 and summarize what we have delivered and how that is positioning us strongly for 2026.
@@ -26,7 +23,7 @@ summarize
     - Leveraging Rust has enabled us to confidently deliver new tooling solutions like versioned repositories and a system-model approach to declaratively describe system installs.
   - We improved upon the Cosmic DE offering whilst delivering new KDE Plasma and Console-based install options
   - We onboarded several new staff members onto the project over the course of the year with differing strengths and interests
-  - We reworked our cloud hosting setup to deliver more build capabilties at lower cost base
+  - We reworked our cloud hosting setup to deliver more build capabilities at lower cost base
   - We renewed our media strategy through increased blog posts and engagement across social media platforms
 
 
@@ -36,7 +33,7 @@ The first and biggest change we made this year was changing our name [from Serpe
 
 Over time, we have continued to work to deliver on our goals for AerynOS. In return, people have become less focused on the name and more focused on what we are setting out to do, and what we are continuously delivering.
 
-As an aside, we originally utilised AI tooling to create our logo, but this is not something we are overly comfortable with for the long run. We are looking at our options around either itterating on or creating a new "human made" logo where we can feel a lot more confident around licensing and ownership of the artwork itself.
+As an aside, we originally utilised AI tooling to create our logo, but this is not something we are overly comfortable with for the long run. We are looking at our options around either iterating on or creating a new "human made" logo where we can feel a lot more confident around licensing and ownership of the artwork itself.
 
 ## The project founder steps away
 
@@ -44,7 +41,7 @@ In mid April of this year, Ikey went offline as part of a move, and subsequently
 
 At the time, the team tried to reach out in multiple ways, however there has sadly been no reciprocation, other than ermo receiving a Github request sent from Ikey's Github account to become Ikey's [account successor](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/maintaining-ownership-continuity-of-your-personal-accounts-repositories) towards the end of the first week of May.
 
-Taking into account Ikey's experiences up until his move, we have made the assumption that his stepping back from the project was related to ongoing personal health problems for him and his family, which were compounded by signicant financial strain as we understand it.
+Taking into account Ikey's experiences up until his move, we have made the assumption that his stepping back from the project was related to ongoing personal health problems for him and his family, which were compounded by significant financial strain as we understand it.
 
 Note that, out of respect to Ikey and his family, we will not be elaborating any further on this. Needless to say, we wish him and his family the best and hope that they will have found a way through their travails.
 
@@ -75,19 +72,19 @@ Late March and April also saw the start of the porting effort of our infrastruct
 
 After several months of development, in late May we started delivering packages to users again, which had all been built from the new Rust based infrastructure code base. This effort included a full rebuild of the whole recipe repo at the time to ensure ABI sanity of the newly built packages.
 
-The development of our infrastucture didn't stop there. Throughout the year, the code has been continually developed and expanded upon to land new features. In the last three months, the team has successfully delivered an MVP of the Versioned Repositories feature and an accompanying system-model feature as two very important examples of this.
+The development of our infrastructure didn't stop there. Throughout the year, the code has been continually developed and expanded upon to land new features. In the last three months, the team has successfully delivered an MVP of the Versioned Repositories feature and an accompanying system-model feature as two very important examples of this.
 
 ### Versioned Repositories
 
 When fully fleshed out, Versioned Repositories will allow the team to seamlessly deliver improvements to our os-tooling (`moss` and `boulder`) in a controlled fashion. This is important as AerynOS is a rolling release distribution, meaning we need to be able to deliver improvements to users systems without breaking them or requiring complex manual upgrade procedures.
 
-From a user perspective, it will open up the ability to decide which version or "update stream" of our repositories they want to use, for example opening up the capability to "lock" their system to a specific release or point in time, or eventually opening up the capability to use release-candiate or in-testing package builds that wouldn't otherwise make their way into the "standard" AerynOS Repository.
+From a user perspective, it will open up the ability to decide which version or "update stream" of our repositories they want to use, for example opening up the capability to "lock" their system to a specific release or point in time, or eventually opening up the capability to use release-candidate or in-testing package builds that wouldn't otherwise make their way into the "standard" AerynOS Repository.
 
 In short, users will be able to use Versioned Repositories to easily choose a more stable and cautious repository or conversely to choose a more bleeding edge repository based on their needs and desires for their systems.
 
 More broadly speaking, Versioned Repositories will also eventually allow for layered repositories for x86-64-v3 and v4 packages to sit above our baseline x86-64-v2 repository where we see worthwhile improvements in building -v3 and -v4 packages. AerynOS's approach here will not be to rebuild full repositories of v3 and v4 packages, but instead to overlay these packages on top of the x86-64-v2 repository only where there are verifiable gains to be found by doing so.
 
-In a similar vein, this development workstream will eventually enable us to build repositories targeting ARM and RISC-V instruction sets. This will be a ways down the road and the team would need to aquire ARM and RISC-V builders at the appropriate time, but we want to foreshadow this to highlight that our current up front planning of our infrastructure development roadmap will enable very flexible use cases down the road.
+In a similar vein, this development workstream will eventually enable us to build repositories targeting ARM and RISC-V instruction sets. This will be a ways down the road and the team would need to acquire ARM and RISC-V builders at the appropriate time, but we want to foreshadow this to highlight that our current up front planning of our infrastructure development roadmap will enable very flexible use cases down the road.
 
 ### System Model
 
@@ -164,7 +161,7 @@ Part of this ability to cover direct project costs has been to optimise how we a
 
 Our sponsorship goals in 2026 will be to continue growing our recurring sponsorships to help cover the backlog of historic project costs, and also to build up towards future hardware investments such as an x86-64-v4 capable builder.
 
-If any hardware vendors are interested in sponsoring the project either financially or through hardware sponsorship, this would be warmly recieved.
+If any hardware vendors are interested in sponsoring the project either financially or through hardware sponsorship, this would be warmly received.
 
 Similarly, we are interested and open to CDN sponsorship as a way of strengthening our package delivery and ISO downloads. If you are in a position to help make this happen, we would love to hear from you.
 
