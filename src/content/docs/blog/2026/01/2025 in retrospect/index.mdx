@@ -78,13 +78,13 @@ The development of our infrastructure didn't stop there. Throughout the year, th
 
 ### Versioned Repositories
 
-When fully fleshed out, Versioned Repositories will allow the team to seamlessly deliver improvements to our os-tooling (`moss` and `boulder`) in a controlled fashion. This is important as AerynOS is a rolling release distribution, meaning we need to be able to deliver improvements to users systems without breaking them or requiring complex manual upgrade procedures.
+When fully fleshed out, Versioned Repositories will allow the team to seamlessly deliver improvements to our os-tooling (`moss` and `boulder`) in a controlled fashion. This is important as AerynOS is a rolling release distribution, meaning we need to be able to deliver improvements to users' systems without breaking them or requiring complex manual upgrade procedures.
 
 From a user perspective, it will open up the ability to decide which version or "update stream" of our repositories they want to use, for example opening up the capability to "lock" their system to a specific release or point in time, or eventually opening up the capability to use release-candidate or in-testing package builds that wouldn't otherwise make their way into the "standard" AerynOS Repository.
 
 In short, users will be able to use Versioned Repositories to easily choose a more stable and cautious repository or conversely to choose a more bleeding edge repository based on their needs and desires for their systems.
 
-More broadly speaking, Versioned Repositories will also eventually allow for layered repositories for x86-64-v3 and -v4 packages to sit above our baseline x86-64-v2 repository where we see worthwhile improvements in building -v3 and -v4 packages. AerynOS's approach here will not be to rebuild full repositories of -v3 and -v4 packages, but instead to overlay these packages on top of the x86-64-v2 repository only where there are verifiable gains to be found by doing so.
+More broadly speaking, Versioned Repositories will also eventually allow for layered repositories for x86_64-v3 and -v4 packages to sit above our baseline x86_64-v2 repository where we see worthwhile improvements in building -v3 and -v4 packages. AerynOS's approach here will not be to rebuild full repositories of -v3 and -v4 packages, but instead to overlay these packages on top of the x86_64-v2 repository only where there are verifiable gains to be found by doing so.
 
 In a similar vein, this development workstream will eventually enable us to build repositories targeting ARM and RISC-V instruction sets. This will be a ways down the road and the team would need to acquire ARM and RISC-V builders at the appropriate time, but we want to foreshadow this to highlight that our current up front planning of our infrastructure development roadmap will enable very flexible use cases down the road.
 
@@ -121,7 +121,7 @@ It's fair to say that community management and documentation development have ta
 
 The current state of our website leaves a lot to be desired. We are aware that it needs a full refresh, not only for presentation, but also to include important information as a bare minimum.
 
-The team are looking at options such ae Zola and Hugo as alternative Static Site Generators however this is has remained as a low priority workstream for now. We are open if anyone has experience in website design and would like to work with the team to develop our website into something to be proud of.
+The team are looking at options such as Zola and Hugo as alternative Static Site Generators however this is has remained as a low priority workstream for now. We are open if anyone has experience in website design and would like to work with the team to develop our website into something to be proud of.
 
 ## Distro updates
 
@@ -161,11 +161,12 @@ Due to the way Ko-fi sponsorships work, at the point of transition, we had to ca
 
 Part of this ability to cover direct project costs can be attributed to how we are spending our money and how we are utilizing as much of our own internal resources (such as Ermo's machines) for build capacity. We have also been developing our infrastructure code base to make it as flexible as possible in terms of adding new builders and scheduling builds efficiently based on individual builder resources.
 
-Our sponsorship goals in 2026 will be to continue growing our recurring sponsorships to help cover the backlog of historic project costs, and also to build up towards future hardware investments such as an x86-64-v4 capable builder.
+Our sponsorship goals in 2026 will be to continue growing our recurring sponsorships to help cover the backlog of historic project costs, and also to build up towards future hardware investments such as an x86_64-v4 capable builder.
 
 If any hardware vendors are interested in sponsoring the project either financially or through hardware sponsorship, this would be warmly received.
 
-Similarly, we are interested and open to CDN sponsorship as a way of strengthening our package delivery and ISO downloads. If you are in a position to help make this happen, we would love to hear from you.
+Similarly, we are interested in and open to CDN sponsorship as a way of strengthening our package delivery and ISO download capabilities. If you are in a position to help make this happen, we would love to hear from you.
+
 If you wish to discuss sponsorship details, please reach out to us at contact@aerynos.com.
 
 <Kofi />
@@ -176,7 +177,7 @@ For now, there is a deliberate, continued focus on our os-tooling and infrastruc
 
 As time goes on, the goal is for this balance to naturally shift as our code bases become more capable and featureful.
 
-Over time, and as natural consequence of this shift, we hope to be able to onboard more contributors to help us scale out the recipe repo, once the tooling is in a state where it conveniently allows for this.
+Over time, and as logical consequence of this shift, we hope to be able to onboard more contributors to help us scale out the recipe repo, once the tooling is in a state where it conveniently allows for this.
 
 If any of this has piqued your interest and made you want to contribute, we invite you to join us over at our [Zulip chat platform](https://aerynos.zulipchat.com).
 
