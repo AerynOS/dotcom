@@ -121,3 +121,12 @@ html:not([data-has-sidebar]) .content-panel {
   font-weight: 400;
   margin: 0!important;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  width: 100%; /* Or desired width */
+  height: 300px; /* Or desired height */
+  /* border: 1px solid #ccc; */ /* Optional: to visualize container */
+}
