@@ -20,6 +20,8 @@ import Asciinema from "@/components/ui/Asciinema.astro";
 import Icon from "@/components/ui/Icon.astro";
 import Card from "@/components/ui/Card.astro";
 import LinkButton from '@/components/ui/LinkButton.astro';
+import { Image } from 'astro:assets';
+import myImage from 'src/images/logo.svg';
 
 import SplashContent from '@/components/splash/SplashContent.astro';
 import BoxSection from '@/components/splash/BoxSection.astro';
@@ -27,14 +29,17 @@ import BoxSectionBox from '@/components/splash/BoxSectionBox.astro';
 import BoxSectionOutro from '@/components/splash/BoxSectionOutro.astro';
 
 <SplashContent>
-  <h1>AerynOS</h1>
-
-  <p>Experience a revolutionary Linux distribution that puts you in control. With atomic updates, blazing-fast performance, and industry-leading reliability, AerynOS represents the next evolution in operating systems.</p>
+<div class="image-container">
+  <Image src={myImage} alt="Centered Image" width={400} height={400} />
+</div>
+<h1>AerynOS</h1>
+  <p>AerynOS is an independent performance-oriented Linux-based operating system that diverges significantly from traditional distributions whilst still aiming to provide a familiar and comfortable environment. The code-base is currently in an alpha "technical preview" stage, which means that it is not yet ready for widespread use. However, we are committed to eventually providing a stable and reliable operating system that will be easy to use and customize.</p>
 
   <div class="sl-flex" style="justify-content: center;">
     <LinkButton href="/download" variant="primary" icon="fa6-solid:download">Get Started</LinkButton>
     <LinkButton href="/about" variant="secondary" icon="fa6-solid:circle-arrow-right">Learn More</LinkButton>
     <LinkButton href="/sponsor" variant="secondary" iconPlacement="end" icon="fa6-solid:heart">Support Us</LinkButton>
+    <LinkButton href="https://aerynos.dev/" variant="secondary" iconPlacement="end" icon="fa6-solid:circle-arrow-right">Documentation</LinkButton>
   </div>
 
   ![aerynos_alpha](@/images/editions/AerynOS_GNOME.png)
