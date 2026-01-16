@@ -17,14 +17,13 @@ export default defineConfig({
   // image: {
   //   domains: ["images.unsplash.com"],
   // },
-  // i18n: {
-  //   defaultLocale: "en",
-  //   locales: ["en"],
-  //   fallback: {},
-  //   routing: {
-  //     prefixDefaultLocale: false,
-  //   },
-  // },
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   prefetch: true,
   integrations: [
     astroBrokenLinksChecker({
@@ -102,7 +101,6 @@ export default defineConfig({
         SocialIcons: '@/components/starlight-overrides/SocialIcons.astro',
         PageTitle: '@/components/starlight-overrides/PageTitle.astro',
         ContentPanel: '@/components/starlight-overrides/ContentPanel.astro',
-        MarkdownContent: '@/components/starlight-overrides/MarkdownContent.astro',
       },
       credits: false,
     }),
@@ -126,6 +124,5 @@ export default defineConfig({
   ],
   experimental: {
     clientPrerender: true,
-    svg: true,
   },
 })
