@@ -1,6 +1,0 @@
----
-import Default from '@astrojs/starlight/components/PageTitle.astro';
-const { hideTitle } = Astro.locals.starlightRoute.entry.data
-
----
-{!hideTitle && <Default {...Astro.props}><slot/></Default>}
