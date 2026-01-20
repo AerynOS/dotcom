@@ -1,0 +1,123 @@
+baseURL: https://aerynos.com/
+languageCode: en-us
+title: AerynOS
+theme: hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: About
+      pageRef: /about
+      weight: 2
+    - name: Downloads
+      pageRef: /downloads
+      weight: 3
+    - name: Staff
+      pageRef: /staff
+      weight: 4
+    - identifier: menu
+      name: More
+      weight: 5
+    - identifier: Funding
+      name: Funding
+      pageRef: /funding
+      parent: menu
+    - identifier: Community
+      name: Community
+      pageRef: /community
+      parent: menu
+    - identifier: Forums
+      name: Forums
+      url: "https://github.com/orgs/AerynOS/discussions"
+      parent: menu
+    - identifier: Contact
+      name: Contact
+      pageRef: /contact
+      parent: menu
+    - identifier: Blog
+      name: Blog
+      pageRef: /blog
+      parent: menu
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/AerynOS/"
+      params:
+        icon: github
+    - name: Zulip
+      weight: 7
+      url: "https://aerynos.zulipchat.com/"
+      params:
+        icon: zulip
+    - name: Mastodon
+      weight: 8
+      url: "https://hachyderm.io/@AerynOS"
+      params:
+        icon: mastodon
+    - name: Bluesky
+      weight: 9
+      url: "https://bsky.app/profile/aerynos.com"
+      params:
+        icon: bluesky
+    - name: X
+      weight: 10
+      url: "https://x.com/AerynOS_Linux"
+      params:
+        icon: x-twitter
+    - name: reddit
+      weight: 11
+      url: "https://www.reddit.com/r/AerynOS/"
+      params:
+        icon: reddit
+    - name: Theme Toggle
+      weight: 12
+      params:
+        type: theme-toggle
+
+outputs:
+  home: [html, llms]
+  page: [html]
+  section: [html, rss]
+
+params:
+  externalLinkDecoration: true
+  enableInlineShortcodes: true
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    width: wide
+    logo:
+      path: images/logo-dark.svg
+      dark: images/logo-light.svg
+      link: /
+      width: 60
+      height: 60
+  footer:
+    width: wide
+    displayCopyright: true
+    displayPoweredBy: true
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: false
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
+  banner:
+    key: "announcement-donation"
+    message: |
+      Curious how to support AerynOS? Consider [donating](https://ko-fi.com/aerynos)
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      tokenize: full

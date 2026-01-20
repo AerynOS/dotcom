@@ -1,6 +1,0 @@
----
-import Default from '@astrojs/starlight/components/Sidebar.astro';
-// remove the blog section from the sidebar
-Astro.locals.starlightRoute.sidebar = Astro.locals.starlightRoute.sidebar.filter((item) => item.label !== 'blog');
----
-<Default {...Astro.props}>slot</Default>
