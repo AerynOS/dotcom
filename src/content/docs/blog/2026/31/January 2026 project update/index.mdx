@@ -17,11 +17,13 @@ Kicking off 2026, activity across the AerynOS project has been moving at pace. A
 
 From a core tooling perspective, we are preparing for the next phase of our Versioned Repository feature set. During January, we have been refining our existing codebase to make future improvements easier to implement. Once delivered, moss will be able to update itself seamlessly through what would otherwise have been breaking changes to its codebase. This functionality will be very important for our long term goals as a rolling release distro where you never have to reinstall to receive the latest updates.
 
-Progress has been made around our branding with efforts towards a new website design and a healthy discussion and proposals for a new AerynOS logo. You may recently have seen that AerynOS is taking a stronger stance against the use of LLMs and generative AI. In full transparency, our current logo was AI generated and we actively want to move to a human created logo for the reasons mentioned in our [LLM policy](https://github.com/aerynOS/.github?tab=contributing-ov-file#llm-contributions).
+Progress has been made around our branding with efforts towards a new website design and a healthy discussion and proposals for a new AerynOS logo.
 
-Additional progress has been made project-wide on our documentation and we have also made improvements to our CDN implementation for improved package delivery.
+You may recently have seen that AerynOS is taking a stronger stance against the use of LLMs and generative AI. Our [LLM policy](https://github.com/aerynOS/.github?tab=contributing-ov-file#llm-contributions) can be found on GitHub and will be replicated on our website in due course.
 
-Our efforts are seemingly well received, we are seeing an influx of new members joining our Zulip server and getting involved with AerynOS, whether through general discussion or through packaging efforts. We have also seen a jump in our followers across our various social media accounts and generally a more positive reception of what AerynOS is trying to achieve in the Linux space.
+Additional progress has been made project-wide on our documentation and we have also made improvements to our CDN setup for improved package delivery.
+
+Our efforts are seem to be received well, as we are seeing an influx of new members joining our [Zulip server](https://aerynos.zulipchat.com/) and getting involved with AerynOS, whether through general discussion or through packaging efforts. We have also seen a jump in our followers across our various social media accounts and generally a more positive reception of what AerynOS is trying to achieve in the Linux space.
 
 ## What’s new in the distro
 
@@ -32,12 +34,12 @@ Package / stack updates for this iteration include:
 - KDE Frameworks 6.22.0
 - KDE Gear 25.12.1
 - KDE Plasma 6.5.5
-- brush 0.3.0-dev (bash compatible shell built w/ Rust)
+- brush 0.3.0-dev (bash compatible shell written in Rust)
 - dankmaterialshell 1.2.3 (build your own wayland desktop experience in material design style)
 - firefox 147.0.2
 - fish 4.3.3 (user friendly shell built w/ Rust)
 - foot terminal 1.25.0 (fast, wayland-native terminal emulator)
-- ghostty terminal 1.3.0-dev (virtual terminal built w/ zig)
+- ghostty terminal 1.3.0-dev (virtual terminal written in zig)
 - glibc 2.43+git.144ba302
 - lact 0.8.3 (gui for tweaking gpu voltages, fan curves and frequencies)
 - linux 6.18.7
@@ -64,13 +66,13 @@ Package / stack updates for this iteration include:
 
 ![Cosmic Install](Cosmic_Screenshot.jpg)
 
-Given [System76's](https://system76.com/cosmic) move to a more regular release cycle for Cosmic DE, we are able to land updates to our repository more frequently. This month, System76 landed Cosmic 1.0.3 with some key updates including support for rounded corners and window shadows across all applications and additional appearance settings being made available.
+Given System76's move to a more regular release cycle for [Cosmic DE](https://system76.com/cosmic), we are able to land updates to our repository more frequently. This month, System76 landed Cosmic 1.0.3 with some key updates including support for rounded corners and window shadows across all applications and additional appearance settings being made available.
 
 <Aside title="Cosmic">
 
-    AerynOS is following the System76's "Epoch" git branch for Cosmic DE. This is where System76 stages new updates to the Cosmic ecosystem before publishing new point releases. As such, AerynOS' Cosmic offering is somewhere between 1.0.3 and 1.0.4. 
+AerynOS is following System76's "Epoch" git branch for Cosmic DE. This is where System76 stages new updates to the Cosmic ecosystem before publishing new point releases. As such, our Cosmic package is actually somewhere between 1.0.3 and 1.0.4. 
     
-    Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.
+Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.
 
 </Aside>
 
@@ -78,7 +80,7 @@ Given [System76's](https://system76.com/cosmic) move to a more regular release c
 
 ![Gnome Install](Gnome_Screenshot.jpg)
 
-This month sees the inclusion of [Gnome 49.3](https://discourse.gnome.org/t/gnome-49-3-released/33609) which is a stable bug fix release with updates across the Gnome stack. 
+This month sees the inclusion of [Gnome 49.3](https://discourse.gnome.org/t/gnome-49-3-released/33609) which is a stable bug-fix release with updates across the Gnome stack. 
 
 Some key updates include:
 
@@ -86,7 +88,7 @@ Some key updates include:
 - GNOME Control Center fixes for time zone searching and monitoring app filter changes in the Applications panel
 - Loupe improvements in performance
 
-Plus many more fixes. 
+Plus many more fixes. See the upstream [changelog](https://download.gnome.org/teams/releng/49.3/NEWS) for more details.
 
 ### KDE Plasma
 
@@ -98,7 +100,7 @@ The latest KDE Plasma update brings:
 
 - Improved XWayland app support
 - Krunner having better matching algorithms for what users are searching for
-- A bug fix to kwin to properly handle drag-and-dropped text.
+- A bug fix to kwin to properly handle drag-and-dropped text
 
 ### New Wayland Compositor Environments
 
@@ -112,9 +114,9 @@ As a reminder, we do not include MangoWC, Niri or Sway as options to install dir
 
 <Aside title="Why not use our system-model?">
 
-    Our new system-model approach can be used as a way of significantly simplifying the process of setting up a new AerynOS install by declaratively stating which packages you want installed on your system from a given repository (currently either Unstable or Volatile) and even being able to lock your environment to any given fixed-in-time stream update tag.
+Our new system-model approach can be used as a way of significantly simplifying the process of setting up a new AerynOS install by declaratively stating which packages you want installed on your system from a given repository (currently either Unstable or Volatile) and even being able to lock your environment to any given fixed-in-time stream update tag.
     
-    For more information about our system-model approach, please refer to the our previous [2025 in retrospect blog post](https://aerynos.com/blog/2026/01/2025-in-retrospect/#system-model)
+For more information about our system-model approach, please refer to the our previous [2025 in retrospect blog post](https://aerynos.com/blog/2026/01/2025-in-retrospect/#system-model)
 
 </Aside>
 
