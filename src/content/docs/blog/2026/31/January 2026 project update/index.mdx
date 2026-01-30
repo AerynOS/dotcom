@@ -37,7 +37,7 @@ Package / stack updates for this iteration include:
 - brush 0.3.0-dev (bash compatible shell written in Rust)
 - dankmaterialshell 1.2.3 (build your own wayland desktop experience in material design style)
 - firefox 147.0.2
-- fish 4.3.3 (user friendly shell built w/ Rust)
+- fish 4.3.3 (user friendly shell written in Rust)
 - foot terminal 1.25.0 (fast, wayland-native terminal emulator)
 - ghostty terminal 1.3.0-dev (virtual terminal written in zig)
 - glibc 2.43+git.144ba302
@@ -55,7 +55,7 @@ Package / stack updates for this iteration include:
 - vscode 1.108.2
 - vscodium 1.108.10359
 - wine 11
-- zed 0.218.7 (text editor built w/ Rust)
+- zed 0.218.7 (text editor written in Rust)
 
 ... along with sundry additions and updates.
 
@@ -125,17 +125,15 @@ For more information about our system-model approach, please refer to the our pr
 
 ### debuginfod
 
-This month, courtesy [Joey Riches](https://github.com/joebonrichie), we added a `debuginfod` service hosted at https://debuginfod.aerynos.dev! For those unaware, [debuginfod](https://sourceware.org/elfutils/Debuginfod.html) is a service that finds and collects debug information in packages and hosts them to be downloadable over a simple Web API. 
+This month, courtesy [Joey Riches](https://github.com/joebonrichie), we brought up a `debuginfod` instance at https://debuginfod.aerynos.dev! For those unaware, [debuginfod](https://sourceware.org/elfutils/Debuginfod.html) is a service that finds and collects debug information in packages and hosts them to be downloadable over a simple Web API. 
 
-In practice, this means that downstream consumers such as `gdb` can automatically download the correct debuginfo files matching an executable's build-id. No more manually searching for and installing the correct `-dbginfo` packages to successfully populate a backtrace with symbols.
+In practice, this means that debuggers such as `gdb` can automatically download the correct debuginfo files matching an executable's build-id. No more manually searching for and installing the correct `-dbginfo` packages to successfully populate a backtrace with symbols.
 
 To use AerynOS's debuginfod service ensure you have `https://debuginfod.aerynos.dev` in the `$DEBUGINFOD_URLS` environment variable. Assuming you have `libdebuginfod` installed, this should be set up to work out of the the box.
 
-`-dbginfo` packages are still available in the repository in case you do not wish to use debuginfod, or your tool of choice doesn't yet support it.
+`-dbginfo` packages are still available in the repository in case you don't want to use debuginfod, or your tool of choice doesn't yet support it.
 
-This service was only possible due to the work [Cory Forsstrom](https://github.com/tarkah/) put in that made our custom `.stone` binary interface available over [FFI](https://doc.rust-lang.org/nomicon/ffi.html) to C via `libstone`. This in turn allowed him to write a downstream patch to `libarchive` supporting reading and extraction of our `.stone` format.
-
-In turn, the debuginfod service uses libstone to extract debuginfo files from our repository pool.
+This was only possible due to the work [Cory Forsstrom](https://github.com/tarkah/) put in that made our custom `.stone` binary interface available over [FFI](https://doc.rust-lang.org/nomicon/ffi.html) to C via `libstone`. This in turn allowed him to write a downstream patch to `libarchive`, the library used by debuginfod for extracting debuginfo from packages, for supporting our `.stone` package format.
  
 ### moss error handling
 
@@ -150,13 +148,13 @@ This error handling workstream will continue in the background to further improv
 
 ### Website redesign
 
-It has been clear to us for a while that the AerynOS website needs an update and this is something we have highlighted in previous blog posts. Following a review, the team has settled on using the Hextra theme on the Hugo static site generator.
+It has been clear to us for a while that the AerynOS website needs an update and this is something we have highlighted in previous blog posts. Following a review, the team has settled on using the Hugo static site generator with the Hextra theme.
 
 Without going into a lot of detail, the Hextra theme is well maintained and has a lot of functionality built-in, meaning it is well suited to our use case.
 
 NomadicCore has created a new branch on the [dotcom](https://github.com/AerynOS/dotcom/tree/NewSite) repository to work on this in the background. Given the move between Static Site Generators and more generally the different content we want to present on the site, there is still a fair way to go.
 
-If you are interested or experienced in website design and want to help out, join our [Zulip](https://aerynos.zulipchat.com) server and get to know the team.
+If you are interested and want to help out, join our [Zulip](https://aerynos.zulipchat.com) server and get to know the team.
 
 ### CDN hit rate
 
@@ -179,12 +177,12 @@ Notable changes include:
 - A new "Creating a new package recipe" [page](https://aerynos.dev/packaging/workflow/creating-a-new-recipe/)
 - Addition of a "How to submit a PR" [page](https://aerynos.dev/packaging/workflow/submitting-a-pr/)
 - The ability to view our documentation site as a single [PDF](https://aerynos.dev/aerynos.pdf)
-- Updates to our contributing.md file across our GitHub organisation
+- Updates to our `contributing.md` file across our GitHub organisation
 - The introduction of a policy around **prohibiting the use of LLMs when engaging with AerynOS**
 
 ### GitHub vs Codeberg
 
-One area of potential interest is around our use of GitHub. Over time, the team has become increasingly dissatisfied with GitHub for various reasons, including the increased push towards AI and the specter of not having control / sovereignty over our code and/or being locked out with no warning.
+One area of potential interest is around our use of GitHub. Over time, the team has become increasingly dissatisfied with GitHub for various reasons, including the increased push towards AI and the concern of not having control / sovereignty over our code and/or being locked out with no warning.
 
 Looking to other solutions, Codeberg has come up as a potential alternative and one which the team has started using for internal operational documentation and personal projects, with the initial experience being generally positive.
 
@@ -208,7 +206,7 @@ The link for our 2026.01 ISO can be found on our [download](/download/) page.
 
 We have spent the month of January taking stock of our future development direction, including short and medium term goals.
 
-This has resulted in several nice refactors to how moss works internally, which will in turn make it significantly easier for us to implement some of the medium term features we have planned. It has also already helped us prepare a few planned features, such as better error messages and the in-progress `moss fetch` feature, which can be used to download .stones in advance for testing purposes.
+This has resulted in several nice refactors to how moss works internally, which will in turn make it significantly easier for us to implement some of the medium term features we have planned. It has also already helped us prepare a few planned features, such as better error messages and the in-progress `moss fetch` feature, which can be used to download packages in advance for testing purposes.
 
 Next to that, we are steadily working towards delivering the Versioned Repos, phase2 infrastructure feature set, which is about teaching moss how to seamlessly auto-update itself across breaking on-disk moss-format changes with no user-interaction.
 
