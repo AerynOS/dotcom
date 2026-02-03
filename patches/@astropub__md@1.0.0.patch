@@ -1,0 +1,13 @@
+diff --git a/package.json b/package.json
+index 469adb36993f89e6ec193edc20cef05a663fd6de..94fa73fd1598b68978c210d1a09b15bcd2f94e87 100644
+--- a/package.json
++++ b/package.json
+@@ -25,7 +25,7 @@
+ 		"./package.json": "./package.json"
+ 	},
+ 	"peerDependencies": {
+-		"@astrojs/markdown-remark": "^5"
++		"@astrojs/markdown-remark": "^5 || ^6"
+ 	},
+ 	"main": "astro-md.js",
+ 	"types": "astro-md.d.ts",
