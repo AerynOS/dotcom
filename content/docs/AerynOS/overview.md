@@ -1,0 +1,20 @@
+---
+date: '2026-01-06T14:27:56Z'
+draft: false
+title: 'Overview'
+weight: 1
+cascade:
+  type: docs
+---
+
+AerynOS is a Linux-based operating system designed to eliminate years of technical baggage. It is an engineering led effort in that the distribution is produced entirely by the tooling we have developed. Every new feature, technology, or enabling is carefully considered, drawing on our own experiences and by studying the impact in similar decision spaces in other projects.
+
+Despite being heavily engineering led, we are not averse to design. We aim to provide the best in class user experience atop a solid, innovative foundation, whilst ensuring we have the scope and scalability to meet the needs of the future.
+
+In essence, we're producing a distribution based on sound technical principles, in order to deliver a "daily driver" that truly looks after itself. Its aim is to get out of the way when you need it to, and provide the tools you need when you need them.
+
+If anything, AerynOS is "operating-system-as-infrastructure", providing a solid foundation for your daily computing needs. We're not just a distribution, we're a platform for the future.
+
+{{< callout type="important" >}} 
+  Remember, AerynOS is still in development. Despite our goals, we must be clear that we've deemed ourselves to be alpha quality software
+{{< /callout >}}

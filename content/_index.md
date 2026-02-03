@@ -25,3 +25,5 @@ layout: hextra-home
 {{< /hextra/hero-badge >}}
 </div>
 {{< /hextra/hero-container >}}
+
+![landscape](images/aerynos-desktop.png)

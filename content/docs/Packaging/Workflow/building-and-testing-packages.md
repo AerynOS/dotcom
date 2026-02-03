@@ -1,0 +1,51 @@
+---
+title : 'Building and testing packages'
+lastUpdated: 2026-01-25T12:00:00+00:00
+weight: 6
+description: "How to build and test packages locally on your system"
+---
+
+This guide will walk you through the process of building and testing packages locally on your system, regardless of whether they come from new package recipes or existing ones you are updating.
+
+## Build the package
+
+Once you have created or updated a package recipe, you will need to build it locally. If you are only updating one package, you can either keep your local repository disabled prior to building the package. If you prefer to keep it enabled, make sure there are no other packages indexed locally that could interfere with your new package build.
+
+{{< callout >}}
+  Please ensure you have followed the steps in the [Preparing for Packaging](/docs/packaging/workflow/preparing-for-packaging/) guide to ensure you volatile repository is enabled.
+{{< /callout >}}
+
+The command to build the updated package is:
+
+```bash
+just build
+```
+
+If the package is successfully built, you will need to move it to your local repository. You can do this using the following command:
+
+```bash
+just mv-local
+```
+
+If you have not yet enabled the local repository, you do this with the following command:
+
+```bash
+sudo moss repo enable local
+```
+
+You will then need to sync the local repository using the command:
+
+```bash
+sudo moss sync -u
+```
+
+Note, if you already have an older version of the package installed, you will be asked if you want to update to the new local version you have just built. If you have not yet installed this package, you would install it as normal using the command:
+
+```bash
+sudo moss install "package name"
+```
+
+Once you have tested the package, you can make a submission for including the update in the repository.
+
+> [!TIP] How to submit pull requests
+> To find guidance on how to submit a pull request (PR), you can refer to our [submit a pull request](/docs/packaging/workflow/submitting-a-pr) page.

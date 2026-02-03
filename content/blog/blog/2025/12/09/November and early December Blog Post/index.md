@@ -1,12 +1,16 @@
 ---
-title: "November + early December 2025 project update"
+authors:
+- image: /images/avatars/nomadiccore.png
+  link: https://github.com/nomadiccore
+  name: NomadicCore
+- image: /images/avatars/ermo.png
+  link: https://github.com/ermo
+  name: ermo
+title: November + early December 2025 project update
 date: 2025-12-09T12:00:00Z
-authors: [nomadiccore, ermo]
-tags: [news]
+tags:
+- news
 ---
-
-import Kofi from "@/components/ui/Kofi.astro";
-import { Aside } from "@astrojs/starlight/components";
 
 # AerynOS: November + early December 2025 project update
 

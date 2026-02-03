@@ -1,0 +1,65 @@
+---
+title: Downloading AerynOS
+lastUpdated: 2025-01-13T10:49:00+07:00
+weight: 2
+description: Downloading the AerynOS ISO file and verifying the checksums
+---
+
+## Downloading the ISO
+
+1. Visit the [AerynOS download page](https://download.aerynos.com).
+2. Look for the latest release available for download, the official ISO files are named `AerynOS-<version>-<desktop>-<architecture>.iso`.
+
+{{< callout >}}
+  There may be multiple versions available with different desktop environments denoted by `AerynOS-<version>-<desktop>-<architecture>.iso` where `<desktop>` is the desktop environment.
+{{< /callout >}}
+
+3. Click on the download link to start downloading the ISO file and associated checksums denoted by `AerynOS-<version>-<desktop>-<architecture>.iso.sha256sum`.
+
+Once the download is complete, you can proceed with creating a bootable USB drive or burning the ISO to a DVD to install AerynOS on your machine.
+
+## Verifying the Checksums
+
+Before creating a bootable USB drive or burning the ISO to a DVD, it's important to verify the checksums to ensure the integrity of the downloaded ISO file.
+
+{{< callout type="warning" >}}
+  Using the ISO file without verifying the checksums can lead to boot failures, installation issues, and potential security risks.
+{{< /callout >}}
+
+### Linux
+
+1. Open a terminal window and navigate to the directory where the ISO file is located along with the checksums.
+
+```bash
+cd ~/Downloads
+```
+
+2. Run the following command to verify the checksums:
+
+```bash
+
+sha256sum -c <checksum_file>
+```
+You should see a message indicating that the checksums match if the ISO file is valid.
+
+```bash
+AerynOS-2025.03-GNOME-x86_64.iso: OK
+```
+
+If the checksums do not match, download the ISO file again and repeat the verification process.
+
+### Windows
+
+1. Open a Command Prompt window and navigate to the directory where the ISO file is located along with the checksums.
+
+```cmd
+cd C:\Users\<username>\Downloads
+```
+
+2. Run the following command to verify the checksums:
+
+```cmd
+certutil -hashfile aerynos-<version>.iso SHA256
+```
+
+This will give you the checksum of the file, compare this to the checksum found inside the checksum file.

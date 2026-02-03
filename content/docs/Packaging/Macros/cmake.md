@@ -1,0 +1,9 @@
+---
+title: cmake
+lastUpdated: 2024-09-10T00:38:46Z
+weight: 3
+description: cmake build system
+---
+import RenderMacroActions from '@components/RenderMacroActions.astro'
+
+<RenderMacroActions group="cmake"/>

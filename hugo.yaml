@@ -14,12 +14,16 @@ menu:
   main:
     - name: About
       pageRef: /about
-      weight: 2
+      weight: 1
     - name: Downloads
       pageRef: /downloads
-      weight: 3
+      weight: 2
     - name: Staff
       pageRef: /staff
+      weight: 3
+    - identifier: Documentation
+      name: Docs
+      pageRef: /docs
       weight: 4
     - identifier: menu
       name: More
@@ -87,6 +91,9 @@ outputs:
 params:
   externalLinkDecoration: true
   enableInlineShortcodes: true
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
   navbar:
     displayTitle: true
     displayLogo: true
@@ -121,3 +128,6 @@ params:
       # index page by: content | summary | heading | title
       index: content
       tokenize: full
+
+# Parse Git commit
+enableGitInfo: true

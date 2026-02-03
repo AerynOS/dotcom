@@ -1,0 +1,7 @@
+---
+title: Stone Format
+lastUpdated: 2025-03-28T05:28:00Z
+description: Binary stone format
+---
+
+The Stone format is a binary format used to package and distribute software in AerynOS. It is designed to be type-safe and version-aware.
