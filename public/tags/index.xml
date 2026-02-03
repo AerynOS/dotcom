@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AerynOS – Tags</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:45189/tags/</link>
     <description>Recent content in Tags on AerynOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Dec 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 12:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:45189/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
       

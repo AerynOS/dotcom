@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AerynOS – Blog</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://localhost:45189/blog/</link>
     <description>Recent content in Blog on AerynOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jan 2026 14:27:56 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:45189/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,11 +16,197 @@
     
     
     <item>
-      <title>2025 in retrospect</title>
-      <link>http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>January 2026 project update</title>
+      <link>http://localhost:45189/blog/blog/2026/31/january-2026-project-update/</link>
+      <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/</guid>
+      <guid>http://localhost:45189/blog/blog/2026/31/january-2026-project-update/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;AerynOS: January 2026 project update&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;Fresh-start.jpg&#34; alt=&#34;Fresh Start&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Kicking off 2026, activity across the AerynOS project has been moving at pace. As covered in our 2025 retrospective, last year the team laid the groundwork for the project&amp;rsquo;s future growth and development. Starting off 2026, the team is building upon this foundation to keep delivering progress across the project.&lt;/p&gt;
+&lt;p&gt;From a core tooling perspective, we are preparing for the next phase of our Versioned Repository feature set. During January, we have been refining our existing codebase to make future improvements easier to implement. Once delivered, moss will be able to update itself seamlessly through what would otherwise have been breaking changes to its codebase. This functionality will be very important for our long term goals as a rolling release distro where you never have to reinstall to receive the latest updates.&lt;/p&gt;
+&lt;p&gt;Progress has been made around our branding with efforts towards a new website design and a healthy discussion and proposals for a new AerynOS logo.&lt;/p&gt;
+&lt;p&gt;You may recently have seen that AerynOS is taking a stronger stance against the use of LLMs and generative AI. Our &lt;a href=&#34;https://github.com/aerynOS/.github?tab=contributing-ov-file#llm-contributions&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LLM policy&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; can be found on GitHub and will be replicated on our website in due course.&lt;/p&gt;
+&lt;p&gt;Additional progress has been made project-wide on our documentation and we have also made improvements to our CDN setup for improved package delivery.&lt;/p&gt;
+&lt;p&gt;Our efforts seem to be received well, as we are seeing an influx of new members joining our &lt;a href=&#34;https://aerynos.zulipchat.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zulip server&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; and getting involved with AerynOS, whether through general discussion or through packaging efforts. We have also seen a jump in our followers across our various social media accounts and generally a more positive reception of what AerynOS is trying to achieve in the Linux space.&lt;/p&gt;
+&lt;h2&gt;What’s new in the distro&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;whats-new-in-the-distro&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#whats-new-in-the-distro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Package / stack updates for this iteration include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;COSMIC 1.0.3&lt;/li&gt;
+&lt;li&gt;GNOME 49.3&lt;/li&gt;
+&lt;li&gt;KDE Frameworks 6.22.0&lt;/li&gt;
+&lt;li&gt;KDE Gear 25.12.1&lt;/li&gt;
+&lt;li&gt;KDE Plasma 6.5.5&lt;/li&gt;
+&lt;li&gt;brush 0.3.0-dev (bash compatible shell written in Rust)&lt;/li&gt;
+&lt;li&gt;dankmaterialshell 1.2.3 (build your own wayland desktop experience in material design style)&lt;/li&gt;
+&lt;li&gt;firefox 147.0.2&lt;/li&gt;
+&lt;li&gt;fish 4.3.3 (user friendly shell written in Rust)&lt;/li&gt;
+&lt;li&gt;foot terminal 1.25.0 (fast, wayland-native terminal emulator)&lt;/li&gt;
+&lt;li&gt;ghostty terminal 1.3.0-dev (virtual terminal written in zig)&lt;/li&gt;
+&lt;li&gt;glibc 2.43+git.144ba302&lt;/li&gt;
+&lt;li&gt;lact 0.8.3 (gui for tweaking gpu voltages, fan curves and frequencies)&lt;/li&gt;
+&lt;li&gt;linux 6.18.7&lt;/li&gt;
+&lt;li&gt;mangowc 0.10.10 (wayland compositor with eye candy effects)&lt;/li&gt;
+&lt;li&gt;mesa 25.3.4&lt;/li&gt;
+&lt;li&gt;nodejs 24.13.0&lt;/li&gt;
+&lt;li&gt;pipewire 1.4.10&lt;/li&gt;
+&lt;li&gt;prism-launcher 10.0.2 (minecraft launcher)&lt;/li&gt;
+&lt;li&gt;qemu 10.2.0&lt;/li&gt;
+&lt;li&gt;quickshell 0.2.1 (building blocks for wayland compositor-based desktop experiences)&lt;/li&gt;
+&lt;li&gt;ruby 4.0.1&lt;/li&gt;
+&lt;li&gt;thunderbird 147.0.1&lt;/li&gt;
+&lt;li&gt;vscode 1.108.2&lt;/li&gt;
+&lt;li&gt;vscodium 1.108.10359&lt;/li&gt;
+&lt;li&gt;wine 11&lt;/li&gt;
+&lt;li&gt;zed 0.221.4 (text editor written in Rust)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip; along with sundry additions and updates.&lt;/p&gt;
+&lt;h2&gt;Desktop Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;desktop-updates&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#desktop-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Cosmic&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosmic&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cosmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Cosmic_Screenshot.jpg&#34; alt=&#34;Cosmic Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Given System76&amp;rsquo;s move to a more regular release cycle for &lt;a href=&#34;https://system76.com/cosmic&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic DE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, we are able to land updates to our repository more frequently. This month, System76 landed Cosmic 1.0.3 with some key updates including support for rounded corners and window shadows across all applications and additional appearance settings being made available.&lt;/p&gt;
+&lt;Aside title=&#34;Cosmic&#34;&gt;
+&lt;p&gt;AerynOS is following System76&amp;rsquo;s &amp;ldquo;Epoch&amp;rdquo; git branch for Cosmic DE. This is where System76 stages new updates to the Cosmic ecosystem before publishing new point releases. As such, our Cosmic package is actually somewhere between 1.0.3 and 1.0.4.&lt;/p&gt;
+&lt;p&gt;Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.&lt;/p&gt;
+&lt;/Aside&gt;
+&lt;h3&gt;Gnome&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gnome&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gnome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Gnome_Screenshot.jpg&#34; alt=&#34;Gnome Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This month sees the inclusion of &lt;a href=&#34;https://discourse.gnome.org/t/gnome-49-3-released/33609&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gnome 49.3&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; which is a stable bug-fix release with updates across the Gnome stack.&lt;/p&gt;
+&lt;p&gt;Some key updates include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nautilus file manager no longer wastes resources on images with larger dimensions&lt;/li&gt;
+&lt;li&gt;GNOME Control Center fixes for time zone searching and monitoring app filter changes in the Applications panel&lt;/li&gt;
+&lt;li&gt;Loupe improvements in performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Plus many more fixes. See the upstream &lt;a href=&#34;https://download.gnome.org/teams/releng/49.3/NEWS&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;changelog&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;h3&gt;KDE Plasma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kde-plasma&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kde-plasma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;KDE_Screenshot.jpg&#34; alt=&#34;KDE Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;KDE Plasma has been updated to &lt;a href=&#34;https://kde.org/announcements/plasma/6/6.5.5/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;6.5.5&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, KDE Frameworks to 6.22.0 and KDE Gear to 25.12.1.&lt;/p&gt;
+&lt;p&gt;The latest KDE Plasma update brings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved XWayland app support&lt;/li&gt;
+&lt;li&gt;Krunner having better matching algorithms for what users are searching for&lt;/li&gt;
+&lt;li&gt;A bug fix to kwin to properly handle drag-and-dropped text&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;New Wayland Compositor Environments&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;new-wayland-compositor-environments&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#new-wayland-compositor-environments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;With the increased interest surrounding AerynOS, we have seen some new contributors join the community and wanting to package up their favourite wayland compositors and supporting packages. Hence, after some mentoring, MangoWC and a gaggle of ancillary packages were landed this month, and they join the existing Niri and Sway wayland compositors in the package repository.&lt;/p&gt;
+&lt;p&gt;As a result, if you&amp;rsquo;re the sort who prefers to assemble your own Desktop Experience, we now have foot, quickshell and dankmaterialshell as a few examples of packages you can use as a base to make your Desktop Experience &amp;ldquo;just so&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;As a reminder, we do not include MangoWC, Niri or Sway as options to install directly from our &lt;code&gt;lichen&lt;/code&gt; installer. Users interested in building their own Desktop Experiences on AerynOS can use our &lt;code&gt;terminal-only&lt;/code&gt; option and then install their preferred Wayland Compositor and associated packages of choice from the command line.&lt;/p&gt;
+&lt;iframe title=&#34;Show &amp;amp; Tell: MangoWC on AerynOS&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;https://exquisite.tube/videos/embed/1R1WCHZyeGiQPKouVRMBPn&#34; style=&#34;border: 0px;&#34; allow=&#34;fullscreen&#34; sandbox=&#34;allow-same-origin allow-scripts allow-popups allow-forms&#34;&gt;&lt;/iframe&gt;
+&lt;Aside title=&#34;Why not use our system-model?&#34;&gt;
+&lt;p&gt;Our new system-model approach can be used as a way of significantly simplifying the process of setting up a new AerynOS install by declaratively stating which packages you want installed on your system from a given repository (currently either Unstable or Volatile) and even being able to lock your environment to any given fixed-in-time stream update tag.&lt;/p&gt;
+&lt;p&gt;For more information about our system-model approach, please refer to the our previous &lt;a href=&#34;https://aerynos.com/blog/2026/01/2025-in-retrospect/#system-model&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2025 in retrospect blog post&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/Aside&gt;
+&lt;h2&gt;Infrastructure and Tooling Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-and-tooling-updates&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#infrastructure-and-tooling-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;debuginfod&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;debuginfod&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#debuginfod&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This month, courtesy &lt;a href=&#34;https://github.com/joebonrichie&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joey Riches&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;, we brought up a &lt;code&gt;debuginfod&lt;/code&gt; instance at &lt;a href=&#34;https://debuginfod.aerynos.dev&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://debuginfod.aerynos.dev&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;! For those unaware, &lt;a href=&#34;https://sourceware.org/elfutils/Debuginfod.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;debuginfod&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; is a service that finds and collects debug information in packages and hosts them to be downloadable over a simple Web API.&lt;/p&gt;
+&lt;p&gt;In practice, this means that debuggers such as &lt;code&gt;gdb&lt;/code&gt; can automatically download the correct debuginfo files matching an executable&amp;rsquo;s build-id. No more manually searching for and installing the correct &lt;code&gt;-dbginfo&lt;/code&gt; packages to successfully populate a backtrace with symbols.&lt;/p&gt;
+&lt;p&gt;To use AerynOS&amp;rsquo;s debuginfod service ensure you have &lt;code&gt;https://debuginfod.aerynos.dev&lt;/code&gt; in the &lt;code&gt;$DEBUGINFOD_URLS&lt;/code&gt; environment variable. Assuming you have &lt;code&gt;libdebuginfod&lt;/code&gt; installed, this should be set up to work out of the the box.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-dbginfo&lt;/code&gt; packages are still available in the repository in case you don&amp;rsquo;t want to use debuginfod, or your tool of choice doesn&amp;rsquo;t yet support it.&lt;/p&gt;
+&lt;p&gt;This was only possible due to the work &lt;a href=&#34;https://github.com/tarkah/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cory Forsstrom&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; put in that made our custom &lt;code&gt;.stone&lt;/code&gt; binary interface available over &lt;a href=&#34;https://doc.rust-lang.org/nomicon/ffi.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FFI&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; to C via &lt;code&gt;libstone&lt;/code&gt;. This in turn allowed him to write a downstream patch to &lt;code&gt;libarchive&lt;/code&gt;, the library used by debuginfod for extracting debuginfo from packages, for supporting our &lt;code&gt;.stone&lt;/code&gt; package format.&lt;/p&gt;
+&lt;h3&gt;moss error handling&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;moss-error-handling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#moss-error-handling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The team have started work on refactoring error handling in &lt;code&gt;moss&lt;/code&gt; with an early benefit being that download/unpacking errors will now mention the specific package that caused the error.&lt;/p&gt;
+&lt;p&gt;This is useful when troubleshooting, as it allows us to diagnose whether there is an issue with the user&amp;rsquo;s internet connection, or with the package itself on our server.&lt;/p&gt;
+&lt;p&gt;This error handling workstream will continue in the background to further improve the quality of human readable error output in our tooling.&lt;/p&gt;
+&lt;h2&gt;Wider Project Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wider-project-updates&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wider-project-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Website redesign&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;website-redesign&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#website-redesign&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It has been clear to us for a while that the AerynOS website needs an update and this is something we have highlighted in previous blog posts. Following a review, the team has settled on using the Hugo static site generator with the Hextra theme.&lt;/p&gt;
+&lt;p&gt;Without going into a lot of detail, the Hextra theme is well maintained and has a lot of functionality built-in, meaning it is well suited to our use case.&lt;/p&gt;
+&lt;p&gt;NomadicCore has created a new branch on the &lt;a href=&#34;https://github.com/AerynOS/dotcom/tree/NewSite&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dotcom&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; repository to work on this in the background. Given the move between Static Site Generators and more generally the different content we want to present on the site, there is still a fair way to go.&lt;/p&gt;
+&lt;p&gt;If you are interested and want to help out, join our &lt;a href=&#34;https://aerynos.zulipchat.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zulip&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; server and get to know the team.&lt;/p&gt;
+&lt;h3&gt;CDN hit rate&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cdn-hit-rate&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cdn-hit-rate&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Last year, the team set up Cloudflare as a CDN for our package repository and saw an improvement in download speeds. This was our first real experience administering Cloudflare and we left it pretty much in its default configuration.&lt;/p&gt;
+&lt;p&gt;This month, we spent a little time tweaking which parts of our repository it was caching for how long. The result has been a respectable jump in the cache hit rate.&lt;/p&gt;
+&lt;p&gt;The end result should serve to increase the consistency and speed of downloads within moss when using AerynOS from the unstable stream.&lt;/p&gt;
+&lt;h3&gt;Documentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;documentation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#documentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;CookieSource and NomadicCore have continued working on the &lt;a href=&#34;https://aerynos.zulipchat.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; site over the last month.&lt;/p&gt;
+&lt;p&gt;The team have also updated documentation on the GitHub org including topics such as contributing, licensing, readmes and more. Some of these had fallen behind our latest position or had never been adequately fleshed out.&lt;/p&gt;
+&lt;p&gt;This effort is all intended to help interested parties get a better understanding of AerynOS and help them be able to contribute more quickly.&lt;/p&gt;
+&lt;p&gt;Notable changes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A new &amp;ldquo;Creating a new package recipe&amp;rdquo; &lt;a href=&#34;https://aerynos.dev/packaging/workflow/creating-a-new-recipe/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Addition of a &amp;ldquo;How to submit a PR&amp;rdquo; &lt;a href=&#34;https://aerynos.dev/packaging/workflow/submitting-a-pr/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The ability to view our documentation site as a single &lt;a href=&#34;https://aerynos.dev/aerynos.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updates to our &lt;code&gt;contributing.md&lt;/code&gt; file across our GitHub organisation&lt;/li&gt;
+&lt;li&gt;The introduction of a policy around &lt;strong&gt;prohibiting the use of LLMs when engaging with AerynOS&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;GitHub vs Codeberg&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;github-vs-codeberg&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#github-vs-codeberg&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;One area of potential interest is around our use of GitHub. Over time, the team has become increasingly dissatisfied with GitHub for various reasons, including the increased push towards AI and the concern of not having control / sovereignty over our code and/or being locked out with no warning.&lt;/p&gt;
+&lt;p&gt;Looking to other solutions, Codeberg has come up as a potential alternative and one which the team has started using for internal operational documentation and personal projects, with the initial experience being generally positive.&lt;/p&gt;
+&lt;p&gt;Codeberg doesn&amp;rsquo;t do everything that GitHub can do, so if the team does look at moving its core repositories over, this would need to be planned carefully to ensure a smooth transition.&lt;/p&gt;
+&lt;p&gt;As and when we do make the transition to Codeberg, we would also like to sponsor them at the same time. An important tenet of AerynOS is to support and promote open source projects where we can. By way of example, its why we use Zulip (and previously Matrix) over something like Discord.&lt;/p&gt;
+&lt;p&gt;Sponsorship, where we are able, is another way we feel we can support the open source community and as our own sponsorship / income grows, we will be in a better position to contribute to the upstream projects on which we rely.&lt;/p&gt;
+&lt;h2&gt;ISO refresh&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;iso-refresh&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#iso-refresh&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We are releasing our newest Alpha ISO, AerynOS 2026.01, which includes the updates we&amp;rsquo;ve worked on since the start of December, and which features the 6.18.7 kernel.&lt;/p&gt;
+&lt;p&gt;As usual, this is a Live GNOME ISO that merely serves as a delivery vehicle for our Alpha/PoC &lt;code&gt;lichen&lt;/code&gt; installer. Hence, installing AerynOS requires a network connection over which the latest pkgsets can be downloaded and subsequently installed onto a hard drive.&lt;/p&gt;
+&lt;p&gt;The link for our 2026.01 ISO can be found on our &lt;a href=&#34;http://localhost:45189/download/&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
+&lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We have spent the month of January taking stock of our future development direction, including short and medium term goals.&lt;/p&gt;
+&lt;p&gt;This has resulted in several nice refactors to how moss works internally, which will in turn make it significantly easier for us to implement some of the medium term features we have planned. It has also already helped us prepare a few planned features, such as better error messages and the in-progress &lt;code&gt;moss fetch&lt;/code&gt; feature, which can be used to download packages in advance for testing purposes.&lt;/p&gt;
+&lt;p&gt;Next to that, we are steadily working towards delivering the Versioned Repos, phase2 infrastructure feature set, which is about teaching moss how to seamlessly auto-update itself across breaking on-disk moss-format changes with no user-interaction.&lt;/p&gt;
+&lt;p&gt;Currently, we are focusing on defining the necessary repository disk-layout and the format of the file at the root of the moss-format repo. This  will show moss which updates need to be made in which order before the new package repository versions &amp;ndash; containing new packages that rely on new package-management features &amp;ndash; can be used.&lt;/p&gt;
+&lt;p&gt;Once complete, we will likely move our current repository layout to a &lt;code&gt;legacy&lt;/code&gt; folder and test that older installs can update seamlessly in the process.&lt;/p&gt;
+&lt;p&gt;Due to the work done during 2025 on the infrastructure code-base, enabling the seamless format-upgrade process is now a short-term goal, which &amp;ndash; when achieved &amp;ndash; will in turn open up the ability to focus on medium term goals that were previously gated on this specific functionality.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re very, very excited about what this will enable us to do in the future!&lt;/p&gt;
+&lt;h2&gt;Supporting the project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supporting-the-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supporting-the-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As mentioned in our previous blog post, our sponsorship goals in 2026 will be to continue growing our recurring sponsorships to help recover the backlog of historic project costs, and also to build up towards future hardware investments such as an x86_64-v4 capable builder.&lt;/p&gt;
+&lt;p&gt;If any hardware vendors are interested in sponsoring the project either financially or through hardware sponsorship, this would be warmly received.&lt;/p&gt;
+&lt;p&gt;Similarly, we are interested in and open to EU-based CDN sponsorship as a way of strengthening our package delivery and ISO download capabilities, and to lessen our dependency on US-based CloudFlare as a defensive measure. If you are in a position to help make this happen, we would love to hear from you.&lt;/p&gt;
+&lt;p&gt;If you are following along with our project and are in a position to support us, please consider donating via our Ko-fi page. If you wish to discuss other sponsorship details, please reach out to us at &lt;a href=&#34;mailto:contact@aerynos.com&#34;&gt;contact@aerynos.com&lt;/a&gt;.&lt;/p&gt;
+&lt;Kofi /&gt;
+&lt;h3&gt;Thank You!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;thank-you&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#thank-you&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We are very grateful for your support, be it financial or via project contributions in the form of carefully written bug reports, code contributions, design contributions, documentation updates, general feedback, package updates and overall enthusiasm around the project.&lt;/p&gt;
+&lt;p&gt;In that vein, we would also like to give &lt;a href=&#34;https://frame.work&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Framework Computers&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; a shout out for their generous support in the form of hardware sponsorship for project members now and in the past.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>2025 in retrospect</title>
+      <link>http://localhost:45189/blog/blog/2026/01/2025-in-retrospect/</link>
+      <pubDate>Fri, 02 Jan 2026 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:45189/blog/blog/2026/01/2025-in-retrospect/</guid>
       <description>
         
         
@@ -92,7 +278,7 @@
 &lt;li&gt;Being able to pin to older Versioned Repositories (for stability&amp;rsquo;s sake) or if issues occur on the latest rolling Versioned Repository until it&amp;rsquo;s fixed&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All of these features, particularly where users could potentially face issues with their installs, are complemented by our offline rollback feature, which gives the ability to manually go back to either of 5 earlier states from the bootloader. This will ensure that users have both offline and online protections to help them recover from a misbehaving system.&lt;/p&gt;
-&lt;iframe title=&#34;System-Model Demo&#34; width=&#34;1024&#34; height=&#34;580&#34; src=&#34;https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL&#34; style=&#34;border: 0px;&#34; allow=&#34;fullscreen&#34; sandbox=&#34;allow-same-origin allow-scripts allow-popups allow-forms&#34;&gt;&lt;/iframe&gt;
+&lt;iframe title=&#34;System-Model Demo&#34; width=&#34;800&#34; height=&#34;450&#34; src=&#34;https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL&#34; style=&#34;border: 0px;&#34; allow=&#34;fullscreen&#34; sandbox=&#34;allow-same-origin allow-scripts allow-popups allow-forms&#34;&gt;&lt;/iframe&gt;
 &lt;h2&gt;Team organisation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;team-organisation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#team-organisation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We kicked off the year with looking for support in 4 key areas:&lt;/p&gt;
 &lt;ul&gt;
@@ -148,16 +334,14 @@
     
     <item>
       <title>November &#43; early December 2025 project update</title>
-      <link>http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/</link>
+      <link>http://localhost:45189/blog/blog/2025/12/09/november-and-early-december-blog-post/</link>
       <pubDate>Tue, 09 Dec 2025 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/12/09/november-and-early-december-blog-post/</guid>
       <description>
         
         
-        &lt;p&gt;import Kofi from &amp;ldquo;@/components/ui/Kofi.astro&amp;rdquo;;
-import { Aside } from &amp;ldquo;@astrojs/starlight/components&amp;rdquo;;&lt;/p&gt;
-&lt;h1&gt;AerynOS: November + early December 2025 project update&lt;/h1&gt;&lt;p&gt;As we near the end of the year, the team has been reflecting on how best to position itself going into 2026. Over the course of November and early December, the team has made a number of changes, some of which have been public facing which you may have already seen if you&amp;rsquo;ve been following our socials.&lt;/p&gt;
+        &lt;h1&gt;AerynOS: November + early December 2025 project update&lt;/h1&gt;&lt;p&gt;As we near the end of the year, the team has been reflecting on how best to position itself going into 2026. Over the course of November and early December, the team has made a number of changes, some of which have been public facing which you may have already seen if you&amp;rsquo;ve been following our socials.&lt;/p&gt;
 &lt;p&gt;On the public side, the two most visible changes has been our transition away from Matrix to Zulip for our instant messaging chat platform, and our transition to netcup for our server requirements. In the background, the team has also changed email hosting providers, however no one would really have noticed any difference there.&lt;/p&gt;
 &lt;p&gt;Packaging updates are progressing nicely with a nice rhythm for Cosmic and KDE stack updates, which along with fixes to reported issues is all helping to improve the overall experience for the people testing and checking out AerynOS.&lt;/p&gt;
 &lt;p&gt;On the infrastructure side of things, we have landed simple auto-pruning logic into our Vessel repository manager. This sort of automation ensures that we keep our repository lean and mean.&lt;/p&gt;
@@ -255,7 +439,7 @@ import { Aside } from &amp;ldquo;@astrojs/starlight/components&amp;rdquo;;&lt;/p
 &lt;h2&gt;ISO refresh&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;iso-refresh&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#iso-refresh&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We are releasing our newest Alpha ISO, AerynOS 2025.12, which includes the updates we&amp;rsquo;ve worked on during the month of November and the first week of December, and which features the 6.17.10 kernel at the time of upload.&lt;/p&gt;
 &lt;p&gt;As usual, this is a Live GNOME ISO that contains our Alpha/PoC &lt;code&gt;lichen&lt;/code&gt; installer. Hence, installing AerynOS requires a network connection over which the latest pkgsets can be downloaded and subsequently installed onto a dedicated AerynOS target hard drive.&lt;/p&gt;
-&lt;p&gt;The link for our 2025.12 ISO can be found at our &lt;a href=&#34;http://localhost:1313/download/&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;The link for our 2025.12 ISO can be found at our &lt;a href=&#34;http://localhost:45189/download/&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 &lt;h2&gt;Next Steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The rest of december is dedicated to bringing phase 1 of the Versioned Repositories feature &lt;a href=&#34;https://github.com/AerynOS/infra/pull/142&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PR here&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
@@ -291,15 +475,14 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>Musings on Inode Watchers and Atomic Live Upgrades</title>
-      <link>http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</link>
+      <link>http://localhost:45189/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</link>
       <pubDate>Tue, 04 Nov 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</guid>
       <description>
         
         
-        &lt;p&gt;import { Aside } from &amp;lsquo;@astrojs/starlight/components&amp;rsquo;;&lt;/p&gt;
-&lt;p&gt;This blog post will focus on inode watcher applications as well as the difficulties they present for live atomic updates for our &lt;code&gt;moss&lt;/code&gt; package manager.&lt;/p&gt;
+        &lt;p&gt;This blog post will focus on inode watcher applications as well as the difficulties they present for live atomic updates for our &lt;code&gt;moss&lt;/code&gt; package manager.&lt;/p&gt;
 &lt;h3&gt;What is Moss?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-moss&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#what-is-moss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For those not in the know &lt;code&gt;moss&lt;/code&gt; is an atomic package manager that allows for live updates i.e. not needing to reboot to apply updates.&lt;/p&gt;
 &lt;p&gt;Although &lt;code&gt;moss&lt;/code&gt; presents itself as a traditional package manager, under the hood, it works quite fundamentally differently.&lt;/p&gt;
@@ -360,15 +543,15 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>October 2025 project update</title>
-      <link>http://localhost:1313/blog/blog/2025/10/31/</link>
+      <link>http://localhost:45189/blog/blog/2025/10/31/</link>
       <pubDate>Fri, 31 Oct 2025 09:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/10/31/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/10/31/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2025/10/31/Featured_hu_ff405aa80a68dd79.png" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2025/10/31/Featured_hu_ff405aa80a68dd79.png" width="640" height="427"/>]]>
         
         &lt;p&gt;import Kofi from &amp;ldquo;@/components/ui/Kofi.astro&amp;rdquo;;&lt;/p&gt;
 &lt;p&gt;We are firmly in the final quarter of 2025 and what a year it&amp;rsquo;s been so far. In our last blog post at the end of September, we mentioned that we were delaying the release of our next ISO into October to give our Gnome 49 stack (and the wider extensions ecosystem) more time to mature.&lt;/p&gt;
@@ -476,10 +659,10 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>September 2025 project update</title>
-      <link>http://localhost:1313/blog/blog/2025/09/30/september-2025-project-update/</link>
+      <link>http://localhost:45189/blog/blog/2025/09/30/september-2025-project-update/</link>
       <pubDate>Wed, 01 Oct 2025 18:25:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/09/30/september-2025-project-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/09/30/september-2025-project-update/</guid>
       <description>
         
         
@@ -531,10 +714,10 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>August 2025 project update</title>
-      <link>http://localhost:1313/blog/blog/2025/08/31/august-2025-project-update/</link>
+      <link>http://localhost:45189/blog/blog/2025/08/31/august-2025-project-update/</link>
       <pubDate>Sun, 31 Aug 2025 20:45:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/08/31/august-2025-project-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/08/31/august-2025-project-update/</guid>
       <description>
         
         
@@ -650,10 +833,10 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>Development update: os-tools</title>
-      <link>http://localhost:1313/blog/blog/2025/07/11/development-update-os-tools/</link>
+      <link>http://localhost:45189/blog/blog/2025/07/11/development-update-os-tools/</link>
       <pubDate>Fri, 11 Jul 2025 12:18:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/07/11/development-update-os-tools/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/07/11/development-update-os-tools/</guid>
       <description>
         
         
@@ -797,10 +980,10 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>Mid Year Update</title>
-      <link>http://localhost:1313/blog/blog/2025/06/30/mid-year-update/</link>
+      <link>http://localhost:45189/blog/blog/2025/06/30/mid-year-update/</link>
       <pubDate>Mon, 30 Jun 2025 21:37:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/06/30/mid-year-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/06/30/mid-year-update/</guid>
       <description>
         
         
@@ -954,10 +1137,10 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
     
     <item>
       <title>🏗️ AerynOS: The OS As Infrastructure</title>
-      <link>http://localhost:1313/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</link>
+      <link>http://localhost:45189/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</link>
       <pubDate>Sun, 30 Mar 2025 02:35:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</guid>
       <description>
         
         
@@ -1129,22 +1312,22 @@ all of the above into a cohesive, singular whole. The amusing part of course bei
 &lt;p&gt;Now, we are alpha. We&amp;rsquo;re not done, we&amp;rsquo;re not without issues. That said, we&amp;rsquo;re building the future and with your support, we&amp;rsquo;ll get there
 even faster. This post has only scratched the surface of AerynOS, but if you like what we&amp;rsquo;re doing, please do get involved or support us.&lt;/p&gt;
 &lt;Kofi /&gt;
-&lt;p&gt;Or see &lt;a href=&#34;http://localhost:1313/sponsor&#34;&gt;other ways&lt;/a&gt; in which you can support the project financially.&lt;/p&gt;
+&lt;p&gt;Or see &lt;a href=&#34;http://localhost:45189/sponsor&#34;&gt;other ways&lt;/a&gt; in which you can support the project financially.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>🚀 Hello AerynOS</title>
-      <link>http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/</link>
+      <link>http://localhost:45189/blog/blog/2025/03/25/hello-aerynos/</link>
       <pubDate>Tue, 25 Mar 2025 15:35:21 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/03/25/hello-aerynos/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/Featured_hu_24d8cd6d0e9fbec1.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2025/03/25/hello-aerynos/Featured_hu_24d8cd6d0e9fbec1.png" width="640" height="400"/>]]>
         
         &lt;p&gt;import YouTube from &amp;ldquo;@/components/ui/YouTube.astro&amp;rdquo;;
 import Kofi from &amp;ldquo;@/components/ui/Kofi.astro&amp;rdquo;;&lt;/p&gt;
@@ -1166,7 +1349,7 @@ hospital bedside.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;We&amp;rsquo;ve also decoupled the internal tooling version from the ISO versions to make them a little bit more.. well.. &lt;em&gt;readable&lt;/em&gt;,
 for humans.&lt;/p&gt;
-&lt;p&gt;Grab it now from the &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;Grab it now from the &lt;a href=&#34;http://localhost:45189/download&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;💰 Funding&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-funding&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#-funding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I want to thank everyone for their support of the project since we got more transparent around goals. It&amp;rsquo;s been a huge help and has
@@ -1310,10 +1493,10 @@ for maintainers.&lt;/li&gt;
     
     <item>
       <title>Evolve This OS</title>
-      <link>http://localhost:1313/blog/blog/2025/02/14/evolve-this-os/</link>
+      <link>http://localhost:45189/blog/blog/2025/02/14/evolve-this-os/</link>
       <pubDate>Fri, 14 Feb 2025 23:25:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/02/14/evolve-this-os/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/02/14/evolve-this-os/</guid>
       <description>
         
         
@@ -1358,15 +1541,15 @@ scene. We&amp;rsquo;re here to stay.&lt;/p&gt;
     
     <item>
       <title>Hello 2025</title>
-      <link>http://localhost:1313/blog/blog/2025/02/06/hello-2025/</link>
+      <link>http://localhost:45189/blog/blog/2025/02/06/hello-2025/</link>
       <pubDate>Thu, 06 Feb 2025 22:05:55 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/02/06/hello-2025/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/02/06/hello-2025/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2025/02/06/hello-2025/Featured_hu_84791792c6e02e2f.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2025/02/06/hello-2025/Featured_hu_84791792c6e02e2f.png" width="640" height="400"/>]]>
         
         &lt;p&gt;import Giphy from &amp;lsquo;@/components/ui/Giphy.astro&amp;rsquo;;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: Serpent OS is facing funding challenges but development continues. Alpha2 is coming soon with an improved installer. We&amp;rsquo;re seeking community support through donations and volunteers for key roles. Our technical roadmap includes versioned repositories, immutable OS features, and improved package management workflows.&lt;/p&gt;
@@ -1405,7 +1588,7 @@ it&amp;rsquo;s possible to support us via &lt;a href=&#34;https://ko-fi.com/serp
 &lt;/svg&gt;&lt;/a&gt; or &lt;a href=&#34;https://github.com/sponsors/ikeycode&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Sponsors&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.
-For the sake of transparency, as noted on the &lt;a href=&#34;http://localhost:1313/sponsor&#34;&gt;Sponsor&lt;/a&gt; page, we haven&amp;rsquo;t got an established company
+For the sake of transparency, as noted on the &lt;a href=&#34;http://localhost:45189/sponsor&#34;&gt;Sponsor&lt;/a&gt; page, we haven&amp;rsquo;t got an established company
 or business bank account. In time, we&amp;rsquo;re looking towards something more cooperative. For now, the reality is
 the daily running and development largely falls on me.&lt;/p&gt;
 &lt;h3&gt;🏗️ Infrastructure&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-infrastructure&#34;&gt;&lt;/span&gt;
@@ -1442,17 +1625,17 @@ of &lt;code&gt;kdl-rs&lt;/code&gt; streaming parser to implement a procedural sy
 experience:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;// Create a partition table. Defaults to GPT
-create-partition-table type=&amp;#34;gpt&amp;#34; disk=&amp;#34;root_disk&amp;#34;
-
-// Create the ESP
-create-partition disk=&amp;#34;root_disk&amp;#34; id=&amp;#34;esp&amp;#34; {
-    constraints {
-        min (GB)1
-        max (GB)2
-    }
-    type ...
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-kdl&#34; data-lang=&#34;kdl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Create a partition table. Defaults to GPT
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;create-partition-table&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;na&#34;&gt;type=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;gpt&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;na&#34;&gt;disk=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root_disk&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Create the ESP
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;create-partition&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;na&#34;&gt;disk=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;root_disk&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;na&#34;&gt;id=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;esp&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;    constraints&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;        min&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;(GB)1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;        max&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;(GB)2&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nl&#34;&gt;    type&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
@@ -1623,15 +1806,15 @@ quality tooling to the masses, and we&amp;rsquo;re doing it in a way that&amp;rs
     
     <item>
       <title>Offline Rollbacks Enabled</title>
-      <link>http://localhost:1313/blog/blog/2025/01/04/offline-rollbacks-enabled/</link>
+      <link>http://localhost:45189/blog/blog/2025/01/04/offline-rollbacks-enabled/</link>
       <pubDate>Sat, 04 Jan 2025 22:19:37 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2025/01/04/offline-rollbacks-enabled/</guid>
+      <guid>http://localhost:45189/blog/blog/2025/01/04/offline-rollbacks-enabled/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2025/01/04/offline-rollbacks-enabled/featured-background_hu_d1469f8fedbe8e9c.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2025/01/04/offline-rollbacks-enabled/featured-background_hu_d1469f8fedbe8e9c.png" width="640" height="400"/>]]>
         
         &lt;p&gt;import YouTube from &amp;lsquo;@/components/ui/YouTube.astro&amp;rsquo;;
 import Kofi from &amp;lsquo;@/components/ui/Kofi.astro&amp;rsquo;;&lt;/p&gt;
@@ -1660,7 +1843,7 @@ recent progress.&lt;/p&gt;
 are finally coming together rapidly to make this a reality. If you like what we&amp;rsquo;re doing,
 consider supporting us!&lt;/p&gt;
 &lt;Kofi/&gt;
-&lt;p&gt;Visit our &lt;a href=&#34;http://localhost:1313/sponsor&#34;&gt;sponsor&lt;/a&gt; page for more information on how you can help us grow and deliver
+&lt;p&gt;Visit our &lt;a href=&#34;http://localhost:45189/sponsor&#34;&gt;sponsor&lt;/a&gt; page for more information on how you can help us grow and deliver
 the future of Linux distributions.&lt;/p&gt;
 &lt;h3&gt;Technical Details&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;technical-details&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#technical-details&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is all achieved using moss&amp;rsquo;s internal content addressable storage for deduplication,
@@ -1690,10 +1873,10 @@ from your GNOME desktop to a KDE desktop, for example. Cleanly, atomically, and 
     
     <item>
       <title>Investing in the Future</title>
-      <link>http://localhost:1313/blog/blog/2024/12/31/investing-in-the-future/</link>
+      <link>http://localhost:45189/blog/blog/2024/12/31/investing-in-the-future/</link>
       <pubDate>Tue, 31 Dec 2024 14:00:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/12/31/investing-in-the-future/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/12/31/investing-in-the-future/</guid>
       <description>
         
         
@@ -1743,7 +1926,7 @@ atomic update without breaking client installations.&lt;/p&gt;
     &lt;a href=&#34;#how-you-can-help&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In order to give Serpent OS the development time it needs, we&amp;rsquo;re looking for sponsors to help fund development. If you&amp;rsquo;re interested in becoming a sponsor
 or investor, please do not hesitate to get in touch. We want to secure funding for development and infrastructure for the next 2 years.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/sponsor&#34;&gt;Sponsors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:45189/sponsor&#34;&gt;Sponsors&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;mailto:ikey@serpentos.com&#34;&gt;Discuss sponsorship/investment&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;While of course we need to iterate on our own tooling, we also need to be able to work more upstream and with kindred projects to drive
@@ -1766,15 +1949,15 @@ and production. When we also land our export/compose functionality in moss, you&
     
     <item>
       <title>Alpha Refresh Available</title>
-      <link>http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/</link>
+      <link>http://localhost:45189/blog/blog/2024/12/29/alpha-refresh-available/</link>
       <pubDate>Sun, 29 Dec 2024 16:45:48 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/12/29/alpha-refresh-available/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/featured-background_hu_de97a75c112de4e8.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/12/29/alpha-refresh-available/featured-background_hu_de97a75c112de4e8.png" width="640" height="400"/>]]>
         
         &lt;p&gt;In response to feedback from the community, we&amp;rsquo;re issuing a refresh of the Alpha 1 release, &lt;code&gt;0.24.6&lt;/code&gt;. This refresh includes a number of key updates and improvements, including:&lt;/p&gt;
 &lt;ul&gt;
@@ -1858,7 +2041,7 @@ swap the &lt;code&gt;/usr&lt;/code&gt; pointer to the older transaction, which i
     &lt;a href=&#34;#final-thoughts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;5 years and no release, and now two alpha ISOs before the end of the year. We&amp;rsquo;re pretty happy with that, and we&amp;rsquo;re
 going to keep surprising you next year with more releases, more features, and more stability. Happy new year from
 all of us at Team Serpent! 🐍&lt;/p&gt;
-&lt;p&gt;If you like what we&amp;rsquo;re doing, please consider &lt;a href=&#34;http://localhost:1313/sponsor&#34;&gt;sponsoring us&lt;/a&gt; - this will allow us to grow our infrastructure
+&lt;p&gt;If you like what we&amp;rsquo;re doing, please consider &lt;a href=&#34;http://localhost:45189/sponsor&#34;&gt;sponsoring us&lt;/a&gt; - this will allow us to grow our infrastructure
 and deliver builds quicker. Due to health issues in the last few months, I was forced into a position whereby I had to
 resign from my job. Any and all contributions to the project are greatly appreciated, and will help us to continue delivering
 what folks are frequently now calling &amp;ldquo;the cleanest Linux implementation they&amp;rsquo;ve ever seen&amp;rdquo;.&lt;/p&gt;
@@ -1869,15 +2052,15 @@ what folks are frequently now calling &amp;ldquo;the cleanest Linux implementati
     
     <item>
       <title>Serpent OS Enters Alpha</title>
-      <link>http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/</link>
+      <link>http://localhost:45189/blog/blog/2024/12/23/serpent-os-enters-alpha/</link>
       <pubDate>Mon, 23 Dec 2024 04:56:15 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/12/23/serpent-os-enters-alpha/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/featured_hu_cb0a3072a1c64d9d.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/12/23/serpent-os-enters-alpha/featured_hu_cb0a3072a1c64d9d.png" width="640" height="400"/>]]>
         
         &lt;p&gt;Following a successful prealpha phase, we&amp;rsquo;re excited to announce that Serpent OS has now entered the alpha stage of development. This milestone marks a significant step forward in the project&amp;rsquo;s journey.
 While the usual disclaimers apply, as a certain level of project &lt;em&gt;fluidity is to be expected&lt;/em&gt;, we invite you to explore the latest alpha release and experience the cutting-edge features and improvements we&amp;rsquo;ve introduced.&lt;/p&gt;
@@ -1886,7 +2069,7 @@ While the usual disclaimers apply, as a certain level of project &lt;em&gt;fluid
 &lt;h2&gt;Supporting Serpent OS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supporting-serpent-os&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#supporting-serpent-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Serpent OS is a community-driven project, and we welcome contributions from developers, testers, and users alike. If you&amp;rsquo;re interested in helping shape the future of Linux distributions, we invite you to join our growing community and get involved in the project. Whether you&amp;rsquo;re interested in packaging, development, documentation, testing, or community support, there are many ways to contribute to Serpent OS.&lt;/p&gt;
 &lt;p&gt;Lastly, you can support the project by becoming a sponsor. Your support helps cover our hosting costs and allows us to dedicate more time to making Serpent OS exceptional. We&amp;rsquo;re grateful for the support we&amp;rsquo;ve received so far and look forward to continuing to build something meaningful in the Linux ecosystem.&lt;/p&gt;
-&lt;a class=&#34;btn btn-sm btn-outline-light mt-3 mb-5&#34; href=&#34;http://localhost:1313/sponsor&#34;&gt;
+&lt;a class=&#34;btn btn-sm btn-outline-light mt-3 mb-5&#34; href=&#34;http://localhost:45189/sponsor&#34;&gt;
   &lt;i class=&#34;fas fa-heart me-2&#34;&gt;&lt;/i&gt; Sponsor Serpent OS
 &lt;/a&gt;
 &lt;h2&gt;What is Serpent OS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-serpent-os&#34;&gt;&lt;/span&gt;
@@ -1977,19 +2160,19 @@ as a daily driver in the near future. We&amp;rsquo;re also going to keep iterati
     
     <item>
       <title>Serpent OS Prealpha0 Released</title>
-      <link>http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/</link>
+      <link>http://localhost:45189/blog/blog/2024/08/01/prealpha0-released/</link>
       <pubDate>Thu, 01 Aug 2024 01:18:07 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/08/01/prealpha0-released/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/featured-background_hu_fdedb2b9ddd097fd.png" width="640" height="406"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/08/01/prealpha0-released/featured-background_hu_fdedb2b9ddd097fd.png" width="640" height="406"/>]]>
         
         &lt;p&gt;Well, it didn&amp;rsquo;t take us that long, &lt;strong&gt;really&lt;/strong&gt; &amp;hellip; Our technical preview, &lt;em&gt;prealpha0&lt;/em&gt;, is now available for testing!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;prealpha0.png&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Head to our &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page to grab &lt;code&gt;serpent-os-prealpha-0.iso&lt;/code&gt; now!&lt;/p&gt;
+&lt;p&gt;Head to our &lt;a href=&#34;http://localhost:45189/download&#34;&gt;download&lt;/a&gt; page to grab &lt;code&gt;serpent-os-prealpha-0.iso&lt;/code&gt; now!&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;p&gt;This is a super rough version of Serpent OS that is &lt;em&gt;capable&lt;/em&gt; of being installed on baremetal hardware and VMs that
 support UEFI and OpenGL acceleration. It is however not &lt;em&gt;recommended&lt;/em&gt; for use daily due to the early nature and a bunch
@@ -2056,15 +2239,15 @@ our hosting costs and stress the datacenter hamsters.&lt;/p&gt;
     
     <item>
       <title>Calm Before The Storm</title>
-      <link>http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/</link>
+      <link>http://localhost:45189/blog/blog/2024/04/30/calm-before-the-storm/</link>
       <pubDate>Tue, 30 Apr 2024 22:46:17 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/04/30/calm-before-the-storm/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/Featured_hu_25fbed1ca350f673.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/04/30/calm-before-the-storm/Featured_hu_25fbed1ca350f673.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;It&amp;rsquo;s that time of month again, and we have some details to share with you on boot management, as well as plans for real installs
 landing in May. Additionally, plans for &amp;ldquo;deferred updates&amp;rdquo; via mandatory reboots have been dropped!&lt;/p&gt;
@@ -2134,15 +2317,15 @@ our architecture: a full-featured OS featuring hermetic &lt;code&gt;/usr&lt;/cod
     
     <item>
       <title>The March Of Progress</title>
-      <link>http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/</link>
+      <link>http://localhost:45189/blog/blog/2024/03/31/the-march-of-progress/</link>
       <pubDate>Sun, 31 Mar 2024 23:56:54 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/03/31/the-march-of-progress/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/Featured_hu_a0b3f612b5ff6585.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/03/31/the-march-of-progress/Featured_hu_a0b3f612b5ff6585.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I&amp;rsquo;m happily back at the desk to bring you up to date with the
 latest goings in Serpent OS. TLDR: Loads of awesome, baremetal is enabled, ISO cycle in next couple of weeks.&lt;/p&gt;
@@ -2232,15 +2415,15 @@ in the coming weeks.&lt;/p&gt;
     
     <item>
       <title>End of February Update</title>
-      <link>http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/</link>
+      <link>http://localhost:45189/blog/blog/2024/02/29/end-of-feb-update/</link>
       <pubDate>Thu, 29 Feb 2024 18:32:35 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/02/29/end-of-feb-update/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/featured_hu_1824d101355fc4fb.webp" width="640" height="411"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/02/29/end-of-feb-update/featured_hu_1824d101355fc4fb.webp" width="640" height="411"/>]]>
         
         &lt;p&gt;import { Aside } from &amp;lsquo;@astrojs/starlight/components&amp;rsquo;;&lt;/p&gt;
 &lt;p&gt;This update came a little later in the month, as we&amp;rsquo;ve got a lot of exciting news to share.
@@ -2333,15 +2516,15 @@ announcing the prealpha image.&lt;/p&gt;
     
     <item>
       <title>January Updates</title>
-      <link>http://localhost:1313/blog/blog/2024/01/19/january-updates/</link>
+      <link>http://localhost:45189/blog/blog/2024/01/19/january-updates/</link>
       <pubDate>Fri, 19 Jan 2024 22:54:07 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2024/01/19/january-updates/</guid>
+      <guid>http://localhost:45189/blog/blog/2024/01/19/january-updates/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2024/01/19/january-updates/Featured_hu_70731a564ccc3963.webp" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2024/01/19/january-updates/Featured_hu_70731a564ccc3963.webp" width="640" height="400"/>]]>
         
         &lt;p&gt;Precisely one month since our end of year summary, so, what have we been up to?
 With a new year, a new start was long overdue. We&amp;rsquo;re pleased to announce that we&amp;rsquo;ve
@@ -2432,15 +2615,15 @@ and still benefit from tight upstream integration.&lt;/p&gt;
     
     <item>
       <title>End Of Year Summary</title>
-      <link>http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/</link>
+      <link>http://localhost:45189/blog/blog/2023/12/19/end-of-year-summary/</link>
       <pubDate>Tue, 19 Dec 2023 13:07:16 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/</guid>
+      <guid>http://localhost:45189/blog/blog/2023/12/19/end-of-year-summary/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/featured_hu_5f08d570003ddab1.webp" width="640" height="410"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2023/12/19/end-of-year-summary/featured_hu_5f08d570003ddab1.webp" width="640" height="410"/>]]>
         
         &lt;p&gt;import Icon from &amp;ldquo;@/components/ui/Icon.astro&amp;rdquo;;
 import { Aside } from &amp;lsquo;@astrojs/starlight/components&amp;rsquo;;&lt;/p&gt;
@@ -2711,15 +2894,15 @@ requirements via GitHub Sponsors!&lt;/p&gt;
     
     <item>
       <title>Oxidised Moss</title>
-      <link>http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/</link>
+      <link>http://localhost:45189/blog/blog/2023/09/06/oxidised-moss/</link>
       <pubDate>Wed, 06 Sep 2023 18:32:47 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/</guid>
+      <guid>http://localhost:45189/blog/blog/2023/09/06/oxidised-moss/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/Featured_hu_a376fcccb4fc480d.png" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2023/09/06/oxidised-moss/Featured_hu_a376fcccb4fc480d.png" width="640" height="360"/>]]>
         
         &lt;p&gt;Allow me to start this post by stating something very important to me: I absolutely love the
 D programming language, along with the expressivity and creative freedom it brings. Therefore
@@ -2793,15 +2976,15 @@ Please join us in raising a virtual glass to new pastures, and a brave new &lt;c
     
     <item>
       <title>Snakes On A Boat</title>
-      <link>http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/</link>
+      <link>http://localhost:45189/blog/blog/2023/04/21/snakes-on-a-boat/</link>
       <pubDate>Fri, 21 Apr 2023 22:12:56 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/</guid>
+      <guid>http://localhost:45189/blog/blog/2023/04/21/snakes-on-a-boat/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/featured_hu_628c474a069bf60c.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2023/04/21/snakes-on-a-boat/featured_hu_628c474a069bf60c.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;We had intended to get a blog post out a little bit quicker, but the last month has been extremely
 action packed. However, it has paid off immensely. As our friends at Solus &lt;a href=&#34;https://getsol.us/2023/04/18/a-new-voyage/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recently announced&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -2854,15 +3037,15 @@ to you guys!&lt;/p&gt;
     
     <item>
       <title>Infrastructure Launched!</title>
-      <link>http://localhost:1313/blog/blog/2023/03/18/infrastructure-launched/</link>
+      <link>http://localhost:45189/blog/blog/2023/03/18/infrastructure-launched/</link>
       <pubDate>Sat, 18 Mar 2023 23:20:55 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2023/03/18/infrastructure-launched/</guid>
+      <guid>http://localhost:45189/blog/blog/2023/03/18/infrastructure-launched/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2023/03/18/infrastructure-launched/Featured_hu_d0ed57e71889578d.png" width="640" height="400"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2023/03/18/infrastructure-launched/Featured_hu_d0ed57e71889578d.png" width="640" height="400"/>]]>
         
         &lt;p&gt;After many months and much work, our infrastructure is &lt;a href=&#34;https://dash.serpentos.com&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;finally online&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
@@ -2904,15 +3087,15 @@ Keeping this blog post short and sweet&amp;hellip; we&amp;rsquo;re about to pack
     
     <item>
       <title>Lift Off</title>
-      <link>http://localhost:1313/blog/blog/2022/12/24/lift-off/</link>
+      <link>http://localhost:45189/blog/blog/2022/12/24/lift-off/</link>
       <pubDate>Sat, 24 Dec 2022 01:32:04 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/12/24/lift-off/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/12/24/lift-off/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/12/24/lift-off/Featured_hu_2b9560a60925a6e1.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/12/24/lift-off/Featured_hu_2b9560a60925a6e1.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;Enough of this &amp;ldquo;2 years&amp;rdquo; nonsense. We&amp;rsquo;re finally ready for lift off. It is with &lt;em&gt;immense pleasure&lt;/em&gt; we can
 finally announce that Serpent OS has transitioned from a promise to a deliverable. Bye bye, phantomware!&lt;/p&gt;
@@ -2946,7 +3129,7 @@ honest here:&lt;/p&gt;
 worth using. In order to do that, we need to get ourselves to a point whereby we can dogfood our work and build a daily driver. Our focus
 right now is building out the core technology and packaging to achieve those aims.&lt;/p&gt;
 &lt;p&gt;So if you want to try our uninstallable, buggy ISO, chiefly created as a brief introduction to our package manager and toolchain, head to our
-newly minted &lt;a href=&#34;http://localhost:1313/download&#34;&gt;Download&lt;/a&gt; page. Set your expectations low, ignore your dreams, and you will not be disappointed!&lt;/p&gt;
+newly minted &lt;a href=&#34;http://localhost:45189/download&#34;&gt;Download&lt;/a&gt; page. Set your expectations low, ignore your dreams, and you will not be disappointed!&lt;/p&gt;
 &lt;p&gt;All jokes aside, it took a long time to get to point where we could even construct our first, KVM-focused, UEFI-only &lt;code&gt;snekvalidator.iso&lt;/code&gt;. We now
 have a baseline to improve on, a working contribution process, and a booting, self-hosting system.&lt;/p&gt;
 &lt;p&gt;The ISO is built using 2 layered collections, the &lt;code&gt;protosnek&lt;/code&gt; collection containing our toolchain, and the new &lt;code&gt;volatile&lt;/code&gt; collection. Much of the
@@ -2975,10 +3158,10 @@ our &lt;a href=&#34;https://forums.serpentos.com&#34;target=&#34;_blank&#34; rel
     
     <item>
       <title>The Big Update</title>
-      <link>http://localhost:1313/blog/blog/2022/09/14/the-big-update/</link>
+      <link>http://localhost:45189/blog/blog/2022/09/14/the-big-update/</link>
       <pubDate>Wed, 14 Sep 2022 12:55:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/09/14/the-big-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/09/14/the-big-update/</guid>
       <description>
         
         
@@ -3133,15 +3316,15 @@ time on the project. Please consider supporting my development work via &lt;a hr
     
     <item>
       <title>Infrastructure Update</title>
-      <link>http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/</link>
+      <link>http://localhost:45189/blog/blog/2022/07/10/infrastructure-update/</link>
       <pubDate>Sun, 10 Jul 2022 11:26:05 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/07/10/infrastructure-update/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/Featured_hu_df840369546415db.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/07/10/infrastructure-update/Featured_hu_df840369546415db.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;Since the last post, I&amp;rsquo;ve pivoted to full time work on Serpent OS, which is
 made all the more possible thanks to everyone supporting us via &lt;a href=&#34;https://opencollective.com/serpent-os&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenCollective&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -3241,15 +3424,15 @@ within the next 2 weeks, and get builds flowing =)&lt;/p&gt;
     
     <item>
       <title>Packaging Automation, Next Steps</title>
-      <link>http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/</link>
+      <link>http://localhost:45189/blog/blog/2022/06/22/packaging-automation-next-steps/</link>
       <pubDate>Wed, 22 Jun 2022 17:23:14 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/06/22/packaging-automation-next-steps/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/Featured_hu_b556d9361462b00c.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/06/22/packaging-automation-next-steps/Featured_hu_b556d9361462b00c.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;Hot damn we&amp;rsquo;ve been busy lately. No, &lt;a href=&#34;https://gitlab.com/groups/serpent-os/-/activity&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;really&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
@@ -3335,10 +3518,10 @@ online updates.&lt;/p&gt;
     
     <item>
       <title>A Word From The Founder</title>
-      <link>http://localhost:1313/blog/blog/2022/06/06/a-word-from-the-founder/</link>
+      <link>http://localhost:45189/blog/blog/2022/06/06/a-word-from-the-founder/</link>
       <pubDate>Mon, 06 Jun 2022 20:36:51 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/06/06/a-word-from-the-founder/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/06/06/a-word-from-the-founder/</guid>
       <description>
         
         
@@ -3368,15 +3551,15 @@ competent and usable distribution that is not only different but &lt;em&gt;bette
     
     <item>
       <title>RELR Brings Smaller Files, More Performance?</title>
-      <link>http://localhost:1313/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</link>
+      <link>http://localhost:45189/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</link>
       <pubDate>Tue, 05 Apr 2022 11:12:54 +1000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/Featured_hu_9234b1554289c485.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/Featured_hu_9234b1554289c485.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
@@ -3541,19 +3724,19 @@ have the version check in files, nor will &lt;code&gt;glibc&lt;/code&gt; check t
     
     <item>
       <title>Making Deltas Great Again! (Part 1)</title>
-      <link>http://localhost:1313/blog/blog/2022/02/11/making-deltas-great-again-1/</link>
+      <link>http://localhost:45189/blog/blog/2022/02/11/making-deltas-great-again-1/</link>
       <pubDate>Fri, 11 Feb 2022 20:45:12 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/02/11/making-deltas-great-again-1/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/02/11/making-deltas-great-again-1/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/02/11/making-deltas-great-again-1/Featured_hu_c0129d35cf464b03.webp" width="640" height="242"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/02/11/making-deltas-great-again-1/Featured_hu_c0129d35cf464b03.webp" width="640" height="242"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/2021/03/16/optimising-package-distribution&#34;&gt;Optimising Package Distribution&lt;/a&gt; we discussed some early
+&lt;p&gt;In &lt;a href=&#34;http://localhost:45189/blog/2021/03/16/optimising-package-distribution&#34;&gt;Optimising Package Distribution&lt;/a&gt; we discussed some early
 findings for implementing binary deltas in Serpent OS. While discussing the implementation we have found the
 requirements to be suboptimal for what we were after. We provide a fresh look at the issue and what we can do to make it
 useful in almost all situations without the drawbacks.&lt;/p&gt;
@@ -3943,15 +4126,15 @@ and identical code folding), making the approach even better, but that will be f
     
     <item>
       <title>Can Hardly Contain Myself, Plus a Bonus</title>
-      <link>http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</link>
+      <link>http://localhost:45189/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</link>
       <pubDate>Thu, 20 Jan 2022 18:08:07 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</guid>
+      <guid>http://localhost:45189/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/Featured_hu_a46468dd6d1689d9.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/Featured_hu_a46468dd6d1689d9.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;One of the core steps for building a package is setting up a minimal environment with only the required (and stated)
 dependencies. Currently we have been building our stones in an &lt;code&gt;systemd-nspawn&lt;/code&gt; container, where the root contains every
@@ -3996,7 +4179,7 @@ terms and content. Some of the common issues were:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The good news is that a good chunk of it has been redone, including two new pages for our core tools &lt;code&gt;boulder&lt;/code&gt; and
 &lt;code&gt;moss&lt;/code&gt;. &lt;code&gt;Subscriptions&lt;/code&gt; has been renamed to &lt;code&gt;Smart System Management&lt;/code&gt; to reflect its broader nature (which you can read
-about &lt;a href=&#34;http://localhost:1313/tooling&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+about &lt;a href=&#34;http://localhost:45189/tooling&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Much of the content has also had a refresh or a rewrite, so if you&amp;rsquo;ve seen it before, it will likely be a lot easier to
 digest now. But this isn&amp;rsquo;t the final state of the content, as more features will need to be added and there&amp;rsquo;s still a
 few rough edges (and I like to rewrite things every once in awhile). Many ideas have been raised by our community in the
@@ -4009,15 +4192,15 @@ few rough edges (and I like to rewrite things every once in awhile). Many ideas 
     
     <item>
       <title>Performance Corner: Small Changes Pack a Punch</title>
-      <link>http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</link>
+      <link>http://localhost:45189/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</link>
       <pubDate>Tue, 14 Dec 2021 18:14:23 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/Featured_hu_17c9257dc425fed3.webp" width="640" height="382"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/Featured_hu_17c9257dc425fed3.webp" width="640" height="382"/>]]>
         
         &lt;p&gt;Here we have another round of changes to make packages smaller and show just how much we care about performance and
 efficiency! Today we are focusing mainly on &lt;code&gt;moss-format&lt;/code&gt; changes to reduce the size of its payloads. The purpose of
@@ -4234,15 +4417,15 @@ Payload: Index [Records: 2550 Compression: Zstd, Savings: 39.85%, Size: 81.60 KB
     
     <item>
       <title>Out of the Bootstrap - Towards Serpent OS</title>
-      <link>http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</link>
+      <link>http://localhost:45189/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</link>
       <pubDate>Thu, 02 Dec 2021 18:07:12 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/Featured_hu_fdc7e2cd0bafb172.webp" width="640" height="719"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/Featured_hu_fdc7e2cd0bafb172.webp" width="640" height="719"/>]]>
         
         &lt;p&gt;The initial &lt;code&gt;stone&lt;/code&gt; packages that will seed the first Serpent OS repo have now been finalized! This means that work
 towards setting up the infrastructure for live package updates begins now. We plan on taking time to streamline the
@@ -4305,15 +4488,15 @@ packages, where it slows down progress without any tangible benefit.&lt;/p&gt;
     
     <item>
       <title>It All Depends</title>
-      <link>http://localhost:1313/blog/blog/2021/11/23/it-all-depends/</link>
+      <link>http://localhost:45189/blog/blog/2021/11/23/it-all-depends/</link>
       <pubDate>Tue, 23 Nov 2021 23:45:06 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/11/23/it-all-depends/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/11/23/it-all-depends/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/11/23/it-all-depends/Featured_hu_27ee0018c1fd4411.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/11/23/it-all-depends/Featured_hu_27ee0018c1fd4411.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;It all depends.. it really does. On shared libraries.. interpreters.. &lt;code&gt;pkg-config&lt;/code&gt; providers
 and packages. It&amp;rsquo;s the same story for all &amp;ldquo;package managers&amp;rdquo;, how do we ensure that the
@@ -4465,15 +4648,15 @@ awesome.&lt;/p&gt;
     
     <item>
       <title>Performance Corner: Faster Builds, Smaller Packages</title>
-      <link>http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</link>
+      <link>http://localhost:45189/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</link>
       <pubDate>Fri, 05 Nov 2021 19:23:32 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/Featured_hu_71fa9f3e59402b4e.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/Featured_hu_71fa9f3e59402b4e.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;&lt;code&gt;Performance Corner&lt;/code&gt; is a new series where we highlight to you some changes in Serpent OS that may not be obvious, but
 show a real improvement. Performance is a broad term that also covers efficiency, so things like making files smaller,
@@ -4598,15 +4781,15 @@ getting these implemented!&lt;/p&gt;
     
     <item>
       <title>Optimal File Locality</title>
-      <link>http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/</link>
+      <link>http://localhost:45189/blog/blog/2021/10/04/optimal-file-locality/</link>
       <pubDate>Mon, 04 Oct 2021 16:49:12 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/10/04/optimal-file-locality/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/Featured_hu_d3377f6e9af65273.webp" width="640" height="206"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/10/04/optimal-file-locality/Featured_hu_d3377f6e9af65273.webp" width="640" height="206"/>]]>
         
         &lt;p&gt;File locality in this post refers to the order of files in our content payload. Yes that&amp;rsquo;s right, we&amp;rsquo;re focused on the
 small details and incremental improvements that combined add up to significant benefits! All of this came about from
@@ -4744,15 +4927,15 @@ basic sorting method of filepath gets you most of the way there and is likely go
     
     <item>
       <title>Unpacking the Build Process: Part 2</title>
-      <link>http://localhost:1313/blog/blog/2021/09/20/unpacking-the-build-process-2/</link>
+      <link>http://localhost:45189/blog/blog/2021/09/20/unpacking-the-build-process-2/</link>
       <pubDate>Mon, 20 Sep 2021 16:04:12 +1000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/09/20/unpacking-the-build-process-2/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/09/20/unpacking-the-build-process-2/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/09/20/unpacking-the-build-process-2/Featured_hu_5309a5a5bb100b9e.webp" width="640" height="195"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/09/20/unpacking-the-build-process-2/Featured_hu_5309a5a5bb100b9e.webp" width="640" height="195"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
@@ -4761,7 +4944,7 @@ our build tool &lt;code&gt;boulder&lt;/code&gt;. It is usually the part of the b
 impact. How long it takes is largely down to the performance of your compiler and what compile flags you are building
 with.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;This post follows on from &lt;a href=&#34;http://localhost:1313/blog/2021/08/25/unpacking-the-build-process-1&#34;&gt;Part 1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This post follows on from &lt;a href=&#34;http://localhost:45189/blog/2021/08/25/unpacking-the-build-process-1&#34;&gt;Part 1&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Turning Source into Compiled Code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;turning-source-into-compiled-code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#turning-source-into-compiled-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The steps for compiling code are generally quite straight-forward:&lt;/p&gt;
 &lt;ul&gt;
@@ -4804,7 +4987,7 @@ relevant as you increase the numbers of threads on the builder. For example, whe
 configure step takes 13.5s, while the build itself takes only 2.3s, so there&amp;rsquo;s significant gains to be had from speeding
 up the setup stage of a build (which we will absolutely be taking advantage of!).&lt;/p&gt;
 &lt;h2&gt;A Closer Look at the clang Compiler&amp;rsquo;s Performance&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;a-closer-look-at-the-clang-compilers-performance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#a-closer-look-at-the-clang-compilers-performance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A first cut of the compiler results were shared earlier in &lt;a href=&#34;http://localhost:1313/blog/2021/08/02/initial-performance-testing&#34;&gt;Initial Performance Testing&lt;/a&gt;,
+    &lt;a href=&#34;#a-closer-look-at-the-clang-compilers-performance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A first cut of the compiler results were shared earlier in &lt;a href=&#34;http://localhost:45189/blog/2021/08/02/initial-performance-testing&#34;&gt;Initial Performance Testing&lt;/a&gt;,
 and given the importance to overall build time, I&amp;rsquo;ve been taking a closer look. In the post I said that &lt;code&gt;&amp;quot;At stages where I would have expected to be ahead already, the compile performance was only equal&amp;quot;&lt;/code&gt; and now I have identified the
 discrepancy.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve tested multiple configurations for the &lt;code&gt;clang&lt;/code&gt; compiler and noticed that changing the default standard C++ library
@@ -4855,15 +5038,15 @@ build with &lt;code&gt;libc++&lt;/code&gt; vs &lt;code&gt;libstdc++&lt;/code&gt;
     
     <item>
       <title>Unpacking the Build Process: Part 1</title>
-      <link>http://localhost:1313/blog/blog/2021/08/25/unpacking-the-build-process-1/</link>
+      <link>http://localhost:45189/blog/blog/2021/08/25/unpacking-the-build-process-1/</link>
       <pubDate>Wed, 25 Aug 2021 19:04:12 +1000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/08/25/unpacking-the-build-process-1/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/08/25/unpacking-the-build-process-1/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/08/25/unpacking-the-build-process-1/Featured_hu_97571f7d058f92f4.webp" width="640" height="315"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/08/25/unpacking-the-build-process-1/Featured_hu_97571f7d058f92f4.webp" width="640" height="315"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
@@ -4924,15 +5107,15 @@ to both reduce the time taken to build packages and in making packages easier to
     
     <item>
       <title>A Rolling Boulder Gathers No Moss</title>
-      <link>http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</link>
+      <link>http://localhost:45189/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</link>
       <pubDate>Tue, 10 Aug 2021 12:02:37 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/Featured_hu_c8a3043cc1072599.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/Featured_hu_c8a3043cc1072599.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;We actually did it. Super pleased to announce that &lt;code&gt;moss&lt;/code&gt; is now capable
 of installing and removing packages. Granted, super rough, but gotta start
@@ -5007,15 +5190,15 @@ don&amp;rsquo;t worry :))&lt;/p&gt;
     
     <item>
       <title>Moss DB Progress</title>
-      <link>http://localhost:1313/blog/blog/2021/08/03/moss-db-progress/</link>
+      <link>http://localhost:45189/blog/blog/2021/08/03/moss-db-progress/</link>
       <pubDate>Tue, 03 Aug 2021 14:16:16 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/08/03/moss-db-progress/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/08/03/moss-db-progress/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/08/03/moss-db-progress/Featured_hu_6c97e3e6f3a31d8.webp" width="640" height="360"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/08/03/moss-db-progress/Featured_hu_6c97e3e6f3a31d8.webp" width="640" height="360"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
@@ -5100,15 +5283,15 @@ into installation routines. Which, clearly, warrants another blog post &amp;hell
     
     <item>
       <title>Initial Performance Testing</title>
-      <link>http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/</link>
+      <link>http://localhost:45189/blog/blog/2021/08/02/initial-performance-testing/</link>
       <pubDate>Mon, 02 Aug 2021 11:28:24 +1000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/08/02/initial-performance-testing/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/Featured_hu_81495fbce4f6782e.webp" width="640" height="282"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/08/02/initial-performance-testing/Featured_hu_81495fbce4f6782e.webp" width="640" height="282"/>]]>
         
         &lt;p&gt;With further progress on &lt;code&gt;boulder&lt;/code&gt;, we can now build native stone packages with some easy tweaks such as profile
 guided optimizations (PGO) and link time optimizations (LTO). That means we can take a first look at what the
@@ -5301,15 +5484,15 @@ before anyone wants to point the finger at &lt;code&gt;clang&lt;/code&gt;, you g
     
     <item>
       <title>Boulder Keeps On Rolling</title>
-      <link>http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/</link>
+      <link>http://localhost:45189/blog/blog/2021/07/27/boulder-keeps-on-rolling/</link>
       <pubDate>Tue, 27 Jul 2021 16:05:23 +1100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/07/27/boulder-keeps-on-rolling/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/Featured_hu_a782b05911c2ddd4.webp" width="640" height="445"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/07/27/boulder-keeps-on-rolling/Featured_hu_a782b05911c2ddd4.webp" width="640" height="445"/>]]>
         
         &lt;p&gt;Squirrelling away in the background has been some great changes to bring &lt;code&gt;boulder&lt;/code&gt; closer to its full potential. Here&amp;rsquo;s
 a quick recap of some of the more important ones.&lt;/p&gt;
@@ -5348,15 +5531,15 @@ out these new features to see how much they can add to the overall &lt;code&gt;s
     
     <item>
       <title>Let There Be Databases</title>
-      <link>http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/</link>
+      <link>http://localhost:45189/blog/blog/2021/05/18/let-there-be-databases/</link>
       <pubDate>Tue, 18 May 2021 10:31:32 +0100</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/05/18/let-there-be-databases/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/Featured_hu_aefdc32eb897e01f.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/05/18/let-there-be-databases/Featured_hu_aefdc32eb897e01f.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;We haven&amp;rsquo;t been too great on sharing progress lately, so welcome to an overdue update on
 timelines, progress, and database related shmexiness.&lt;/p&gt;
@@ -5445,15 +5628,15 @@ tying it all together.&lt;/p&gt;
     
     <item>
       <title>Moss Unlocked</title>
-      <link>http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/</link>
+      <link>http://localhost:45189/blog/blog/2021/03/20/moss-unlocked/</link>
       <pubDate>Sat, 20 Mar 2021 14:07:30 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/03/20/moss-unlocked/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/Featured_hu_2c51e6f32e95b703.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/03/20/moss-unlocked/Featured_hu_2c51e6f32e95b703.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;Well, it&amp;rsquo;s not all doom and gloom these days. We&amp;rsquo;ve actually made some
 significant progress in the last few days, so it seems a good time to
@@ -5540,15 +5723,15 @@ all.&lt;/p&gt;
     
     <item>
       <title>Optimising Package Distribution</title>
-      <link>http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/</link>
+      <link>http://localhost:45189/blog/blog/2021/03/16/optimising-package-distribution/</link>
       <pubDate>Tue, 16 Mar 2021 22:19:12 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/03/16/optimising-package-distribution/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/Featured_hu_56e14e276fd51a88.webp" width="640" height="424"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/03/16/optimising-package-distribution/Featured_hu_56e14e276fd51a88.webp" width="640" height="424"/>]]>
         
         &lt;p&gt;Getting updates as fast as possible to users has made deltas a popular and sought after feature for distributing
 packages. Over the last couple of days, I&amp;rsquo;ve been investigating various techniques we can look at to support deltas in
@@ -5710,15 +5893,15 @@ getting the package &amp;rsquo;live&amp;rsquo; ASAP and minimises the size (even
     
     <item>
       <title>Moss Format: Read Write Support</title>
-      <link>http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/</link>
+      <link>http://localhost:45189/blog/blog/2021/02/17/moss-format-read-write-support/</link>
       <pubDate>Wed, 17 Feb 2021 22:35:11 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/02/17/moss-format-read-write-support/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/Featured_hu_7c8e5ad68e4fa843.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/02/17/moss-format-read-write-support/Featured_hu_7c8e5ad68e4fa843.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;It&amp;rsquo;s been 8 days since our last blogpost and a lot of development work has happened
 in that time. Specifically, we&amp;rsquo;ve completely reworked the internals of the &lt;code&gt;moss-format&lt;/code&gt;
@@ -5790,15 +5973,15 @@ for file deletion, rename or modification for an update to succeed.&lt;/p&gt;
     
     <item>
       <title>Unlocking Moss</title>
-      <link>http://localhost:1313/blog/blog/2021/02/09/unlocking-moss/</link>
+      <link>http://localhost:45189/blog/blog/2021/02/09/unlocking-moss/</link>
       <pubDate>Tue, 09 Feb 2021 12:45:34 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/blog/2021/02/09/unlocking-moss/</guid>
+      <guid>http://localhost:45189/blog/blog/2021/02/09/unlocking-moss/</guid>
       <description>
         
         
         
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/02/09/unlocking-moss/Featured_hu_5339e7cd767cb560.webp" width="640" height="427"/>]]>
+        <![CDATA[<img src="http://localhost:45189/blog/blog/2021/02/09/unlocking-moss/Featured_hu_5339e7cd767cb560.webp" width="640" height="427"/>]]>
         
         &lt;p&gt;import FigureScreenshotOne from &amp;ldquo;@/components/ui/FigureScreenshotOne.astro&amp;rdquo;
 import featuredImage from &amp;ldquo;./Featured.webp&amp;rdquo;&lt;/p&gt;
@@ -5845,65 +6028,6 @@ archives metadata, and of course, storing these records in a stateful system dat
 to meet our not-28th target. Sure, some code needs throwing away, but all codebases
 are evolutionary. Our major hurdle has been solved (mentally) - now it&amp;rsquo;s just time
 to implement it and let the good times roll.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Cleanups Complete</title>
-      <link>http://localhost:1313/blog/blog/2021/02/08/cleanups-complete/</link>
-      <pubDate>Mon, 08 Feb 2021 11:50:46 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/blog/2021/02/08/cleanups-complete/</guid>
-      <description>
-        
-        
-        
-        <![CDATA[<img src="http://localhost:1313/blog/blog/2021/02/08/cleanups-complete/Featured_hu_f3b53b2b4f83efeb.webp" width="640" height="427"/>]]>
-        
-        &lt;p&gt;import Giphy from &amp;lsquo;@/components/ui/Giphy.astro&amp;rsquo;;&lt;/p&gt;
-&lt;p&gt;Well, we&amp;rsquo;re officially back to working around the clock. After spending
-some time optimising my workflow, I&amp;rsquo;ve been busy getting the entire codebase
-cleaned up, so we can begin working towards an MVP.&lt;/p&gt;
-&lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Lots and lots of work&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h2&gt;Codebase hygiene&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;codebase-hygiene&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#codebase-hygiene&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Since Friday, I&amp;rsquo;ve been working extensively on cleaning up the codebase for the
-following projects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;boulder&lt;/li&gt;
-&lt;li&gt;moss&lt;/li&gt;
-&lt;li&gt;moss-core&lt;/li&gt;
-&lt;li&gt;moss-format&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As it now stands, 1 lint issue (a non-issue, really) exists across all 4
-projects. A plethora of issues have been resolved, ranging from endian correctness
-in the format to correct idiomatic D-lang integration and module naming.&lt;/p&gt;
-&lt;h2&gt;Bored&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;bored&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bored&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Granted, cleanups aren&amp;rsquo;t all that sexy. Peter has been updating many parts of
-the bootstrap project, introducing systemd 247.3, LLVM 11.0.1, etc. We now have
-all 3 stages building correctly again for the x86_64 target.&lt;/p&gt;
-&lt;h2&gt;And then&amp;hellip;.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;and-then&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#and-then&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Yikes, tough audience! So we&amp;rsquo;ve formed a new working TODO which will make its
-way online as a public document at some point. The first stage, cleanups, is
-done. Next is to restore feature development, working specifically on the
-extraction and install routines. From there, much work and cadence will be
-unlocked, allowing us to work towards an MVP.&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./TODO.webp&#34; title=&#34;See, we organised stuff&#34; alt=&#34;TODO&#34;  loading=&#34;lazy&#34; /&gt;
-    &lt;figcaption&gt;See, we organised stuff&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;You keep saying MVP..&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;you-keep-saying-mvp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#you-keep-saying-mvp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I know, it makes me feel all &amp;hellip; cute and professional. At the moment we&amp;rsquo;re cooking up
-a high level description of how an MVP demonstration could be deployed. While most of
-the features are ambiguous, our current ambition is to deploy a preinstalled QCOW2
-Serpent OS image as a prealpha to help validate moss/boulder/etc.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;ll be ugly. Likely slow. Probably insecure as all hell. But it&amp;rsquo;ll be &lt;strong&gt;something&lt;/strong&gt;.
-It&amp;rsquo;ll allow super basic interaction with moss, and a small collection of utilities that
-can be used in a terminal environment. No display whatsoever. That can come in a future
-iteration :)&lt;/p&gt;
-&lt;p&gt;ETA? &lt;del&gt;Definitely not by the 28th of February&lt;/del&gt;. When it&amp;rsquo;s done.&lt;/p&gt;
-&lt;Giphy id=&#34;qs6ev2pm8g9dS&#34;/&gt;
 
       </description>
     </item>

@@ -1,11 +1,13 @@
 ---
-title: "Musings on Inode Watchers and Atomic Live Upgrades"
+authors:
+- image: /images/avatars/joey.png
+  link: https://github.com/joebonrichie
+  name: Joey Riches
+title: Musings on Inode Watchers and Atomic Live Upgrades
 date: 2025-11-04T09:00:00Z
-authors: [joebonrichie]
-tags: [development]
+tags:
+- news
 ---
-
-import { Aside } from '@astrojs/starlight/components';
 
 This blog post will focus on inode watcher applications as well as the difficulties they present for live atomic updates for our `moss` package manager.
 

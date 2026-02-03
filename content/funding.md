@@ -26,25 +26,3 @@ Our primary method of funding is through Ko-fi:
 
 Bank Transfer:
 To be added
-
----
-## Funding
-
-1. Brief summary of viability of project
-    *   The infra is efficient and scalable by design
-    *   Low opperating costs which are already met by recurring donations
-    *   Puts AerynOS is on a strong foundation for viability
-2. How would additional funding help the project
-    *   Work towards additional build servers (multi-arch, psABI)
-    *   Build up nest egg for disaster planning
-    *   Allow for defined project focused spending (i.e. branding or website design)
-3. The way to help fund the project
-    *   Ko-fi
-    *   Bank Transfer
-    *   Deferred: Crypto (I don't think we should hide from it, just need to do it in a responsible and robust way)
-    *   Research: Other methods of income? Liberapay/Patreon?
-4. Deferred: Eventually look at a shop front (this would be it's own page)
-    *   Stickers
-    *   T-Shirts
-    *   Hoddies
-    *   Mugs

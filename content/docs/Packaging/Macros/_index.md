@@ -1,0 +1,12 @@
+---
+title: Macros
+lastUpdated: 2024-09-10T00:17:21Z
+weight: 3
+description: Tools to simplify life - macros
+---
+
+import DirectoryList from '@components/DirectoryList.astro';
+
+Every `stone.yaml` build has access to a number of **action** and **definition** macros. With these, we can ensure a greater degree of integration and consistency in our packaging, and vastly simplify common tasks to reduce maintainer burden.
+
+<DirectoryList/>

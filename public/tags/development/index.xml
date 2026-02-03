@@ -1,88 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AerynOS – Development</title>
-    <link>http://localhost:1313/tags/development/</link>
+    <link>http://localhost:45189/tags/development/</link>
     <description>Recent content in Development on AerynOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 09:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:45189/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
       
         
       
     
-    
-    <item>
-      <title>Musings on Inode Watchers and Atomic Live Upgrades</title>
-      <link>http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</link>
-      <pubDate>Tue, 04 Nov 2025 09:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</guid>
-      <description>
-        
-        
-        &lt;p&gt;import { Aside } from &amp;lsquo;@astrojs/starlight/components&amp;rsquo;;&lt;/p&gt;
-&lt;p&gt;This blog post will focus on inode watcher applications as well as the difficulties they present for live atomic updates for our &lt;code&gt;moss&lt;/code&gt; package manager.&lt;/p&gt;
-&lt;h3&gt;What is Moss?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-moss&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-is-moss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For those not in the know &lt;code&gt;moss&lt;/code&gt; is an atomic package manager that allows for live updates i.e. not needing to reboot to apply updates.&lt;/p&gt;
-&lt;p&gt;Although &lt;code&gt;moss&lt;/code&gt; presents itself as a traditional package manager, under the hood, it works quite fundamentally differently.&lt;/p&gt;
-&lt;p&gt;When you install a package with moss, it actually downloads and extracts the package to a Content Addressable Store (CAS) in &lt;code&gt;/.moss/assets&lt;/code&gt;. It then constructs a new virtual filesystem in memory comparing the current installed state to the new desired installed state containing the additional package. From the CAS it then constructs a &lt;code&gt;/usr&lt;/code&gt; tree in &lt;code&gt;/.moss/root/staging&lt;/code&gt; containing the additional package using hardlinks into the CAS. Then, using the &lt;code&gt;renameat2&lt;/code&gt; Linux kernel syscall with the &lt;code&gt;RENAME_EXCHANGE&lt;/code&gt; flag set, moss atomically promotes the current &lt;code&gt;/.moss/root/staging&lt;/code&gt; tree to be the new &lt;code&gt;/usr&lt;/code&gt; tree, and simultaneously demotes the current &lt;code&gt;/usr&lt;/code&gt; tree back to being an inactive, numbered filesystem transaction (fstx) tree in &lt;code&gt;/.moss/root/&amp;lt;fstx id&amp;gt;&lt;/code&gt;. Finally, moss then updates the bootloader configuration to reference the five newest numbered filesystem transactions for rollback purposes.&lt;/p&gt;
-&lt;Aside&gt;This explanation leaves out a couple of details such post-install triggers and boot management.&lt;/Aside&gt;
-&lt;p&gt;Compared to other atomic distributions on the market, the ability to live-update without needing to reboot is an important usability requirement for us, such that the user experience remains friendly to downstream users.&lt;/p&gt;
-&lt;h3&gt;Enter Inode Watchers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;enter-inode-watchers&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#enter-inode-watchers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Although quite a novel approach, allowing atomic updates of a live system leaves us with an interesting problem: After any moss transaction activating a new &lt;code&gt;/usr&lt;/code&gt; tree, any running applications holding an underlying inode to a filesystem path will continue to watch the file in the now archived state.&lt;/p&gt;
-&lt;p&gt;For example:&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;$ inotifywait -m /usr/bin/le-foo &amp;amp;
-# moss remove &amp;#39;binary(le-foo)&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In this case, if you hold an inode to a path that is deleted after the the &lt;code&gt;/usr&lt;/code&gt; tree is atomically swapped as part of a moss transaction, you will continue to hold the inode to the file in the archived state e.g. &lt;code&gt;/.moss/root/&amp;lt;fstx id&amp;gt;/bin/le-foo&lt;/code&gt;. This is due to the fact that the underlying file in the CAS that was referenced from the previous &lt;code&gt;/usr&lt;/code&gt; tree was not removed from the system; it still exists in the now archived previous &lt;code&gt;/usr&lt;/code&gt; tree.&lt;/p&gt;
-&lt;Aside&gt;Note that moss encodes all packaged files to start with an implicit `/usr` prefix. Hence the `/usr/bin/le-foo` file becomes `/.moss/root/&lt;fstx id&gt;/bin/le-foo` in the archived fstx id directory.&lt;/Aside&gt;
-&lt;p&gt;For any running applications whose functionality depends on these inode watchers, it can leave the system in a weird state as the application has no real way to know that the &amp;ldquo;real path&amp;rdquo; has now changed from &lt;code&gt;/usr/&amp;lt;something&amp;gt;&lt;/code&gt; to &lt;code&gt;/.moss/root/&amp;lt;fstx id&amp;gt;/&amp;lt;something&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The most obvious example in which this presents to users is in our GNOME Edition. GNOME Shell uses a inode watcher on &lt;code&gt;/usr/share/applications/&lt;/code&gt; to watch for any changed &lt;code&gt;.desktop&lt;/code&gt; files as applications get installed or removed. This design works pretty well for a traditional installation, and reduces the number of expensive &lt;code&gt;stat&lt;/code&gt; calls required to see what applications are available to launch. However, notably this design does not work with the design of &lt;code&gt;moss&lt;/code&gt;, in that when applications are freshly installed in GNOME they simply do not show up in the application launcher as GNOME Shell instead continues to hold the inode to the archived path. e.g. &lt;code&gt;/.moss/root/&amp;lt;fstx id&amp;gt;/usr/share/applications/&lt;/code&gt;, once a mutating moss operation is performed.&lt;/p&gt;
-&lt;p&gt;Whilst we could patch GNOME Shell instead to &lt;code&gt;stat&lt;/code&gt; for new changes in &lt;code&gt;/usr/share/applications/&lt;/code&gt;, patching every application that has issues with picking up file-system changes is not feasible across the ecosystem.&lt;/p&gt;
-&lt;h3&gt;Alternative Approaches?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;alternative-approaches&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#alternative-approaches&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;One suggested alternative has been to explore so called &amp;ldquo;mount-tucking&amp;rdquo; and EROFS images.&lt;/p&gt;
-&lt;p&gt;Mount-tucking is a fairly new addition to the Linux kernel where you can mount a new image &lt;em&gt;beneath&lt;/em&gt; a currently mounted image for a path.&lt;/p&gt;
-&lt;p&gt;For example&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;# mount my-image.img /mnt
-# mount --beneath my-new-image.img /mnt
-# umount /mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;In this example, once &lt;code&gt;/mnt&lt;/code&gt; is unmounted it will unmount &lt;code&gt;my-image.img&lt;/code&gt; and leave &lt;code&gt;my-new-image.img&lt;/code&gt; mounted in its place. If any files from &lt;code&gt;my-image.img&lt;/code&gt; are currently open, then a lazy unmount of the &lt;code&gt;/mnt&lt;/code&gt; path is required.&lt;/p&gt;
-&lt;p&gt;When combined with EROFS (extended read-only filesystem), we can construct a lightweight, metadata-only EROFS &lt;code&gt;/usr&lt;/code&gt; tree image which then links into the underlying CAS to form the new &lt;code&gt;/usr&lt;/code&gt; tree instead, then mount it beneath the currently running &lt;code&gt;/usr&lt;/code&gt; tree lightweight EROFS image. Lastly, we can then lazy unmount the current running &lt;code&gt;/usr&lt;/code&gt; image so the new image will apply in its place. As an additional benefit, this approach ensures that the &lt;code&gt;/usr&lt;/code&gt; tree is also immutable whilst still remaining atomic.&lt;/p&gt;
-&lt;Aside&gt;This does not protect the underlying files in `/.moss`, which are referenced from the EROFS metadata-image, from mutation. Protecting `/.moss` will require additional changes that are outside the scope of this blog post.&lt;/Aside&gt;
-&lt;p&gt;However, this approach has now been explored, and the fundamental problem remains that any running applications holding an inode to a changed file will simply not see any change.&lt;/p&gt;
-&lt;h3&gt;Are We Stuck with Needing To Reboot?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;are-we-stuck-with-needing-to-reboot&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#are-we-stuck-with-needing-to-reboot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Possibly.&lt;/p&gt;
-&lt;p&gt;The Linux kernel does not offer any mechanism to forcibly &amp;ldquo;revoke&amp;rdquo; inodes. If it did we would potentially build up a list of changed files, find their inodes, and then &amp;ldquo;hint&amp;rdquo; that they have changed after the &lt;code&gt;/usr&lt;/code&gt; trees are swapped. Any running applications that were then watching the inodes could pick up the changes.&lt;/p&gt;
-&lt;p&gt;For this particular problem, ideas are starting to run thin. Whilst it is important to us that live atomic updates remain possible instead of requiring the user to reboot, solving this problem currently has us scratching our heads.&lt;/p&gt;
-&lt;p&gt;TL;DR: More research needed.&lt;/p&gt;
-
-      </description>
-    </item>
     
   </channel>
 </rss>

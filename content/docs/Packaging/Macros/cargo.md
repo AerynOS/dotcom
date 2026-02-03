@@ -1,0 +1,12 @@
+---
+title: cargo
+lastUpdated: 2024-09-10T00:38:41Z
+weight: 2
+description: Rust project builds
+---
+import RenderMacroActions from '@components/RenderMacroActions.astro';
+
+
+When building "pure" [Rust](https://rust-lang.org) packages with the `cargo` build tool, ensure you use the `%cargo*` macros to allow `boulder` to control the various tuning options and debuginfo behavior.
+
+<RenderMacroActions group="cargo"/>

@@ -2,233 +2,360 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:45189/docs/aerynos/</loc>
     <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/aerynos/overview/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/branding/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/autotools/</loc>
   </url><url>
-    <loc>http://localhost:1313/community/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/system-management/configuration-locations/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/desktops/cosmic/</loc>
   </url><url>
-    <loc>http://localhost:1313/downloads/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/getting-started/</loc>
   </url><url>
-    <loc>http://localhost:1313/funding/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/staff/</loc>
-    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/system-accounts/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/news/</loc>
-    <lastmod>2025-12-09T12:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/triggers/overview/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/</loc>
-    <lastmod>2025-12-09T12:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/prerequisites/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-09T12:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/getting-started/requirements/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/development/</loc>
-    <lastmod>2025-11-04T09:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</loc>
-    <lastmod>2025-11-04T09:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/basic-workflow/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/10/31/</loc>
-    <lastmod>2025-10-31T09:00:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/cargo/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/09/30/september-2025-project-update/</loc>
-    <lastmod>2025-10-01T18:25:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/getting-started/downloading/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/08/31/august-2025-project-update/</loc>
-    <lastmod>2025-08-31T20:45:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/desktops/gnome/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/07/11/development-update-os-tools/</loc>
-    <lastmod>2025-07-11T12:18:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/system-accounts/groups/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/06/30/mid-year-update/</loc>
-    <lastmod>2025-06-30T21:37:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/system-management/moss-state-management/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</loc>
-    <lastmod>2025-03-30T02:35:00+00:00</lastmod>
+    <loc>http://localhost:45189/docs/aerynos/philosophy/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/</loc>
-    <lastmod>2025-03-25T15:35:21+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/02/14/evolve-this-os/</loc>
-    <lastmod>2025-02-14T23:25:37+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/system-management/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/02/06/hello-2025/</loc>
-    <lastmod>2025-02-06T22:05:55+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/triggers/tx-triggers/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2025/01/04/offline-rollbacks-enabled/</loc>
-    <lastmod>2025-01-04T22:19:37+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/upstreams/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/12/31/investing-in-the-future/</loc>
-    <lastmod>2024-12-31T14:00:11+00:00</lastmod>
+    <loc>http://localhost:45189/docs/aerynos/faq/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/</loc>
-    <lastmod>2024-12-29T16:45:48+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/</loc>
-    <lastmod>2024-12-23T04:56:15+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/cmake/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/</loc>
-    <lastmod>2024-08-01T01:18:07+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/getting-started/creating-the-live-environment/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/</loc>
-    <lastmod>2024-04-30T22:46:17+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/</loc>
-    <lastmod>2024-03-31T23:56:54+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/metadata/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/</loc>
-    <lastmod>2024-02-29T18:32:35+00:00</lastmod>
+    <loc>http://localhost:45189/docs/users/desktops/plasma/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2024/01/19/january-updates/</loc>
-    <lastmod>2024-01-19T22:54:07+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/</loc>
-    <lastmod>2023-12-19T13:07:16+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/system-accounts/users/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/</loc>
-    <lastmod>2023-09-06T18:32:47+01:00</lastmod>
+    <loc>http://localhost:45189/docs/aerynos/contributing/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/</loc>
-    <lastmod>2023-04-21T22:12:56+01:00</lastmod>
+    <loc>http://localhost:45189/docs/users/getting-started/booting-the-live-environment/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2023/03/18/infrastructure-launched/</loc>
-    <lastmod>2023-03-18T23:20:55+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/creating-a-new-recipe/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/12/24/lift-off/</loc>
-    <lastmod>2022-12-24T01:32:04+00:00</lastmod>
+    <loc>http://localhost:45189/docs/developers/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/09/14/the-big-update/</loc>
-    <lastmod>2022-09-14T12:55:04+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/meson/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/</loc>
-    <lastmod>2022-07-10T11:26:05+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/monitoring/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/</loc>
-    <lastmod>2022-06-22T17:23:14+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/build-deps/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/06/06/a-word-from-the-founder/</loc>
-    <lastmod>2022-06-06T20:36:51+01:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/misc/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</loc>
-    <lastmod>2022-04-05T11:12:54+10:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/updating-an-existing-recipe/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/02/11/making-deltas-great-again-1/</loc>
-    <lastmod>2022-02-11T20:45:12+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</loc>
-    <lastmod>2022-01-20T18:08:07+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/package-definition/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</loc>
-    <lastmod>2021-12-14T18:14:23+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/perl/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</loc>
-    <lastmod>2021-12-02T18:07:12+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/macros/python/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/11/23/it-all-depends/</loc>
-    <lastmod>2021-11-23T23:45:06+00:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/submitting-a-pr/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</loc>
-    <lastmod>2021-11-05T19:23:32+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/triggers/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/</loc>
-    <lastmod>2021-10-04T16:49:12+11:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/workflow/checking-for-updates/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/09/20/unpacking-the-build-process-2/</loc>
-    <lastmod>2021-09-20T16:04:12+10:00</lastmod>
+    <loc>http://localhost:45189/docs/packaging/recipes/system-accounts/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/08/25/unpacking-the-build-process-1/</loc>
-    <lastmod>2021-08-25T19:04:12+10:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2026/31/january-2026-project-update/</loc>
+    <lastmod>2026-01-30T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</loc>
-    <lastmod>2021-08-10T12:02:37+01:00</lastmod>
+    <loc>http://localhost:45189/tags/news/</loc>
+    <lastmod>2026-01-30T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/08/03/moss-db-progress/</loc>
-    <lastmod>2021-08-03T14:16:16+01:00</lastmod>
+    <loc>http://localhost:45189/tags/</loc>
+    <lastmod>2026-01-30T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/</loc>
-    <lastmod>2021-08-02T11:28:24+10:00</lastmod>
+    <loc>http://localhost:45189/blog/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/</loc>
-    <lastmod>2021-07-27T16:05:23+11:00</lastmod>
+    <loc>http://localhost:45189/docs/</loc>
+    <lastmod>2026-01-06T14:27:56+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/</loc>
-    <lastmod>2021-05-18T10:31:32+01:00</lastmod>
+    <loc>http://localhost:45189/about/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/</loc>
-    <lastmod>2021-03-20T14:07:30+00:00</lastmod>
+    <loc>http://localhost:45189/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/</loc>
-    <lastmod>2021-03-16T22:19:12+00:00</lastmod>
+    <loc>http://localhost:45189/branding/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/</loc>
-    <lastmod>2021-02-17T22:35:11+00:00</lastmod>
+    <loc>http://localhost:45189/community/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/02/09/unlocking-moss/</loc>
-    <lastmod>2021-02-09T12:45:34+00:00</lastmod>
+    <loc>http://localhost:45189/contact/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2021/02/08/cleanups-complete/</loc>
-    <lastmod>2021-02-08T11:50:46+00:00</lastmod>
+    <loc>http://localhost:45189/downloads/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/10/11/build-system-functional/</loc>
-    <lastmod>2020-10-11T10:17:25+01:00</lastmod>
+    <loc>http://localhost:45189/funding/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/09/22/results-of-the-experiment/</loc>
-    <lastmod>2020-09-22T18:05:39+01:00</lastmod>
+    <loc>http://localhost:45189/staff/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/09/21/source-format-defined/</loc>
-    <lastmod>2020-09-21T16:09:46+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2026/01/2025-in-retrospect/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/09/20/moss-format-defined/</loc>
-    <lastmod>2020-09-20T13:48:50+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/12/09/november-and-early-december-blog-post/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/09/10/defining-moss/</loc>
-    <lastmod>2020-09-10T16:02:48+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/09/07/stage3-complete/</loc>
-    <lastmod>2020-09-07T18:39:24+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/10/31/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/08/28/looking-stage4-in-the-eye/</loc>
-    <lastmod>2020-08-28T21:35:16+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/09/30/september-2025-project-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/08/20/stage3-progress/</loc>
-    <lastmod>2020-08-20T14:14:49+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/08/31/august-2025-project-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/08/16/stage2-complete/</loc>
-    <lastmod>2020-08-16T15:08:08+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/07/11/development-update-os-tools/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/08/08/stage1-complete/</loc>
-    <lastmod>2020-08-08T15:15:04+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/06/30/mid-year-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/07/07/welcome-project-manager/</loc>
-    <lastmod>2020-07-07T11:35:50+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/07/06/welcome-peter/</loc>
-    <lastmod>2020-07-06T16:12:07+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/03/25/hello-aerynos/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/07/01/the-great-experiment/</loc>
-    <lastmod>2020-07-01T19:39:56+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/02/14/evolve-this-os/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/blog/2020/06/30/first-post/</loc>
-    <lastmod>2020-06-30T16:24:32+01:00</lastmod>
+    <loc>http://localhost:45189/blog/blog/2025/02/06/hello-2025/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:45189/blog/blog/2025/01/04/offline-rollbacks-enabled/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/12/31/investing-in-the-future/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/12/29/alpha-refresh-available/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/12/23/serpent-os-enters-alpha/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/08/01/prealpha0-released/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/04/30/calm-before-the-storm/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/03/31/the-march-of-progress/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/02/29/end-of-feb-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2024/01/19/january-updates/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2023/12/19/end-of-year-summary/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2023/09/06/oxidised-moss/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2023/04/21/snakes-on-a-boat/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2023/03/18/infrastructure-launched/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/12/24/lift-off/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/09/14/the-big-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/07/10/infrastructure-update/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/06/22/packaging-automation-next-steps/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/06/06/a-word-from-the-founder/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/02/11/making-deltas-great-again-1/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/11/23/it-all-depends/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/10/04/optimal-file-locality/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/09/20/unpacking-the-build-process-2/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/08/25/unpacking-the-build-process-1/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/08/03/moss-db-progress/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/08/02/initial-performance-testing/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/07/27/boulder-keeps-on-rolling/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/05/18/let-there-be-databases/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/03/20/moss-unlocked/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/03/16/optimising-package-distribution/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/02/17/moss-format-read-write-support/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/02/09/unlocking-moss/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2021/02/08/cleanups-complete/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/10/11/build-system-functional/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/09/22/results-of-the-experiment/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/09/21/source-format-defined/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/09/20/moss-format-defined/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/09/10/defining-moss/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/09/07/stage3-complete/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/08/28/looking-stage4-in-the-eye/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/08/20/stage3-progress/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/08/16/stage2-complete/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/08/08/stage1-complete/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/07/07/welcome-project-manager/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/07/06/welcome-peter/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/07/01/the-great-experiment/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/blog/blog/2020/06/30/first-post/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:45189/categories/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/users/desktops/</loc>
+  </url><url>
+    <loc>http://localhost:45189/tags/development/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/developers/stone/header/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/developers/stone/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/users/desktops/window-managers/sway/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/developers/stone/v1/header/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/developers/stone/v1/</loc>
+  </url><url>
+    <loc>http://localhost:45189/docs/users/desktops/window-managers/</loc>
   </url>
 </urlset>

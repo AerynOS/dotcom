@@ -26,44 +26,16 @@ Particularly whilst we are in "alpha", we aren't interested in comparisons with 
 
 ### For help and general engagement
 
-{{< tabs items="Zulip,GitHub Discussions" defaultIndex="0" >}}
-
-  {{< tab >}}**Zulip**: An organised chat platform designed for asynchronous communication.
-{{< cards >}}
-  {{< card link="https://aerynos.zulipchat.com/" title="Zulip" icon="zulip" >}}
+{{< cards cols="2" >}}
+{{< card link="https://aerynos.zulipchat.com/" title="Zulip" subtitle="An organised chat platform designed for asynchronous communication."  icon="zulip" >}}
+{{< card link="https://github.com/orgs/AerynOS/discussions" title="GitHub Discussions" subtitle="A collaborative communication platform for users who prefer more of a forum style of interaction."  icon="github" >}}
 {{< /cards >}}
-{{< /tab >}}
-  {{< tab >}}**GitHub Discussions**: A collaborative communication platform for users who prefer more of a forum style of interaction.
-{{< cards >}}
-  {{< card link="https://github.com/orgs/AerynOS/discussions" title="GitHub Discussions" icon="github" >}}
-{{< /cards >}}
-{{< /tab >}}
-
-{{< /tabs >}}
 
 ### Social media
 
-{{< tabs items="Mastodon,Bsky,Reddit,X" defaultIndex="0" >}}
-
-  {{< tab >}}**Mastodon**: A decentralized social network that allows users to create their own servers and connect with others.
-{{< cards >}}
-  {{< card link="https://hachyderm.io/@AerynOS" title="Mastodon" icon="mastodon" >}}
+{{< cards cols="2" >}}
+{{< card link="https://hachyderm.io/@AerynOS" title="Mastodon" subtitle="A decentralized social network that allows users to create their own servers and connect with others."  icon="mastodon" >}}
+{{< card link="https://bsky.app/profile/aerynos.com" title="Bluesky" subtitle="A decentralised social media platform that functions similarly to X but is built on an open-source framework called the AT Protocol."  icon="bluesky" >}}
+{{< card link="https://www.reddit.com/r/AerynOS/" title="Reddit" subtitle="A social news aggregation website that allows users to create their own communities and share content."  icon="reddit" >}}
+{{< card link="https://x.com/AerynOS_Linux" title="X" subtitle="A social media platform formerly know as Twitter."  icon="x-twitter" >}}
 {{< /cards >}}
-{{< /tab >}}
-  {{< tab >}}**Bsky**: A decentralized social network that allows users to create their own servers and connect with others.
-{{< cards >}}
-  {{< card link="https://bsky.app/profile/aerynos.com" title="Bluesky" icon="bluesky" >}}
-{{< /cards >}}
-{{< /tab >}}
-  {{< tab >}}**Reddit**: A social news aggregation website that allows users to create their own communities and share content.
-{{< cards >}}
-  {{< card link="https://www.reddit.com/r/AerynOS/" title="Reddit" icon="reddit" >}}
-{{< /cards >}}
-{{< /tab >}}
-  {{< tab >}}**X**: A social media platform that allows users to create their own accounts and share content.
-{{< cards >}}
-  {{< card link="https://x.com/AerynOS_Linux" title="X" icon="x-twitter" >}}
-{{< /cards >}}
-{{< /tab >}}
-
-{{< /tabs >}}

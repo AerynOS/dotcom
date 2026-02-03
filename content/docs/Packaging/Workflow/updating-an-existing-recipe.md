@@ -1,0 +1,69 @@
+---
+title : 'Updating an existing package recipe'
+lastUpdated: 2026-01-25T12:00:00+00:00
+weight: 5
+description: "How to update an existing package recipe"
+---
+
+This guide details the process of updating a package that is already present in the [AerynOS repository](https://github.com/AerynOS/recipes). We will use GNU Nano as the running example, but the same steps apply to any existing package. 
+
+Before updating the package yourself, please double check that there isn't already an outstanding PR for the update you want to make. Please also check if someone has created an update request issue in the [AerynOS recipes repository](https://github.com/AerynOS/recipes).
+
+## Prepare your workspace
+
+Prior to starting, ensure you have followed the [prerequisites](/docs/packaging/workflow/prerequisites/) set up process, the [Basic Packaging Workflow](/docs/packaging/workflow/basic-workflow/) and updated your system in accordance with [Preparing for Packaging](/docs/packaging/workflow/preparing-for-packaging/) guide. 
+
+If you have not done this, follow those steps first before proceeding.
+
+## Simple updates to a package
+
+To update a package to a newer available version, navigate to the relevant folder within your local recipe repository on your system. If you have already navigated to the local recipe repository, then by way of example, to navigate to the Nano package folder, you would use the command:
+
+```bash
+chpkg nano
+```
+
+### Bumping a package
+
+If there are changes to dependencies of a package, but not to the package itself, you need to increase the release number within the `stone.yaml` recipe file by one. This will allow you to rebuild the package and test it against the newer dependences to make sure everything is working. You can do this by using the following command:
+
+```bash
+just bump
+```
+
+which is a shortcut for
+
+```bash
+boulder recipe bump
+```
+
+Please note each time you do this, you will increase the release number by one, so do not use this command multiple times for one package update.
+
+### Updating a package version
+
+If you need to update the package version itself, you can use the following command:
+
+```bash
+boulder recipe update --ver "version name" --upstream "upstream URL" stone.yaml -w
+```
+
+In the example of nano, to update to version 8.7, you would use the following command:
+
+```bash
+boulder recipe update --ver 8.7 --upstream https://www.nano-editor.org/dist/v8/nano-8.7.tar.xz stone.yaml -w
+```
+
+This command does the following:
+
+1) Updates the version of the package within the recipe
+2) Updates the upstream location of the source code
+3) Checks the Sha256sum of the source code and inputs this in the recipes
+4) Bumps the release number by 1
+
+## Wider updates to a package
+
+If there are further changes required to the `stone.yaml` recipe file, you can either use a text editor (such as Nano itself) or a code editor (such as Zed which is pre-installed on AerynOS) to make changes those changes. Guidance on how to make changes to a stone.yaml file are covered in the [Creating a new package recipe](/docs/packaging/workflow/creating-a-new-recipe/) page.
+
+## Build and test the package
+
+Once you have made the relevant changes to the package, you will need to build it locally. Refer to the [Building and Testing packages](/docs/packaging/workflow/building-and-testing-packages/) page on guidance of how to do this.

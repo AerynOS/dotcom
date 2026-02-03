@@ -1,0 +1,331 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AerynOS – AerynOS</title>
+    <link>http://localhost:45189/docs/aerynos/</link>
+    <description>Recent content on AerynOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jan 2026 14:27:56 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:45189/docs/aerynos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:45189/docs/aerynos/overview/</link>
+      <pubDate>Tue, 06 Jan 2026 14:27:56 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/aerynos/overview/</guid>
+      <description>
+        
+        
+        &lt;p&gt;AerynOS is a Linux-based operating system designed to eliminate years of technical baggage. It is an engineering led effort in that the distribution is produced entirely by the tooling we have developed. Every new feature, technology, or enabling is carefully considered, drawing on our own experiences and by studying the impact in similar decision spaces in other projects.&lt;/p&gt;
+&lt;p&gt;Despite being heavily engineering led, we are not averse to design. We aim to provide the best in class user experience atop a solid, innovative foundation, whilst ensuring we have the scope and scalability to meet the needs of the future.&lt;/p&gt;
+&lt;p&gt;In essence, we&amp;rsquo;re producing a distribution based on sound technical principles, in order to deliver a &amp;ldquo;daily driver&amp;rdquo; that truly looks after itself. Its aim is to get out of the way when you need it to, and provide the tools you need when you need them.&lt;/p&gt;
+&lt;p&gt;If anything, AerynOS is &amp;ldquo;operating-system-as-infrastructure&amp;rdquo;, providing a solid foundation for your daily computing needs. We&amp;rsquo;re not just a distribution, we&amp;rsquo;re a platform for the future.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Remember, AerynOS is still in development. Despite our goals, we must be clear that we&amp;rsquo;ve deemed ourselves to be alpha quality software&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>http://localhost:45189/docs/aerynos/philosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/aerynos/philosophy/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Stateless (aka &lt;code&gt;hermetic /usr&lt;/code&gt;)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stateless-aka-hermetic-usr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#stateless-aka-hermetic-usr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Most Linux distributions follow the &lt;a href=&#34;https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filesystem Hierarchy Standard&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; which sets the structure for all files and directories on a Unix-like system. In traditional FHS based Linux distributions, package files can be installed to multiple directories, these can be directories or files that users may interact with (such as config files).&lt;/p&gt;
+&lt;p&gt;In AerynOS, packages are forbidden from containing any files outside of /usr directory. The /usr directory exclusively belongs to the system with the user not intended to make any changes in this directory what-so-ever. Files written under the /usr directory by a user will get removed (or reverted) the next time the system is updated.&lt;/p&gt;
+&lt;p&gt;In order to enable this, some packages and/or configurations are altered in AerynOS to ensure they can operate in the absence of a user provided configuration. This forces AerynOS to have sane defaults baked in at all levels, and eliminates 3-way merge conflicts on package updates. There are no conflicts, because everything in /etc and /var belongs to the user.&lt;/p&gt;
+&lt;p&gt;The stateless Linux concept was originally proposed by Red Hat in 2004 and the idea has continued to evolve from there. AerynOS leans towards the approach developed by Clear Linux, and we are refining it further.&lt;/p&gt;
+&lt;p&gt;However, it might still be necessary to create or update system configuration files in lockstep with package installation. In AerynOS, the only way for files to get created or updated under /etc or /var during package installation is via package &amp;ldquo;triggers&amp;rdquo;. Triggers are small scripts that are run at the tail end of package installation. AerynOS supports two forms of package triggers: Transaction triggers and System triggers.&lt;/p&gt;
+&lt;h3&gt;Transaction Triggers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;transaction-triggers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#transaction-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Transaction triggers are run at the end of a transaction in an ephemeral container (Linux namespace) and may affect the contents of the transaction-specific /usr tree. This is useful for interdependent packages that need to dynamically produce plugin registries, for example.&lt;/p&gt;
+&lt;h3&gt;System Triggers&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;system-triggers&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#system-triggers&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;System triggers do not run in an isolated container, but instead are run in the context of the host system after the transaction has been successfully built and applied. It is these (minimally used) triggers that invoke &lt;code&gt;systemd-tmpfiles&lt;/code&gt;, &lt;code&gt;systemd-sysusers&lt;/code&gt; etc. For these cases we take special care to ensure that our default configs are sane and that a rebuild is always possible.&lt;/p&gt;
+&lt;h2&gt;Atomic updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;atomic-updates&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#atomic-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An atomic update is a series of changes to a system that are treated as a single, indivisible operation. If any part of this update fails, then the entire update is canceled with all prior parts of the incomplete update being rolled back. This means that either an update completes fully as intended, or the system is left in the state it was in before the update was attempted. This is important because partial updates often cause significant issues such as bricked installs.&lt;/p&gt;
+&lt;p&gt;AerynOS&amp;rsquo; approach to atomic updates is fairly different to the approach taken by other Linux distributions, which mostly use an A/B switch model using specific read-only filesystems to swap the whole system upon reboot. Atomic updates in AerynOS are managed by its package manager &lt;code&gt;moss&lt;/code&gt; (which we also refer to as a &lt;code&gt;system state manager&lt;/code&gt;). As such, AerynOS is not tied to using read-only filesystems and this allows for the use of XFS, ext4 and F2FS.&lt;/p&gt;
+&lt;p&gt;As mentioned above, AerynOS utilizes a stateless design where packages can only be installed to the &lt;code&gt;/usr&lt;/code&gt; directory. The knowledge that packages can only be installed to this directory allows AerynOS to innovate in its approach to atomic updates.&lt;/p&gt;
+&lt;p&gt;AerynOS packages are packaged up as bespoke &lt;code&gt;.stone&lt;/code&gt; moss-format files. Hence, AerynOS does not use or rely on e.g. Debian &lt;code&gt;.deb&lt;/code&gt; format package files or Fedora/RHEL &lt;code&gt;.rpm&lt;/code&gt; format package files. These &lt;code&gt;.stone&lt;/code&gt; files contain a deduplicated set of hashed files compressed using zstd. When a &lt;code&gt;.stone&lt;/code&gt; file is installed via &lt;code&gt;moss&lt;/code&gt;, the files are decompressed and stored into a global, deduplicated content addressable store under&lt;code&gt;/.moss/&lt;/code&gt;. Relevant metadata about these files is also stored in a database under &lt;code&gt;/.moss/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;As part of the final stages of an atomic transaction, &lt;code&gt;moss&lt;/code&gt; creates (or &amp;ldquo;blits&amp;rdquo;) a new &lt;code&gt;/usr&lt;/code&gt; directory based on &lt;a href=&#34;https://www.virtualcuriosities.com/articles/4507/how-hard-links-and-inodes-work-on-linux&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hardlinks&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; to the global content addressable store. It then swaps this new &lt;code&gt;/usr&lt;/code&gt; directory into place using the &lt;code&gt;renameat2&lt;/code&gt; Linux kernel syscall with the &lt;code&gt;RENAME_EXCHANGE&lt;/code&gt; flag, which allows for atomically exchanging an old path for a new path.&lt;/p&gt;
+&lt;p&gt;As hardlinks do not take up any significant additional space on disk, and since the global content addressable store is always deduplicated as part of every transaction, &lt;code&gt;moss&lt;/code&gt; stores every &lt;code&gt;/usr&lt;/code&gt; directory from every transaction. This allows for retaining system snapshots with minimal overhead and provides the ability to perform atomic rollbacks to earlier states so long as the user does not prune those.&lt;/p&gt;
+&lt;h2&gt;Self healing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;self-healing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#self-healing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As part of our boot management solution, every moss transaction ID is encoded into the kernel command line and is picked up during early boot into our initramfs, before &lt;code&gt;/sysroot&lt;/code&gt; is pivoted to. Every kernel is correctly synchronized with the right rootfs based on the moss transaction it was associated to. Given that every transaction creates a new bootloader entry, AerynOS prunes all but the last 5 transactions from the bootloader list to keep it manageable.&lt;/p&gt;
+&lt;h3&gt;What are the implications of this?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-are-the-implications-of-this&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-are-the-implications-of-this&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;On a Gnome based system, if you were to delete &lt;code&gt;gtk3&lt;/code&gt;, &lt;code&gt;GDM&lt;/code&gt;, and &lt;code&gt;gnome-shell&lt;/code&gt; you would not be able to log back into the gnome session (as you&amp;rsquo;ve just deleted some really important part of the gnome session!). In this case, on boot you would be greeted by a Linux console login prompt, which would only let you log into your user&amp;rsquo;s command line shell, which is less than ideal.&lt;/p&gt;
+&lt;p&gt;In AerynOS, instead of this scenario, you can enter the bootloader (by mashing your spacebar) on reboot, and in the bootloader. Select the second to last entry and this will automatically switch to the &lt;code&gt;/usr&lt;/code&gt; filesystem transaction where &lt;code&gt;gtk3&lt;/code&gt;, &lt;code&gt;GDM&lt;/code&gt; and &lt;code&gt;gnome-shell&lt;/code&gt; had not yet been deleted. On activating this entry with the Enter key, you will boot back into a working GDM for a graphical user experience.&lt;/p&gt;
+&lt;p&gt;Taking this a step further, if you were to remove &lt;code&gt;glibc&lt;/code&gt;, given how integral it is to the functioning of AerynOS and how it specifically includes the &lt;code&gt;renameat2&lt;/code&gt; function used by &lt;code&gt;moss&lt;/code&gt; to complete transactions, the system would be left in a state where the atomic update did not complete and the whole system would be broken. In a traditional Linux distribution, this will be very difficult, or impossible to resolve without resorting to a fresh reinstall.&lt;/p&gt;
+&lt;p&gt;In AerynOS, however, upon trying to boot into this last transaction, the system will discover that there is an issue with the transaction and will atomically roll back to the prior bootloader entry with the associated correct &lt;code&gt;/usr&lt;/code&gt; directory that works. This rollback process only takes around a second (or a couple of seconds, depending on your hardware) and you will automatically be dropped back into a live working AerynOS system.&lt;/p&gt;
+&lt;h3&gt;Could this happen?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;could-this-happen&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#could-this-happen&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Whilst it is unlikely that a user would ever knowingly delete these very important packages (though it could happen). The more likely scenario on traditional Linux distributions is that there is a partial update that may have deleted very important aspects for a functioning system with the newer versions not having been yet installed before the update stopped. By the design features mentioned above, this is impossible on AerynOS.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:45189/docs/aerynos/faq/</link>
+      <pubDate>Tue, 06 Jan 2026 14:27:56 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/aerynos/faq/</guid>
+      <description>
+        
+        
+        &lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;This section is a work in progress and will be expanded over time.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Project identity&lt;/h1&gt;&lt;h3&gt;What does AerynOS mean and how do I pronounce it?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-does-aerynos-mean-and-how-do-i-pronounce-it&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-does-aerynos-mean-and-how-do-i-pronounce-it&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AerynOS is a stylized spelling of &amp;ldquo;Erin&amp;rdquo;, alluding to the project&amp;rsquo;s Irish roots. It is pronounced exactly the same as &amp;ldquo;Erin&amp;rdquo; - &amp;ldquo;AIR-in&amp;rdquo; OS. It&amp;rsquo;s also a play on &amp;ldquo;aer&amp;rdquo; and the phonetic &amp;ldquo;air&amp;rdquo; sound, indicative of our desire to produce an open, trusted and high-performance operating system.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s pronounced as &amp;ldquo;AIR-in&amp;rdquo; OS.&lt;/p&gt;
+&lt;h3&gt;What was Serpent OS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-was-serpent-os&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-was-serpent-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Serpent OS is the former name of AerynOS. We &lt;a href=&#34;https://aerynos.com/blog/2025/02/14/evolve-this-os/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;announced our rebrand&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; back in February 2025, which culminated with the inaugural release of AerynOS 2025.03 on March 25th, 2025. Per the announcement, our desire to rebrand was chiefly driven due to effectively being lumbered with a hastily chosen name, that poorly reflected the project&amp;rsquo;s goals and aspirations.&lt;/p&gt;
+&lt;p&gt;The project itself remains the same, with the same goals and aspirations, but with a new name and a fresh coat of paint.&lt;/p&gt;
+&lt;h1&gt;Installation Questions&lt;/h1&gt;&lt;h3&gt;Which CPUs does AerynOS support?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;which-cpus-does-aerynos-support&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#which-cpus-does-aerynos-support&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AerynOS is currently only compiled for the x86_64-v2 target architecture, which means that it will run on CPUs supporting x86_64-v2 or greater psABI feature levels.&lt;/p&gt;
+&lt;p&gt;Checking the currently supported x86_64 psABI feature level of a system can be done by executing the following snippet in a terminal as a normal user:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;curl https://raw.githubusercontent.com/HenrikBengtsson/x86-64-level/refs/heads/develop/x86-64-level | bash -s -- --verbose&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;Does AerynOS offer NVIDIA GPU support?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;does-aerynos-offer-nvidia-gpu-support&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#does-aerynos-offer-nvidia-gpu-support&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Due to the way NVIDIA distributes its drivers, maintaining them in a distro is labor-intensive and frustrating when they do not work as advertised.&lt;/p&gt;
+&lt;p&gt;Given AerynOS is in the Alpha development stage, only limited, best effort NVIDIA enablement related to cards supported by the so-called nvidia-open-gpu-kernel-modules is currently offered.&lt;/p&gt;
+&lt;p&gt;You can check the status of NVIDIA support in &lt;a href=&#34;https://github.com/AerynOS/recipes/issues/435&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS/recipes#435&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Does AerynOS support being installed alongside another OS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;does-aerynos-support-being-installed-alongside-another-os&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#does-aerynos-support-being-installed-alongside-another-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Officially? Not yet.&lt;/p&gt;
+&lt;p&gt;You can try, but there is no guarantee that AerynOS won&amp;rsquo;t eat your other OS.&lt;/p&gt;
+&lt;p&gt;You have been warned.&lt;/p&gt;
+&lt;h3&gt;What is the recommended partition layout for AerynOS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-the-recommended-partition-layout-for-aerynos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-the-recommended-partition-layout-for-aerynos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In practice, we recommend that you install AerynOS to a separate drive with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &amp;gt;=256MB ESP FAT32 partition (type 1 in fdisk).
+&lt;ul&gt;
+&lt;li&gt;This must be manually formatted for the installer to recognize it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A 4GB XBOOTLDR FAT32 partition (type 142 in fdisk, bls_boot in gparted).
+&lt;ul&gt;
+&lt;li&gt;This must be manually formatted for the installer to recognize it.&lt;/li&gt;
+&lt;li&gt;This partition is large, because it is where the AerynOS kernel+initramfs and (in the future) rescue image files will be saved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A &amp;gt;20 GB system xfs partition
+&lt;ul&gt;
+&lt;li&gt;This must be manually formatted for the installer to recognize it.&lt;/li&gt;
+&lt;li&gt;The larger the xfs system (/ or root) partition is, the more OS /usr directory rollback states it can support in /.moss/.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;ermo@virgil:~
+❯ sudo fdisk -l /dev/nvme1n1
+Disk /dev/nvme1n1: 931,51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: Samsung SSD 980 PRO 1TB
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: ED391D3B-7BCC-4407-911F-FF7B2CECB45A
+
+Device           Start        End    Sectors   Size Type
+/dev/nvme1n1p1    2048     526335     524288   256M EFI System
+/dev/nvme1n1p2  526336    8914943    8388608     4G Linux extended boot
+/dev/nvme1n1p3 8914944 1953523711 1944608768 927,3G Linux root (x86-64)
+ermo@virgil:~
+❯ sudo lsblk -f /dev/nvme1n1
+NAME        FSTYPE FSVER LABEL UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+nvme1n1
+├─nvme1n1p1 vfat   FAT32       CA93-B86A
+├─nvme1n1p2 vfat   FAT32       C837-2227
+└─nvme1n1p3 xfs                569404f0-74ce-4c9e-936a-96aca25c7cd0  845,6G     9% /
+ermo@virgil:~&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;NB: Remember, there is nothing stopping you from creating an extra partition, formatting it with a filesystem of your choice, and then configuring /etc/fstab to mount it as /home after AerynOS has been installed. You can do this if you want to use a different filesystem than xfs for your /home folders for whatever reason.&lt;/p&gt;
+&lt;h3&gt;Why do you recommend the xfs filesystem for the root partition?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-do-you-recommend-the-xfs-filesystem-for-the-root-partition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-do-you-recommend-the-xfs-filesystem-for-the-root-partition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/AerynOS/os-tools/blob/main/moss-filesystem-performance.md&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Testing has shown&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; that, due to how moss saves rollback states, xfs is by far the quickest filesystem in practice for AerynOS root partition usage.&lt;/p&gt;
+&lt;p&gt;We currently do not recommend either ext4 or f2fs root partitions, because testing has shown that they offer very poor performance on the first update (sudo moss sync -u) after a cold start of your computer compared to xfs.&lt;/p&gt;
+&lt;h3&gt;Do you support installing AerynOS on ext4?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;do-you-support-installing-aerynos-on-ext4&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#do-you-support-installing-aerynos-on-ext4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We currently &lt;strong&gt;strongly recommend&lt;/strong&gt; that you use &lt;strong&gt;xfs&lt;/strong&gt; on your root partition for the best experience with moss and AerynOS.&lt;/p&gt;
+&lt;h3&gt;Do you support installing AerynOS on f2fs?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;do-you-support-installing-aerynos-on-f2fs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#do-you-support-installing-aerynos-on-f2fs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We currently &lt;strong&gt;strongly recommend&lt;/strong&gt; that you use &lt;strong&gt;xfs&lt;/strong&gt; on your root partition for the best experience with moss and AerynOS.&lt;/p&gt;
+&lt;h3&gt;Do you support installing AerynOS on btrfs?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;do-you-support-installing-aerynos-on-btrfs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#do-you-support-installing-aerynos-on-btrfs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Not yet&lt;/p&gt;
+&lt;h3&gt;Do you support installing AerynOS on bcachefs?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;do-you-support-installing-aerynos-on-bcachefs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#do-you-support-installing-aerynos-on-bcachefs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Not yet&lt;/p&gt;
+&lt;h3&gt;Do you support installing AerynOS on ZFS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;do-you-support-installing-aerynos-on-zfs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#do-you-support-installing-aerynos-on-zfs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Not at this stage. We may or may not decide to support it at some unspecified point in the future, provided we can guarantee that we are legally in the clear to do so.&lt;/p&gt;
+&lt;h1&gt;Usage Questions&lt;/h1&gt;&lt;h3&gt;How do I make my system check for updates and install them?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-do-i-make-my-system-check-for-updates-and-install-them&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-make-my-system-check-for-updates-and-install-them&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;sudo moss sync -u&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is a short hand form of:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;# update the local systems &amp;#34;view&amp;#34; of which packages are available
+sudo moss repo update
+# synchronise the installed state against the list of available packages
+sudo moss sync&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Why don&amp;rsquo;t application icons for newly installed apps show up in my current session after a sync or install?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-dont-application-icons-for-newly-installed-apps-show-up-in-my-current-session-after-a-sync-or-install&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-dont-application-icons-for-newly-installed-apps-show-up-in-my-current-session-after-a-sync-or-install&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It is a known issue and we are working on a solution.&lt;/p&gt;
+&lt;p&gt;For now, log out and back in again and they will show up.&lt;/p&gt;
+&lt;h3&gt;When do I need to reboot after updates?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;when-do-i-need-to-reboot-after-updates&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#when-do-i-need-to-reboot-after-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Kernel updates require a reboot.&lt;/li&gt;
+&lt;li&gt;Some updates require you to log out of your desktop session and back in (see above).&lt;/li&gt;
+&lt;li&gt;Most updates only require you to close the apps that were updated and start them again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;How do I access the rollback feature at boot?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-do-i-access-the-rollback-feature-at-boot&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-access-the-rollback-feature-at-boot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hold down or mash your Space key repeatedly after your computer starts up.&lt;/p&gt;
+&lt;h3&gt;How do I verify the integrity of my install states in AerynOS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-do-i-verify-the-integrity-of-my-install-states-in-aerynos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-verify-the-integrity-of-my-install-states-in-aerynos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;sudo moss state verify&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Tack on &lt;code&gt;--help&lt;/code&gt; to see the options for verify.&lt;/p&gt;
+&lt;h3&gt;How do I clean out older install states in AerynOS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-do-i-clean-out-older-install-states-in-aerynos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-clean-out-older-install-states-in-aerynos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;sudo moss state prune&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Tack on &lt;code&gt;--help&lt;/code&gt; to see the options for prune.&lt;/p&gt;
+&lt;h3&gt;How do I configure custom kernel command line parameters applied at each boot?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-do-i-configure-custom-kernel-command-line-parameters-applied-at-each-boot&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-do-i-configure-custom-kernel-command-line-parameters-applied-at-each-boot&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;See the &lt;a href=&#34;https://github.com/AerynOS/blsforme/?tab=readme-ov-file#filesystem-layout&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blsforme repo readme&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; for the expected format.&lt;/p&gt;
+&lt;p&gt;Typically, it is necessary to change the installed system state with &lt;code&gt;moss&lt;/code&gt; for command-line snippets to take effect.&lt;/p&gt;
+&lt;p&gt;One way of doing that is to do a &lt;code&gt;sudo moss remove nano -y &amp;amp;&amp;amp; sudo moss install nano -y&lt;/code&gt;, followed by &lt;code&gt;sudo moss boot status&lt;/code&gt; to check if the new cmdline snippet is now active.&lt;/p&gt;
+&lt;h1&gt;Package Questions&lt;/h1&gt;&lt;h3&gt;How come your package repository is so small?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;how-come-your-package-repository-is-so-small&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#how-come-your-package-repository-is-so-small&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;We are still in heavy development (&amp;ldquo;Alpha&amp;rdquo;) and are developing our backend and associated automated rebuild processes.&lt;/p&gt;
+&lt;p&gt;If we discover that it is necessary for us to rebuild our entire repository, we would like the ability to do so in the span of an afternoon (using multiple builders in parallel).&lt;/p&gt;
+&lt;p&gt;Once our backend story and our automated rebuild process story are both further advanced, we will begin scaling out the repository to contain more packages.&lt;/p&gt;
+&lt;h3&gt;Could you package (&amp;hellip;) please?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;could-you-package--please&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#could-you-package--please&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;See above.&lt;/p&gt;
+&lt;p&gt;For now, we encourage users to use flatpaks for the applications we do not yet carry in our repository.&lt;/p&gt;
+&lt;p&gt;Currently, we are focusing on adding must-have packages for platform bring-up, for things that give us a development edge, or for things that help us showcase AerynOS capabilities.&lt;/p&gt;
+&lt;p&gt;If the use-case for the package you are proposing is in line with the ethos above, you can make a package request &lt;a href=&#34;https://github.com/AerynOS/recipes/issues/new/choose&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Where can I learn how to package for AerynOS?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;where-can-i-learn-how-to-package-for-aerynos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#where-can-i-learn-how-to-package-for-aerynos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Consult the packaging documentation &lt;a href=&#34;http://localhost:45189/packaging/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition, consult the AerynOS &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;recipes/ repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, join the &lt;a href=&#34;https://aerynos.zulipchat.com/join/fuqokhsomj5mzqj6akqaiqlr/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS Zulip space&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; and make sure to join the #Onboarding channel in the General - Public space.&lt;/p&gt;
+&lt;h1&gt;Project Questions&lt;/h1&gt;&lt;h3&gt;Is it ok to share links to video content of AerynOS in action in the Zulip rooms?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;is-it-ok-to-share-links-to-video-content-of-aerynos-in-action-in-the-zulip-rooms&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#is-it-ok-to-share-links-to-video-content-of-aerynos-in-action-in-the-zulip-rooms&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Yes! We absolutely love seeing people using AerynOS in the wild!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please first share them as a post in the &lt;a href=&#34;https://github.com/orgs/AerynOS/discussions/categories/show-and-tell&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Show and Tell category&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;Then, share a link to your post in the &lt;a href=&#34;https://aerynos.zulipchat.com/join/fuqokhsomj5mzqj6akqaiqlr/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS Zulip space&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt; in the #Show-and-Tell channel in the General - Public space so the link to the video doesn&amp;rsquo;t get lost in the Zulip chat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Which distribution is AerynOS derived from?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;which-distribution-is-aerynos-derived-from&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#which-distribution-is-aerynos-derived-from&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AerynOS has been bootstrapped and built from scratch and is not based on any other distro.&lt;/p&gt;
+&lt;p&gt;This implies that AerynOS has its own:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;package manager (&lt;code&gt;moss&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;package build tool (&lt;code&gt;boulder&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;build pipeline consisting of:
+&lt;ul&gt;
+&lt;li&gt;the package build dashboard and controller (&lt;code&gt;summit&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;the builder-as-a-service middleware (&lt;code&gt;avalanche&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;the package repository manager (&lt;code&gt;vessel&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This also implies that AerynOS does NOT build upon or use either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.rpm&lt;/code&gt; related tooling from Red Hat&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.deb&lt;/code&gt; related tooling from the Debian Project&lt;/li&gt;
+&lt;li&gt;Arch-related tooling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;When will AerynOS be considered stable?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;when-will-aerynos-be-considered-stable&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#when-will-aerynos-be-considered-stable&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;AerynOS is taking on the ambitious task of creating a distribution from scratch, whilst building its own tooling and solutions for this.&lt;/p&gt;
+&lt;p&gt;As such, there is no official ETA.&lt;/p&gt;
+&lt;p&gt;Now that the project has hit alpha status, you will see frequent updates and progress reports.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>http://localhost:45189/docs/aerynos/contributing/</link>
+      <pubDate>Tue, 06 Jan 2026 14:27:56 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/aerynos/contributing/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Financial contributions to AerynOS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;financial-contributions-to-aerynos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#financial-contributions-to-aerynos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AerynOS is an independent effort run by a handful of volunteers. The team is currently targeting an income of 500€ per month to cover:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Infrastructure and project costs&lt;/li&gt;
+&lt;li&gt;Repayment to project stakeholders for initial project seed funding&lt;/li&gt;
+&lt;li&gt;Build up a buffer for unexpected costs and future initiatives.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We currently accept donations via &lt;a href=&#34;https://ko-fi.com/aerynos&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ko-Fi&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Contributing to our codebases&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;contributing-to-our-codebases&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contributing-to-our-codebases&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;AerynOS utilizes GitHub to manage code changes, including updates to our websites. Each repository will have its own Readme that will include instructions on how to make updates to it. They can be found &lt;a href=&#34;https://github.com/orgs/AerynOS/repositories&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;. To specifically make contributions to our websites, you can visit the following repositories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AerynOS.com site &lt;a href=&#34;https://github.com/AerynOS/dotdev&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;AerynOS.dev site &lt;a href=&#34;https://github.com/AerynOS/dotcom&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;repo&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+ &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other contributions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;other-contributions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#other-contributions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The team is open to all forms of contribution, including any wallpapers or artwork that you may wish to submit. The only requirement is that e.g. wallpapers or artwork are licensed under an open license.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,89 +4,168 @@
 
 
 ## Blog
-- [2025 in retrospect](http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/): 2025 has been a year of significant change for the AerynOS project, not just in terms of development …
-- [November + early December 2025 project update](http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/): import Kofi from &ldquo;@/components/ui/Kofi.astro&rdquo;; import { Aside } from … - Published 2025-12-09
-- [Musings on Inode Watchers and Atomic Live Upgrades](http://localhost:1313/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/): import { Aside } from &lsquo;@astrojs/starlight/components&rsquo;;
-This blog post will focus on … - Published 2025-11-04
-- [October 2025 project update](http://localhost:1313/blog/blog/2025/10/31/): import Kofi from &ldquo;@/components/ui/Kofi.astro&rdquo;;
+- [January 2026 project update](http://localhost:45189/blog/blog/2026/31/january-2026-project-update/): AerynOS: January 2026 project update
+Kicking off 2026, activity across the AerynOS project has been … - Published 2026-01-30
+- [2025 in retrospect](http://localhost:45189/blog/blog/2026/01/2025-in-retrospect/): 2025 has been a year of significant change for the AerynOS project, not just in terms of development … - Published 2026-01-02
+- [November + early December 2025 project update](http://localhost:45189/blog/blog/2025/12/09/november-and-early-december-blog-post/): AerynOS: November + early December 2025 project updateAs we near the end of the year, the team has … - Published 2025-12-09
+- [Musings on Inode Watchers and Atomic Live Upgrades](http://localhost:45189/blog/blog/2025/11/04/musings-on-inode-watchers-and-atomic-live-upgrades/): This blog post will focus on inode watcher applications as well as the difficulties they present for … - Published 2025-11-04
+- [October 2025 project update](http://localhost:45189/blog/blog/2025/10/31/): import Kofi from &ldquo;@/components/ui/Kofi.astro&rdquo;;
 We are firmly in the final quarter of … - Published 2025-10-31
-- [September 2025 project update](http://localhost:1313/blog/blog/2025/09/30/september-2025-project-update/): As we reach the end of September, it&rsquo;s time for another monthly update. For this month, we are … - Published 2025-10-01
-- [August 2025 project update](http://localhost:1313/blog/blog/2025/08/31/august-2025-project-update/): Closing out August 2025, we are proud to announce our third release of the year. This release … - Published 2025-08-31
-- [Development update: os-tools](http://localhost:1313/blog/blog/2025/07/11/development-update-os-tools/): In our recent mid-year blog post, we mentioned that it would be the first in a short series of posts … - Published 2025-07-11
-- [Mid Year Update](http://localhost:1313/blog/blog/2025/06/30/mid-year-update/): As we hit the middle of the year, it&rsquo;s time for another update for those of you following … - Published 2025-06-30
-- [🏗️ AerynOS: The OS As Infrastructure](http://localhost:1313/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/): import Kofi from &ldquo;@/components/ui/Kofi.astro&rdquo;;
+- [September 2025 project update](http://localhost:45189/blog/blog/2025/09/30/september-2025-project-update/): As we reach the end of September, it&rsquo;s time for another monthly update. For this month, we are … - Published 2025-10-01
+- [August 2025 project update](http://localhost:45189/blog/blog/2025/08/31/august-2025-project-update/): Closing out August 2025, we are proud to announce our third release of the year. This release … - Published 2025-08-31
+- [Development update: os-tools](http://localhost:45189/blog/blog/2025/07/11/development-update-os-tools/): In our recent mid-year blog post, we mentioned that it would be the first in a short series of posts … - Published 2025-07-11
+- [Mid Year Update](http://localhost:45189/blog/blog/2025/06/30/mid-year-update/): As we hit the middle of the year, it&rsquo;s time for another update for those of you following … - Published 2025-06-30
+- [🏗️ AerynOS: The OS As Infrastructure](http://localhost:45189/blog/blog/2025/03/29/aerynos-the-os-as-infrastructure/): import Kofi from &ldquo;@/components/ui/Kofi.astro&rdquo;;
 Taking a break from our usual … - Published 2025-03-30
-- [🚀 Hello AerynOS](http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/): import YouTube from &ldquo;@/components/ui/YouTube.astro&rdquo;; import Kofi from … - Published 2025-03-25
-- [Evolve This OS](http://localhost:1313/blog/blog/2025/02/14/evolve-this-os/): A long overdue, and highly requested update today. We&rsquo;re finally rebranding the project!
+- [🚀 Hello AerynOS](http://localhost:45189/blog/blog/2025/03/25/hello-aerynos/): import YouTube from &ldquo;@/components/ui/YouTube.astro&rdquo;; import Kofi from … - Published 2025-03-25
+- [Evolve This OS](http://localhost:45189/blog/blog/2025/02/14/evolve-this-os/): A long overdue, and highly requested update today. We&rsquo;re finally rebranding the project!
 🤔 Why … - Published 2025-02-14
-- [Hello 2025](http://localhost:1313/blog/blog/2025/02/06/hello-2025/): import Giphy from &lsquo;@/components/ui/Giphy.astro&rsquo;;
+- [Hello 2025](http://localhost:45189/blog/blog/2025/02/06/hello-2025/): import Giphy from &lsquo;@/components/ui/Giphy.astro&rsquo;;
 TL;DR: Serpent OS is facing funding … - Published 2025-02-06
-- [Offline Rollbacks Enabled](http://localhost:1313/blog/blog/2025/01/04/offline-rollbacks-enabled/): import YouTube from &lsquo;@/components/ui/YouTube.astro&rsquo;; import Kofi from … - Published 2025-01-04
-- [Investing in the Future](http://localhost:1313/blog/blog/2024/12/31/investing-in-the-future/): Here we are, at the end of 2024, and what a year it&rsquo;s been! We&rsquo;ve made significant … - Published 2024-12-31
-- [Alpha Refresh Available](http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/): In response to feedback from the community, we&rsquo;re issuing a refresh of the Alpha 1 release, … - Published 2024-12-29
-- [Serpent OS Enters Alpha](http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/): Following a successful prealpha phase, we&rsquo;re excited to announce that Serpent OS has now … - Published 2024-12-23
-- [Serpent OS Prealpha0 Released](http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/): Well, it didn&rsquo;t take us that long, really &hellip; Our technical preview, prealpha0, is now … - Published 2024-08-01
-- [Calm Before The Storm](http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/): It&rsquo;s that time of month again, and we have some details to share with you on boot management, … - Published 2024-04-30
-- [The March Of Progress](http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/): Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I&rsquo;m happily … - Published 2024-03-31
-- [End of February Update](http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/): import { Aside } from &lsquo;@astrojs/starlight/components&rsquo;;
+- [Offline Rollbacks Enabled](http://localhost:45189/blog/blog/2025/01/04/offline-rollbacks-enabled/): import YouTube from &lsquo;@/components/ui/YouTube.astro&rsquo;; import Kofi from … - Published 2025-01-04
+- [Investing in the Future](http://localhost:45189/blog/blog/2024/12/31/investing-in-the-future/): Here we are, at the end of 2024, and what a year it&rsquo;s been! We&rsquo;ve made significant … - Published 2024-12-31
+- [Alpha Refresh Available](http://localhost:45189/blog/blog/2024/12/29/alpha-refresh-available/): In response to feedback from the community, we&rsquo;re issuing a refresh of the Alpha 1 release, … - Published 2024-12-29
+- [Serpent OS Enters Alpha](http://localhost:45189/blog/blog/2024/12/23/serpent-os-enters-alpha/): Following a successful prealpha phase, we&rsquo;re excited to announce that Serpent OS has now … - Published 2024-12-23
+- [Serpent OS Prealpha0 Released](http://localhost:45189/blog/blog/2024/08/01/prealpha0-released/): Well, it didn&rsquo;t take us that long, really &hellip; Our technical preview, prealpha0, is now … - Published 2024-08-01
+- [Calm Before The Storm](http://localhost:45189/blog/blog/2024/04/30/calm-before-the-storm/): It&rsquo;s that time of month again, and we have some details to share with you on boot management, … - Published 2024-04-30
+- [The March Of Progress](http://localhost:45189/blog/blog/2024/03/31/the-march-of-progress/): Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I&rsquo;m happily … - Published 2024-03-31
+- [End of February Update](http://localhost:45189/blog/blog/2024/02/29/end-of-feb-update/): import { Aside } from &lsquo;@astrojs/starlight/components&rsquo;;
 This update came a little later … - Published 2024-02-29
-- [January Updates](http://localhost:1313/blog/blog/2024/01/19/january-updates/): Precisely one month since our end of year summary, so, what have we been up to? With a new year, a … - Published 2024-01-19
-- [End Of Year Summary](http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/): import Icon from &ldquo;@/components/ui/Icon.astro&rdquo;; import { Aside } from … - Published 2023-12-19
-- [Oxidised Moss](http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/): Allow me to start this post by stating something very important to me: I absolutely love the D … - Published 2023-09-06
-- [Snakes On A Boat](http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/): We had intended to get a blog post out a little bit quicker, but the last month has been extremely … - Published 2023-04-21
-- [Infrastructure Launched!](http://localhost:1313/blog/blog/2023/03/18/infrastructure-launched/): After many months and much work, our infrastructure is finally online . We&rsquo;ve had a few … - Published 2023-03-18
-- [Lift Off](http://localhost:1313/blog/blog/2022/12/24/lift-off/): Enough of this &ldquo;2 years&rdquo; nonsense. We&rsquo;re finally ready for lift off. It is with … - Published 2022-12-24
-- [The Big Update](http://localhost:1313/blog/blog/2022/09/14/the-big-update/): Well - we&rsquo;ve got some big news! The past few weeks have been an incredibly busy time for us, … - Published 2022-09-14
-- [Infrastructure Update](http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/): Since the last post, I&rsquo;ve pivoted to full time work on Serpent OS, which is made all the more … - Published 2022-07-10
-- [Packaging Automation, Next Steps](http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/): Hot damn we&rsquo;ve been busy lately. No, really . The latest development cycle saw us focus … - Published 2022-06-22
-- [A Word From The Founder](http://localhost:1313/blog/blog/2022/06/06/a-word-from-the-founder/): Well well, it&rsquo;s been a long time since I personally wrote a post.. :) So let&rsquo;s keep this … - Published 2022-06-06
-- [RELR Brings Smaller Files, More Performance?](http://localhost:1313/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2022-04-05
-- [Making Deltas Great Again! (Part 1)](http://localhost:1313/blog/blog/2022/02/11/making-deltas-great-again-1/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2022-02-11
-- [Can Hardly Contain Myself, Plus a Bonus](http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/): One of the core steps for building a package is setting up a minimal environment with only the … - Published 2022-01-20
-- [Performance Corner: Small Changes Pack a Punch](http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/): Here we have another round of changes to make packages smaller and show just how much we care about … - Published 2021-12-14
-- [Out of the Bootstrap - Towards Serpent OS](http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/): The initial stone packages that will seed the first Serpent OS repo have now been finalized! This … - Published 2021-12-02
-- [It All Depends](http://localhost:1313/blog/blog/2021/11/23/it-all-depends/): It all depends.. it really does. On shared libraries.. interpreters.. pkg-config providers and … - Published 2021-11-23
-- [Performance Corner: Faster Builds, Smaller Packages](http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/): Performance Corner is a new series where we highlight to you some changes in Serpent OS that may not … - Published 2021-11-05
-- [Optimal File Locality](http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/): File locality in this post refers to the order of files in our content payload. Yes that&rsquo;s … - Published 2021-10-04
-- [Unpacking the Build Process: Part 2](http://localhost:1313/blog/blog/2021/09/20/unpacking-the-build-process-2/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-09-20
-- [Unpacking the Build Process: Part 1](http://localhost:1313/blog/blog/2021/08/25/unpacking-the-build-process-1/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-08-25
-- [A Rolling Boulder Gathers No Moss](http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/): We actually did it. Super pleased to announce that moss is now capable of installing and removing … - Published 2021-08-10
-- [Moss DB Progress](http://localhost:1313/blog/blog/2021/08/03/moss-db-progress/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-08-03
-- [Initial Performance Testing](http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/): With further progress on boulder, we can now build native stone packages with some easy tweaks such … - Published 2021-08-02
-- [Boulder Keeps On Rolling](http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/): Squirrelling away in the background has been some great changes to bring boulder closer to its full … - Published 2021-07-27
-- [Let There Be Databases](http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/): We haven&rsquo;t been too great on sharing progress lately, so welcome to an overdue update on … - Published 2021-05-18
-- [Moss Unlocked](http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/): Well, it&rsquo;s not all doom and gloom these days. We&rsquo;ve actually made some significant … - Published 2021-03-20
-- [Optimising Package Distribution](http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/): Getting updates as fast as possible to users has made deltas a popular and sought after feature for … - Published 2021-03-16
-- [Moss Format: Read Write Support](http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/): It&rsquo;s been 8 days since our last blogpost and a lot of development work has happened in that … - Published 2021-02-17
-- [Unlocking Moss](http://localhost:1313/blog/blog/2021/02/09/unlocking-moss/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-02-09
-- [Cleanups Complete](http://localhost:1313/blog/blog/2021/02/08/cleanups-complete/): import Giphy from &lsquo;@/components/ui/Giphy.astro&rsquo;;
+- [January Updates](http://localhost:45189/blog/blog/2024/01/19/january-updates/): Precisely one month since our end of year summary, so, what have we been up to? With a new year, a … - Published 2024-01-19
+- [End Of Year Summary](http://localhost:45189/blog/blog/2023/12/19/end-of-year-summary/): import Icon from &ldquo;@/components/ui/Icon.astro&rdquo;; import { Aside } from … - Published 2023-12-19
+- [Oxidised Moss](http://localhost:45189/blog/blog/2023/09/06/oxidised-moss/): Allow me to start this post by stating something very important to me: I absolutely love the D … - Published 2023-09-06
+- [Snakes On A Boat](http://localhost:45189/blog/blog/2023/04/21/snakes-on-a-boat/): We had intended to get a blog post out a little bit quicker, but the last month has been extremely … - Published 2023-04-21
+- [Infrastructure Launched!](http://localhost:45189/blog/blog/2023/03/18/infrastructure-launched/): After many months and much work, our infrastructure is finally online . We&rsquo;ve had a few … - Published 2023-03-18
+- [Lift Off](http://localhost:45189/blog/blog/2022/12/24/lift-off/): Enough of this &ldquo;2 years&rdquo; nonsense. We&rsquo;re finally ready for lift off. It is with … - Published 2022-12-24
+- [The Big Update](http://localhost:45189/blog/blog/2022/09/14/the-big-update/): Well - we&rsquo;ve got some big news! The past few weeks have been an incredibly busy time for us, … - Published 2022-09-14
+- [Infrastructure Update](http://localhost:45189/blog/blog/2022/07/10/infrastructure-update/): Since the last post, I&rsquo;ve pivoted to full time work on Serpent OS, which is made all the more … - Published 2022-07-10
+- [Packaging Automation, Next Steps](http://localhost:45189/blog/blog/2022/06/22/packaging-automation-next-steps/): Hot damn we&rsquo;ve been busy lately. No, really . The latest development cycle saw us focus … - Published 2022-06-22
+- [A Word From The Founder](http://localhost:45189/blog/blog/2022/06/06/a-word-from-the-founder/): Well well, it&rsquo;s been a long time since I personally wrote a post.. :) So let&rsquo;s keep this … - Published 2022-06-06
+- [RELR Brings Smaller Files, More Performance?](http://localhost:45189/blog/blog/2022/04/05/relr-brings-smaller-files-more-performance/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2022-04-05
+- [Making Deltas Great Again! (Part 1)](http://localhost:45189/blog/blog/2022/02/11/making-deltas-great-again-1/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2022-02-11
+- [Can Hardly Contain Myself, Plus a Bonus](http://localhost:45189/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/): One of the core steps for building a package is setting up a minimal environment with only the … - Published 2022-01-20
+- [Performance Corner: Small Changes Pack a Punch](http://localhost:45189/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/): Here we have another round of changes to make packages smaller and show just how much we care about … - Published 2021-12-14
+- [Out of the Bootstrap - Towards Serpent OS](http://localhost:45189/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/): The initial stone packages that will seed the first Serpent OS repo have now been finalized! This … - Published 2021-12-02
+- [It All Depends](http://localhost:45189/blog/blog/2021/11/23/it-all-depends/): It all depends.. it really does. On shared libraries.. interpreters.. pkg-config providers and … - Published 2021-11-23
+- [Performance Corner: Faster Builds, Smaller Packages](http://localhost:45189/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/): Performance Corner is a new series where we highlight to you some changes in Serpent OS that may not … - Published 2021-11-05
+- [Optimal File Locality](http://localhost:45189/blog/blog/2021/10/04/optimal-file-locality/): File locality in this post refers to the order of files in our content payload. Yes that&rsquo;s … - Published 2021-10-04
+- [Unpacking the Build Process: Part 2](http://localhost:45189/blog/blog/2021/09/20/unpacking-the-build-process-2/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-09-20
+- [Unpacking the Build Process: Part 1](http://localhost:45189/blog/blog/2021/08/25/unpacking-the-build-process-1/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-08-25
+- [A Rolling Boulder Gathers No Moss](http://localhost:45189/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/): We actually did it. Super pleased to announce that moss is now capable of installing and removing … - Published 2021-08-10
+- [Moss DB Progress](http://localhost:45189/blog/blog/2021/08/03/moss-db-progress/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-08-03
+- [Initial Performance Testing](http://localhost:45189/blog/blog/2021/08/02/initial-performance-testing/): With further progress on boulder, we can now build native stone packages with some easy tweaks such … - Published 2021-08-02
+- [Boulder Keeps On Rolling](http://localhost:45189/blog/blog/2021/07/27/boulder-keeps-on-rolling/): Squirrelling away in the background has been some great changes to bring boulder closer to its full … - Published 2021-07-27
+- [Let There Be Databases](http://localhost:45189/blog/blog/2021/05/18/let-there-be-databases/): We haven&rsquo;t been too great on sharing progress lately, so welcome to an overdue update on … - Published 2021-05-18
+- [Moss Unlocked](http://localhost:45189/blog/blog/2021/03/20/moss-unlocked/): Well, it&rsquo;s not all doom and gloom these days. We&rsquo;ve actually made some significant … - Published 2021-03-20
+- [Optimising Package Distribution](http://localhost:45189/blog/blog/2021/03/16/optimising-package-distribution/): Getting updates as fast as possible to users has made deltas a popular and sought after feature for … - Published 2021-03-16
+- [Moss Format: Read Write Support](http://localhost:45189/blog/blog/2021/02/17/moss-format-read-write-support/): It&rsquo;s been 8 days since our last blogpost and a lot of development work has happened in that … - Published 2021-02-17
+- [Unlocking Moss](http://localhost:45189/blog/blog/2021/02/09/unlocking-moss/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2021-02-09
+- [Cleanups Complete](http://localhost:45189/blog/blog/2021/02/08/cleanups-complete/): import Giphy from &lsquo;@/components/ui/Giphy.astro&rsquo;;
 Well, we&rsquo;re officially back to … - Published 2021-02-08
-- [Build System Functional](http://localhost:1313/blog/blog/2020/10/11/build-system-functional/): import YouTube from &lsquo;@/components/ui/YouTube.astro&rsquo;;
+- [Build System Functional](http://localhost:45189/blog/blog/2020/10/11/build-system-functional/): import YouTube from &lsquo;@/components/ui/YouTube.astro&rsquo;;
 Wow, has it been a hectic few … - Published 2020-10-11
-- [Results Of The Experiment](http://localhost:1313/blog/blog/2020/09/22/results-of-the-experiment/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2020-09-22
-- [Source Format Defined](http://localhost:1313/blog/blog/2020/09/21/source-format-defined/): Following quickly on the heels of yesterday&rsquo;s announcement that the binary format has been … - Published 2020-09-21
-- [Moss Format Defined](http://localhost:1313/blog/blog/2020/09/20/moss-format-defined/): The core team have been hard at work lately implementing the Moss package manager . We now have an … - Published 2020-09-20
-- [Defining Moss](http://localhost:1313/blog/blog/2020/09/10/defining-moss/): Over the past few weeks, throughout the entire bootstrap process, we&rsquo;ve been deliberating on … - Published 2020-09-10
-- [Stage3 Complete](http://localhost:1313/blog/blog/2020/09/07/stage3-complete/): Another week, another milestone completed. We&rsquo;re pleased to announce that we&rsquo;ve … - Published 2020-09-07
-- [Looking Stage4 In The Eye](http://localhost:1313/blog/blog/2020/08/28/looking-stage4-in-the-eye/): Well, we&rsquo;ve made an awful lot of progress in these last few days. It wasn&rsquo;t that long … - Published 2020-08-28
-- [Stage 3 Progress](http://localhost:1313/blog/blog/2020/08/20/stage3-progress/): Well, it&rsquo;s been a few days since we last spoke, so now it&rsquo;s time for a quick roundup. … - Published 2020-08-20
-- [Stage2 Complete](http://localhost:1313/blog/blog/2020/08/16/stage2-complete/): Just in case you thought we were sleeping behind the wheel, we&rsquo;ve got another blogpost for … - Published 2020-08-16
-- [Stage1 Complete](http://localhost:1313/blog/blog/2020/08/08/stage1-complete/): Short and sweet, stage1 of the bootstrap is complete. As I indicated on the Lispy Snake blog, … - Published 2020-08-08
-- [Welcome: Project Manager](http://localhost:1313/blog/blog/2020/07/07/welcome-project-manager/): The Serpent OS team wishes to formally welcome Aydemir Ulaş Şahin to the core team in the primary … - Published 2020-07-07
-- [Welcome Peter](http://localhost:1313/blog/blog/2020/07/06/welcome-peter/): Recently we did reveal on Twitter that long time friend and colleague-of-many-projects, Peter … - Published 2020-07-06
-- [The Great Experiment](http://localhost:1313/blog/blog/2020/07/01/the-great-experiment/): So as many have come to realise, we had to rush out a website super quick yesterday as the cat was … - Published 2020-07-01
-- [First Post](http://localhost:1313/blog/blog/2020/06/30/first-post/): In a nutshell, this post wasn&rsquo;t meant to be coming out for a few weeks. As it turns out, we … - Published 2020-06-30
+- [Results Of The Experiment](http://localhost:45189/blog/blog/2020/09/22/results-of-the-experiment/): import FigureScreenshotOne from &ldquo;@/components/ui/FigureScreenshotOne.astro&rdquo; import … - Published 2020-09-22
+- [Source Format Defined](http://localhost:45189/blog/blog/2020/09/21/source-format-defined/): Following quickly on the heels of yesterday&rsquo;s announcement that the binary format has been … - Published 2020-09-21
+- [Moss Format Defined](http://localhost:45189/blog/blog/2020/09/20/moss-format-defined/): The core team have been hard at work lately implementing the Moss package manager . We now have an … - Published 2020-09-20
+- [Defining Moss](http://localhost:45189/blog/blog/2020/09/10/defining-moss/): Over the past few weeks, throughout the entire bootstrap process, we&rsquo;ve been deliberating on … - Published 2020-09-10
+- [Stage3 Complete](http://localhost:45189/blog/blog/2020/09/07/stage3-complete/): Another week, another milestone completed. We&rsquo;re pleased to announce that we&rsquo;ve … - Published 2020-09-07
+- [Looking Stage4 In The Eye](http://localhost:45189/blog/blog/2020/08/28/looking-stage4-in-the-eye/): Well, we&rsquo;ve made an awful lot of progress in these last few days. It wasn&rsquo;t that long … - Published 2020-08-28
+- [Stage 3 Progress](http://localhost:45189/blog/blog/2020/08/20/stage3-progress/): Well, it&rsquo;s been a few days since we last spoke, so now it&rsquo;s time for a quick roundup. … - Published 2020-08-20
+- [Stage2 Complete](http://localhost:45189/blog/blog/2020/08/16/stage2-complete/): Just in case you thought we were sleeping behind the wheel, we&rsquo;ve got another blogpost for … - Published 2020-08-16
+- [Stage1 Complete](http://localhost:45189/blog/blog/2020/08/08/stage1-complete/): Short and sweet, stage1 of the bootstrap is complete. As I indicated on the Lispy Snake blog, … - Published 2020-08-08
+- [Welcome: Project Manager](http://localhost:45189/blog/blog/2020/07/07/welcome-project-manager/): The Serpent OS team wishes to formally welcome Aydemir Ulaş Şahin to the core team in the primary … - Published 2020-07-07
+- [Welcome Peter](http://localhost:45189/blog/blog/2020/07/06/welcome-peter/): Recently we did reveal on Twitter that long time friend and colleague-of-many-projects, Peter … - Published 2020-07-06
+- [The Great Experiment](http://localhost:45189/blog/blog/2020/07/01/the-great-experiment/): So as many have come to realise, we had to rush out a website super quick yesterday as the cat was … - Published 2020-07-01
+- [First Post](http://localhost:45189/blog/blog/2020/06/30/first-post/): In a nutshell, this post wasn&rsquo;t meant to be coming out for a few weeks. As it turns out, we … - Published 2020-06-30
+
+## Documentation
+
+### AerynOS
+- [Overview](http://localhost:45189/docs/aerynos/overview/): AerynOS is a Linux-based operating system designed to eliminate years of technical baggage. It is an … - Published 2026-01-06
+- [Philosophy](http://localhost:45189/docs/aerynos/philosophy/): Stateless (aka hermetic /usr) Most Linux distributions follow the Filesystem Hierarchy Standard …
+- [FAQ](http://localhost:45189/docs/aerynos/faq/): This section is a work in progress and will be expanded over time. Project identityWhat does … - Published 2026-01-06
+- [Contributing](http://localhost:45189/docs/aerynos/contributing/): Financial contributions to AerynOS AerynOS is an independent effort run by a handful of volunteers. … - Published 2026-01-06
+
+### Users
+
+#### Getting Started
+- [Requirements](http://localhost:45189/docs/users/getting-started/requirements/): Minimum System Requirements BIOS/CSM mode is not supported. Please ensure that your system is set to …
+- [Downloading AerynOS](http://localhost:45189/docs/users/getting-started/downloading/): Downloading the ISO Visit the AerynOS download page . Look for the latest release available for …
+- [Creating the Live Environment](http://localhost:45189/docs/users/getting-started/creating-the-live-environment/): Creating a Bootable USB Drive Creating a bootable USB drive will erase all data on the USB drive. …
+- [Booting the Live Environment](http://localhost:45189/docs/users/getting-started/booting-the-live-environment/): Booting from a USB Drive Ensure that your system is set to boot from the USB drive. You may need to …
+
+#### System Management
+- [Configuration Locations](http://localhost:45189/docs/users/system-management/configuration-locations/): AerynOS ships configuration in a stateless layout. Packages deliver defaults in /usr/share/defaults, …
+- [Manage Moss States and Packages](http://localhost:45189/docs/users/system-management/moss-state-management/): Moss keeps track of packaging-related operations that change the state of the /usr directory by …
+
+#### Desktops
+- [COSMIC](http://localhost:45189/docs/users/desktops/cosmic/): The COSMIC Desktop from System76 is a highly popular choice with AerynOS users. COSMIC is notable …
+- [GNOME](http://localhost:45189/docs/users/desktops/gnome/): The default desktop environment for the AerynOS live environment and for installs using lichen is …
+- [Plasma](http://localhost:45189/docs/users/desktops/plasma/): AerynOS now offers KDE Plasma as a Desktop Environment though it is currently considered beta …
+
+##### Window Managers
+- [Sway](http://localhost:45189/docs/users/desktops/window-managers/sway/): Sway is a dynamic tiling window manager designed as a drop-in replacement for i3, but built for …
+
+### Packaging
+
+#### Workflow
+- [Prerequisites](http://localhost:45189/docs/packaging/workflow/prerequisites/): To set up a AerynOS system to be able to build package recipes, a few prerequisites need to be …
+- [Basic packaging workflow](http://localhost:45189/docs/packaging/workflow/basic-workflow/): Once the prerequisites have been handled, it is time to learn how to install newly built local …
+- [Preparing for packaging](http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/): This page details prerequisite steps required before either creating a new package recipe or …
+- [Creating a new package recipe](http://localhost:45189/docs/packaging/workflow/creating-a-new-recipe/): This guide details the process of creating a new package recipe that is not yet present in the …
+- [Updating an existing package recipe](http://localhost:45189/docs/packaging/workflow/updating-an-existing-recipe/): This guide details the process of updating a package that is already present in the AerynOS …
+- [Building and testing packages](http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/): This guide will walk you through the process of building and testing packages locally on your …
+- [Submitting a PR](http://localhost:45189/docs/packaging/workflow/submitting-a-pr/): Submitting packages to AerynOS repositoryOnce you have prepared your package, you can submit it to …
+- [Checking for package updates](http://localhost:45189/docs/packaging/workflow/checking-for-updates/): Use ent to check for package updates This guide will walk you through the process using ent, a tool …
+
+#### Recipes
+- [Overview](http://localhost:45189/docs/packaging/recipes/overview/): Simply put, a recipe is some metadata to describe a software package, and the associated …
+- [Upstreams](http://localhost:45189/docs/packaging/recipes/upstreams/): The majority of packages are built using upstream release sources. While it is possible to create …
+- [Metadata](http://localhost:45189/docs/packaging/recipes/metadata/): Recipes provide basic metadata to support discovery and automation.
+Certain data is purely for …
+- [Monitoring](http://localhost:45189/docs/packaging/recipes/monitoring/): Every recipe should ship a monitoring.yaml so our tooling can watch for upstream releases and …
+- [Build dependencies](http://localhost:45189/docs/packaging/recipes/build-deps/): Every build of a recipe by boulder will create an entirely new root, with only the absolute minimum …
+- [Package definitions](http://localhost:45189/docs/packaging/recipes/package-definition/): A recipe build can result in a number of packages being produced from a single source, through an …
+
+##### Triggers
+- [Overview](http://localhost:45189/docs/packaging/recipes/triggers/overview/): AerynOS supports the use of triggers, or actions, that run at the end of package installations. …
+- [Transaction triggers](http://localhost:45189/docs/packaging/recipes/triggers/tx-triggers/): Transactional scope triggers (tx triggers) are run after the new filesystem transaction has been …
+
+##### System Accounts
+- [Overview](http://localhost:45189/docs/packaging/recipes/system-accounts/overview/): As a stateless distribution, AerynOS does not permit the modification of /etc/passwd and co by …
+- [Groups](http://localhost:45189/docs/packaging/recipes/system-accounts/groups/): Refer to the JSON Group Record documentation for information on all supported fields.
+Example Within …
+- [Users](http://localhost:45189/docs/packaging/recipes/system-accounts/users/): System accounts should always be marked as locked. Refer to the JSON User Record documentation for …
+
+#### Macros
+- [autotools](http://localhost:45189/docs/packaging/macros/autotools/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;;
+The autotools …
+- [cargo](http://localhost:45189/docs/packaging/macros/cargo/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;;
+When building …
+- [cmake](http://localhost:45189/docs/packaging/macros/cmake/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;
+- [meson](http://localhost:45189/docs/packaging/macros/meson/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;
+- [Miscellaneous](http://localhost:45189/docs/packaging/macros/misc/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;
+- [perl](http://localhost:45189/docs/packaging/macros/perl/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;
+- [python](http://localhost:45189/docs/packaging/macros/python/): import RenderMacroActions from &lsquo;@components/RenderMacroActions.astro&rsquo;
+
+### Developers
+
+#### Stone Format
+- [Header](http://localhost:45189/docs/developers/stone/header/): Stone archives are encoded with a version agnostic header, ensuring that version-specific fields can …
+
+##### V1 Stone
+- [V1 Header](http://localhost:45189/docs/developers/stone/v1/header/): The v1 header contains 3 fields to denote the type of the .stone file as well as a count of the …
 
 
 ## Root Pages
-- [About AerynOS](http://localhost:1313/about/): To deliver modern tooling that allows for the creation and delivery of a performant atomic Linux … - Published 2026-01-06
-- [Branding](http://localhost:1313/branding/):  - Published 2026-01-06
-- [Community](http://localhost:1313/community/): What type of community do we want to foster? AerynOS is a community-driven project that values … - Published 2026-01-06
-- [Contact](http://localhost:1313/contact/):  - Published 2026-01-06
-- [Downloads](http://localhost:1313/downloads/): GNOME live environment AerynOS offers a single ISO for installation purposes based on the GNOME … - Published 2026-01-06
-- [Funding](http://localhost:1313/funding/): Project viability AerynOS has been designed with scalability and efficiency of resources in mind. … - Published 2026-01-06
-- [Staff](http://localhost:1313/staff/): Team approach Be kind, foster joy, listen, care. The AerynOS team is a diverse group of individuals … - Published 2026-01-06
+- [About AerynOS](http://localhost:45189/about/): To deliver modern tooling that allows for the creation and delivery of a performant atomic Linux … - Published 2026-01-06
+- [Branding](http://localhost:45189/branding/):  - Published 2026-01-06
+- [Community](http://localhost:45189/community/): What type of community do we want to foster? AerynOS is a community-driven project that values … - Published 2026-01-06
+- [Contact](http://localhost:45189/contact/):  - Published 2026-01-06
+- [Downloads](http://localhost:45189/downloads/): GNOME live environment AerynOS offers a single ISO for installation purposes based on the GNOME … - Published 2026-01-06
+- [Funding](http://localhost:45189/funding/): Project viability AerynOS has been designed with scalability and efficiency of resources in mind. … - Published 2026-01-06
+- [Staff](http://localhost:45189/staff/): Team approach Be kind, foster joy, listen, care. The AerynOS team is a diverse group of individuals … - Published 2026-01-06
 
 ---
-Generated on 2026-01-20 10:00:00 UTC
-Site: http://localhost:1313/
+Generated on 2026-02-02 23:55:33 UTC
+Site: http://localhost:45189/

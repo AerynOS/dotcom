@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AerynOS – Packaging</title>
+    <link>http://localhost:45189/docs/packaging/</link>
+    <description>Recent content in Packaging on AerynOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jan 2026 14:27:56 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:45189/docs/packaging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Workflow</title>
+      <link>http://localhost:45189/docs/packaging/workflow/</link>
+      <pubDate>Tue, 06 Jan 2026 14:27:56 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/packaging/workflow/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>http://localhost:45189/docs/packaging/recipes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/packaging/recipes/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Macros</title>
+      <link>http://localhost:45189/docs/packaging/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:45189/docs/packaging/macros/</guid>
+      <description>
+        
+        
+        &lt;p&gt;import DirectoryList from &amp;lsquo;@components/DirectoryList.astro&amp;rsquo;;&lt;/p&gt;
+&lt;p&gt;Every &lt;code&gt;stone.yaml&lt;/code&gt; build has access to a number of &lt;strong&gt;action&lt;/strong&gt; and &lt;strong&gt;definition&lt;/strong&gt; macros. With these, we can ensure a greater degree of integration and consistency in our packaging, and vastly simplify common tasks to reduce maintainer burden.&lt;/p&gt;
+&lt;DirectoryList/&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

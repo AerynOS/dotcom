@@ -7,7 +7,7 @@ authors:
   link: https://github.com/ermo
   name: ermo
 title: 2025 in retrospect
-weight: 1
+date: 2026-01-02T23:00:00Z
 tags:
 - news
 ---
@@ -106,7 +106,7 @@ The team has multiple future ideas of how this system-model can be used with a f
 
 All of these features, particularly where users could potentially face issues with their installs, are complemented by our offline rollback feature, which gives the ability to manually go back to either of 5 earlier states from the bootloader. This will ensure that users have both offline and online protections to help them recover from a misbehaving system.
 
-<iframe title="System-Model Demo" width="1024" height="580" src="https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<iframe title="System-Model Demo" width="800" height="450" src="https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 
 ## Team organisation

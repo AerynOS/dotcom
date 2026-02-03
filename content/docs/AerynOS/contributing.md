@@ -1,0 +1,30 @@
+---
+date: '2026-01-06T14:27:56Z'
+draft: false
+title: 'Contributing'
+weight: 4
+next: /docs/Users/_index.md
+cascade:
+  type: docs
+---
+
+## Financial contributions to AerynOS
+
+AerynOS is an independent effort run by a handful of volunteers. The team is currently targeting an income of 500€ per month to cover:
+
+1. Infrastructure and project costs
+2. Repayment to project stakeholders for initial project seed funding
+3. Build up a buffer for unexpected costs and future initiatives.
+
+We currently accept donations via [Ko-Fi](https://ko-fi.com/aerynos).
+
+## Contributing to our codebases
+
+AerynOS utilizes GitHub to manage code changes, including updates to our websites. Each repository will have its own Readme that will include instructions on how to make updates to it. They can be found [here](https://github.com/orgs/AerynOS/repositories). To specifically make contributions to our websites, you can visit the following repositories:
+
+- AerynOS.com site [repo](https://github.com/AerynOS/dotdev)
+- AerynOS.dev site [repo](https://github.com/AerynOS/dotcom)
+
+## Other contributions
+
+The team is open to all forms of contribution, including any wallpapers or artwork that you may wish to submit. The only requirement is that e.g. wallpapers or artwork are licensed under an open license.
