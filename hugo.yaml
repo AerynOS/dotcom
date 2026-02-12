@@ -1,7 +1,9 @@
 baseURL: https://aerynos.com/
 languageCode: en-us
 title: AerynOS
-theme: hextra
+module:
+  imports:
+    - path: github.com/imfing/hextra
 
 markup:
   goldmark:
@@ -87,6 +89,13 @@ outputs:
   home: [html, llms]
   page: [html]
   section: [html, rss]
+
+outputFormats:
+  llms:
+    name: llms
+    baseName: llms
+    mediaType: text/plain
+    isPlainText: true
 
 params:
   externalLinkDecoration: true
