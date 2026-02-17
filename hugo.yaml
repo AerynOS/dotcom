@@ -108,11 +108,10 @@ params:
     displayLogo: true
     width: wide
     logo:
-      path: images/logo-dark.svg
-      dark: images/logo-light.svg
+      path: images/logo.svg
       link: /
-      width: 60
-      height: 60
+      width: 40
+      height: 40
   footer:
     width: wide
     displayCopyright: true

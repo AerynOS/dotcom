@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // 
 (function () {
   const faviconEl = document.getElementById("favicon-svg");
-  const faviconDarkExists = "true" === "true";
+  const faviconDarkExists = "false" === "true";
 
   if (faviconEl && faviconDarkExists) {
     const lightFavicon = '/favicon.svg';

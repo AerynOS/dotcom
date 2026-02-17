@@ -21,8 +21,31 @@ Finally, as we scale out into a more serious project, we would eventually like t
 
 ## How to help with funding
 
-Our primary method of funding is through Ko-fi:
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#794bc4', 'J3J511WM9N');kofiwidget2.draw();</script> 
+<body>
+  <h4>Our primary method of funding is through Stripe:</h4>
+  <script
+    async
+    src="https://js.stripe.com/v3/buy-button.js">
+  </script>
+  <stripe-buy-button
+    buy-button-id="buy_btn_1SyIlZGk2fEnRSH2HXkyGO8v"
+      publishable-
+    publishable-key="pk_live_51S7wrYGk2fEnRSH2yMkZT1hVXa219FT3juoSkHB00PHxkQSccxRxWqW8NL8LSLUoM6Rp7GoSZOFrs5oyUT5dRH4z008V3fNDCA"
+  >
+  </stripe-buy-button>
+  <script
+    async
+    src="https://js.stripe.com/v3/buy-button.js">
+  </script>
+  <stripe-buy-button
+    buy-button-id="buy_btn_1Sy9rzGk2fEnRSH2MwAOjcxH"
+      publishable-
+    publishable-key="pk_live_51S7wrYGk2fEnRSH2yMkZT1hVXa219FT3juoSkHB00PHxkQSccxRxWqW8NL8LSLUoM6Rp7GoSZOFrs5oyUT5dRH4z008V3fNDCA"
+  >
+  </stripe-buy-button>
+</body>
 
-Bank Transfer:
-To be added
+<body>
+  <h4>Our secondary method of funding is through Ko-fi:</h4>
+  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#794bc4', 'J3J511WM9N');kofiwidget2.draw();</script>
+</body>
