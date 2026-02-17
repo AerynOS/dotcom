@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AerynOS – Packaging</title>
-    <link>http://localhost:45189/docs/packaging/</link>
+    <link>http://localhost:1313/docs/packaging/</link>
     <description>Recent content in Packaging on AerynOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jan 2026 14:27:56 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:45189/docs/packaging/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/packaging/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Workflow</title>
-      <link>http://localhost:45189/docs/packaging/workflow/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/</link>
       <pubDate>Tue, 06 Jan 2026 14:27:56 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/</guid>
       <description>
         
         
@@ -30,10 +30,10 @@
     
     <item>
       <title>Recipes</title>
-      <link>http://localhost:45189/docs/packaging/recipes/</link>
+      <link>http://localhost:1313/docs/packaging/recipes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/recipes/</guid>
+      <guid>http://localhost:1313/docs/packaging/recipes/</guid>
       <description>
         
         
@@ -43,10 +43,10 @@
     
     <item>
       <title>Macros</title>
-      <link>http://localhost:45189/docs/packaging/macros/</link>
+      <link>http://localhost:1313/docs/packaging/macros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/macros/</guid>
+      <guid>http://localhost:1313/docs/packaging/macros/</guid>
       <description>
         
         

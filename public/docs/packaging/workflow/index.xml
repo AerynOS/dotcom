@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AerynOS – Workflow</title>
-    <link>http://localhost:45189/docs/packaging/workflow/</link>
+    <link>http://localhost:1313/docs/packaging/workflow/</link>
     <description>Recent content in Workflow on AerynOS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Jan 2026 14:27:56 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:45189/docs/packaging/workflow/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/packaging/workflow/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Prerequisites</title>
-      <link>http://localhost:45189/docs/packaging/workflow/prerequisites/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/prerequisites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/prerequisites/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/prerequisites/</guid>
       <description>
         
         
@@ -35,6 +35,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -52,6 +54,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -67,6 +71,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -81,6 +87,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -98,6 +106,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -116,6 +126,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -133,6 +145,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -149,6 +163,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -162,14 +178,14 @@ installed, and a new directory for storing local build artifacts needs to be set
     
     <item>
       <title>Basic packaging workflow</title>
-      <link>http://localhost:45189/docs/packaging/workflow/basic-workflow/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/basic-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/basic-workflow/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/basic-workflow/</guid>
       <description>
         
         
-        &lt;p&gt;Once the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; have been handled, it is time to learn how to install newly built local moss-format &lt;code&gt;.stone&lt;/code&gt; packages.&lt;/p&gt;
+        &lt;p&gt;Once the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; have been handled, it is time to learn how to install newly built local moss-format &lt;code&gt;.stone&lt;/code&gt; packages.&lt;/p&gt;
 &lt;h2&gt;Understanding moss-format repositories&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;understanding-moss-format-repositories&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#understanding-moss-format-repositories&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When building and testing packages locally, boulder (and moss) can be configured to consult a local moss-format repository containing moss-format &lt;code&gt;.stone&lt;/code&gt; packages and a &lt;code&gt;stone.index&lt;/code&gt; local repository index.&lt;/p&gt;
 &lt;h3&gt;&lt;code&gt;stone.index&lt;/code&gt; files&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stoneindex-files&#34;&gt;&lt;/span&gt;
@@ -192,6 +208,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -225,6 +243,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -250,6 +270,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -276,6 +298,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -299,6 +323,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -320,6 +346,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -349,6 +377,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -367,6 +397,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -381,6 +413,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -401,6 +435,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -418,14 +454,14 @@ installed, and a new directory for storing local build artifacts needs to be set
     
     <item>
       <title>Preparing for packaging</title>
-      <link>http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/preparing-for-packaging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/preparing-for-packaging/</guid>
       <description>
         
         
-        &lt;p&gt;This page details prerequisite steps required before either creating a new package recipe or updating an existing package recipe. If you have not yet followed the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; steps and &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt;, follow those steps first before proceeding.&lt;/p&gt;
+        &lt;p&gt;This page details prerequisite steps required before either creating a new package recipe or updating an existing package recipe. If you have not yet followed the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; steps and &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt;, follow those steps first before proceeding.&lt;/p&gt;
 &lt;h2&gt;Update your clone of the recipes repository&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;update-your-clone-of-the-recipes-repository&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#update-your-clone-of-the-recipes-repository&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As a reminder, you want to ensure you have the volatile repository enabled and fully updated on your system.&lt;/p&gt;
 &lt;p&gt;Whilst all the information can be found in the prior pages, to recap, the commands will be:&lt;/p&gt;
@@ -440,6 +476,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -454,6 +492,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -468,6 +508,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -480,21 +522,21 @@ installed, and a new directory for storing local build artifacts needs to be set
     
     <item>
       <title>Creating a new package recipe</title>
-      <link>http://localhost:45189/docs/packaging/workflow/creating-a-new-recipe/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/creating-a-new-recipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/creating-a-new-recipe/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/creating-a-new-recipe/</guid>
       <description>
         
         
-        &lt;p&gt;This guide details the process of creating a new package recipe that is not yet present in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;p&gt;This guide details the process of creating a new package recipe that is not yet present in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;. We will use Nano as the running example, but the same steps apply to any new package.&lt;/p&gt;
-&lt;p&gt;Before creating the package recipe yourself, please double check that there isn&amp;rsquo;t already an outstanding PR for the package you want to include. Please also check if someone has created a new package request issue in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS recipes repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;p&gt;Before creating the package recipe yourself, please double check that there isn&amp;rsquo;t already an outstanding PR for the package you want to include. Please also check if someone has created a new package request issue in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS recipes repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Prepare your workspace&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prepare-your-workspace&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#prepare-your-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Prior to starting, ensure you have followed the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; set up process, the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt; and updated your system in accordance with &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide.&lt;/p&gt;
+    &lt;a href=&#34;#prepare-your-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Prior to starting, ensure you have followed the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; set up process, the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt; and updated your system in accordance with &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide.&lt;/p&gt;
 &lt;p&gt;If you have not done this, follow those steps first before proceeding.&lt;/p&gt;
 &lt;h2&gt;Scaffold the recipe directory&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;scaffold-the-recipe-directory&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#scaffold-the-recipe-directory&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Prior to starting, you need to create the directory structure for your recipe. In our example, we will create a recipe for the Nano text editor. Each recipe is stored in its own directory within the recipes repository you already have downloaded to your computer. In this case, we will create a directory called &lt;code&gt;nano&lt;/code&gt; in the &lt;code&gt;n&lt;/code&gt; directory:&lt;/p&gt;
@@ -506,6 +548,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -516,7 +560,7 @@ installed, and a new directory for storing local build artifacts needs to be set
     &lt;a href=&#34;#fill-the-recipe-step-by-step&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The rest of this guide shows how to create a recipe and to replace any missing metadata by pulling information from upstream Nano.&lt;/p&gt;
 &lt;h3&gt;Step 1 - Collect upstream metadata&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1---collect-upstream-metadata&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-1---collect-upstream-metadata&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Search for “GNU Nano download” to locate the upstream homepage: &lt;a href=&#34;https://www.nano-editor.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nano-editor.org/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;li&gt;Search for “GNU Nano download” to locate the upstream homepage: &lt;a href=&#34;https://www.nano-editor.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nano-editor.org/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Note the latest release number (&lt;code&gt;8.7&lt;/code&gt; at the time of writing) and the canonical download link.&lt;/li&gt;
@@ -581,6 +625,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -594,6 +640,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -652,6 +700,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -686,6 +736,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -700,7 +752,7 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;Step 3 - Declare / correct the license&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3---declare--correct-the-license&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#step-3---declare--correct-the-license&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Find the license in upstream’s repository (often &lt;code&gt;COPYING&lt;/code&gt;, &lt;code&gt;LICENSE&lt;/code&gt;, or package metadata). Convert it to an &lt;a href=&#34;https://spdx.org/licenses/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPDX identifier&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;a href=&#34;#step-3---declare--correct-the-license&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Find the license in upstream’s repository (often &lt;code&gt;COPYING&lt;/code&gt;, &lt;code&gt;LICENSE&lt;/code&gt;, or package metadata). Convert it to an &lt;a href=&#34;https://spdx.org/licenses/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPDX identifier&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Nano uses &lt;code&gt;GPL-3.0-or-later&lt;/code&gt;.&lt;/p&gt;
@@ -711,6 +763,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -763,6 +817,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -770,7 +826,7 @@ installed, and a new directory for storing local build artifacts needs to be set
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;Step 5 · Fill in build steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-5--fill-in-build-steps&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#step-5--fill-in-build-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nano follows the GNU autotools flow, so uses the standard macros (&lt;code&gt;%configure&lt;/code&gt;, &lt;code&gt;%make&lt;/code&gt;, &lt;code&gt;%make_install&lt;/code&gt;). These have already been populated by &lt;code&gt;boulder recipe new&lt;/code&gt; so do not need to be adapted. You can consult the &lt;a href=&#34;http://localhost:45189/docs/packaging/macros/&#34;&gt;macros&lt;/a&gt; documentation for variations and additional guidance.&lt;/p&gt;
+    &lt;a href=&#34;#step-5--fill-in-build-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nano follows the GNU autotools flow, so uses the standard macros (&lt;code&gt;%configure&lt;/code&gt;, &lt;code&gt;%make&lt;/code&gt;, &lt;code&gt;%make_install&lt;/code&gt;). These have already been populated by &lt;code&gt;boulder recipe new&lt;/code&gt; so do not need to be adapted. You can consult the &lt;a href=&#34;http://localhost:1313/docs/packaging/macros/&#34;&gt;macros&lt;/a&gt; documentation for variations and additional guidance.&lt;/p&gt;
 &lt;h3&gt;Step 6 · Review the finished recipe&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-6--review-the-finished-recipe&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-6--review-the-finished-recipe&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Combining all the prior steps gives you a complete &lt;code&gt;stone.yaml&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
@@ -809,6 +865,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -816,7 +874,7 @@ installed, and a new directory for storing local build artifacts needs to be set
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;Update/correct the &lt;code&gt;monitoring.yaml&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;updatecorrect-the-monitoringyaml-file&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#updatecorrect-the-monitoringyaml-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Release monitoring keeps automated eyes on your package. More details around our monitoring file can be found on our &lt;a href=&#34;http://localhost:45189/docs/packaging/recipes/monitoring/&#34;&gt;Monitoring&lt;/a&gt; page.&lt;/p&gt;
+    &lt;a href=&#34;#updatecorrect-the-monitoringyaml-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Release monitoring keeps automated eyes on your package. More details around our monitoring file can be found on our &lt;a href=&#34;http://localhost:1313/docs/packaging/recipes/monitoring/&#34;&gt;Monitoring&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;As mentioned earlier in this guide, the &lt;code&gt;boulder recipe new&lt;/code&gt; command has already attempted to create a &lt;code&gt;monitoring.yaml&lt;/code&gt; file for you.&lt;/p&gt;
 &lt;p&gt;In the case of Nano, it wasn&amp;rsquo;t able to uniquely identify the project so the output was not as valuable and needs to be corrected.&lt;/p&gt;
 &lt;p&gt;For reference, its output is as below:&lt;/p&gt;
@@ -900,6 +958,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -908,11 +968,11 @@ installed, and a new directory for storing local build artifacts needs to be set
 &lt;/div&gt;
 &lt;p&gt;Update &lt;code&gt;monitoring.yaml&lt;/code&gt; once you know the upstream identifiers:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Search for the project on &lt;a href=&#34;https://release-monitoring.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://release-monitoring.org/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;li&gt;Search for the project on &lt;a href=&#34;https://release-monitoring.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://release-monitoring.org/&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; and copy the numeric &lt;code&gt;id&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Add an RSS or Atom feed URL if upstream publishes one; otherwise leave &lt;code&gt;rss: ~&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Check the National Vulnerability Database for a CPE string (&lt;a href=&#34;https://nvd.nist.gov/products/cpe/search%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvd.nist.gov/products/cpe/search)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;li&gt;Check the National Vulnerability Database for a CPE string (&lt;a href=&#34;https://nvd.nist.gov/products/cpe/search%29&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvd.nist.gov/products/cpe/search)&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;. If none exists, leave it as &lt;code&gt;~&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -927,6 +987,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -934,28 +996,28 @@ installed, and a new directory for storing local build artifacts needs to be set
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;Build and test the package&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build-and-test-the-package&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#build-and-test-the-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have made the relevant changes to the package, you will need to build it locally. Refer to the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/&#34;&gt;Building and Testing packages&lt;/a&gt; page on guidance of how to do this.&lt;/p&gt;
+    &lt;a href=&#34;#build-and-test-the-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have made the relevant changes to the package, you will need to build it locally. Refer to the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/building-and-testing-packages/&#34;&gt;Building and Testing packages&lt;/a&gt; page on guidance of how to do this.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Updating an existing package recipe</title>
-      <link>http://localhost:45189/docs/packaging/workflow/updating-an-existing-recipe/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/updating-an-existing-recipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/updating-an-existing-recipe/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/updating-an-existing-recipe/</guid>
       <description>
         
         
-        &lt;p&gt;This guide details the process of updating a package that is already present in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;p&gt;This guide details the process of updating a package that is already present in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;. We will use GNU Nano as the running example, but the same steps apply to any existing package.&lt;/p&gt;
-&lt;p&gt;Before updating the package yourself, please double check that there isn&amp;rsquo;t already an outstanding PR for the update you want to make. Please also check if someone has created an update request issue in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS recipes repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+&lt;p&gt;Before updating the package yourself, please double check that there isn&amp;rsquo;t already an outstanding PR for the update you want to make. Please also check if someone has created an update request issue in the &lt;a href=&#34;https://github.com/AerynOS/recipes&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AerynOS recipes repository&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Prepare your workspace&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prepare-your-workspace&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#prepare-your-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Prior to starting, ensure you have followed the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; set up process, the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt; and updated your system in accordance with &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide.&lt;/p&gt;
+    &lt;a href=&#34;#prepare-your-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Prior to starting, ensure you have followed the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/prerequisites/&#34;&gt;prerequisites&lt;/a&gt; set up process, the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/basic-workflow/&#34;&gt;Basic Packaging Workflow&lt;/a&gt; and updated your system in accordance with &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide.&lt;/p&gt;
 &lt;p&gt;If you have not done this, follow those steps first before proceeding.&lt;/p&gt;
 &lt;h2&gt;Simple updates to a package&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;simple-updates-to-a-package&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#simple-updates-to-a-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To update a package to a newer available version, navigate to the relevant folder within your local recipe repository on your system. If you have already navigated to the local recipe repository, then by way of example, to navigate to the Nano package folder, you would use the command:&lt;/p&gt;
@@ -965,6 +1027,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -979,6 +1043,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -992,6 +1058,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1007,6 +1075,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1020,6 +1090,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1034,19 +1106,19 @@ installed, and a new directory for storing local build artifacts needs to be set
 &lt;li&gt;Bumps the release number by 1&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Wider updates to a package&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wider-updates-to-a-package&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wider-updates-to-a-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If there are further changes required to the &lt;code&gt;stone.yaml&lt;/code&gt; recipe file, you can either use a text editor (such as Nano itself) or a code editor (such as Zed which is pre-installed on AerynOS) to make changes those changes. Guidance on how to make changes to a stone.yaml file are covered in the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/creating-a-new-recipe/&#34;&gt;Creating a new package recipe&lt;/a&gt; page.&lt;/p&gt;
+    &lt;a href=&#34;#wider-updates-to-a-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;If there are further changes required to the &lt;code&gt;stone.yaml&lt;/code&gt; recipe file, you can either use a text editor (such as Nano itself) or a code editor (such as Zed which is pre-installed on AerynOS) to make changes those changes. Guidance on how to make changes to a stone.yaml file are covered in the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/creating-a-new-recipe/&#34;&gt;Creating a new package recipe&lt;/a&gt; page.&lt;/p&gt;
 &lt;h2&gt;Build and test the package&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build-and-test-the-package&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#build-and-test-the-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have made the relevant changes to the package, you will need to build it locally. Refer to the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/&#34;&gt;Building and Testing packages&lt;/a&gt; page on guidance of how to do this.&lt;/p&gt;
+    &lt;a href=&#34;#build-and-test-the-package&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once you have made the relevant changes to the package, you will need to build it locally. Refer to the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/building-and-testing-packages/&#34;&gt;Building and Testing packages&lt;/a&gt; page on guidance of how to do this.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Building and testing packages</title>
-      <link>http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/building-and-testing-packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/building-and-testing-packages/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/building-and-testing-packages/</guid>
       <description>
         
         
@@ -1057,7 +1129,7 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Please ensure you have followed the steps in the &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide to ensure you volatile repository is enabled.&lt;/div&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Please ensure you have followed the steps in the &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/preparing-for-packaging/&#34;&gt;Preparing for Packaging&lt;/a&gt; guide to ensure you volatile repository is enabled.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1068,6 +1140,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1081,6 +1155,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1094,6 +1170,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1107,6 +1185,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1120,6 +1200,8 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1131,7 +1213,7 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;p class=&#34;hx:flex hx:items-center hx:font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx:inline-block hx:align-middle hx:mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;How to submit pull requests&lt;/p&gt;
 
   &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;To find guidance on how to submit a pull request (PR), you can refer to our &lt;a href=&#34;http://localhost:45189/docs/packaging/workflow/submitting-a-pr/&#34;&gt;submit a pull request&lt;/a&gt; page.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;To find guidance on how to submit a pull request (PR), you can refer to our &lt;a href=&#34;http://localhost:1313/docs/packaging/workflow/submitting-a-pr/&#34;&gt;submit a pull request&lt;/a&gt; page.&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1140,10 +1222,10 @@ installed, and a new directory for storing local build artifacts needs to be set
     
     <item>
       <title>Submitting a PR</title>
-      <link>http://localhost:45189/docs/packaging/workflow/submitting-a-pr/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/submitting-a-pr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/submitting-a-pr/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/submitting-a-pr/</guid>
       <description>
         
         
@@ -1180,7 +1262,7 @@ installed, and a new directory for storing local build artifacts needs to be set
   &lt;p class=&#34;hx:flex hx:items-center hx:font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx:inline-block hx:align-middle hx:mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;The imperative mood&lt;/p&gt;
 
   &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;Git commits should be written in the &lt;a href=&#34;https://medium.com/@luka_78026/imperative-mood-makes-you-feel-good-1cad063d7014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imperative mood&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;Git commits should be written in the &lt;a href=&#34;https://medium.com/@luka_78026/imperative-mood-makes-you-feel-good-1cad063d7014&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imperative mood&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;. This means that the commit message should start with a verb in the present tense, such as &amp;ldquo;Add&amp;rdquo;, &amp;ldquo;Update&amp;rdquo;, or &amp;ldquo;Fix&amp;rdquo;. This makes the commit message more concise and easier to understand.&lt;/p&gt;&lt;/div&gt;
   &lt;/div&gt;
@@ -1208,6 +1290,8 @@ Full changelog [here](the.uri)
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1220,10 +1304,10 @@ Full changelog [here](the.uri)
     
     <item>
       <title>Checking for package updates</title>
-      <link>http://localhost:45189/docs/packaging/workflow/checking-for-updates/</link>
+      <link>http://localhost:1313/docs/packaging/workflow/checking-for-updates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45189/docs/packaging/workflow/checking-for-updates/</guid>
+      <guid>http://localhost:1313/docs/packaging/workflow/checking-for-updates/</guid>
       <description>
         
         
@@ -1236,6 +1320,8 @@ Full changelog [here](the.uri)
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
@@ -1254,6 +1340,8 @@ Full changelog [here](the.uri)
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
