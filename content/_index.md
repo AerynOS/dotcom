@@ -5,7 +5,7 @@ title: 'AerynOS'
 layout: hextra-home
 ---
 
-{{< hextra/hero-container image="images/logo-dark.svg"  imageTitle="AerynOS logo" imageWidth=200 imageHeight=200 >}}
+{{< hextra/hero-container image="images/logo.svg"  imageTitle="AerynOS logo" imageWidth=200 imageHeight=200 >}}
     <div class="hx-mt-6 hx-mb-6">
   {{< hextra/hero-headline >}}
   AerynOS

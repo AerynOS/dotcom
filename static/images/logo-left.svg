@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="75.888153pt"
-   height="69.794487pt"
-   viewBox="0 0 252.96051 232.64829"
+   width="118.79573pt"
+   height="25.988653pt"
+   viewBox="0 0 593.97862 129.94327"
    preserveAspectRatio="xMidYMid"
    id="svg2"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,5 +25,16 @@
        class=""
        id="path2"
        style="fill:#f0bb78;fill-opacity:1;stroke:#f0bb78;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:2400px;writing-mode:lr-tb;direction:ltr;fill:#637048;fill-opacity:1;stroke:#f0bb78;stroke-width:7.5;stroke-opacity:1"
+       x="3372.1223"
+       y="-1038.766"
+       id="text3"
+       transform="scale(1,-1)"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2400px;font-family:TimeBurner;-inkscape-font-specification:TimeBurner;fill:#637048;fill-opacity:1;stroke:#a4b465;stroke-width:7.5;stroke-opacity:1"
+         x="3372.1223"
+         y="-1038.766">AerynOS</tspan></text>
   </g>
 </svg>
