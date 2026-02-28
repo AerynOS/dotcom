@@ -144,7 +144,7 @@ This will come in handy when doing larger-scale rebuilds.
 
 A combination of recent updates within the AerynOS project, alongside what we expect to be improvements within the Linux Kernel, have led to a drastic improvement in [blitting](https://aerynos.com/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/#blitting) speeds as part of the AerynOS atomic update process.
 
-We ran a fresh battery of tests on a test system to represent how blitting performance is impacted based on different drive types and file systems.
+We ran a fresh battery of tests on a test system to represent how blitting performance is impacted based on different drive types and filesystems.
 
 ``` System Specs
 CPU: Intel i7-13700T
@@ -175,7 +175,7 @@ We call these subsequent transactions "hot" and as you can see, the hot transact
 
 For reference, when Serpent OS hit pre-alpha in August 2024, the Gen4 NVMe drive with XFS was hitting around 70k on "hot" transactions so there has been a **significant** speed up since then.
 
-It is important to stress that the numbers above specifically relate to how quickly each filesystem can update hardlinks in dentries when using moss to generate hardlinked file system /usr transactions. The numbers should not be taken to indicate any general measure of performance.
+It is important to stress that the numbers above specifically relate to how quickly each filesystem can update hardlinks in dentries when using moss to generate hardlinked filesystem /usr transactions. The numbers should not be taken to indicate any general measure of performance.
 
 ### Trigger speeds
 
