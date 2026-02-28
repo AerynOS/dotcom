@@ -295,30 +295,19 @@ If any hardware vendors are interested in sponsoring the project either financia
 
 If you wish to discuss other sponsorship details, please reach out to us at contact@aerynos.com.
 
-<p>
-  <h4>Stripe donation links</h4>
-  <script
-    async
-    src="https://js.stripe.com/v3/buy-button.js">
-  </script>
-  <stripe-buy-button
-    buy-button-id="buy_btn_1SyIlZGk2fEnRSH2HXkyGO8v"
-      publishable-
-    publishable-key="pk_live_51S7wrYGk2fEnRSH2yMkZT1hVXa219FT3juoSkHB00PHxkQSccxRxWqW8NL8LSLUoM6Rp7GoSZOFrs5oyUT5dRH4z008V3fNDCA"
-  >
-  </stripe-buy-button>
-  <script
-    async
-    src="https://js.stripe.com/v3/buy-button.js">
-  </script>
-  <stripe-buy-button
-    buy-button-id="buy_btn_1Sy9rzGk2fEnRSH2MwAOjcxH"
-      publishable-
-    publishable-key="pk_live_51S7wrYGk2fEnRSH2yMkZT1hVXa219FT3juoSkHB00PHxkQSccxRxWqW8NL8LSLUoM6Rp7GoSZOFrs5oyUT5dRH4z008V3fNDCA"
-  >
-  </stripe-buy-button>
-</p>
-
+<div style="display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 50px">
+<a style="font-weight: bold;
+          color: white;
+          background-color: #8b00a3;
+          padding: 10px 20px;
+          text-decoration: none;
+          text-align:center;
+          border-radius: 5px"
+   href=/sponsor/>Click here to Sponsor the project via Stripe or Ko-fi</a>
+</div>
 
 ## Thank You!
 
