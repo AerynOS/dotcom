@@ -297,7 +297,7 @@ If any hardware vendors are interested in sponsoring the project either financia
 
 If you wish to discuss other sponsorship details, please reach out to us at contact@aerynos.com.
 
-<body>
+<p>
   <h4>Stripe donation links</h4>
   <script
     async
@@ -319,7 +319,7 @@ If you wish to discuss other sponsorship details, please reach out to us at cont
     publishable-key="pk_live_51S7wrYGk2fEnRSH2yMkZT1hVXa219FT3juoSkHB00PHxkQSccxRxWqW8NL8LSLUoM6Rp7GoSZOFrs5oyUT5dRH4z008V3fNDCA"
   >
   </stripe-buy-button>
-</body>
+</p>
 
 <Kofi />
 
