@@ -4,10 +4,8 @@ date: 2026-02-28T12:00:00Z
 authors: [nomadiccore, ermo]
 tags: [news]
 ---
-
 import Kofi from "@/components/ui/Kofi.astro";
 import { Aside } from "@astrojs/starlight/components";
-
 
 # AerynOS: February 2026 project update
 
@@ -136,7 +134,7 @@ The team have added new visualization functionality to our Summit dashboard to s
 
 This dependency graph is live and dynamic so will update itself as it works through the package queue. This looks pretty cool when our builders are flying through large stack updates such as the monthly KDE point releases.
 
-![Summit Build Queue Video](peertube upload)
+<iframe title="AerynOS Summit: Interactive build queue graph" width="1280" height="720" src="https://exquisite.tube/videos/embed/6Srz7zLoLgAnNvFBpv9LA6" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 ### Boulder `--verify` flag for manifest checks
 
