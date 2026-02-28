@@ -4,8 +4,6 @@ date: 2026-02-28T12:00:00Z
 authors: [nomadiccore, ermo]
 tags: [news]
 ---
-import Kofi from "@/components/ui/Kofi.astro";
-import { Aside } from "@astrojs/starlight/components";
 
 # AerynOS: February 2026 project update
 
@@ -321,7 +319,6 @@ If you wish to discuss other sponsorship details, please reach out to us at cont
   </stripe-buy-button>
 </p>
 
-<Kofi />
 
 ## Thank You!
 
