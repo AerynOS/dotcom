@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;h1&gt;AerynOS: January 2026 project update&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;Fresh-start.jpg&#34; alt=&#34;Fresh Start&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+        &lt;h1&gt;AerynOS: January 2026 project update&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2026/31/january-2026-project-update/Fresh-start.jpg&#34; alt=&#34;Fresh Start&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Kicking off 2026, activity across the AerynOS project has been moving at pace. As covered in our 2025 retrospective, last year the team laid the groundwork for the project&amp;rsquo;s future growth and development. Starting off 2026, the team is building upon this foundation to keep delivering progress across the project.&lt;/p&gt;
 &lt;p&gt;From a core tooling perspective, we are preparing for the next phase of our Versioned Repository feature set. During January, we have been refining our existing codebase to make future improvements easier to implement. Once delivered, moss will be able to update itself seamlessly through what would otherwise have been breaking changes to its codebase. This functionality will be very important for our long term goals as a rolling release distro where you never have to reinstall to receive the latest updates.&lt;/p&gt;
 &lt;p&gt;Progress has been made around our branding with efforts towards a new website design and a healthy discussion and proposals for a new AerynOS logo.&lt;/p&gt;
@@ -69,7 +69,7 @@
 &lt;p&gt;&amp;hellip; along with sundry additions and updates.&lt;/p&gt;
 &lt;h2&gt;Desktop Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;desktop-updates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#desktop-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Cosmic&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosmic&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cosmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Cosmic_Screenshot.jpg&#34; alt=&#34;Cosmic Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#cosmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2026/31/january-2026-project-update/Cosmic_Screenshot.jpg&#34; alt=&#34;Cosmic Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Given System76&amp;rsquo;s move to a more regular release cycle for &lt;a href=&#34;https://system76.com/cosmic&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cosmic DE&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;, we are able to land updates to our repository more frequently. This month, System76 landed Cosmic 1.0.3 with some key updates including support for rounded corners and window shadows across all applications and additional appearance settings being made available.&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;p&gt;Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.&lt;/p&gt;
 &lt;/Aside&gt;
 &lt;h3&gt;Gnome&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gnome&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#gnome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Gnome_Screenshot.jpg&#34; alt=&#34;Gnome Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#gnome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2026/31/january-2026-project-update/Gnome_Screenshot.jpg&#34; alt=&#34;Gnome Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This month sees the inclusion of &lt;a href=&#34;https://discourse.gnome.org/t/gnome-49-3-released/33609&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gnome 49.3&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; which is a stable bug-fix release with updates across the Gnome stack.&lt;/p&gt;
@@ -92,7 +92,7 @@
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; for more details.&lt;/p&gt;
 &lt;h3&gt;KDE Plasma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kde-plasma&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#kde-plasma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;KDE_Screenshot.jpg&#34; alt=&#34;KDE Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#kde-plasma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2026/31/january-2026-project-update/KDE_Screenshot.jpg&#34; alt=&#34;KDE Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;KDE Plasma has been updated to &lt;a href=&#34;https://kde.org/announcements/plasma/6/6.5.5/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;6.5.5&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;, KDE Frameworks to 6.22.0 and KDE Gear to 25.12.1.&lt;/p&gt;
@@ -212,7 +212,7 @@
         
         &lt;p&gt;2025 has been a year of significant change for the AerynOS project, not just in terms of development itself but also in name and in the staff working on the project.&lt;/p&gt;
 &lt;p&gt;We know many people will be following along, waiting for our beta and/or stable releases but for now we want to take a look back at 2025 and summarize what we have delivered and how that is positioning us strongly for 2026.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Camp-Fire.jpg&#34; alt=&#34;Camp Fire&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/Camp-Fire.jpg&#34; alt=&#34;Camp Fire&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The TL;DR summary:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;We changed our name from Serpent OS to AerynOS. Aeryn is a different form of Erin, which means Ireland in Irish Gaelic.&lt;/li&gt;
@@ -380,7 +380,7 @@
 &lt;p&gt;&amp;hellip; along with sundry additions and updates.&lt;/p&gt;
 &lt;h2&gt;Desktop Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;desktop-updates&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#desktop-updates&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Cosmic&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cosmic&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cosmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Cosmic_Screenshot.png&#34; alt=&#34;Cosmic Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#cosmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/Cosmic_Screenshot.png&#34; alt=&#34;Cosmic Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Our Cosmic packaging team have automated much of the update process based around the more frequent git tags that the System76 team are now publishing for the Cosmic Beta phase. As such, we are more quickly able to push updates out to our volatile repository for eventual availability in our unstable repository.&lt;/p&gt;
 &lt;p&gt;As an aside, we believe we have fixed the issue for Cosmic DE sessions where USB devices were not automatically showing up, by adding gvfs as part of the Cosmic pkgset. This is a fairly important usability feature so great to have it fixed.&lt;/p&gt;
 &lt;p&gt;We have also fixed the issue we reported in our October Project Update blog post about sudo-rs not functioning correctly on Cosmic Terminal and Ptyxis in our Cosmic session.&lt;/p&gt;
@@ -389,10 +389,10 @@
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Gnome&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gnome&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#gnome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;Gnome_Screenshot.png&#34; alt=&#34;Gnome Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#gnome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/Gnome_Screenshot.png&#34; alt=&#34;Gnome Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As usual, there isn&amp;rsquo;t really much to say wrt. GNOME. The team has updated it to 49.2 and it is running nicely as expected.&lt;/p&gt;
 &lt;h3&gt;KDE Plasma&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kde-plasma&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#kde-plasma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;KDE_Screenshot.png&#34; alt=&#34;KDE Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#kde-plasma&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/12/09/november-and-early-december-blog-post/KDE_Screenshot.png&#34; alt=&#34;KDE Install&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;KDE Plasma has been updated to 6.5.4, KDE Frameworks to 6.20.0.&lt;/p&gt;
 &lt;p&gt;As part of these updates, Reilly added a few custom patches to better support monitors with high refresh rates.&lt;/p&gt;
 &lt;h2&gt;Infrastructure Updates&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-updates&#34;&gt;&lt;/span&gt;
@@ -645,7 +645,7 @@ Going further, we consider Versioned Repositories a pre-requisite for what we ca
 &lt;p&gt;As a side note, we have also moved away from taking donations in USD by default and switched to EUR as this is the currency we are primarily spending in for our project costs. This does not preclude us from accepting USD based donations however.&lt;/p&gt;
 &lt;h3&gt;Presenting the 2025.10 ISO refresh&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;presenting-the-202510-iso-refresh&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#presenting-the-202510-iso-refresh&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Whilst we provide a bootable ISO image with a live GNOME environment, its main purpose is to serve as a vehicle for our &amp;rsquo;lichen&amp;rsquo; installer which is able to install all of our &amp;lsquo;GNOME&amp;rsquo;, &amp;lsquo;KDE Plasma&amp;rsquo;, &amp;lsquo;Cosmic&amp;rsquo; and &amp;lsquo;Terminal Only&amp;rsquo; versions of AerynOS. Given that &amp;rsquo;lichen&amp;rsquo; is a net installer, it will always pull the latest packages from our repository at the time of installation and as such, it requires an active internet connection. This means there is less of a need for regular ISO updates, as we have carefully designed our installation routine and our pkgsets to not be tightly coupled to the packages that happened to be available at the time of the live ISO creation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/10/31/Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;That said, with the addition of some significant updates in the Gnome stack, we felt it was a good opportunity to land a new live ISO for you all to try out. The link for our 2025.10 ISO can be found at our &lt;a href=&#34;https://aerynos.com/download/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; page.&lt;/p&gt;
@@ -1354,7 +1354,7 @@ hospital bedside.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ve also decoupled the internal tooling version from the ISO versions to make them a little bit more.. well.. &lt;em&gt;readable&lt;/em&gt;,
 for humans.&lt;/p&gt;
 &lt;p&gt;Grab it now from the &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;💰 Funding&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-funding&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#-funding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I want to thank everyone for their support of the project since we got more transparent around goals. It&amp;rsquo;s been a huge help and has
 facilitated massive progress on the project! 🙏 AerynOS no longer feels like a hacked together PoC, but a very solid daily runner. Yes,
@@ -1666,7 +1666,7 @@ frontend based on &lt;a href=&#34;https://slint.dev/&#34;target=&#34;_blank&#34;
 &lt;/svg&gt;&lt;/a&gt;. While early days we&amp;rsquo;re trying to think 10 miles down the road, where we can utilise
 the LinuxKMS backend for minimal installer ISOs.&lt;/p&gt;
 &lt;p&gt;Early preview:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/02/06/hello-2025/Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;🔮 The road to stability&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-the-road-to-stability&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#-the-road-to-stability&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So we have some exploratory works in progress, and it&amp;rsquo;s time to discuss how they all relate to the future of Serpent OS.
 You&amp;rsquo;ll immediately notice that these are highly circular in nature, meaning we need to switch between different areas
@@ -1984,7 +1984,7 @@ and production. When we also land our export/compose functionality in moss, you&
 &lt;li&gt;Fix amdgpu initialisation for older devices, previously leading to black screen on boot&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured-background.png&#34; alt=&#34;Fractional scaling, much loved&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/featured-background.png&#34; alt=&#34;Fractional scaling, much loved&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Clarification on moss boot management&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;clarification-on-moss-boot-management&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#clarification-on-moss-boot-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Frequently in Team Serpent we joke that &lt;code&gt;moss&lt;/code&gt; is the &amp;ldquo;systemd of package managers&amp;rdquo;. It actually does a whole lot more than is easily visible.. for example:&lt;/p&gt;
 &lt;ul&gt;
@@ -2006,7 +2006,7 @@ Also note we do not allow systemd to automount the ESP or XBOOTLDR via the GPT a
 discover and if necessary, mount these partitions, when dealing with bootloader or kernel updates.&lt;/p&gt;
 &lt;p&gt;With this explicit control over the boot management, we&amp;rsquo;ll happily be landing secure boot and fwupd support in the near future,
 without the downsides of trying to provide EFI assets to &lt;code&gt;/boot&lt;/code&gt; in a package itself. 😬&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;moss_boot_status.png&#34; alt=&#34;moss boot status&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/moss_boot_status.png&#34; alt=&#34;moss boot status&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;A note on virtual machine usage&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;a-note-on-virtual-machine-usage&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#a-note-on-virtual-machine-usage&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;It must be clearly stated that Serpent OS does not support anything other than UEFI booting on x86_64-v2+ capable hardware.
 Please note that GNOME Boxes will default to BIOS, not UEFI, and will need hand-mangling of the XML file. Also note in other
@@ -2015,7 +2015,7 @@ solutions such as VirtualBox you will need to specifically select &lt;code&gt;EF
 the isolinux MBR/GPT hybrid components, &lt;strong&gt;however&lt;/strong&gt; we deliberately did not include a functioning bootloader for BIOS boot.
 Instead, you will see a boot failure indicating that &lt;code&gt;ldlinux.c32&lt;/code&gt; could not be found, which is a sure-fire way to know your
 VM or hardware is incorrectly configured.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;le_no_uefi.png&#34; alt=&#34;Invalid VM configuration&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/le_no_uefi.png&#34; alt=&#34;Invalid VM configuration&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Installer notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;installer-notes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#installer-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Lichen is due to receive some love in the next few cycles, so please be aware of the following limitations:&lt;/p&gt;
 &lt;ul&gt;
@@ -2037,7 +2037,7 @@ strive to keep it up to date and functional. However, it is very early in alpha,
 a lot of sense for us to extend our workload to two alpha codebases!&lt;/p&gt;
 &lt;p&gt;We still offer COSMIC as an option in the installer for those who wish to try it out, and do encourage testing
 and engaging upstream with the developers. For now, we will offer just the GNOME ISO.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;lichen_dev.png&#34; alt=&#34;Lichen &amp;#43; COSMIC&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/29/alpha-refresh-available/lichen_dev.png&#34; alt=&#34;Lichen &amp;#43; COSMIC&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Next up&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-up&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#next-up&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In the new year we&amp;rsquo;ll be focusing heavily on our tooling to facilitate a scale up of our packaging efforts.
 We&amp;rsquo;re quite proud of our tooling, but we&amp;rsquo;re not oblivious to the warts and issues. The next couple of weeks
@@ -2079,7 +2079,7 @@ what folks are frequently now calling &amp;ldquo;the cleanest Linux implementati
         &lt;p&gt;Following a successful prealpha phase, we&amp;rsquo;re excited to announce that Serpent OS has now entered the alpha stage of development. This milestone marks a significant step forward in the project&amp;rsquo;s journey.
 While the usual disclaimers apply, as a certain level of project &lt;em&gt;fluidity is to be expected&lt;/em&gt;, we invite you to explore the latest alpha release and experience the cutting-edge features and improvements we&amp;rsquo;ve introduced.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/featured.png&#34; alt=&#34;Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Supporting Serpent OS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supporting-serpent-os&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#supporting-serpent-os&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Serpent OS is a community-driven project, and we welcome contributions from developers, testers, and users alike. If you&amp;rsquo;re interested in helping shape the future of Linux distributions, we invite you to join our growing community and get involved in the project. Whether you&amp;rsquo;re interested in packaging, development, documentation, testing, or community support, there are many ways to contribute to Serpent OS.&lt;/p&gt;
 &lt;p&gt;Lastly, you can support the project by becoming a sponsor. Your support helps cover our hosting costs and allows us to dedicate more time to making Serpent OS exceptional. We&amp;rsquo;re grateful for the support we&amp;rsquo;ve received so far and look forward to continuing to build something meaningful in the Linux ecosystem.&lt;/p&gt;
@@ -2105,7 +2105,7 @@ installation.&lt;/p&gt;
 &lt;li&gt;mesa-32bit&lt;/li&gt;
 &lt;li&gt;nvidia-graphics-driver-32bit&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;steam.png&#34; alt=&#34;Steam on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/12/23/serpent-os-enters-alpha/steam.png&#34; alt=&#34;Steam on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;More Rust&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;more-rust&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#more-rust&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As part of our efforts to modernise and strengthen the Serpent OS base, we&amp;rsquo;ve switched some components out for Rust alternatives:&lt;/p&gt;
 &lt;ul&gt;
@@ -2185,7 +2185,7 @@ as a daily driver in the near future. We&amp;rsquo;re also going to keep iterati
         <![CDATA[<img src="http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/featured-background_hu_fdedb2b9ddd097fd.png" width="640" height="406"/>]]>
         
         &lt;p&gt;Well, it didn&amp;rsquo;t take us that long, &lt;strong&gt;really&lt;/strong&gt; &amp;hellip; Our technical preview, &lt;em&gt;prealpha0&lt;/em&gt;, is now available for testing!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;prealpha0.png&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/prealpha0.png&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Head to our &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page to grab &lt;code&gt;serpent-os-prealpha-0.iso&lt;/code&gt; now!&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;p&gt;This is a super rough version of Serpent OS that is &lt;em&gt;capable&lt;/em&gt; of being installed on baremetal hardware and VMs that
@@ -2267,7 +2267,7 @@ our hosting costs and stress the datacenter hamsters.&lt;/p&gt;
         
         &lt;p&gt;It&amp;rsquo;s that time of month again, and we have some details to share with you on boot management, as well as plans for real installs
 landing in May. Additionally, plans for &amp;ldquo;deferred updates&amp;rdquo; via mandatory reboots have been dropped!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.webp&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/04/30/calm-before-the-storm/Featured.webp&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;h2&gt;Project priorities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;project-priorities&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#project-priorities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To better understand the technical deep-dive on boot management further below, we should clarify a slight change in priorities
@@ -2345,7 +2345,7 @@ our architecture: a full-featured OS featuring hermetic &lt;code&gt;/usr&lt;/cod
         
         &lt;p&gt;Despite a brief excursion out of the country for a first-in-a-lifetime holiday, I&amp;rsquo;m happily back at the desk to bring you up to date with the
 latest goings in Serpent OS. TLDR: Loads of awesome, baremetal is enabled, ISO cycle in next couple of weeks.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Gnome.webp&#34; alt=&#34;GNOME on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/Gnome.webp&#34; alt=&#34;GNOME on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;h2&gt;Tooling Improvements&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tooling-improvements&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#tooling-improvements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;OK, we all know you want to know about the baremetal stuff, but c&amp;rsquo;mon, check out this changeset!&lt;/p&gt;
@@ -2363,7 +2363,7 @@ volatile repository. Our new tool is written in Rust and contains the `moss` cod
 It relies on clone-based user namespaces, so is fully &amp;quot;rootless&amp;quot;. Please migrate immediately to the new Rust based tool. Not only is it more advanced,
 it is significantly faster at generating the raw `.stone` packages.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.webp&#34; alt=&#34;Comparison&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/Featured.webp&#34; alt=&#34;Comparison&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Other, quite awesome changes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fix manifest encoding for &lt;code&gt;0&lt;/code&gt; nul byte, interop with build systems&lt;/li&gt;
@@ -2395,7 +2395,7 @@ generate desktop ISOs in under 20 seconds, and install the full GNOME desktop to
 &lt;h2&gt;Hardware/Desktop Enablings.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;hardwaredesktop-enablings&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#hardwaredesktop-enablings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Rather than extensively widen our repository at this point we&amp;rsquo;ve opted for further low-level enabling of components required for the developer
 experience desktop. This includes Network Manager, the desktop kernel package, Vulkan + mesa integration, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;GnomeSW.webp&#34; alt=&#34;Gnome Software&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/03/31/the-march-of-progress/GnomeSW.webp&#34; alt=&#34;Gnome Software&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As well as enabling core applications and features such as GNOME Software and Flatpak, we&amp;rsquo;ve also enabled preliminary usage on baremetal booting
 hardware. Note, this isn&amp;rsquo;t yet installable but we do plan to offer early access installable images to our &lt;a href=&#34;https://github.com/sponsors/ikeycode&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sponsors&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
@@ -2449,7 +2449,7 @@ atop a rebootstrapped toolchain.&lt;/p&gt;
     &lt;a href=&#34;#rusty-boulder&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We&amp;rsquo;re pleased to announce that over the course of this weekend, once testing has completed we&amp;rsquo;ll
 deploy the latest version of &lt;code&gt;boulder&lt;/code&gt;, our packaging build tool. This has been given the Rust treatment,
 directly sharing the codebase with &lt;code&gt;moss&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.webp&#34; alt=&#34;Boulder in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/featured.webp&#34; alt=&#34;Boulder in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;p&gt;Unlike our PoC implementation, the new &lt;code&gt;boulder&lt;/code&gt; makes use of the &lt;code&gt;clone&lt;/code&gt; syscall to execute portions of
 itself under user namespaces, eliminating a longstanding deployment irritation of having the main build binary
@@ -2457,7 +2457,7 @@ inside packaging.&lt;/p&gt;
 &lt;p&gt;Just like &lt;code&gt;moss&lt;/code&gt; it makes use of &lt;code&gt;tokio&lt;/code&gt; for async right where we need it, and is rootless to
 make life easier for our contributors. Far from being just a direct port of the proof of concept, it adds
 new tools to empower developers, such as &lt;strong&gt;breakpoints in packaging recipes&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;BoulderBreakpoints.webp&#34; alt=&#34;Breakpoints, in recipes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/BoulderBreakpoints.webp&#34; alt=&#34;Breakpoints, in recipes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Triggers, integrated!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;triggers-integrated&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#triggers-integrated&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After much discussion we finally integrated support for &lt;em&gt;triggers&lt;/em&gt; in &lt;code&gt;moss&lt;/code&gt;. These are actions
 that are executed at different stages of package management operations to finalize or &amp;ldquo;bake&amp;rdquo;
@@ -2496,7 +2496,7 @@ These are JSON format files that live in `/usr/lib/userdb` and are exposed to ap
     &lt;a href=&#34;#gnome-desktop&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Thanks to triggers now being fully integrated in Serpent OS via &lt;code&gt;moss&lt;/code&gt;, we&amp;rsquo;ve actually managed to
 package up most of the basic parts of GNOME 45. This includes a functioning GDM, GNOME Shell and
 a handful of applications.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./KeepOnRunning.webp&#34; alt=&#34;GNOME on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/02/29/end-of-feb-update/KeepOnRunning.webp&#34; alt=&#34;GNOME on Serpent OS&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Packaging work&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;packaging-work&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#packaging-work&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Outside of the heavy work on the tooling and GNOME, we&amp;rsquo;ve also been tidying up our recipes repo and
 recently performed a fresh rebootstrap using:&lt;/p&gt;
@@ -2547,7 +2547,7 @@ With a new year, a new start was long overdue. We&amp;rsquo;re pleased to announ
 finally shifted our butts over to our own server (again).&lt;/p&gt;
 &lt;p&gt;While this isn&amp;rsquo;t quite as chunky a news update as the last post, we rather hope you appreciate
 the regularity of the news.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.webp&#34; alt=&#34;moss in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/01/19/january-updates/Featured.webp&#34; alt=&#34;moss in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;h2&gt;Infrastructure, revisited&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-revisited&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#infrastructure-revisited&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&amp;rsquo;tarkah&amp;rsquo; has been tirelessly porting &lt;code&gt;moss-service&lt;/code&gt;, the core foundation of our automated build system,
@@ -2646,7 +2646,7 @@ import { Aside } from &amp;lsquo;@astrojs/starlight/components&amp;rsquo;;&lt;/p
 &lt;p&gt;Burning question - how long before we can use Serpent OS on our development systems?
 It&amp;rsquo;s a fair question - and one that requires context to answer. Let&amp;rsquo;s start our
 new monthly update cycle with a recap of progress so far.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.webp&#34; alt=&#34;screenshot of moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/featured.webp&#34; alt=&#34;screenshot of moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Introducing tarkah&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;introducing-tarkah&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#introducing-tarkah&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;We&amp;rsquo;d like to extend a huge official welcome, and thank you, to newest team member Cory Forsstrom (aka &lt;code&gt;tarkah&lt;/code&gt;)!&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
@@ -2721,7 +2721,7 @@ rely on moss and our infrastructure tooling work in conjunction to ensure we can
 in the configured repositories, as ordered by priority. From a distro-builder PoV, we can now revert and pull builds. For a user PoV, you can remove a test
 repository and &lt;code&gt;moss sync&lt;/code&gt; to go back to the official versions of packages.&lt;/p&gt;
 &lt;p&gt;Generally speaking, when you &lt;code&gt;moss sync&lt;/code&gt; you will be seeing new packages, however. :smile: This feature is being built to enable a future feature: exported states. Want to try a new edition? Sync to the lockfile. Need to quickly and reproducibly deploy containers from a locked down configuration? You get the idea.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;sync.webp&#34; alt=&#34;moss sync&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/sync.webp&#34; alt=&#34;moss sync&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;Fully &lt;code&gt;async&lt;/code&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;fully-async&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#fully-async&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The moss tool is now completely asynchronous, making efficient use of both coroutines and OS threads to perform as much work possible in the shortest space
 of time. This allows us to download, fetch, check and unpack many packages at the same time without being blocked on network or disk, greatly speeding up
@@ -2746,7 +2746,7 @@ the workload for the developer.&lt;/p&gt;
     Learn More &lt;i class=&#34;fas fa-arrow-alt-circle-right ms-2&#34;&gt;&lt;/i&gt;
   &lt;/a&gt;
 &lt;/Aside&gt;
-&lt;p&gt;&lt;img src=&#34;boulder.webp&#34; alt=&#34;boulder in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2023/12/19/end-of-year-summary/boulder.webp&#34; alt=&#34;boulder in action&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;User namespaces (rootless)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;user-namespaces-rootless&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#user-namespaces-rootless&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Arguably one of the most important changes: &lt;code&gt;boulder&lt;/code&gt; no longer requires running as root. Even better, we make use of
 user namespaces and execute using &lt;code&gt;clone&lt;/code&gt; - meaning we no longer need a separate binary (&lt;code&gt;mason&lt;/code&gt;) within the container
@@ -2932,7 +2932,7 @@ be attributed to our shared plans with &lt;a href=&#34;https://getsol.us&#34;tar
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; - a deeper, technical issue is
 to be acredited.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.png&#34; alt=&#34;img&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2023/09/06/oxidised-moss/Featured.png&#34; alt=&#34;img&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;h2&gt;D isn&amp;rsquo;t quite there &lt;em&gt;yet&lt;/em&gt;. But it will be, some day.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;d-isnt-quite-there-yet-but-it-will-be-some-day&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#d-isnt-quite-there-yet-but-it-will-be-some-day&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Again, allow me to say I have thoroughly enjoyed my experience with D over the last 3 or so years,
@@ -3011,7 +3011,7 @@ action packed. However, it has paid off immensely. As our friends at Solus &lt;a
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt;
 it is time to embark on a new voyage.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;featured.webp&#34; alt=&#34;dashboard preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2023/04/21/snakes-on-a-boat/featured.webp&#34; alt=&#34;dashboard preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;h3&gt;General gist of it&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;general-gist-of-it&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#general-gist-of-it&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;There is very little point in rehashing the post, so I&amp;rsquo;ll cover the essentials&lt;/p&gt;
@@ -3120,7 +3120,7 @@ Keeping this blog post short and sweet&amp;hellip; we&amp;rsquo;re about to pack
         &lt;p&gt;Enough of this &amp;ldquo;2 years&amp;rdquo; nonsense. We&amp;rsquo;re finally ready for lift off. It is with &lt;em&gt;immense pleasure&lt;/em&gt; we can
 finally announce that Serpent OS has transitioned from a promise to a deliverable. Bye bye, phantomware!&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Featured.webp&#34; alt=&#34;featured image&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/12/24/lift-off/Featured.webp&#34; alt=&#34;featured image&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;We exist&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;we-exist&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#we-exist&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As mentioned, we spent 2 years working on tooling and process. That&amp;rsquo;s .. well. Kinda dull, honestly. You&amp;rsquo;re
 not here for the tooling, you&amp;rsquo;re here for the OS. To that end I made a decision to accelerate development of
@@ -3241,7 +3241,7 @@ a fresher (terminal) user interface, progress bars, and is rewritten to use the
 &lt;a href=&#34;https://github.com/serpent-os/moss-db&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;moss-db&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; module encapsulating LMDB.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./nspawn.webp&#34; alt=&#34;nspawn&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/09/14/the-big-update/nspawn.webp&#34; alt=&#34;nspawn&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s also possible to manipulate the binary collections (software repositories)
 used by moss now. Note we&amp;rsquo;re going to rename &amp;ldquo;remote&amp;rdquo; to &amp;ldquo;collection&amp;rdquo; for consistency.&lt;/p&gt;
 &lt;p&gt;At the time of writing:&lt;/p&gt;
@@ -3302,11 +3302,11 @@ build tooling (&lt;code&gt;boulder&lt;/code&gt;) to construct &lt;strong&gt;new 
 container.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;protosnek&lt;/code&gt; collection has been updated to include the newest versions of moss
 and boulder.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./self-hosting.webp&#34; alt=&#34;self hosting&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/09/14/the-big-update/self-hosting.webp&#34; alt=&#34;self hosting&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Booting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;booting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#booting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As a fun experiment, we wanted to see how far along things are. Using a throwaway
 kernel + initrd build, we were able to get Serpent OS booting using virtualisation (&lt;code&gt;qemu&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./booting.webp&#34; alt=&#34;booting&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/09/14/the-big-update/booting.webp&#34; alt=&#34;booting&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;ISO When?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;iso-when&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#iso-when&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Right now everyone is working in the &lt;a href=&#34;https://github.com/snekpit&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;snekpit&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
@@ -3431,7 +3431,7 @@ as keys, values or bucket identifiers.&lt;/p&gt;
 while implementing features like expired state garbage collection (disk cleanup),
 searching for names/descriptions, etc.&lt;/p&gt;
 &lt;h2&gt;Avalanche&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;avalanche&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#avalanche&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Early version of avalanche, in development&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#avalanche&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/07/10/infrastructure-update/Featured.webp&#34; alt=&#34;Early version of avalanche, in development&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Avalanche is a core component of our upcoming infrastructure, providing the
 service for running builds on a local node, and a controller to coordinate
 a group of builders.&lt;/p&gt;
@@ -3474,7 +3474,7 @@ project! All of the &lt;a href=&#34;https://opencollective.com/serpent-os&#34;ta
  &lt;path d=&#34;m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;/&gt;
 &lt;/svg&gt;&lt;/a&gt; contributions will make it easier for me to work full
 time on Serpent OS =) Much love &amp;lt;3&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Look at all the buildiness&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/06/22/packaging-automation-next-steps/Featured.webp&#34; alt=&#34;Look at all the buildiness&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;But, but build &lt;em&gt;flavours&lt;/em&gt; &amp;hellip;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;but-but-build-flavours-&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#but-but-build-flavours-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Alright you got me there, certain projects prefer to abstract the configuration, build and
 installation of packages and be provided with some kind of hint to the build system, i.e.
@@ -4190,7 +4190,7 @@ makes it much easier for users to run builds on their host machines.&lt;/p&gt;
 packages from an online repo. This ties in nicely with the &lt;code&gt;moss-container&lt;/code&gt; work and is a requirement for finishing up a
 proper build process for Serpent OS. We are now one step closer to having a full distribution cycle from building
 packages and pushing those packages as system updates!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Container with functioning device nodes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2022/01/20/can-hardly-contain-myself-plus-a-bonus/Featured.webp&#34; alt=&#34;Container with functioning device nodes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Check Out The Development&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;check-out-the-development&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#check-out-the-development&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In case you&amp;rsquo;ve missed it, &lt;code&gt;ikey&lt;/code&gt; has been streaming some of the development of the tooling on his
 &lt;a href=&#34;https://www.twitch.tv/ikeydoherty&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitch channel&lt;svg class=&#34;hx:inline hx:rtl:rotate-270 hx:align-baseline&#34; height=&#34;1em&#34; aria-hidden=&#34;true&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
@@ -4389,7 +4389,7 @@ After: Layout [Records: 6812 Compression: Zstd, Savings: 83.92%, Size: 539.26 KB
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Planning payload changes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/12/14/performance-corner-small-changes-pack-a-punch/Featured.webp&#34; alt=&#34;Planning payload changes&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Hang On, Why am I Getting Faster Installation?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;hang-on-why-am-i-getting-faster-installation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#hang-on-why-am-i-getting-faster-installation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As a side-effect of small code rewrites to implement these changes, we&amp;rsquo;ve seen a nice decrease in time to install
 packages. There are fewer entries to iterate over with the removal of directories and &lt;code&gt;buildPath&lt;/code&gt; is now only called
@@ -4486,7 +4486,7 @@ was getting us to the point where we have built &lt;code&gt;stone&lt;/code&gt; p
 full working dependencies. This has been enabled by integrating dependencies into &lt;code&gt;moss&lt;/code&gt;, creating the first repo index.
 Of note is that it is already enabled for 32bit support, so we have you covered there. While this is the end of
 bootstrap, the fun has only just begun!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;The first install from the bootstrap&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/12/02/out-of-the-bootstrap-towards-serpent-os/Featured.webp&#34; alt=&#34;The first install from the bootstrap&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Where to Next?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;where-to-next&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#where-to-next&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The next goal is to make Serpent OS self-hosting, where we can build packages in a container and update the repo index
 with the newly built packages. It is essentially a live repository accessible from the internet. There&amp;rsquo;s still plenty of
@@ -4552,7 +4552,7 @@ installed software has everything it needs at runtime?&lt;/p&gt;
 &lt;p&gt;Our merry crew has been involved in designing and building Linux distributions for a very, very
 long time, so we didn&amp;rsquo;t want to simply repeat history.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Using updated moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/23/it-all-depends/Featured.webp&#34; alt=&#34;Using updated moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Thanks to many improvements across our codebase, including &lt;code&gt;moss-deps&lt;/code&gt;, we automatically analyse
 the assets in a package (rapidly too) to determine any dependencies we can add without requiring
 the maintainer to list them. This is similar in nature to RPM&amp;rsquo;s behaviour.&lt;/p&gt;
@@ -4621,7 +4621,7 @@ those found in a repository.  This eliminates a lot of special casing for local 
 allows us to find dependencies within the provided set, before looking to the system and the
 repositories.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./Install.webp&#34; title=&#34;Installing packages&#34; alt=&#34;Install&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/23/it-all-depends/Install.webp&#34; title=&#34;Installing packages&#34; alt=&#34;Install&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Installing packages&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Dependency resolution is performed now for our package installation and is validated at
@@ -4665,7 +4665,7 @@ This code will be reused for a &lt;code&gt;list available&lt;/code&gt; command i
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./ListInstalled.webp&#34; title=&#34;Listing installed packages&#34; alt=&#34;ListInstalled&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/23/it-all-depends/ListInstalled.webp&#34; title=&#34;Listing installed packages&#34; alt=&#34;ListInstalled&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Listing installed packages&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Inspect archives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;inspect-archives&#34;&gt;&lt;/span&gt;
@@ -4675,7 +4675,7 @@ information on the various payloads and their compression stats.&lt;/p&gt;
 &lt;p&gt;For general users - the new &lt;code&gt;info&lt;/code&gt; command displays basic metadata and package
 dependencies.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./Info.webp&#34; title=&#34;Display package information&#34; alt=&#34;Info&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/23/it-all-depends/Info.webp&#34; title=&#34;Display package information&#34; alt=&#34;Info&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Display package information&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Package Removal&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;package-removal&#34;&gt;&lt;/span&gt;
@@ -4685,7 +4685,7 @@ current state, which generates a new filtered state. Additionally we remove all 
 direct and transitive. This is accomplished by utilising a transposed copy of the directed acyclical
 graph, identifying the relevant subgraph and occluding the set from the newly generated state.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./Remove.webp&#34; title=&#34;Remove packages&#34; alt=&#34;Remove&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/23/it-all-depends/Remove.webp&#34; title=&#34;Remove packages&#34; alt=&#34;Remove&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Remove packages&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Lastly&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lastly&#34;&gt;&lt;/span&gt;
@@ -4829,7 +4829,7 @@ After:
 &lt;p&gt;With these changes combined, building packages can take 12x less time in the analyse stage, while reducing the size of
 the metadata and the overall package. We do expect the analyse time to increase in future as we add more dependency
 types, debug handling and stripping, but with the integrated parallel model, we can minimize the increase in time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Building&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/11/05/performance-corner-faster-builds-smaller-packages/Featured.webp&#34; alt=&#34;Building&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;We&amp;rsquo;re Not Done Yet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;were-not-done-yet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#were-not-done-yet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The first installment of &lt;code&gt;Performance Corner&lt;/code&gt; shows some great wins to the Serpent OS tools and architecture. This is
 just the beginning and there will likely be a follow up soon (you may have also noticed that it takes too long to make
@@ -4954,7 +4954,7 @@ sorted by their path order in their corresponding chunk:&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;elf:&lt;/strong&gt; ELF files&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;text:&lt;/strong&gt; text files (bash scripts, perl etc)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Path order vs optimal order&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/10/04/optimal-file-locality/Featured.webp&#34; alt=&#34;Path order vs optimal order&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;As the chart shows, you can get some decent improvements from reordering files within the tarball when grouping files
 in logical chunks. At the highest compression level, the package is reduced by 0.83% without any impact on compression
 or decompression time. In the compression world, such a change would be greatly celebrated!&lt;/p&gt;
@@ -5181,7 +5181,7 @@ to both reduce the time taken to build packages and in making packages easier to
 of installing and removing packages. Granted, super rough, but gotta start
 somewhere right?&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Transactional system roots &amp;#43; installation in moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/Featured.webp&#34; alt=&#34;Transactional system roots &amp;#43; installation in moss&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;OK let&amp;rsquo;s recap. A moss archive is super weird, and consists of multiple
 containers, or payloads. We use a strongly typed binary format, per-payload
 compression (Currently &lt;code&gt;zstd&lt;/code&gt;), and don&amp;rsquo;t store files in a typical archive
@@ -5222,7 +5222,7 @@ a reboot isn&amp;rsquo;t needed. In future, boot switch logic will update the tr
 from the new state selections (copied from the last state) and blit a new
 system root, finally updating the atomic &lt;code&gt;/usr&lt;/code&gt; pointer.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./Removal.webp&#34; title=&#34;Removal of packages with moss. Everything is a transaction&#34; alt=&#34;Removal&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/08/10/a-rolling-boulder-gathers-no-moss/Removal.webp&#34; title=&#34;Removal of packages with moss. Everything is a transaction&#34; alt=&#34;Removal&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Removal of packages with moss. Everything is a transaction&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;h2&gt;Tying it all together&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tying-it-all-together&#34;&gt;&lt;/span&gt;
@@ -5539,7 +5539,7 @@ iterating and expanding the package set a real joy!&lt;/p&gt;
     &lt;a href=&#34;#hang-on-whats-going-on-with-python&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Very astute of you to notice! &lt;code&gt;python&lt;/code&gt; in its current state is an absolute minimal build of &lt;code&gt;python&lt;/code&gt; in order to run &lt;code&gt;meson&lt;/code&gt;.
 However, I did an &lt;code&gt;analyze&lt;/code&gt; run in &lt;code&gt;benchmarking-tools&lt;/code&gt; where it became obvious that they were doing completely different
 things.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Apples and oranges comparison&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/08/02/initial-performance-testing/Featured.webp&#34; alt=&#34;Apples and oranges comparison&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;For now I&amp;rsquo;ll simply be assuming this will sort itself out when &lt;code&gt;python&lt;/code&gt; is built complete with all its functionality. And
 before anyone wants to point the finger at &lt;code&gt;clang&lt;/code&gt;, you get the same result with &lt;code&gt;gcc&lt;/code&gt;.&lt;/p&gt;
 
@@ -5561,7 +5561,7 @@ before anyone wants to point the finger at &lt;code&gt;clang&lt;/code&gt;, you g
         &lt;p&gt;Squirrelling away in the background has been some great changes to bring &lt;code&gt;boulder&lt;/code&gt; closer to its full potential. Here&amp;rsquo;s
 a quick recap of some of the more important ones.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Boulder hard at work&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/07/27/boulder-keeps-on-rolling/Featured.webp&#34; alt=&#34;Boulder hard at work&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;Key Changes to Boulder&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;key-changes-to-boulder&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#key-changes-to-boulder&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Fixed a path issue that prevented manifests from being written for 32bit builds&lt;/li&gt;
@@ -5608,7 +5608,7 @@ out these new features to see how much they can add to the overall &lt;code&gt;s
         &lt;p&gt;We haven&amp;rsquo;t been too great on sharing progress lately, so welcome to an overdue update on
 timelines, progress, and database related shmexiness.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Emerging DB design&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/05/18/let-there-be-databases/Featured.webp&#34; alt=&#34;Emerging DB design&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;OK, so you may remember &lt;code&gt;moss-format&lt;/code&gt;, our module for reading and writing moss binary archives.
 It naturally contains much in the way of binary serialisation support, so we&amp;rsquo;ve extended the
 format to support &amp;ldquo;database&amp;rdquo; files. In reality, they are more like tables binary encoded into
@@ -5710,7 +5710,7 @@ tying it all together.&lt;/p&gt;
 significant progress in the last few days, so it seems a good time to
 share a progress update.&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Extracting content from moss archives&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/Featured.webp&#34; alt=&#34;Extracting content from moss archives&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;moss can now extract&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;moss-can-now-extract&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#moss-can-now-extract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Oh yeah, that totally happened. So, we can now successfully build moss
 packages from &lt;code&gt;boulder&lt;/code&gt; and then extract them to disk once again with
@@ -5758,7 +5758,7 @@ and is simply the difference on disk from the previous version, permitting a
 powerful rollback mechanism.&lt;/p&gt;
 &lt;h2&gt;Room for improvement&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;room-for-improvement&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#room-for-improvement&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
-    &lt;img src=&#34;./Multiple.webp&#34; title=&#34;Extracting multiple moss archives&#34; alt=&#34;Multiple&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/blog/blog/2021/03/20/moss-unlocked/Multiple.webp&#34; title=&#34;Extracting multiple moss archives&#34; alt=&#34;Multiple&#34;  loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Extracting multiple moss archives&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;There are areas where we&amp;rsquo;re doing things inefficiently, and we&amp;rsquo;ll certainly improve
@@ -5841,7 +5841,7 @@ optimised deltas.&lt;/p&gt;
 above average in size (157.3MB uncompressed). The first trade-off for speed over size has already been made by
 incorporating &lt;code&gt;zstd&lt;/code&gt; in moss over &lt;code&gt;xz&lt;/code&gt;, where even with max compression &lt;code&gt;zstd&lt;/code&gt; is already 5.6% larger than using &lt;code&gt;xz&lt;/code&gt;.
 This is of course due to the amazing decompression speeds where &lt;code&gt;zstd&lt;/code&gt; is magnitudes faster.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Compression levels with zstd&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/03/16/optimising-package-distribution/Featured.webp&#34; alt=&#34;Compression levels with zstd&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;With maximum compression, large packages can take over a minute to compress. With a moderate increase in size, one can
 reduce compression time by 2-10x. While making me happier as a developer, it does create extra network load during
 updates.&lt;/p&gt;
@@ -5975,7 +5975,7 @@ getting the package &amp;rsquo;live&amp;rsquo; ASAP and minimises the size (even
 in that time. Specifically, we&amp;rsquo;ve completely reworked the internals of the &lt;code&gt;moss-format&lt;/code&gt;
 module to support read/write operations.. Which means installation is coming soon (TM)&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./Featured.webp&#34; alt=&#34;Development work on moss-format&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2021/02/17/moss-format-read-write-support/Featured.webp&#34; alt=&#34;Development work on moss-format&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So, many commits have been made to the core repositories, however the most
 important project to focus on right now is &lt;code&gt;moss-format&lt;/code&gt;, which we used to
 define and implement our binary and source formats. This module is shared
