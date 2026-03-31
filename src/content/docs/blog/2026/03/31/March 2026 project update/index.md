@@ -127,7 +127,7 @@ The current implementation is somewhat limited, and work is ongoing to improve a
 
 ### moss: Enable removal of ranges of states
 
-Moss works by utilizing a Content Adressable Storage architecture. This means that all package related files are stored in a deduplicated manner in the CAS and then hardlinked to transaction numbers /usr trees. This has the benefit of allowing for all historic states of a system to be kept without significant overhead of duplicating the majority of all data, as would happen with simple snapshots.
+Moss works by utilizing a Content Addressable Storage architecture. This means that all package related files are stored in a deduplicated manner in the CAS and then hardlinked to transaction numbers /usr trees. This has the benefit of allowing for all historic states of a system to be kept without significant overhead of duplicating the majority of all data, as would happen with simple snapshots.
 
 Space is not infinite on our systems however, so moss was designed to be able to delete transactions. This could be done, either individually, or by automatically deleting all but the last 10 transactions. Any unique files in the CAS related to these transactions would be deleting, help free up space on a users system.
 
