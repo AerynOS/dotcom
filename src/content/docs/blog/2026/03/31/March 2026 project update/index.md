@@ -125,7 +125,7 @@ uutils-coreutils   Cross-platform Rust rewrite of the GNU coreutils
 
 The current implementation is somewhat limited, and work is ongoing to improve and generalise this functionality.
 
-### moss: Allow removal of ranges of states
+### moss: Enable removal of ranges of states
 
 Moss works by utilizing a Content Aware Storage architecture. This means that all package related files are stored in a deduplicated manner in the CAS and then hardlinked to transaction numbers /usr trees. This has the benefit of allowing for all historic states of a system to be kept without significant overhead of duplicating the majority of all data, as would happen with simple snapshots.
 
