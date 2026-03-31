@@ -38,7 +38,7 @@ Package / stack updates for this iteration include:
 - pipewire 1.6.2
 - qemu 10.2.2
 - riftbar 0.1.8
-- thunderbird 149.0
+- thunderbird 149.0.1
 - wine 11.5
 - dash 0.5.13.2
 - wlroots 0.19.3
