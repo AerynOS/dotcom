@@ -13,7 +13,7 @@ Another month brings another project update. In some respects, March has felt so
 
 On the packaging front, notable package & stack updates include GNOME 50, KDE Plasma 6.6.3, LLVM 22.1.1, Wayland 1.25.0, QT6.11.0, FFmpeg 8.1 and mesa 26.0.3 which have kept our builders busy with a significant number of package builds and rebuilds. The team mentioned last month that there is a soft-freeze in place for our repository, in terms of accepting new package recipes. This is not a full freeze as packages with little or no reverse dependency rebuild chains are still being accepted where we believe they will prove useful.
 
-The development work this month has centered around the tooling we offer in terms of recipe updates and how we can better support bootstrap builds on the boulder side, along with the usual clean-up and refactoring work across the moss and boulder code bases.
+The development work this month has centered around the features we offer in terms of automating recipe updates and how we can better support bootstrap builds on the boulder side, along with the usual clean-up and refactoring work across the moss and boulder code bases.
 
 Lastly, we want to take a moment to thank Framework for their on-going hardware sponsorship of our project. This month, they have provided the project with an AMD AI 300 based Framework 16 that Joey Riches is now using as a dedicated device for AerynOS development.
 
@@ -114,7 +114,16 @@ We have updated our documentation accordingly, so if you do any packaging work o
 
 Moss searching has been updated to add the ability to search by binary provider. 
 
-**More detail to be provided**
+Currently, the command line to do so is `moss search --provides some-binary`
+
+Example:
+
+```
+$ moss search --provides cat
+uutils-coreutils   Cross-platform Rust rewrite of the GNU coreutils
+```
+
+The current implementation is somewhat limited, and work is ongoing to improve and generalise this functionality.
 
 ### moss: Allow removal of ranges of states
 
@@ -124,21 +133,26 @@ Space is not infinite on our systems however, so moss was designed to be able to
 
 Thanks to a contribution by one of our long time trusted contributors, [AnonAlly](https://github.com/AnonAlly), this moss state removal command now has the ability to either delete multiple states by state number or by ranges of states. This is a nice usability improvement as otherwise, users had to individually delete states one at a time. Given that some of our systems are now reaching into the hundreds of states, this is a nice time saving QoL improvement.
 
-**TODO: Add example invocation.**
+Example:
+
+```
+$ sudo moss state remove 2 5-14 17 23-28
+```
 
 ### boulder: Add support for control files
 
-After some prodding from Reilly, ermo and tarkah designed a flexible control file format for boulder, which is initially intended to help support bootstrapping efforts for major stack updates.
+After a feature request from Reilly, ermo and tarkah designed a flexible control file format for boulder, which is initially intended to help support bootstrapping efforts for major stack updates.
 
 During these updates, the tests within our recipes can fail though this is expected behaviour. In part to conveniently address this failure mode, the control file format enables packagers to override, prepend or append phases within our build recipes.
 
-Initially, we have created a shared control file that outright disables tests, which can be enabled by symlinking it in next to recipes whilst bootstrapping them. This will enable initial bootstrapping builds to succeed before final builds are completed with the control file removed and tests therefore reenabled.
+Initially, we have created a shared control file that outright disables tests, which can be activated by symlinking it in next to recipes whilst bootstrapping them. This will enable initial bootstrapping builds to succeed before final builds are completed with the control file removed and tests therefore re-enabled.
 
 The benefit of the shared control file approach in this instance, is that it does away with the need to go in and manually edit each recipe to disable (and subsequently re-enable) the check phase for the stack that is being bootstrapped.
 
 We have built the control file using the KDL format as part of our wider transition to this file format within our tooling.
 
 To those wondering why we didn't just add a boulder build flag for this, the reason is that we have a few other future use cases in mind for this feature that are also projected to benefit from a control file, hence settling on the current design.
+
 
 ## Wider Project Updates
 
@@ -165,6 +179,7 @@ Unfortunately, when Ikey stepped away from the project, we lost access to the Fr
 
 As a team, we like the repairable nature of Framework hardware and appreciate them supporting an up-and-coming distro such as ours!
 
+
 ## ISO refresh
 
 We are releasing our newest Alpha ISO, AerynOS 2026.03, which includes the updates we've worked on since the start of March, and which features the 6.18.20 kernel.
@@ -175,23 +190,24 @@ We did notice an issue in our 2026.02 ISO whereby it would not boot from Ventoy 
 
 The link for our 2026.03 ISO can be found on our [download](/download/) page.
 
+
 ## Next Steps
 
 ### Python upgrade and repository rebuild
 
-Next month, we are aiming to upgrade our Python stack (which is a notoriously invasive undertaking), along with doing a full repository rebuild across our ~1500 recipes. This coincides with us having landed LLVM 22 this month.
+Next month, we are aiming to upgrade our Python stack (which is a notoriously invasive undertaking), along with doing a full repository rebuild across our ~1500 recipes. This effort deliberately coincides with us having landed LLVM 22 this month.
 
 Our last full repository rebuild was completed in June 2025, following the then recent transition to our Rust-based infrastructure. With almost a year of infrastructure and tooling updates, it will be interesting to see how the rebuild process pans out this time.
 
 The AerynOS build infrastructure currently runs with four permanent builders. In addition, it is trivial for us to add temporary builders to help manage peak demand periods.
 
-For this rebuild trek, we will likely add one or two temporary builders to help keep the queue flowing past larger packages that would otherwise clog up the queue.
+For this rebuild trek, we will likely add one or two temporary builders to help keep the queue flowing past the larger builds that would otherwise clog up the queue.
 
 Full repository rebuilds like this are important for a couple of reasons:
 
 - They test our infrastructure and help highlight any deficiencies that we need to address
 - They ensure full repository ABI compliance, to help minimise the risk of packages not working due to incompatible dependencies
-- They help ensure that our recipes are valid and up to date
+- They help ensure that our recipes and our build artefacts are all valid and up to date
 - They demonstrate that we *can* rebuild our repository if we need to for whatever reason
 
 The current iteration of our infrastructure is at ~2750 builds, and is no longer a frustration point for the team when submitting packages for build.
@@ -200,7 +216,7 @@ This stands in stark contrast to our original Proof of Concept infrastructure th
 
 ### Versioned Repositories, phase2
 
-This month has been steadily building towards phase2 of our Versioned Repos feature set. We highlighted this in last month's blog post, and the aim remains to be to teach moss how to seamlessly upgrade itself on user systems, in a way that automagically enables support for new repository and `.stone` format features. 
+This month we have been steadily building towards phase2 of our Versioned Repos feature set. We highlighted this in last month's blog post, and the aim remains to be to teach moss how to seamlessly upgrade itself on user systems, in a way that automagically enables support for new repository and `.stone` format features.
 
 This will set us up nicely from an "install once, update forever" perspective, as we will always be able to add new features to our tooling without requiring fresh installs or manual upgrade interventions on user systems.
 
