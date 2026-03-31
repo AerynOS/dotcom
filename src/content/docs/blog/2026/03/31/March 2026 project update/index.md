@@ -97,7 +97,7 @@ A few key updates this month include:
 - awww 0.12.0
 - riftbar 0.1.8
 
-On top of this, several packages have been rebuilt for better performance, support or defaults. The default terminal in our Sway package set has been swapped from alacritty to foot as this is the default terminal proposed by Sway itself.  Elephant has had upstream support for moss included and this version has now been added to our own repository. Niri has seen a few upstream improvements backported into our repository also.
+On top of this, several packages have been rebuilt for better performance, support or defaults. The default terminal in our Sway package set has been swapped from alacritty to foot as this is the default terminal proposed by Sway itself. Elephant has had upstream support for moss included and this version has now been added to our own repository. Niri has seen a few upstream improvements backported into our repository also.
 
 
 ## Infrastructure and Tooling Updates
@@ -123,7 +123,7 @@ $ moss search --provides cat
 uutils-coreutils   Cross-platform Rust rewrite of the GNU coreutils
 ```
 
-The current implementation is somewhat limited, and work is ongoing to improve and generalise this functionality.
+The current implementation is somewhat limited, and work is ongoing to improve and generalize this functionality.
 
 ### moss: Enable removal of ranges of states
 
@@ -143,7 +143,7 @@ $ sudo moss state remove 2 5-14 17 23-28
 
 After a feature request from Reilly, ermo and tarkah designed a flexible control file format for boulder, which is initially intended to help support bootstrapping efforts for major stack updates.
 
-During these updates, the tests within our recipes can fail though this is expected behaviour. In part to conveniently address this failure mode, the control file format enables packagers to override, prepend or append phases within our build recipes.
+During these updates, the tests within our recipes can fail though this is expected behavior. In part to conveniently address this failure mode, the control file format enables packagers to override, prepend or append phases within our build recipes.
 
 Initially, we have created a shared control file that outright disables tests, which can be activated by symlinking it in next to recipes whilst bootstrapping them. This will enable initial bootstrapping builds to succeed before final builds are completed with the control file removed and tests therefore re-enabled.
 
@@ -164,7 +164,7 @@ Over time, the application of our header text has varied, specifically in relati
 
 For anyone doing local packaging work, you will need to ensure you update your local forks of the recipe repository and update boulder to ensure that you are working from the latest version of the files, and that new recipe files are created with the correct header text. You may also need to rebase existing PRs to ensure compliance to the new standard.
 
-In addition, a new CI process has been created to check for this REUSE compliance for package recipes. This will ensure compliance with our licencing standards into the future rather than letting the files deviate over time again.
+In addition, a new CI process has been created to check for this REUSE compliance for package recipes. This will ensure compliance with our licensing standards into the future rather than letting the files deviate over time again.
 
 
 ### Framework hardware sponsorship
@@ -208,7 +208,7 @@ For this rebuild trek, we will likely add one or two temporary builders to help 
 Full repository rebuilds like this are important for a couple of reasons:
 
 - They test our infrastructure and help highlight any deficiencies that we need to address
-- They ensure full repository ABI compliance, to help minimise the risk of packages not working due to incompatible dependencies
+- They ensure full repository ABI compliance, to help minimize the risk of packages not working due to incompatible dependencies
 - They help ensure that our recipes and our build artefacts are all valid and up to date
 - They demonstrate that we *can* rebuild our repository if we need to for whatever reason
 
