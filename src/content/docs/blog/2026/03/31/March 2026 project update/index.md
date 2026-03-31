@@ -57,7 +57,7 @@ Package / stack updates for this iteration include:
 
 ## Desktop Updates
 
-### Gnome
+### GNOME
 
 ![Gnome Install](Gnome.png)
 
