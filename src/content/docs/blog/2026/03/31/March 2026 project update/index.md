@@ -61,7 +61,7 @@ Package / stack updates for this iteration include:
 
 ![Gnome Install](Gnome.png)
 
-This month sees a significant update to the GNOME stack with the delivery of [GNOME 50](https://release.gnome.org/50/). We have not received any reports of any issues but if you do find any bugs, please do report back to us via [GitHub Issues](https://github.com/AerynOS/recipes/issues) or through our [Zulip](https://aerynos.zulipchat.com/) community.
+This month sees a significant update to the GNOME stack with the delivery of [GNOME 50](https://release.gnome.org/50/). We have not received any reports of any issues but if you do find any bugs, please report them back to us via [GitHub Issues](https://github.com/AerynOS/recipes/issues) or through our [Zulip](https://aerynos.zulipchat.com/) community.
 
 Some key updates include:
 
@@ -168,6 +168,8 @@ In addition, a new CI process has been created to check for this REUSE complianc
 
 
 ### Framework hardware sponsorship
+
+![Framework](framework.jpg)
 
 Back in August 2024, Framework provided the project (then SerpentOS) with an AMD Ryzen 7840u based Framework 13. At the time, this was helpful for Ikey (our project founder and former project lead) to have a separate and dedicated laptop for working on the project following the appropriate hardware enablement.
 
