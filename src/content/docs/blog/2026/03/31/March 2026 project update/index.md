@@ -75,7 +75,7 @@ Plus many more features and fixes.
 
 ![KDE Install](KDE_Plasma.jpg)
 
-KDE Plasma has been updated to [6.6.3](https://kde.org/announcements/plasma/6/6.6.3/), KDE Frameworks to 6.24.0 and KDE Gear to 25.12.3. With this update, Plasma Login Manager has been promoted to become the default KDE install option in lichen, with SDDM being the backup alternative.
+KDE Plasma has been updated to [6.6.3](https://kde.org/announcements/plasma/6/6.6.3/), KDE Frameworks to 6.24.0 and KDE Gear to 25.12.3.
 
 The latest KDE Plasma update brings:
 
