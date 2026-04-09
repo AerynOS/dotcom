@@ -5,7 +5,7 @@ import { defineConfig } from "astro/config"
 import icon from "astro-icon"
 import starlight from '@astrojs/starlight'
 import starlightBlog from 'starlight-blog'
-import markdownIntegration from '@astropub/md'
+
 import astroBrokenLinksChecker from 'astro-broken-link-checker';
 
 import mdx from "@astrojs/mdx"
@@ -31,7 +31,6 @@ export default defineConfig({
       logFilePath: 'dist/broken-links.log', // Optional: specify the log file path
       checkExternalLinks: false // Optional: check external links (currently, caching to disk is not supported, and it is slow )
     }),
-    markdownIntegration(),
     icon(),
     // tailwind(),
     starlight({ // Starlight config:
@@ -102,7 +101,7 @@ export default defineConfig({
         SocialIcons: '@/components/starlight-overrides/SocialIcons.astro',
         PageTitle: '@/components/starlight-overrides/PageTitle.astro',
         ContentPanel: '@/components/starlight-overrides/ContentPanel.astro',
-        MarkdownContent: '@/components/starlight-overrides/MarkdownContent.astro',
+
       },
       credits: false,
     }),
@@ -126,6 +125,6 @@ export default defineConfig({
   ],
   experimental: {
     clientPrerender: true,
-    svg: true,
+    svgo: true,
   },
 })
