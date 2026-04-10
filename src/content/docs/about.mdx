@@ -6,37 +6,60 @@ import { CardGrid } from '@astrojs/starlight/components';
 import Asciinema from "@/components/ui/Asciinema.astro";
 import Card from "@/components/ui/Card.astro";
 
-<Card>
-  AerynOS is a modern Linux distribution using atomic updates, cutting-edge
-  tooling and rock-solid reliability. Built by industry veterans with decades
-  of experience, it represents the next evolution in Linux distributions -
-  delivering a safe and efficient system 🐍
+
+<Card title="AerynOS Mission Statement">
+    To deliver modern tooling that allows for the creation and delivery of a performant atomic Linux distribution and is easy for the distribution team, its packagers and users alike.
 </Card>
 
-Our fully atomic system leverages the [LLVM](https://llvm.org/) toolchain and GNU libstdc++ by default, delivering superior diagnostics and package diversity. We're not afraid to challenge convention - thoughtfully replacing traditional components with modern alternatives that prioritize safety and reliability.
+AerynOS is the collective output of brand new tooling built from the ground up to deliver a Linux distribution that focuses on reliability, proven performance and efficiency. Our ground up approach has allowed us to deliver on atomic updates without requiring reboots or having to utilize containers for package delivery. Part of our design philosophy is to deliver flexibility and customizability to end users. Examples of this includes:
 
-We closely follow the work of organizations dedicated to making software safer, including the [Prossimo project](https://www.memorysafety.org/) and their Memory Safety initiative, the [Tweede Golf](https://tweedegolf.nl/en) team, and the [Trifecta Tech Foundation](https://trifectatech.org/). By monitoring and adopting innovations from these pioneers, we can integrate proven solutions like memory-safe replacements for critical system components.
+#### Imperative vs Declarative
 
-As we continuously evaluate and adopt the best solutions, our architectural decisions enable powerful features like atomic updates that can safely transform your entire system, complete with built-in deduplication and instant rollbacks.
+By default, AerynOS utilizes an imperative approach for package management. This means that users have to explicitly specify the actions they want to take, such as installing or removing packages. 
 
-This is the future of Linux distribution design, built on a foundation of experience and innovation.
+AerynOS also provides a declarative approach using our system-model feature. With this approach, users can define the desired state of their system and let the system automatically figure out the necessary actions to achieve that state.
 
+#### Rolling release vs Fixed release model
 
-## Daily Driver
-Want a rolling release distribution that just works? We're building AerynOS to be the system that gets out of your way and lets you focus on what matters. Our atomic updates mean you can keep rolling forward without the usual headaches - no manual interventions, no update anxiety. When we say rolling release, we mean it should be as simple as running an update and getting back to work. Join us on this journey as we continuously improve and refine the experience.
+As standard, AerynOS utilizes a rolling release model. Package updates are tested locally and then recipes are sent to our build system build and release to our Volatile repository. This repository, as the name implies is volatile by nature so should only be used for packagers to build against the latest versions of all packages and any users who wish to help test out package updates.
 
-![aerynos_alpha](@/images/editions/aerynos_alpha.png)
+By default, users will be on our Unstable repository, so called to remind users that our distribution is still in development and is not to be thought of as "stable". On a periodic basis, currently around every one or two weeks, packages will be promoted from the Volatile repository to the Unstable repository. This allows users to benefit from the latest features and improvements while still maintaining a level of testing and stability..
+
+As package updates are promoted to our Unstable repository, each sync will come with an associated tag (by release date). Using our system-model feature, users are able to fix their system to a specific tag. This is more akin to a fixed release distribution for users who prefer a greater level of stability. Users can opt to stick with a given time for as long as they wish, or for example, to stay a couple of tags behind the current release to blend stability with the latest features.
+
+. With this approach, users can opt to stick with the current (or any historic) tagged release more akin to Fixed Release distributions for stability.
+
+#### Filesystem agnostic approach
+
+AerynOS' architecture is designed to be filesystem agnostic, allowing users to benefit from the features of AerynOS without being tied to a specific filesystem. By way of example, we are able to deliver on automatic rollback capabilities without any additional filesystem-specific code such as BTRFS snapshots.
+
+Here are the currently supported filesystems for the AerynOS root partition:
+
+- xfs: Our default recommendation as it currently performs the best based on our distributions' specific tooling.
+- ext4: Possible to use but has limitations in the number of moss states can be created and stored.
+- F2FS: Currently the worst performing filesystem on AerynOS but known to work.
+
+We may consider additional filesystems for the AerynOS root partition in the future. It should be noted that you can already mount drives with other partitions such as btrfs and bcachefs, it's just that they are not supported for the root partition itself.
+
+![aerynos_alpha](@/images/editions/AerynOS_GNOME.png)
+
+## Using AerynOS
+
+The current recomendation is to use AerynOS in a virtual machine or on a spare dedicated machine. We don't recommend using AerynOS on your primary machine due to our alpha state and risk of something going wrong.
+
+Our tooling is designed to prevent or recover from issues that may arise during normal usage. However, we cannot guarantee that everything will work perfectly, and we encourage users to report any issues they encounter so that we can improve the system. Head over to our [Community](/community) page for the best ways to get involved and contribute to the project.
+
 
 ## Features
 
 <CardGrid stagger>
 
   <Card title="Flathub Integration" icon="simple-icons:flathub">
-    Get access to thousands of applications right out of the box with built-in [Flathub](https://flathub.org) support. Install your favourite apps with just a few clicks.
+    Where packages are not available in our repository, [Flathub](https://flathub.org) support is built into the system at install time.
   </Card>
 
   <Card title="Choice of Modern Desktops" icon="fa6-solid:desktop">
-    Choose between the clean, intuitive [GNOME](https://www.gnome.org/) desktop environment or the innovative [COSMIC](https://cosmic.system76.com/) desktop. Both combine visual appeal with powerful functionality for an efficient workflow.
+    A choice of [GNOME](https://www.gnome.org/), [KDE](https://kde.org/plasma-desktop/), [COSMIC](https://cosmic.system76.com/), [Niri](https://niri-wm.github.io/niri/), [Sway](https://swaywm.org/) and [MangoWM](https://mangowm.github.io/). There is also a terminal only option allowing for further customizability.
 
   </Card>
 
@@ -47,6 +70,8 @@ Want a rolling release distribution that just works? We're building AerynOS to b
 
 ## For Contributors
 
-Want to be part of something amazing? AerynOS is a community-driven project where everyone can make a meaningful impact. Our powerful yet simple boulder recipes make packaging accessible to newcomers, while our clean stateless design and predictable `/usr` layout helps you understand exactly how changes will impact the system. Whether you're interested in packaging, development, documentation, testing, or community support - check out our [docs](https://aerynos.dev) to see how easy it is to join our growing community and help shape the future of Linux distributions. 🛠️
+Want to be part of something amazing? AerynOS is a community-driven project where everyone can make a meaningful impact. Our powerful yet simple boulder recipes make packaging accessible to newcomers, while our clean stateless design and predictable `/usr` layout helps you understand exactly how changes will impact the system. 
+
+Whether you're interested in packaging, development, documentation, testing, or community support - check out our [docs](https://aerynos.dev) to see how easy it is to join our growing community and help shape the future of Linux distributions. 🛠️
 
 <Asciinema id="674948" />
