@@ -46,11 +46,16 @@ menu:
       url: "https://github.com/orgs/AerynOS/discussions"
       parent: menu
       weight: 3
-    - identifier: glossary
+    - identifier: Glossary
       name: Glossary
       pageRef: /glossary
       parent: menu
       weight: 4
+    - identifier: Branding
+      name: Branding
+      pageRef: /branding
+      parent: menu
+      weight: 5
     - identifier: search
       name: Search
       weight: 6
@@ -110,6 +115,7 @@ params:
     width: wide
     logo:
       path: images/logo.svg
+      dark: images/logo-dark.svg
       link: /
       width: 40
       height: 40

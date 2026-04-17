@@ -155,29 +155,17 @@
     <loc>http://localhost:1313/blog/blog/2026/31/january-2026-project-update/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/news/</loc>
+    <lastmod>2026-02-03T00:05:31+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-02-03T00:05:31+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-04-17T11:03:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-17T17:34:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/branding/</loc>
-    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/community/</loc>
-    <lastmod>2026-02-03T00:05:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/download/</loc>
-    <lastmod>2026-04-17T11:03:53+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/funding/</loc>
-    <lastmod>2026-02-17T17:34:44+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
@@ -371,25 +359,40 @@
     <loc>http://localhost:1313/blog/blog/2020/06/30/first-post/</loc>
     <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-04-17T11:03:53+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-17T17:34:44+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/branding/</loc>
+    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/community/</loc>
+    <lastmod>2026-02-03T00:05:31+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/users/desktops/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/download/</loc>
+    <lastmod>2026-04-17T11:03:53+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/funding/</loc>
+    <lastmod>2026-02-17T17:34:44+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/glossary/</loc>
+    <lastmod>2026-04-17T11:35:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/developers/stone/header/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/news/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/developers/stone/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/users/desktops/window-managers/sway/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/developers/stone/v1/header/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
