@@ -8,7 +8,36 @@ toc: false
 > To deliver modern tooling that allows for the creation and delivery of a performant atomic Linux distribution and is easy for the distribution team, its packagers and users alike.<br>
 > — <cite>AerynOS Mission Statement</cite>
 
-![aerynos-desktop](/images/aerynos-desktop.png)
+## Meet the team
+
+{{< callout type="important" >}} 
+  Be kind, foster joy, listen, care.
+{{< /callout >}}
+
+The AerynOS team is a diverse group of individuals from different backgrounds, geographic locations and skillsets. We work together to create a positive and inclusive environment where everyone feels valued and respected. Our team approach is based on the principles of empathy, collaboration, and mutual respect.
+
+
+## Active staff members
+{{< cards >}}
+  {{< card link="https://github.com/ermo" title="ermo" image="/images/avatars/ermo.png" subtitle="Co-founder and project steward" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/tarkah" title="tarkah" image="/images/avatars/tarkah.jpg" subtitle="Staff and Rust enthusiast" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/ReillyBrogan" title="Reilly Brogan" image="/images/avatars/reilly.jpg" subtitle="Staff Developer and package maintainer" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/NomadicCore" title="NomadicCore" image="/images/avatars/nomadiccore.png" subtitle="Comms and engagement" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/jplatte" title="jplatte" image="/images/avatars/jplatte.jpg" subtitle="Staff and Rust enthusiast" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/joebonrichie" title="Joey Riches" image="/images/avatars/joey.png" subtitle="Staff developer and GNOME maintainer" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/bhh32" title="Bryan Hyland" image="/images/avatars/bryan.png" subtitle="Rust enthusiast and Cosmic maintainer" tag="Active" tagColor="green" >}}
+  {{< card link="https://github.com/CookieSource" title="cookiesource" image="/images/avatars/cookiesource.png" subtitle="Documentation" tag="Active" tagColor="green" >}}
+{{< /cards >}}
+
+## Retired
+{{< cards >}}
+  {{< card link="https://github.com/ikeycode" title="ikey" image="/images/avatars/ikey.jpg" subtitle="Founder and previous project lead" tag="Retired" tagColor="red" >}}
+  {{< card link="https://github.com/sunnyflunk" title="sunnyflunk" image="/images/avatars/sunnyflunk.png" subtitle="Core toolchain optimisations and benchmarking" tag="Retired" tagColor="red" >}}
+  {{< card link="https://github.com/ulaas" title="ulaas" image="/images/avatars/ulaas.png" subtitle="Project manager" tag="Retired" tagColor="red" >}}
+  {{< card link="https://github.com/der-eismann" title="der-eismann" image="/images/avatars/der-eismann.jpg" subtitle="Project manager" tag="Retired" tagColor="red" >}}
+{{< /cards >}}
+
+## About AerynOS
 
 AerynOS is the collective output of brand new tooling built from the ground up to deliver a Linux distribution that focuses on reliability, proven performance and efficiency. Our ground up approach has allowed us to deliver on atomic updates without requiring reboots or having to utilise containers for package delivery. Part of our design philosophy is to deliver flexibility and customizability to end users. Examples of this includes:
 
@@ -23,20 +52,6 @@ AerynOS is the collective output of brand new tooling built from the ground up t
   - ext4: Posible to use but has limitations in the number of moss states can be created and stored.
   - F2FS: Currently the worst performing FS on AerynOS but known to work.
   - TBC: Additional fileystems will be considered as the distribution moves towards a stable release.
-
-## Project Timeline
-
-```mermaid
-    timeline
-        title Timeline for SerpentOS and AerynOS
-          2020 : SerpentOS born by Ikey, Ulaas and Sunnyflunk : tar
-          2021 : TBC
-          2022 : TBC
-          2023 : tarkah joins the team : Start of Rust-rewrite
-          2024 : SerpentOS enters pre-Alpha
-          2025 : NomadicCore joins the team : SerpentOS rebranded to AerynOS : AerynOS enters Alpha : All core tooling rewritten in Rust
-
-```
 
 
 ## Choice of desktop environments

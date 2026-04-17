@@ -17,15 +17,16 @@ menu:
     - name: About
       pageRef: /about
       weight: 1
-    - name: Downloads
-      pageRef: /downloads
+    - name: Download
+      pageRef: /download
       weight: 2
-    - name: Staff
-      pageRef: /staff
-      weight: 3
     - identifier: Documentation
       name: Docs
       pageRef: /docs
+      weight: 3
+    - identifier: Blog
+      name: Blog
+      pageRef: /blog
       weight: 4
     - identifier: menu
       name: More
@@ -41,14 +42,6 @@ menu:
     - identifier: Forums
       name: Forums
       url: "https://github.com/orgs/AerynOS/discussions"
-      parent: menu
-    - identifier: Contact
-      name: Contact
-      pageRef: /contact
-      parent: menu
-    - identifier: Blog
-      name: Blog
-      pageRef: /blog
       parent: menu
     - name: GitHub
       weight: 6
@@ -70,11 +63,6 @@ menu:
       url: "https://bsky.app/profile/aerynos.com"
       params:
         icon: bluesky
-    - name: X
-      weight: 10
-      url: "https://x.com/AerynOS_Linux"
-      params:
-        icon: x-twitter
     - name: reddit
       weight: 11
       url: "https://www.reddit.com/r/AerynOS/"
@@ -127,7 +115,7 @@ params:
   banner:
     key: "announcement-donation"
     message: |
-      Curious how to support AerynOS? Consider [donating](https://ko-fi.com/aerynos)
+      Curious how to support AerynOS? Consider [donating](/funding) to the project
   # Search
   search:
     enable: true
