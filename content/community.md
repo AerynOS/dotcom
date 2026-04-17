@@ -1,5 +1,4 @@
 ---
-date: '2026-01-06T14:27:46Z'
 draft: false
 title: 'Community'
 toc: false
@@ -12,7 +11,6 @@ AerynOS is a community-driven project that values collaboration, inclusivity, an
 As a team, a vein of questions we repeatedly see are:
 
 > Why should I care or be excited about AerynOS?<br>
-> — <cite>Random internet person</cite>
 
 ## A rising tide lifts all boats
 
@@ -39,3 +37,7 @@ Particularly whilst we are in "alpha", we aren't interested in comparisons with 
 {{< card link="https://www.reddit.com/r/AerynOS/" title="Reddit" subtitle="A social news aggregation website that allows users to create their own communities and share content."  icon="reddit" >}}
 {{< card link="https://x.com/AerynOS_Linux" title="X" subtitle="A social media platform formerly know as Twitter."  icon="x-twitter" >}}
 {{< /cards >}}
+
+### Getting in touch with the project
+
+You can reach out to the AerynOS team directly at contact@aerynos.com

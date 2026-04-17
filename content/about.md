@@ -1,5 +1,4 @@
 ---
-date: '2026-01-06T14:27:46Z'
 draft: false
 title: 'About AerynOS'
 toc: false
@@ -49,7 +48,7 @@ AerynOS is the collective output of brand new tooling built from the ground up t
   - Fixed Release: Using our system-model feature, users can opt to stick with the current (or any historic) tagged release more akin to Fixed Release distributions for stability.
 - Filesystem agnostic
   - xfs: Our default recomendation as it currently performs the best based on our distributions' specific tooling.
-  - ext4: Posible to use but has limitations in the number of moss states can be created and stored.
+  - ext4: Posible to use but has limitations in the number of {{< term "moss" >}} states can be created and stored.
   - F2FS: Currently the worst performing FS on AerynOS but known to work.
   - TBC: Additional fileystems will be considered as the distribution moves towards a stable release.
 

@@ -1,5 +1,4 @@
 ---
-date: '2026-01-06T14:27:46Z'
 draft: true
 title: 'Outline'
 toc: false
@@ -26,7 +25,7 @@ toc: false
 
 1. Summany and mission statement
     *   Build distro-tooling that intrinsically supports robust packaging via maintainer friendly workflows that respects people's time and needs, and knows how to take care of itself.
-    *   Foundational focus on reliability, proven performance and efficiency (this has *always* been the case; it is why we have so many tuning options in boulder for instance, and it is why we are so much faster than OSTree whilst still being atomic)
+    *   Foundational focus on reliability, proven performance and efficiency (this has *always* been the case; it is why we have so many tuning options in {{< term "boulder" >}} for instance, and it is why we are so much faster than OSTree whilst still being atomic)
     *   Flexibility by design (imperative vs declarative, rolling release via streams vs. pinning to point-in-time repo tags, of FS)
 2. Maybe a timeline with key milestones (maybe by year or by month in year if there is alot)?
     *   Start 5 years ago with creation of Serpent OS up to present
