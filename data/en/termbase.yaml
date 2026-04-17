@@ -1,0 +1,14 @@
+- term: Moss
+  definition: "The package and system state manager for AerynOS"
+- term: Boulder
+  definition: "The tool we use to generate installable .stone packages from our stone.yml package recipes"
+- term: Avalanche
+  definition: "Build agent middleware, takes build orders from Summit and builds them with Boulder on a remote system, sends build logs back in real time to Summit, and reports the build result to summit at the end of the build."
+- term: Summit
+  definition: "Package build-controller, build-orchestrator and build-dashboard, monitors recipes tree and automatically builds new, incoming recipes once they show up"
+- term: Vessel
+  definition: "Package repository manager. Summit tells Vessel which packages and other build artefacts to expect from a build task that Avalanche has completed, and then Avalanche pushes those packages and build artefacts to Vessel, which then saves them in the appropriate place and re-indexes the repository with the new packages, so users can install/update them."
+- term: Imperative
+  definition: "An imperative OS is where the system configuration (for AerynOS, the list of packages) is built up following a series of sequential steps to change the system's state"
+- term: Declarative
+  definition: "A declarative OS is where the system configuration (for AerynOS, the list of packages) is defined in a single configuration file"
