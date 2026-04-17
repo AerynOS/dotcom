@@ -160,11 +160,9 @@ When building …
 - [About AerynOS](http://localhost:1313/about/): To deliver modern tooling that allows for the creation and delivery of a performant atomic Linux … - Published 2026-01-06
 - [Branding](http://localhost:1313/branding/):  - Published 2026-01-06
 - [Community](http://localhost:1313/community/): What type of community do we want to foster? AerynOS is a community-driven project that values … - Published 2026-01-06
-- [Contact](http://localhost:1313/contact/):  - Published 2026-01-06
-- [Downloads](http://localhost:1313/downloads/): GNOME live environment AerynOS offers a single ISO for installation purposes based on the GNOME … - Published 2026-01-06
+- [Download](http://localhost:1313/download/): GNOME live environment AerynOS offers a single ISO for installation purposes based on the GNOME … - Published 2026-01-06
 - [Funding](http://localhost:1313/funding/): Project viability AerynOS has been designed with scalability and efficiency of resources in mind. … - Published 2026-01-06
-- [Staff](http://localhost:1313/staff/): Team approach Be kind, foster joy, listen, care. The AerynOS team is a diverse group of individuals … - Published 2026-01-06
 
 ---
-Generated on 2026-03-17 22:41:42 UTC
+Generated on 2026-04-17 11:03:08 UTC
 Site: http://localhost:1313/

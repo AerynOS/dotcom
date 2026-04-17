@@ -179,17 +179,11 @@
     <loc>http://localhost:1313/community/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/downloads/</loc>
-    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
+    <loc>http://localhost:1313/download/</loc>
+    <lastmod>2026-01-06T14:27:46+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/funding/</loc>
     <lastmod>2026-02-17T17:34:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/staff/</loc>
-    <lastmod>2026-01-20T10:07:19+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/blog/2026/01/2025-in-retrospect/</loc>
     <lastmod>2026-02-03T00:05:31+00:00</lastmod>

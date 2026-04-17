@@ -1353,7 +1353,7 @@ hospital bedside.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;We&amp;rsquo;ve also decoupled the internal tooling version from the ISO versions to make them a little bit more.. well.. &lt;em&gt;readable&lt;/em&gt;,
 for humans.&lt;/p&gt;
-&lt;p&gt;Grab it now from the &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;Grab it now from the &lt;a href=&#34;http://localhost:1313/download/&#34;&gt;download&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2025/03/25/hello-aerynos/Featured.png&#34; alt=&#34;Installer preview&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h2&gt;💰 Funding&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-funding&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#-funding&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I want to thank everyone for their support of the project since we got more transparent around goals. It&amp;rsquo;s been a huge help and has
@@ -2186,7 +2186,7 @@ as a daily driver in the near future. We&amp;rsquo;re also going to keep iterati
         
         &lt;p&gt;Well, it didn&amp;rsquo;t take us that long, &lt;strong&gt;really&lt;/strong&gt; &amp;hellip; Our technical preview, &lt;em&gt;prealpha0&lt;/em&gt;, is now available for testing!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/2024/08/01/prealpha0-released/prealpha0.png&#34; alt=&#34;wip boot code&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Head to our &lt;a href=&#34;http://localhost:1313/download&#34;&gt;download&lt;/a&gt; page to grab &lt;code&gt;serpent-os-prealpha-0.iso&lt;/code&gt; now!&lt;/p&gt;
+&lt;p&gt;Head to our &lt;a href=&#34;http://localhost:1313/download/&#34;&gt;download&lt;/a&gt; page to grab &lt;code&gt;serpent-os-prealpha-0.iso&lt;/code&gt; now!&lt;/p&gt;
 &lt;p&gt;&lt;more&gt;&lt;/more&gt;&lt;/p&gt;
 &lt;p&gt;This is a super rough version of Serpent OS that is &lt;em&gt;capable&lt;/em&gt; of being installed on baremetal hardware and VMs that
 support UEFI and OpenGL acceleration. It is however not &lt;em&gt;recommended&lt;/em&gt; for use daily due to the early nature and a bunch
@@ -3149,7 +3149,7 @@ honest here:&lt;/p&gt;
 worth using. In order to do that, we need to get ourselves to a point whereby we can dogfood our work and build a daily driver. Our focus
 right now is building out the core technology and packaging to achieve those aims.&lt;/p&gt;
 &lt;p&gt;So if you want to try our uninstallable, buggy ISO, chiefly created as a brief introduction to our package manager and toolchain, head to our
-newly minted &lt;a href=&#34;http://localhost:1313/download&#34;&gt;Download&lt;/a&gt; page. Set your expectations low, ignore your dreams, and you will not be disappointed!&lt;/p&gt;
+newly minted &lt;a href=&#34;http://localhost:1313/download/&#34;&gt;Download&lt;/a&gt; page. Set your expectations low, ignore your dreams, and you will not be disappointed!&lt;/p&gt;
 &lt;p&gt;All jokes aside, it took a long time to get to point where we could even construct our first, KVM-focused, UEFI-only &lt;code&gt;snekvalidator.iso&lt;/code&gt;. We now
 have a baseline to improve on, a working contribution process, and a booting, self-hosting system.&lt;/p&gt;
 &lt;p&gt;The ISO is built using 2 layered collections, the &lt;code&gt;protosnek&lt;/code&gt; collection containing our toolchain, and the new &lt;code&gt;volatile&lt;/code&gt; collection. Much of the
