@@ -35,31 +35,44 @@ menu:
       name: Funding
       pageRef: /funding
       parent: menu
+      weight: 1
     - identifier: Community
       name: Community
       pageRef: /community
       parent: menu
+      weight: 2
     - identifier: Forums
       name: Forums
       url: "https://github.com/orgs/AerynOS/discussions"
       parent: menu
-    - name: GitHub
+      weight: 3
+    - identifier: glossary
+      name: Glossary
+      pageRef: /glossary
+      parent: menu
+      weight: 4
+    - identifier: search
+      name: Search
       weight: 6
+      params:
+        type: search
+    - name: GitHub
+      weight: 7
       url: "https://github.com/AerynOS/"
       params:
         icon: github
     - name: Zulip
-      weight: 7
+      weight: 8
       url: "https://aerynos.zulipchat.com/"
       params:
         icon: zulip
     - name: Mastodon
-      weight: 8
+      weight: 9
       url: "https://hachyderm.io/@AerynOS"
       params:
         icon: mastodon
     - name: Bluesky
-      weight: 9
+      weight: 10
       url: "https://bsky.app/profile/aerynos.com"
       params:
         icon: bluesky
