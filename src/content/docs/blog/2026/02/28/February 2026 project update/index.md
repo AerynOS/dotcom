@@ -299,9 +299,9 @@ If you wish to discuss other sponsorship details, please reach out to us at cont
             justify-content: center;
             align-items: center;
             padding: 20px 50px">
-<a style="font-weight: bold;
+<a style="font-weight: normal;
           color: white;
-          background-color: #8b00a3;
+          background-color: #626f47ff;
           padding: 10px 20px;
           text-decoration: none;
           text-align:center;
