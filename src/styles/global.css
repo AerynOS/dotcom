@@ -55,6 +55,19 @@ html:not([data-has-sidebar]) .content-panel {
 
 
 
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .button-grid {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
 .splash-content {
   padding: 1rem 1.5rem;
   margin-inline: auto;
