@@ -56,10 +56,11 @@ html:not([data-has-sidebar]) .content-panel {
 
 
 .splash-content {
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   margin-inline: auto;
   max-width: 80rem;
-  width: calc(var(--original-sl-content-width) +(100% - var(--original-sl-content-width) - var(--sl-sidebar-width)) / 2);
+  width: 100%;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -71,7 +72,13 @@ html:not([data-has-sidebar]) .content-panel {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 4rem;
+  padding: 2rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .box-section {
+    padding: 4rem;
+  }
 }
 
 
