@@ -5,7 +5,7 @@ authors: [nomadiccore, ermo]
 tags: [news]
 ---
 
-![Winter_Winding_River](winter.jpg)
+![Image captured by a drone camera of wintery snowy fields with a river meandering through the middle](winter.jpg)
 
 No, this isn’t a suspicious phishing attempt! AerynOS has officially gone through a rebrand 🎉
 
@@ -74,7 +74,7 @@ Package / stack updates for this iteration include:
 
 ### boulder cache subcommands with clean and size options
 
-![boulder cache size](boulder_cache_size.png)
+![Screenshot showing boulder cache size command with output](boulder_cache_size.png)
 
 This month, Joey has added additional subcommands for boulder to calculate cache sizes (both for boulder and moss). Additionally, a `boulder cache clean` command was added that will delete the cache to help free up space on a user's system.
 
@@ -83,7 +83,7 @@ This will be particularly helpful for our packagers who after building packages 
 
 ### boulder recipe automation
 
-![boulder_up](boulder_up.png)
+![Screenshot of a terminal session after running `boulder recipe update` on the yq package recipe, resulting in the automatic update of the corresponding `stone.yaml` recipe file](boulder_up.png)
 
 Using our self built [`ent`](https://github.com/AerynOS/ent) tool (which integrates with [Anitya](https://release-monitoring.org/) for release monitoring), we’ve taken another step toward automating package maintenance by combining it with our `boulder recipe update` command. When invoking this command, boulder will:
 
@@ -101,7 +101,7 @@ For simple package updates, this helps consolidate some of our mundane workflow 
 
 ### Faster `moss state remove`
 
-![moss_state_remove](moss_state_remove.png)
+![Screenshot of a terminal session after running `sudo moss state remove 56-77`, resulting in a confirmation prompt and log of the deleted state directories](moss_state_remove.png)
 
 State removal is now faster thanks to parallelization, and it finally provides real-time feedback via a progress bar.
 
@@ -134,9 +134,6 @@ We hope to land the phase 2 related feature PRs in the near future.
 
 ### New Branding: A Fresh Look for AerynOS
 
-![AerynOS_Logo](Logo.png)
-
-
 April was a big month for us here at AerynOS, as we made some exciting strides in our rebranding efforts. We’re thrilled to finally roll out a brand-new logomark, a version of the triquetra that was originally proposed by community member *Petru Jenach*, and later refined by community member *platlas* when AerynOS was rebranded from SerpentOS last year.
 
 Working closely with *platlas* and the wider community, we’ve spent the last few months refining the design and selecting a brand new colour palette. Special thanks to *sammypanda*, who suggested the colour scheme that we ended up using.
@@ -150,7 +147,7 @@ We’re really excited about this fresh new look, and the fact that it’s somet
 
 ### New Wallpapers: Bringing Nature to Your Desktop
 
-![Gnome](Gnome.png)
+![Screenshot of a newly installed virtual machine instance of AerynOS, Gnome edition showing the about this system page with the new default AerynOS wallpaper](Gnome.png)
 
 Next to the new logomark, we’ve also worked with community member Gabriel Janich (aka *ziegenmelker5*) to bring some stunning new wallpapers to AerynOS. Gabriel has an amazing collection of photos, and choosing just a handful to feature was no easy task!
 
@@ -158,7 +155,7 @@ In the end, we selected seven that we felt best represented the spirit of AerynO
 
 We hope these new wallpapers, paired with the fresh logo, help make your AerynOS experience even more enjoyable as you dive into the project in the coming days and months.
 
-![Cosmic](Cosmic.png)
+![Screenshot of a newly installed virtual machine instance of AerynOS, Cosmic edition showing the about this system page with the new default AerynOS wallpaper](Cosmic.png)
 
 
 ### Python stack upgrade
@@ -170,15 +167,13 @@ Our python stack isn't currently very large (only around 200 packages) which als
 
 ### Kernel updates
 
-We have expanded our kernel offering to three distinct options:
+We have packaged two alternative kernel options, though we have yet to finish the supporting work required to let users easily switch between them:
 
 1) `linux-lts` (6.18): Latest LTS release for our most stable offering.
 2) `linux-stable` (7.0): Follows the latest stable release with very few optimisations for a current stable offering.
 3) `linux-gaming` (7.0): Also follows the latest stable release, but with patches for handheld gaming and miscellaneous performance optimisations.
 
-Whilst these kernels are available in the repository, switching away from our linux-stable kernel isn’t a smooth process just yet. 
-
-Improving that experience is on our roadmap.
+Switching away from our linux-stable kernel to either of the other two alternative options isn’t a smooth process just yet. Improving that experience is on our roadmap.
 
 
 ## ISO refresh
