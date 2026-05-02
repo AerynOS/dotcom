@@ -7,15 +7,15 @@ tags: [news]
 
 ![An image showing the word "Sorry" with three exclamation marks](sorry.jpg)
 
-This is the post I never want to make, where we made errors with our previous ISO release and are having to take steps to fix the issue, including releasing a subsequent ISO to fix the issue.
+This is the post we never want to make, where we made errors with our previous ISO release and are having to take steps to fix the issue, including releasing an updated ISO.
 
 Over the course of April, the team worked on systemd-presets as a workstream we didn't actually talk about in our April blog post. We thought that all the work had been completed in such a fashion that users wouldn't see any discernible difference whilst allowing us to move closer to "best-practice" approaches.
 
-Unfortunately, due to the way systemd functions, it doesn't natively support a global preset-all approach on first boot, one of the preset approaches we had recently adopted. In combination, our lichen installer was creating the `/etc/machine-id` file which is what systemd users to detect whether a machine is in it's first boot or not.
+Unfortunately, due to the way systemd functions, it doesn't natively support a global preset-all approach on first boot, one of the preset approaches we had recently adopted. In combination, our lichen installer was creating an `/etc/machine-id` file in new installs, which is what systemd uses to detect whether a machine is in its first boot or not.
 
 As such, users on existing systems did not have an issue, but new installs could be broken and we did not detect this as part of our ISO testing process.
 
-Thanks to user feedback, we were able to capture, identify and resolve the issue within 24 hours of the ISO release and we had an updated ISO up for testing within our server by the end of at first day. The fix came via two commits:
+Thanks to user feedback, we were able to narrow down, identify and resolve the issue within 24 hours of the ISO release, and we had an updated ISO up for testing within our server by the end of the first day of the original release. The fix came via two commits:
 
 1. Lichen: [Fix first boot](https://github.com/AerynOS/lichen/pull/102)
 2. Systemd: [Preset-all user services on first-boot](https://github.com/AerynOS/recipes/commit/5c438a8517e1f3e38c45f215c3096ae2ce28ea1a)
@@ -25,34 +25,34 @@ Following additional testing with a wider audience on our Zulip server, we have 
 
 ## How we view the project and our roles in creating it
 
-Since taking over stewardship of AerynOS in the last year, we have consciously reset our own expectations of what we aim to deliver as a product to our users / early adopters. It is a deliberate decision to keep the distro at an alpha tag as there are certain expectations / deliverables for our core tooling we have not yet met.
+Since taking over stewardship of AerynOS last year, we have consciously reset our own expectations of what we aim to deliver to our users / early adopters. It is a deliberate decision to keep the distro at an alpha tag, as there are certain expectations / deliverables for our core tooling we have not yet met.
 
-We know we haven't publicly laid out our roadmap, another deliberate decision, but this all is in service of delivering a product that early adopters (and eventaully users) can rely on without having to worry about "what the hell might go wrong".
+We know we haven't publicly laid out our roadmap, another deliberate decision, but this is all in service of delivering a product that early adopters (and eventaully users) can rely on without having to worry about "what the hell might go wrong".
 
-There is an ethos within the team that we take seriously our craft, that being to create new and modern tooling that will make delivering and maintaining a Linux distribution significantly easier.
+There is an ethos within the team that we take seriously our craft, that being to create new and modern tooling that will make delivering and maintaining a Linux distribution significantly easier and more ergonimic.
 
-In retrospect, I'm glad that in the year that we have collectively had stewardship of the project, this is the first and only time we have had to rush out a new ISO to fix an issue. We hope to not have this occur again in the future.
+In retrospect, we're glad that in the year that we have collectively had stewardship of the project, this is the first and only time we have had to rush out a new ISO to fix an issue. We hope to not have this occur again in the future.
 
 
-## Nvidia module failing for ceratain GPUs
+## NVIDIA driver issues for ceratain GPUs
 
-In the background, we have been offering a "best efforts" approach to supporting NVidia GPUs. This is primarily because none of the core team actually usings NVidia GPUs and because NVidia's approach to open source leaves a lot to be desired from a package maintenence point of view.
+In the background, we have been offering a "best effort" approach to supporting NVIDIA GPUs. This is primarily because none of the core team actually usings NVIDIA GPUs and because NVIDIA's approach to open source leaves a lot to be desired from a package- and distro-maintenance point of view.
 
-For an alpha tag distribution that is primarily focused on dogfooding itself, NVidia GPU support has an is still a fairly low priority.
+For an alpha tag distribution that is primarily focused on dogfooding itself, NVIDIA GPU support has been &emdash; and still is &emdash; a fairly low priority.
 
-That said, Reilly identifed an issue with our build ordering that causes the NVidia module to fail to work for GPUs that require GSP firmware. With this knowledge, we have implemented a manual fix for now. The underlaying issue was already known to the team, we just hadn't caught that it presented an issue for these particular NVidia GPUs. Fixing that issue in our infrastructure tooling is therefore moving up our priority list.
+That said, Reilly identifed an issue with our build ordering that caused the NVIDIA module to fail to work for GPUs that require GSP firmware. With this knowledge, we have implemented a manual fix for now. The underlying issue was already known to the team, we just hadn't caught that it presented an issue for this particular case. Fixing that issue in our infrastructure tooling is therefore moving up on our list of priorities.
 
 
 ## Why have monthly ISOs anyway?!
 
-The issue with new installs only presented because of our new ISO release. Had users installed AerynOS from any of our previous ISO's, the distribution would have installed without issue. Last year, we had taken a decision to move to a monthly ISO cadence as part of a wider hearts and minds effort to demonstrate that AerynOS is in good hands and able to consistently deliver progress at a time when there was uncertainty of whether Ikey would return to the project.
+The issue with new installs only presented because of our new ISO release. Had users installed AerynOS from any of our previous ISOs, the distribution would have installed without issue. Last year, we made a decision to move to a monthly ISO cadence as part of a wider "hearts and minds" effort, to demonstrate that AerynOS is in good hands and that we are able to consistently deliver progress at a time when there was uncertainty of whether the project would be able to survive during Ikey's initial (and, as it turned out, eventually permanent) absence from the project.
 
-However, as a rolling release distro with a net-installer, it doesn't strictly matter which ISO you boot to install AerynOS on your system (or in a VM) given that Lichen will always install the latest version of AerynOS. As such, we are reviewing our release cadence and will likely align releases around a couple of key factors:
+However, as a rolling release distro with a net-installer, it doesn't strictly matter which ISO you boot to install AerynOS on your system (or in a VM), given that Lichen will always install from the latest unstable stream version of AerynOS. As such, we are reviewing our release cadence and will likely align releases around a couple of key factors:
 
 1. Major Linux kernel versions for new hardware support
-2. Any updates to our actual installer
+2. Updates to our installer
 
-which will also have a benefit of reducing bandwidth consumption. This won't however affect the frequency of our blog posts as we have found it helpful to communicate often with those following along with the project.
+which will also have a benefit of reducing bandwidth consumption. This won't however affect the frequency of our blog posts, as we have found it helpful to communicate often with those following along with the project.
 
 
 ## We actually delivered quite a lot in the last couple of days!
@@ -63,9 +63,8 @@ Updates:
 
 - linux stable & gaming 7.0.3
 - linux LTS 6.18.26
-- linux kernel 7.0.3 and 6.18.26
-- Thunderbird 150.0.1
-- Rssguard 5.1.0
+- thunderbird 150.0.1
+- rssguard 5.1.0
 - gtk-4 4.22.4
 - inetutils 2.8
 - faugus-launcher 1.18.10
@@ -83,31 +82,33 @@ Fixed
 
 Added:
 
-- hexyl: A terminal based hex viewer with coloured output
 - envision 3.2.0 (VR gaming)
-- oxidize: A tool for atomically changing themes in window managers
+- gitui: A graphical git client
+- hexyl: A terminal based hex viewer with coloured output
+- pkgset-oxidize: A set of pkgsets for different WM environments designed to work with the oxidize theme tool
+- oxidize: A tool for atomically changing themes in supported WMs
 
 
 ## oxidize Window Manager theming
 
 One of our community members, [Christian Bendiksen](https://github.com/christian-bendiksen), has been working on automated theming of window managers over the last couple of months. 
 
-His work is now ready to be included in AerynOS and can be used to automate the theming of the four window manager options we have within AerynOS. There are many popular themes already included and Christian has taken the initiative to play around with our new brand colour pallete to make a new Aeryn theme as well!
+His work is now ready to be included in AerynOS, and can be used to automate theme setup for the four window manager options we have within AerynOS. There are many popular themes already included, and Christian has taken the initiative to play around with our new brand colour palette to make a new Aeryn theme as well!
 
-Over the last few months, Christian and a number of other dedicated contributors have really been building AerynOS' capabilities around our Window Manager offering. To this end, Christian has also created a [package set](https://aerynos.com/blog/2025/08/31/august-2025-project-update/#package-sets) around oxadize to help simplify the process of getting set up with a great Window Management experience without having to go through all the effort of configuring your dotfiles from scratch.... though you absolutely can do this as well!!!
+Over the last few months, Christian and a number of other dedicated contributors have really been building out AerynOS' capabilities around our Window Manager offerings. To this end, Christian has also created a [package set](https://aerynos.com/blog/2025/08/31/august-2025-project-update/#package-sets) around oxadize to help simplify the process of getting set up with a great Window Management experience without having to go through all the effort of configuring your dotfiles from scratch.... though you absolutely can do this as well!!!
 
 ![Use Christian's video uploaded to peertube](get iframe link)
 
 
 ## ISO refresh
 
-With this post, we already have a new latest 2026.05.2 ISO available on our [download](/download/) page.
+With this post, we already have a new 2026.05.2 ISO available on our [download](/download/) page.
 
-It incorporates all the changes and package updates highlighted above and as usual, serves as a vessel for you to use `lichen` to install AerynOS on to your system or into a virtual machine.
+It incorporates all the changes and package updates highlighted above and as usual, serves as a vessel for you to use `lichen` to install AerynOS onto your system or into a virtual machine.
 
 ## Next Steps
 
-The primary focus on the development side is to attempt to get the Versioned Repos, phase2 feature over the finish line as soon as feasible.
+The primary focus on the development side is (still) to attempt to get the Versioned Repos, phase2 feature over the finish line as soon as feasible.
 
 Frankly, we have been so focused on getting the Versioned Repos, phase2 feature *right*, that we've scarcely had the mental bandwidth to focus on anything else from the perspective of our larger development arc.
 
