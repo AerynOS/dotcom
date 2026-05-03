@@ -1,6 +1,6 @@
 ---
 title: "A post we never want to have to make!"
-date: 2026-05-04T12:00:00Z
+date: 2026-05-03T23:00:00Z
 authors: [nomadiccore, ermo]
 tags: [news]
 ---
@@ -27,20 +27,20 @@ Following additional testing with a wider audience on our Zulip server, we have 
 
 Since taking over stewardship of AerynOS last year, we have consciously reset our own expectations of what we aim to deliver to our users / early adopters. It is a deliberate decision to keep the distro at an alpha tag, as there are certain expectations / deliverables for our core tooling we have not yet met.
 
-We know we haven't publicly laid out our roadmap, another deliberate decision, but this is all in service of delivering a product that early adopters (and eventaully users) can rely on without having to worry about "what the hell might go wrong".
+We know we haven't publicly laid out our roadmap, another deliberate decision, but this is all in service of delivering a product that early adopters (and eventually users) can rely on without having to worry about "what the hell might go wrong".
 
-There is an ethos within the team that we take seriously our craft, that being to create new and modern tooling that will make delivering and maintaining a Linux distribution significantly easier and more ergonimic.
+There is an ethos within the team that we take seriously our craft, that being to create new and modern tooling that will make delivering and maintaining a Linux distribution significantly easier and more ergonomic.
 
 In retrospect, we're glad that in the year that we have collectively had stewardship of the project, this is the first and only time we have had to rush out a new ISO to fix an issue. We hope to not have this occur again in the future.
 
 
-## NVIDIA driver issues for ceratain GPUs
+## NVIDIA driver issues for certain GPUs
 
-In the background, we have been offering a "best effort" approach to supporting NVIDIA GPUs. This is primarily because none of the core team actually usings NVIDIA GPUs and because NVIDIA's approach to open source leaves a lot to be desired from a package- and distro-maintenance point of view.
+In the background, we have been offering a "best effort" approach to supporting NVIDIA GPUs. This is primarily because none of the core team actually using NVIDIA GPUs and because NVIDIA's approach to open source leaves a lot to be desired from a package- and distro-maintenance point of view.
 
 For an alpha tag distribution that is primarily focused on dogfooding itself, NVIDIA GPU support has been &emdash; and still is &emdash; a fairly low priority.
 
-That said, Reilly identifed an issue with our build ordering that caused the NVIDIA module to fail to work for GPUs that require GSP firmware. With this knowledge, we have implemented a manual fix for now. The underlying issue was already known to the team, we just hadn't caught that it presented an issue for this particular case. Fixing that issue in our infrastructure tooling is therefore moving up on our list of priorities.
+That said, Reilly identified an issue with our build ordering that caused the NVIDIA module to fail to work for GPUs that require GSP firmware. With this knowledge, we have implemented a manual fix for now. The underlying issue was already known to the team, we just hadn't caught that it presented an issue for this particular case. Fixing that issue in our infrastructure tooling is therefore moving up on our list of priorities.
 
 
 ## Why have monthly ISOs anyway?!
@@ -91,13 +91,34 @@ Added:
 
 ## oxidize Window Manager theming
 
-One of our community members, [Christian Bendiksen](https://github.com/christian-bendiksen), has been working on automated theming of window managers over the last couple of months. 
+<div class="aspect-ratio">
+  <iframe src="https://exquisite.tube/videos/embed/xz5WtFJrRB5oo8vcZudt9G" width="1280" height="720" frameborder="0"></iframe>
+</div>
 
-His work is now ready to be included in AerynOS, and can be used to automate theme setup for the four window manager options we have within AerynOS. There are many popular themes already included, and Christian has taken the initiative to play around with our new brand colour palette to make a new Aeryn theme as well!
+<style>
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
 
-Over the last few months, Christian and a number of other dedicated contributors have really been building out AerynOS' capabilities around our Window Manager offerings. To this end, Christian has also created a [package set](https://aerynos.com/blog/2025/08/31/august-2025-project-update/#package-sets) around oxadize to help simplify the process of getting set up with a great Window Management experience without having to go through all the effort of configuring your dotfiles from scratch.... though you absolutely can do this as well!!!
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+</style>
 
-![Use Christian's video uploaded to peertube](get iframe link)
+One of our community members, [Christian Bendiksen](https://github.com/christian-bendiksen), has been working on automated theming of window managers over the last couple of months with his [oxidize](https://github.com/christian-bendiksen/oxidize) tool.
+
+His work is now ready to be included in AerynOS, and can be used to automate theme setup for the four window manager options we have within AerynOS. There are many popular themes already included, and Christian has taken the initiative to play around with our new brand colour palette to make a new `Aeryn` theme as well!
+
+This work builds on top of the great work Christian and a number of other dedicated contributors have been putting in to build out AerynOS' Window Manager credentials with the inclusion of packages to bolster our offering in this area. Taking this further, Christian has also created a [package set](https://aerynos.com/blog/2025/08/31/august-2025-project-update/#package-sets) around oxidize. This package set will help simplify the process of getting set up with a great Window Manager configuration without having to go through all of the steps to get there. The next step is to take this further by utilizing our [system-model](https://aerynos.com/blog/2026/01/02/2025-in-retrospect/#system-model) approach to further develop this approach with the goal being to eventually have a simple preconfigured Window Manager option available out of the box.
+
+Of course, for those wishing to configure their Window Manager experience from scratch, this option is of course available to you as well.
 
 
 ## ISO refresh
