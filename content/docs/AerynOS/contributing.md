@@ -16,7 +16,7 @@ AerynOS is an independent effort run by a handful of volunteers. The team is cur
 2. Repayment to project stakeholders for initial project seed funding
 3. Build up a buffer for unexpected costs and future initiatives.
 
-We currently accept donations via [Ko-Fi](https://ko-fi.com/aerynos).
+We currently accept sponsorship via [Ko-Fi](https://ko-fi.com/aerynos).
 
 ## Contributing to our codebases
 
