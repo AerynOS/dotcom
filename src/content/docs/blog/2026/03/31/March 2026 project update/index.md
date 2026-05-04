@@ -235,14 +235,14 @@ If you wish to discuss other sponsorship details, please reach out to us at cont
             justify-content: center;
             align-items: center;
             padding: 20px 50px">
-<a style="font-weight: normal;
+<a style="font-weight: bold;
           color: white;
           background-color: #626f47ff;
           padding: 10px 20px;
           text-decoration: none;
           text-align:center;
           border-radius: 5px"
-   href=/sponsor/>Click here to Sponsor the project via Stripe or Ko-fi</a>
+   href=/sponsor/>Sponsor AerynOS</a>
 </div>
 
 ## Thank You!

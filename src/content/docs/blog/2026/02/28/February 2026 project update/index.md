@@ -132,7 +132,27 @@ The team have added new visualization functionality to our Summit dashboard to s
 
 This dependency graph is live and dynamic so will update itself as it works through the package queue. This looks pretty cool when our builders are flying through large stack updates such as the monthly KDE point releases.
 
-<iframe title="AerynOS Summit: Interactive build queue graph" width="1280" height="720" src="https://exquisite.tube/videos/embed/6Srz7zLoLgAnNvFBpv9LA6" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<div class="aspect-ratio">
+  <iframe src="https://exquisite.tube/videos/embed/6Srz7zLoLgAnNvFBpv9LA6" width="1280" height="720" frameborder="0"></iframe>
+</div>
+
+<style>
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+</style>
+
 
 ### Boulder `--verify` flag for manifest checks
 
@@ -299,14 +319,14 @@ If you wish to discuss other sponsorship details, please reach out to us at cont
             justify-content: center;
             align-items: center;
             padding: 20px 50px">
-<a style="font-weight: normal;
+<a style="font-weight: bold;
           color: white;
           background-color: #626f47ff;
           padding: 10px 20px;
           text-decoration: none;
           text-align:center;
           border-radius: 5px"
-   href=/sponsor/>Click here to Sponsor the project via Stripe or Ko-fi</a>
+   href=/sponsor/>Sponsor AerynOS</a>
 </div>
 
 ## Thank You!
