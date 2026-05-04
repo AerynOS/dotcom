@@ -18,7 +18,7 @@ AerynOS offers a single ISO for installation purposes based on the GNOME Desktop
 
 ### lichen
 
-`lichen` is a brand new TUI-based installer built by the AerynOS team in Rust. It is currently limited in its capability by design whilst AerynOS is currently in alpha status. However, its disign approach allows that we can expand its capabilities, such as offering installation to additional FileSystems as the project progresses.
+`lichen` is a brand new TUI-based installer built by the AerynOS team in Rust. It is currently limited in its capability by design whilst AerynOS is currently in alpha status. However, its design approach allows that we can expand its capabilities, such as offering installation to additional FileSystems as the project progresses.
 
 To utilize `lichen`, users open up a terminal from within the Gnome live environment and run the command `sudo lichen`. Prior to utilizing `lichen`, users should ensure that their system meets the minimum requirements listed above and that you have preformatted your drive with:
 
