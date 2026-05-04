@@ -47,10 +47,10 @@ AerynOS is the collective output of brand new tooling built from the ground up t
   - Rolling Release: AerynOS utilizes multiple repositories for a staged rolling release update process; users can choose to opt-in to the volatile branch or stay on the more stable "unstable" branch. The naming of the unstable branch is designed to remind users that our distribution is still in development and is not to be thought of as "stable".
   - Fixed Release: Using our system-model feature, users can opt to stick with the current (or any historic) tagged release more akin to Fixed Release distributions for stability.
 - Filesystem agnostic
-  - xfs: Our default recomendation as it currently performs the best based on our distributions' specific tooling.
+  - xfs: Our default recommendation as it currently performs the best based on our distributions' specific tooling.
   - ext4: Posible to use but has limitations in the number of {{< term "moss" >}} states can be created and stored.
   - F2FS: Currently the worst performing FS on AerynOS but known to work.
-  - TBC: Additional fileystems will be considered as the distribution moves towards a stable release.
+  - TBC: Additional filesystems will be considered as the distribution moves towards a stable release.
 
 
 ## Choice of desktop environments
