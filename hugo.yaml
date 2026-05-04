@@ -134,7 +134,7 @@ params:
   banner:
     key: "announcement-donation"
     message: |
-      Curious how to support AerynOS? Consider [donating](/funding) to the project
+      Curious how to support AerynOS? Consider [sponsoring](/funding) the project
   # Search
   search:
     enable: true
