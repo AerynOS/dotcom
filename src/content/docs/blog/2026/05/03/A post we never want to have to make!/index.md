@@ -36,16 +36,16 @@ In retrospect, we're glad that in the year that we have collectively had steward
 
 ## NVIDIA driver issues for certain GPUs
 
-In the background, we have been offering a "best effort" approach to supporting NVIDIA GPUs. This is primarily because none of the core team actually using NVIDIA GPUs and because NVIDIA's approach to open source leaves a lot to be desired from a package- and distro-maintenance point of view.
+In the background, we have been offering a "best effort" approach to supporting NVIDIA GPUs. This is primarily because nobody on the core team are actually using NVIDIA GPUs, and because NVIDIA's approach to open source leaves a lot to be desired from a package- and distro-maintenance point of view.
 
-For an alpha tag distribution that is primarily focused on dogfooding itself, NVIDIA GPU support has been &emdash; and still is &emdash; a fairly low priority.
+For an alpha tag distribution that is primarily focused on dogfooding itself, NVIDIA GPU support has been &mdash; and remains &mdash; fairly low priority.
 
 That said, Reilly identified an issue with our build ordering that caused the NVIDIA module to fail to work for GPUs that require GSP firmware. With this knowledge, we have implemented a manual fix for now. The underlying issue was already known to the team, we just hadn't caught that it presented an issue for this particular case. Fixing that issue in our infrastructure tooling is therefore moving up on our list of priorities.
 
 
 ## Why have monthly ISOs anyway?!
 
-The issue with new installs only presented because of our new ISO release. Had users installed AerynOS from any of our previous ISOs, the distribution would have installed without issue. Last year, we made a decision to move to a monthly ISO cadence as part of a wider "hearts and minds" effort, to demonstrate that AerynOS is in good hands and that we are able to consistently deliver progress at a time when there was uncertainty of whether the project would be able to survive during Ikey's initial (and, as it turned out, eventually permanent) absence from the project.
+The issue with new installs only presented because of our new ISO release. Had users installed AerynOS from any of our previous ISOs, the distribution would have installed without issue. Last year, we made a decision to move to a monthly ISO cadence as part of a wider "hearts and minds" effort, to demonstrate that AerynOS is in good hands, and that we are able to consistently deliver progress at a time when there was uncertainty of whether the project would be able to survive during Ikey's initial (and, as it turned out, eventually permanent) absence from the project.
 
 However, as a rolling release distro with a net-installer, it doesn't strictly matter which ISO you boot to install AerynOS on your system (or in a VM), given that Lichen will always install from the latest unstable stream version of AerynOS. As such, we are reviewing our release cadence and will likely align releases around a couple of key factors:
 
@@ -53,7 +53,6 @@ However, as a rolling release distro with a net-installer, it doesn't strictly m
 2. Updates to our installer
 
 which will also have a benefit of reducing bandwidth consumption. This won't however affect the frequency of our blog posts, as we have found it helpful to communicate often with those following along with the project.
-
 
 ## We actually delivered quite a lot in the last couple of days!
 
@@ -64,21 +63,22 @@ Updates:
 - linux stable & gaming 7.0.3
 - linux LTS 6.18.26
 - thunderbird 150.0.1
-- rssguard 5.1.0
+- asciinema 3.2.0
+- enchant 2.8.16
+- faugus-launcher 1.18.10
+- flatpak 1.16.6
+- glib2 2.88.1
 - gtk-4 4.22.4
 - inetutils 2.8
-- faugus-launcher 1.18.10
-- asciinema 3.2.0
-- flatpak 1.16.6
 - libvirt 12.3.0
-- glib2 2.88.1
+- rssguard 5.1.0
 - wine 11.8
-- enchant 2.8.16
 
-Fixed
+Fixes:
 
-- strawberry: Fixed not supporting common audio formats 
+- boulder: Ensure that failing to set thread priority to SCHED_BATCH does not cause a panic w/ backtrace.
 - nm-connection-editor: It's now a separate package and can be installed without networkmanager-applet
+- strawberry: Fixed not supporting common audio formats 
 
 Added:
 
@@ -87,6 +87,7 @@ Added:
 - hexyl: A terminal based hex viewer with coloured output
 - pkgset-oxidize: A set of pkgsets for different WM environments designed to work with the oxidize theme tool
 - oxidize: A tool for atomically changing themes in supported WMs
+- yt-dlp 2026.03.17
 
 
 ## oxidize Window Manager theming
@@ -123,7 +124,7 @@ Of course, for those wishing to configure their Window Manager experience from s
 
 ## ISO refresh
 
-With this post, we already have a new 2026.05.2 ISO available on our [download](/download/) page.
+With this blog post, we already have a new 2026.05.2 ISO available on our [download](/download/) page.
 
 It incorporates all the changes and package updates highlighted above and as usual, serves as a vessel for you to use `lichen` to install AerynOS onto your system or into a virtual machine.
 
@@ -133,7 +134,7 @@ The primary focus on the development side is (still) to attempt to get the Versi
 
 Frankly, we have been so focused on getting the Versioned Repos, phase2 feature *right*, that we've scarcely had the mental bandwidth to focus on anything else from the perspective of our larger development arc.
 
-That said -- and assuming we succeed in landing the Versioned Repos, phase2 feature soon -- we will then spend some time on sketching out the details of the upcoming avenues of development that will open up as a result. 
+That said -- and assuming we succeed in landing the Versioned Repos, phase2 feature soon -- we will then spend some time on sketching out the details of the upcoming avenues of development that will open up as a result.
 
 In parallel to that, we hope to spend some time getting our systemd-preset story straight from a packaging perspective, which will give us the ability to enable services as a packaging operation. This will be especially useful when leveraged via our declarative system-model capabilities.
 
