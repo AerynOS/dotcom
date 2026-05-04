@@ -5,9 +5,6 @@ authors: [nomadiccore, ermo]
 tags: [news]
 ---
 
-import Kofi from "@/components/ui/Kofi.astro";
-import { Aside } from "@astrojs/starlight/components";
-
 
 # AerynOS: January 2026 project update
 
@@ -68,13 +65,11 @@ Package / stack updates for this iteration include:
 
 Given System76's move to a more regular release cycle for [Cosmic DE](https://system76.com/cosmic), we are able to land updates to our repository more frequently. This month, System76 landed Cosmic 1.0.3 with some key updates including support for rounded corners and window shadows across all applications and additional appearance settings being made available.
 
-<Aside title="Cosmic">
+> #### Cosmic context
+> AerynOS is following System76's "Epoch" git branch for Cosmic DE. This is where System76 stages new updates to the Cosmic ecosystem before publishing new point releases. As such, our Cosmic package is actually somewhere between 1.0.3 and 1.0.4.
+>
+>  Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.
 
-AerynOS is following System76's "Epoch" git branch for Cosmic DE. This is where System76 stages new updates to the Cosmic ecosystem before publishing new point releases. As such, our Cosmic package is actually somewhere between 1.0.3 and 1.0.4. 
-    
-Given that Cosmic 1.0.4 has been released, it will be included in our repository shortly. It may already be there by the time you read this blog post.
-
-</Aside>
 
 ### Gnome
 
@@ -110,15 +105,32 @@ As a result, if you're the sort who prefers to assemble your own Desktop Experie
 
 As a reminder, we do not include MangoWC, Niri or Sway as options to install directly from our `lichen` installer. Users interested in building their own Desktop Experiences on AerynOS can use our `terminal-only` option and then install their preferred Wayland Compositor and associated packages of choice from the command line.
 
-<iframe title="Show &amp; Tell: MangoWC on AerynOS" width="1280" height="720" src="https://exquisite.tube/videos/embed/1R1WCHZyeGiQPKouVRMBPn" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<div class="aspect-ratio">
+  <iframe src="https://exquisite.tube/videos/embed/1R1WCHZyeGiQPKouVRMBPn" width="1280" height="720" frameborder="0"></iframe>
+</div>
 
-<Aside title="Why not use our system-model?">
+<style>
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
 
-Our new system-model approach can be used as a way of significantly simplifying the process of setting up a new AerynOS install by declaratively stating which packages you want installed on your system from a given repository (currently either Unstable or Volatile) and even being able to lock your environment to any given fixed-in-time stream update tag.
-    
-For more information about our system-model approach, please refer to the our previous [2025 in retrospect blog post](https://aerynos.com/blog/2026/01/2025-in-retrospect/#system-model)
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+</style>
 
-</Aside>
+
+> #### Why not use our system-model?
+> Our new system-model approach can be used as a way of significantly simplifying the process of setting up a new AerynOS install by declaratively stating which packages you want installed on your system from a given repository (currently either Unstable or Volatile) and even being able to lock your environment to any given fixed-in-time stream update tag.
+>
+>  For more information about our system-model approach, please refer to the our previous [2025 in retrospect blog post](https://aerynos.com/blog/2026/01/2025-in-retrospect/#system-model)
 
 
 ## Infrastructure and Tooling Updates
@@ -229,7 +241,19 @@ Similarly, we are interested in and open to EU-based CDN sponsorship as a way of
 
 If you are following along with our project and are in a position to support us, please consider donating via our Ko-fi page. If you wish to discuss other sponsorship details, please reach out to us at contact@aerynos.com.
 
-<Kofi />
+<div style="display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 50px">
+<a style="font-weight: bold;
+          color: white;
+          background-color: #626f47ff;
+          padding: 10px 20px;
+          text-decoration: none;
+          text-align:center;
+          border-radius: 5px"
+   href=/sponsor/>Sponsor AerynOS</a>
+</div>
 
 ### Thank You!
 

@@ -5,9 +5,6 @@ authors: [nomadiccore, ermo]
 tags: [news]
 ---
 
-import Kofi from "@/components/ui/Kofi.astro";
-import { Aside } from "@astrojs/starlight/components";
-
 2025 has been a year of significant change for the AerynOS project, not just in terms of development itself but also in name and in the staff working on the project.
 
 We know many people will be following along, waiting for our beta and/or stable releases but for now we want to take a look back at 2025 and summarize what we have delivered and how that is positioning us strongly for 2026.
@@ -101,7 +98,26 @@ The team has multiple future ideas of how this system-model can be used with a f
 
 All of these features, particularly where users could potentially face issues with their installs, are complemented by our offline rollback feature, which gives the ability to manually go back to either of 5 earlier states from the bootloader. This will ensure that users have both offline and online protections to help them recover from a misbehaving system.
 
-<iframe title="System-Model Demo" width="1280" height="720" src="https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL" style="border: 0px;" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<div class="aspect-ratio">
+  <iframe src="https://exquisite.tube/videos/embed/pQhJ4MkzZFovnYJVWyebiL" width="1280" height="720" frameborder="0"></iframe>
+</div>
+
+<style>
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+</style>
 
 
 ## Team organisation
@@ -169,7 +185,19 @@ Similarly, we are interested in and open to CDN sponsorship as a way of strength
 
 If you wish to discuss sponsorship details, please reach out to us at contact@aerynos.com.
 
-<Kofi />
+<div style="display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 50px">
+<a style="font-weight: bold;
+          color: white;
+          background-color: #626f47ff;
+          padding: 10px 20px;
+          text-decoration: none;
+          text-align:center;
+          border-radius: 5px"
+   href=/sponsor/>Sponsor AerynOS</a>
+</div>
 
 ## Going into 2026
 
