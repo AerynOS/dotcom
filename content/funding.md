@@ -6,7 +6,7 @@ toc: false
 
 ## Project viability
 
-AerynOS has been designed with scalability and efficiency of resources in mind. During the second half of 2025, the team conducted an audit and made changes that both reduced running costs but also improved capability. Key to this was the teams approach to utilize as much internal resources as possible (such as ermo's personal build servers) and then only paying 3rd parties for the needed servers / solutions we can't effectively deliver in-house.
+AerynOS has been designed with scalability and efficient use of resources in mind. During the second half of 2025, the team conducted an audit and made changes that both reduced running costs but also improved capability. Key to this was the team's approach to prioritse the use of internal resources whereever possible (such as ermo's personal build servers), and then only paying 3rd parties for the servers / solutions we can't cost-efficiently deliver in-house.
 
 Sponsorship coming in through Ko-fi adequately offset all project costs meaning the project is self sustaining.
 
