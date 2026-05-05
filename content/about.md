@@ -4,7 +4,8 @@ title: 'About AerynOS'
 toc: false
 ---
 
-> Deliver modern, ergonomic tooling and processes that enable the efficient building and shipping of an atomic, reliable, predictable, and performant Linux distribution, which is a joy to use and maintain for its developers, packagers, and users alike.<br>
+> **Develop modern, ergonomic tooling and processes that in turn enable efficient delivery of an atomic, reliable, predictable, and performant Operating System, which is a joy to use and maintain for its developers, packagers, and users alike.**
+>
 > — <cite>AerynOS Mission Statement</cite>
 
 
@@ -47,9 +48,9 @@ The AerynOS team is a diverse group of individuals from different backgrounds, g
 
 Whenever we recruit new team members, we start by sharing our foundational values with them:
 
-{{< callout type="important" >}} 
-  Be kind, foster joy, listen, care.
-{{< /callout >}}
+> ***Be kind, foster joy, listen, care.***<br>
+>
+> — <cite>AerynOS Foundational Values</cite>
 
 
 ## Active staff members
