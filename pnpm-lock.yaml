@@ -89,9 +89,6 @@ importers:
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.1
-      pnpm:
-        specifier: ^11.5.3
-        version: 11.5.3
       preline:
         specifier: ^2.7.0
         version: 2.7.0
@@ -1070,6 +1067,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@volar/kit@2.4.28':
     resolution: {integrity: sha512-cKX4vK9dtZvDRaAzeoUdaAJEew6IdxHNCRrdp5Kvcl6zZOqb6jTOfk3kXkIkG3T7oTFXguEMt5+9ptyqYR84Pg==}
@@ -1166,7 +1164,7 @@ packages:
     hasBin: true
 
   astro-broken-links-checker@https://codeload.github.com/imazen/astro-broken-link-checker/tar.gz/2608fdcd584c5fe2fbe481cd9293430a91bfb64a:
-    resolution: {tarball: https://codeload.github.com/imazen/astro-broken-link-checker/tar.gz/2608fdcd584c5fe2fbe481cd9293430a91bfb64a}
+    resolution: {gitHosted: true, integrity: sha512-G0fa3IZ9DbUd63GAq9v5frq4K6SXkPNgrBQqnJ6chbIV5VM5FlBzLx852NERdzSvWCHxS46pc8U6p8P/epgTJg==, tarball: https://codeload.github.com/imazen/astro-broken-link-checker/tar.gz/2608fdcd584c5fe2fbe481cd9293430a91bfb64a}
     version: 1.1.0
     engines: {node: '>=18'}
 
@@ -2238,11 +2236,6 @@ packages:
 
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
-
-  pnpm@11.5.3:
-    resolution: {integrity: sha512-esHJGTQcITo03A0Cr7cUPFwmrCbujEeC3uqCG4rGTSE0oIH9iUHa5uKbu0j1jfwrf7zuzMB8svCdIZ00Kklp7Q==}
-    engines: {node: '>=22.13'}
-    hasBin: true
 
   postcss-nested@6.2.0:
     resolution: {integrity: sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==}
@@ -5628,8 +5621,6 @@ snapshots:
       confbox: 0.2.4
       exsolve: 1.0.8
       pathe: 2.0.3
-
-  pnpm@11.5.3: {}
 
   postcss-nested@6.2.0(postcss@8.5.9):
     dependencies:
