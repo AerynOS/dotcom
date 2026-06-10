@@ -10,8 +10,10 @@ import { Aside } from '@astrojs/starlight/components';
 
 AerynOS with [GNOME Desktop](https://www.gnome.org/). Solid GTK integration in a clean, functional package that gets out of your way. We built this to actually work - no bloat, no buzzwords, just a damn good desktop that lets you get things done.
 
-We use this Gnome Edition to serve as a vehicle for our `lichen` live installer which is able to install all of our GNOME, KDE Plasma, Cosmic and a 'Terminal Only' versions of AerynOS. It will always pull the latest packages from our repository at the time of installation. 
+We use this Gnome Edition to serve as a vehicle for our alpha `lichen` live installer which is able to install all of our GNOME, KDE Plasma, Cosmic and a 'Terminal Only' versions of AerynOS. It will always pull the latest packages from our repository at the time of installation.
 
 You can use the 'Terminal Only' version to assemble your own Desktop Experience with MangoWC, Niri or Sway.
 
 <Aside type="tip">***Ventoy*** is currently [not compatible with AerynOS](https://github.com/ventoy/Ventoy/issues/3550). Use tools such as Etcher or `dd` with a separate USB stick instead.</Aside>
+
+<Aside type="caution">Our alpha `lichen` installer intentionally does not support dual boot scenarios at this stage. To install AerynOS, your PC needs to be `x86_64-v2` capable (Intel 1st gen Core/AMD FX-4/6/8xxx and up), have working UEFI firmware, and have an entire disk reserved for AerynOS.</Aside>
