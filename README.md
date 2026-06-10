@@ -6,7 +6,7 @@ Before attempting to compile and show the website locally, please ensure that:
 - `pnpm` is available and in your path
   - with NodeJS installed, you can run the following from your ${HOME} directory:
     ```
-    npm install pnpm@latest-10
+    npm install pnpm@latest-11
     ```
   - Make sure you add `${HOME}/node_modules/.bin` to your shell ${PATH}
 - With the above prerequisites satisfied, clone the present repo and cd into the root of it.
