@@ -4,10 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-allowBuilds:
-  esbuild: true
-  sharp: true
-
 importers:
 
   .:
@@ -94,8 +90,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.1
       pnpm:
-        specifier: ^10.33.0
-        version: 10.33.0
+        specifier: ^11.5.3
+        version: 11.5.3
       preline:
         specifier: ^2.7.0
         version: 2.7.0
@@ -2243,9 +2239,9 @@ packages:
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
 
-  pnpm@10.33.0:
-    resolution: {integrity: sha512-EFaLtKavtYyes2MNqQzJUWQXq+vT+rvmc58K55VyjaFJHp21pUTHatjrdXD1xLs9bGN7LLQb/c20f6gjyGSTGQ==}
-    engines: {node: '>=18.12'}
+  pnpm@11.5.3:
+    resolution: {integrity: sha512-esHJGTQcITo03A0Cr7cUPFwmrCbujEeC3uqCG4rGTSE0oIH9iUHa5uKbu0j1jfwrf7zuzMB8svCdIZ00Kklp7Q==}
+    engines: {node: '>=22.13'}
     hasBin: true
 
   postcss-nested@6.2.0:
@@ -3023,6 +3019,10 @@ packages:
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
+
+allowBuilds:
+  esbuild: true
+  sharp: true
 
 snapshots:
 
@@ -5629,7 +5629,7 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
-  pnpm@10.33.0: {}
+  pnpm@11.5.3: {}
 
   postcss-nested@6.2.0(postcss@8.5.9):
     dependencies:
