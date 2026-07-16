@@ -5,6 +5,7 @@ import { defineConfig } from "astro/config"
 import icon from "astro-icon"
 import starlight from '@astrojs/starlight'
 import starlightBlog from 'starlight-blog'
+import { defineConfig, svgoOptimizer } from "astro/config";
 
 import astroBrokenLinksChecker from 'astro-broken-link-checker';
 
@@ -125,6 +126,6 @@ export default defineConfig({
   ],
   experimental: {
     clientPrerender: true,
-    svgo: true,
+    svgOptimizer: svgoOptimizer()
   },
 })
