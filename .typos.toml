@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 AerynOS Developers
+# SPDX-License-Identifier: MPL-2.0
+
 [default]
 #locale = "en-gb"
 
@@ -17,3 +20,6 @@ extend-ignore-identifiers-re = [
     # Ignore identifiers that look like SSL cipher suites:
     "\\bTLS_[A-Z0-9_]+(_anon_[A-Z0-9_]+)?\\b",
 ]
+
+[default.extend-words]
+Collet = "Collet"
